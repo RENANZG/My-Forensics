@@ -828,6 +828,9 @@ https://github.com/504ensicsLabs/LiME<br>
 https://andreafortuna.org/2020/11/22/how-to-detect-cobalt-strike-activity-in-memory-forensics/<br>
 
 <h3>JTag, Chip-off and ISP forensics</h3>
+
+<img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/jtag_chip-off_isp.png" title="Hardware Exploitation" style="width:100%">
+
 https://www.teeltech.com/ufaqs/what-is-jtag-chip-off-and-isp<br>
 https://www.cellebritelearningcenter.com/mod/page/view.php?id=11903<br>
 https://www.fletc.gov/jtag-chipoff-smartphones-training-program<br>
@@ -907,11 +910,14 @@ ${\color{Red}\textbf{2.ACTIVE FORENSICS}}$
 • MITRE ATT&CK — ICS Techniques<br>
 https://attack.mitre.org/techniques/ics<br>
 
+• MITRE ATT&CK — Enterprise Techniques<br>
+https://attack.mitre.org/techniques/enterprise/<br>
+
 • MITRE ATT&CK — Mobile Techniques<br>
 https://attack.mitre.org/techniques/mobile/<br>
 
-• MITRE ATT&CK — Enterprise Techniques<br>
-https://attack.mitre.org/techniques/enterprise/<br>
+• OWASP MAS - Mobile Application Security<br>
+https://mas.owasp.org<br>
 
 <video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinFly-Web-Video.mp4" width="320" height="240" controls></video>
 <video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinSpy-Video.mp4" width="320" height="240" controls></video>
@@ -985,13 +991,16 @@ https://www.youtube.com/watch?v=6JJo8qCYE8M<br>
 
 <p>*First of all, consult court cases to see how laws are (mis)applied.</p>
 
-<h4>• Difference between legal regimes</h4>
+<h4>• Difference between legal regimes or multi-level chains of statutory
+references</h4>
 
 <table>
 <thead>
   <tr>
-    <th>Judiciary Police</th>
-    <th>Criminal investigation</th>
+    <th>Security Bodies<br>
+    (Judiciary Police)</th>
+    <th>Administration of Justice<br>
+    (Criminal Procedural Law)</th>
     <th>Intelligence Services</th>
   </tr>
 </thead>
@@ -1009,17 +1018,18 @@ https://www.youtube.com/watch?v=6JJo8qCYE8M<br>
     • Full exercise of the right to adversarial proceedings<br>
     • Follow due legal process, the criminal procedural law.</td>
     <td>
-    • Production of knowledge to support decision making, production of intelligence reports.<br>
-    • The production of information is separate from decision making.<br>
-    • Compartmentalization princpiple ensures no single spy knows everything, meaning if they're captured, spies won’t know enough to compromise a mission.<br>
+    • Production of knowledge to support decision making with production of intelligence reports.<br>
+    • Their main objectives are to collect informa-
+tion and provide analyses, as well as anticipate and counteract external threats.<br>
+    • Compartmentalization princpiple: the production of information is separate from decision making, it ensures no single spy knows everything, meaning if they're captured, spies won’t know enough to compromise a mission.<br>
+    • In general, intelligence activity does not follow due legal process, foreign intelligence agencies do not conduct criminal proceedings.<br>
     • Related to military activities of national defense and conquest against foreign enemies.<br>
-    • In general, intelligence activity does not follow due legal process.<br>
     </td>
   </tr>
 </tbody>
 </table>
 
-<p>*In Germany, where the Gestapo of National Socialism existed, the separation between intelligence (knowledge) and police (power) was one of the denazification measures imposed by the allies in 1949.</p>
+<p>*Informational separation of powers: in Germany, where the Gestapo of National Socialism existed, the separation between intelligence (knowledge) and police (power) was one of the denazification measures imposed by the allies in 1949.</p>
 
 <p>*There is some controversy as to whether intelligence can be considered security.</p>
 
@@ -1979,10 +1989,16 @@ IEEE Open Journal of Signal Processing<br>
 <summary><b>Law Publications</b></summary>
 <br>
 
-• Foreign Law Translations - The University of Texas at Austin<br>
-https://law.utexas.edu/transnational/foreign-law-translations<br>
+• German Law Research - Harvard Law School Library Research Services<br>
+https://guides.library.harvard.edu/GermanLaw<br>
 • The German Law Journal (open-access) - Cambridge University Press<br>
 https://www.cambridge.org/core/journals/german-law-journal<br>
+• Foreign Law Translations - The University of Texas at Austin<br>
+https://law.utexas.edu/transnational/foreign-law-translations<br>
+• The Center for Security and Emerging Technology (CSET) - Georgetown University's Walsh School of Foreign Service<br>
+https://cset.georgetown.edu<br>
+• European Journal of Criminology<br>
+https://journals.sagepub.com/home/euc<br>
 • European Journal of Law and Technology<br>
 https://ejlt.org/index.php/ejlt<br>
 • <br>
