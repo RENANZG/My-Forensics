@@ -15,6 +15,8 @@
 
 <p align="center"><img src="https://github.com/RENANZG/My-Forensics/assets/53377291/a4ef4137-7b20-4df0-8678-1f48be665386" title="The Treachery of Images (1929) - René Magritte"/></p>
 
+</div>
+
 <!-- ################################## -->
 
 <hr>
@@ -40,18 +42,20 @@
     <b>• 5W:</b> Who, What, When, Where and Why<br> 
     <b>• PDCA Cycle:</b> Plan, Do, Check and Act<br>
     <b>• Root Cause Analysis (RCA):</b><br>
-    &emsp; — Identify and describe the problem clearly<br>
-    &emsp; — Establish a timeline from the normal situation<br>
+    &emsp; 1.Identify and describe the problem clearly<br>
+    &emsp; 2.Establish a timeline from the normal situation<br>
     &emsp;   until the problem occurs<br> 
-    &emsp; — Distinguish between the root cause and other<br>
+    &emsp; 3.Distinguish between the root cause and other<br>
     &emsp;   causal factors (e.g., using event correlation)<br>
-    &emsp; — Establish a causal graph between the root<br>
+    &emsp; 4.Establish a causal graph between the root<br>
     &emsp;   cause and the problem<br>
     </p>
   </td>
 </tr>
 </tbody>
 </table>
+
+<br>
 
 <h4>The criminal investigation must be protected from leaks by following a logical sequence:</h4>
 
@@ -1018,11 +1022,10 @@ references</h4>
     • Full exercise of the right to adversarial proceedings<br>
     • Follow due legal process, the criminal procedural law.</td>
     <td>
-    • Production of knowledge to support decision making with production of intelligence reports.<br>
-    • Their main objectives are to collect informa-
-tion and provide analyses, as well as anticipate and counteract external threats.<br>
+    • Production of knowledge, with production of intelligence reports, to support decision making.<br>
+    • Their main objectives are to collect information and provide analyses, as well as anticipate and counteract external threats.<br>
     • Compartmentalization princpiple: the production of information is separate from decision making, it ensures no single spy knows everything, meaning if they're captured, spies won’t know enough to compromise a mission.<br>
-    • In general, intelligence activity does not follow due legal process, foreign intelligence agencies do not conduct criminal proceedings.<br>
+    • In general, intelligence activity does not follow due legal process, intelligence agencies do not conduct criminal proceedings, although they can combat terrorism.<br>
     • Related to military activities of national defense and conquest against foreign enemies.<br>
     </td>
   </tr>
