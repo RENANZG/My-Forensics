@@ -42,13 +42,15 @@
     <b>• 5W:</b> Who, What, When, Where and Why<br> 
     <b>• PDCA Cycle:</b> Plan, Do, Check and Act<br>
     <b>• Root Cause Analysis (RCA):</b><br>
-    &emsp; 1.Identify and describe the problem clearly<br>
-    &emsp; 2.Establish a timeline from the normal situation<br>
-    &emsp;   until the problem occurs<br> 
-    &emsp; 3.Distinguish between the root cause and other<br>
-    &emsp;   causal factors (e.g., using event correlation)<br>
-    &emsp; 4.Establish a causal graph between the root<br>
-    &emsp;   cause and the problem<br>
+    <ol>
+    <li>Identify and describe the problem clearly</li>
+    <li>Establish a timeline from the normal situation until <br>
+    the problem occurs</li>
+    <li>Distinguish between the root cause and other causal <br>
+    factors (e.g., using event correlation)</li>
+    <li>Establish a causal graph between the root cause<br>
+    and the problem</li>
+    </ol>
     </p>
   </td>
 </tr>
@@ -1850,8 +1852,6 @@ https://securelist.com<br>
 https://www.forensicfocus.com<br>
 • SANS Institute — Newsletter<br>
 https://www.sans.org> <br>
-• Google Scholar — Alerts<br>osgeolive-doc-readthedocs-io-en-stable
-https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en-US<br>
 • Debian Security Announce<br>
 https://lists.debian.org/debian-security-announce
 • Cert Coordination Center<br>
@@ -1864,6 +1864,8 @@ https://computerworld.com<br>
 https://www.infoworld.com<br>
 • InformationWeek<br>
 https://www.informationweek.com<br>
+• TechRepublic<br>
+https://www.techrepublic.com<br>
 • Sophos<br>
 https://sophos.com<br>
 • TechWorld<br>
@@ -1911,7 +1913,7 @@ https://www.reuters.com/news<br>
 • Aljazeera<br>
 https://www.aljazeera.com<br>
 • Gulf News<br>
-https://gulfnews.com/<br>
+https://gulfnews.com<br>
 • China Official Publications<br>
 https://english.www.gov.cn<br>
 • North Korea Official Publications<br>
@@ -2111,7 +2113,7 @@ https://www.youtube.com/@EkopartyConference<br>
 https://www.youtube.com/@reconmtl<br>
 https://www.youtube.com/@TROOPERScon<br>
 https://www.youtube.com/@MCH2022NL<br>
-https://www.youtube.com/@ntalOutlaw<br>
+https://www.youtube.com/@mentalOutlaw<br>
 https://www.youtube.com/@Seytonic<br>
 https://www.youtube.com/@DoingFedTime<br>
 https://www.youtube.com/@UsenixOrg<br>
@@ -2138,6 +2140,7 @@ https://oval.mitre.org<br>
 https://www.w3.org/Security/Faq/www-security-faq.html<br>
 https://www.nowsecure.com<br>
 https://www.htcia.org<br>
+https://www.digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports<br>
 https://www.reddit.com/r/InfoSecNews<br>
 https://www.reddit.com/r/digitalforensics<br>
 https://www.reddit.com/r/computerforensics<br>
