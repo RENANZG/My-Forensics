@@ -62,8 +62,8 @@
 <h4>The criminal investigation must be protected from leaks by following a logical sequence:</h4>
 
 <ol>
-<li>Exhaust the data collection and collection activity in open sources (OSINT) or closed sources (CSINT);</li>
-<li>Hidden monitoring and tracking measures;</li>
+<li>Exhaust the data collection in open sources (OSINT) or closed sources (CSINT);</li>
+<li>Hidden monitoring and tracking measures (SIGINT, HUMINT...);</li>
 <li>With concrete evidence of the practices investigated and exhaustion of remote possibilities, launch the operation itself with the publication of the investigation. At this stage, search and seizure warrants, temporary or preventive arrest and statements will be taken.</li>
 </ol>
 
@@ -1014,7 +1014,7 @@ references</h4>
   <tr>
     <td>
     • Conducts criminal investigations, carries out whatever steps it deems appropriate to elucidate the facts, with a view to discovering evidence of the existence of the crime and signs of its authorship.<br>
-    • Criminal police bodies act as a precautionary measure, such as in the case of preserving evidence or in the case in the case of a flagrant crime.<br>
+    • Criminal police bodies act as a precautionary measure, such as in the case of preserving evidence or in the case of a flagrant crime.<br>
     • Has an obligation to preserve the confidentiality of the<br>investigation, therefore the right to adversarial proceedings is limited.<br>
     • In general, the investigation is already a procedural phase.<br>
     </td>
@@ -1804,6 +1804,7 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <li><a href="https://www.openwall.com">https://www.openwall.com</a></li>
 <li><a href="https://www.lkrg.org">https://www.lkrg.org</a></li>
 <li><a href="https://www.attack.mitre.org">https://www.attack.mitre.org</a></li>
+<li><a href="https://socradar.io</a>SOCRadar</li>
 <li><a href="https://www.exterro.com">https://www.exterro.com</a></li>
 <li><a href="https://www.forensicfocus.com">https://www.forensicfocus.com</a></li>
 <li><a href="https://www.forensicscijournal.com">https://www.forensicscijournal.com</a></li>
@@ -1866,6 +1867,8 @@ https://www.infoworld.com<br>
 https://www.informationweek.com<br>
 • TechRepublic<br>
 https://www.techrepublic.com<br>
+• Infosecurity Magazine<br>
+https://www.infosecurity-magazine.com<br>
 • Sophos<br>
 https://sophos.com<br>
 • TechWorld<br>

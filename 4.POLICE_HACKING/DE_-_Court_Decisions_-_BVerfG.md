@@ -1,7 +1,12 @@
 ## Germany - BVerfG Cases 
 
+Home  
 https://www.bundesverfassungsgericht.de/en/index.html  
+
+Guides  
 https://guides.library.harvard.edu/GermanLaw  
+
+Repo  
 https://www.fallrecht.ch/dfr_bverfg.html  
 
 ### German Abbreviations
