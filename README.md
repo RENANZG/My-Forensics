@@ -997,8 +997,16 @@ https://www.youtube.com/watch?v=6JJo8qCYE8M<br>
 
 <p>*First of all, consult court cases to see how laws are (mis)applied.</p>
 
+GE Constitution &#127465 <br>
+https://www.gesetze-im-internet.de/englisch_gg/index.html<br>
+
+US Constitution &#127482 <br>
+https://constitution.congress.gov<br>
+
 <h4>• Difference between legal regimes or multi-level chains of statutory
 references</h4>
+
+We are still reflecting on this point.<br>
 
 <table>
 <thead>
@@ -1186,6 +1194,7 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 
 <h6>Americas</h6>
 
+∙ US Cases — https://www.courtlistener.com/opinion<br>
 ∙ US Federal Cases — https://pacer.uscourts.gov/find-case<br>
 ∙ US Dod - Computer Crime and Intellectual Property Section (CCIPS) - https://www.justice.gov/criminal/criminal-ccips<br>
 ∙ US FBI - Internet Crime Complaint Center (IC3) - https://www.ic3.gov<br>
@@ -1849,6 +1858,8 @@ https://www.wired.com<br>
 https://www.theregister.com<br>
 • Secure List by Kaspersky — Newsletter<br>
 https://securelist.com<br>
+• PT ESC Threat Intelligence<br>
+https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence<br>
 • Forensic Focus — Newsletter<br>
 https://www.forensicfocus.com<br>
 • SANS Institute — Newsletter<br>
