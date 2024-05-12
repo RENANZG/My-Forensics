@@ -636,7 +636,6 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 • Message Header Analyzer — https://github.com/microsoft/MHA<br>
 • PhishTank — https://phishtank.org<br>
 • Simple Email Reputation — https://emailrep.io<br>
-• Have I Been Pwned — https://haveibeenpwned.com<br>
 • DeHashed — https://www.dehashed.com<br>
 • Whois — https://www.iana.org/whois<br>
 • ViewDNS — https://viewdns.info<br>
@@ -687,14 +686,14 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 • RiskIQ Community Edition — https://community.riskiq.com/home<br>
 • Pulsedive — https://pulsedive.com<br>
 • Valhalla YARA Rules — https://valhalla.nextron-systems.com<br>
+• ANY.RUN — https://any.run<br>
 • Binvis — https://binvis.io<br>
 • JoeSandbox — https://www.joesandbox.com<br>
-• ANY.RUN — https://any.run<br>
 • Verexif - https://www.verexif.com/en/<br>
-• Any Run — https://app.any.run<br>
-• Name OSINT — https://namechk.com<br>
 • Reverse Shell Generator — https://www.revshells.com<br>
 • Rainbow Tables (Hashes) — https://hashes.com/en/decrypt/hash<br>
+• Have I Been Pwned — https://haveibeenpwned.com<br>
+• Name OSINT — https://namechk.com<br>
 • Breach Directory - https://breachdirectory.org<br>
 • MD5 Decrypt - https://md5decrypt.net/en/Sha1<br>
 • File Signatures ("Magic Numbers") — https://en.wikipedia.org/wiki/Magic_number_(programming)<br> 
@@ -1202,6 +1201,7 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 
 <h6>Union European</h6>
 
+∙ European Court of Justice https://curia.europa.eu<br>
 ∙ EUR-Lex https://eur-lex.europa.eu/homepage.html<br>
 ∙ EU Common Portal of Case Law — https://network-presidents.eu/cpcl<br>
 ∙ Casetext (Thomson Reuters) - https://casetext.com<br>
@@ -2061,7 +2061,7 @@ https://carnegieendowment.org/publications/interactive/cybernorms<br>
 • Internet Crime Complaint Center (IC3) - https://www.ic3.gov/Home/AnnualReports<br>
 • ETSI - https://www.etsi.org/committees<br>
 • The Bureau of Investigative Journalism - https://www.thebureauinvestigates.com<br>
-
+https://digitalcommons.usf.edu/mca/<br>
 https://www.fbi.gov<br>
 https://www.justice.gov/news<br>
 https://www.justice.gov/criminal/cybercrime<br>
@@ -2073,6 +2073,32 @@ https://csrc.nist.gov<br>
 https://www.computerweekly.com<br>
 https://www.vice.com/en/section/tech<br>
 https://copsincyberspace.wordpress.com<br>
+<br>
+</details>
+
+<!-- ################################ -->
+
+<details>
+<summary><b>Libraries</b></summary>
+<br>
+
+<DT><H3>Libraries</H3>
+
+<DT><A HREF="https://archive.org">Internet Archive<BR><PRE> https://archive.org</PRE></A>
+<DT><A HREF="https://annas-archive.org">Anna's Archive<BR><PRE> https://annas-archive.org</PRE></A>
+<DT><A HREF="https://t.me/zlibrary_official">Z-Library Official (Telegram)<BR><PRE> https://t.me/zlibrary_official</PRE></A>
+<DT><A HREF="https://go-to-zlibrary.se/#desktop_app_tab"> Z-Library (APP)<BR><PRE> https://go-to-zlibrary.se/#desktop_app_tab</PRE></A>
+<DT><A HREF="https://singlelogin.se">Z-Library (WEB)<BR><PRE> https://singlelogin.se</PRE></A>
+<DT><A HREF="http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion"> Z-Library (ONION)<BR><PRE> http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion</PRE></A>
+<DT><A HREF="https://libgen.rs">Library Genesis (.rs alias domain)<BR><PRE> https://libgen.rs</PRE></A>
+<DT><A HREF="https://libgen.is">Library Genesis (.is alias domain)<BR><PRE> https://libgen.is</PRE></A>
+<DT><A HREF="https://libgen.st">Library Genesis (.st alias domain)<BR><PRE> https://libgen.st</PRE></A>
+<DT><A HREF="https://wiki.mhut.org/software:libgen_desktop">Library Genesis (APP)<BR><PRE> https://wiki.mhut.org/software:libgen_desktop</PRE></A>
+<DT><A HREF="http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion">Library Genesis (ONION)<BR><PRE> http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion</PRE></A>
+<DT><A HREF="http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion">Imperial Library (ONION)<BR><PRE> http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion</PRE></A>
+<DT><A HREF="http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion">Just Another Library (ONION)<BR><PRE> http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion</PRE></A>
+<DT><A HREF="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion">InfoCon (ONION)<BR><PRE> http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion</PRE></A>
+
 <br>
 </details>
 
