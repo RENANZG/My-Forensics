@@ -85,11 +85,11 @@
 </tr>
 <tr>
 <td align="left" valign="top" style="width: 50%">
-• Kali Linux<br><a href="https://www.kali.org">https://www.kali.org</a><br>
+• Kali Linux<br><a href="https://kali.org">https://kali.org</a><br>
 • Drive Badger<br><a href="https://drivebadger.com">https://drivebadger.com</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a><br>
-• SIFT Workstation<br><a href="https://www.sans.org/tools/sift-workstation" target="_blank" rel="noopener noreferrer">https://www.sans.org/tools/sift-workstation</a><br>
-• Parrot Security<br><a href="https://www.parrotsec.org">https://www.parrotsec.org</a><br>
-• CAINE<br><a href="https://www.caine-live.net">https://www.caine-live.net</a><br>
+• SIFT Workstation<br><a href="https://sans.org/tools/sift-workstation" target="_blank" rel="noopener noreferrer">https://sans.org/tools/sift-workstation</a><br>
+• Parrot Security<br><a href="https://parrotsec.org">https://parrotsec.org</a><br>
+• CAINE<br><a href="https://caine-live.net">https://caine-live.net</a><br>
 • CSI Linux<br><a href="https://csilinux.com">https://csilinux.com</a><br>
 • Avilla Forensics<br><a href="https://github.com/AvillaDaniel/AvillaForensics">https://github.com/AvillaDaniel/AvillaForensics</a><br>
 • IPED<br><a href="https://github.com/sepinf-inc/IPED">https://github.com/sepinf-inc/IPED</a><br>
@@ -100,50 +100,50 @@
 • Bitscout<a href="https://github.com/vitaly-kamluk/bitscout"><br>https://github.com/vitaly-kamluk/bitscout</a><br>
 • Eric Zimmerman's tools (Freeware)<br><a href="https://ericzimmerman.github.io/#!index.md">https://ericzimmerman.github.io/#!index.md</a><br>
 • Paladin® (Freeware)<br><a href="https://sumuri.com/product/paladin-lts/">https://sumuri.com/software/paladin/</a><br>
-• Forensic Toolkit (FTK)® - Lite (Freeware) <br><a href="https://www.exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite" target="_blank" rel="noopener noreferrer">https://www.exterro.com/forensic-toolkit</a><br>
-• Magnet Forensic® - Mobile Extractor (Freeware)<br><a href="https://www.magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://www.magnetforensics.com</a><br>
-• Windows® Forensic Environment WinFE (Freeware)<br><a href="https://www.winfe.net/home" target="_blank" rel="noopener noreferrer">https://www.winfe.net</a><br>
-• NirSoft® (Freeware)<br><a href="https://www.nirsoft.net/computer_forensic_software.html">https://www.nirsoft.net</a><br>
-• MiTeC® (Freeware)<br><a href="https://www.mitec.cz">https://www.mitec.cz</a><br>
+• Forensic Toolkit (FTK)® - Lite (Freeware) <br><a href="https://exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite" target="_blank" rel="noopener noreferrer">https://exterro.com/forensic-toolkit</a><br>
+• Magnet Forensic® - Mobile Extractor (Freeware)<br><a href="https://magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://magnetforensics.com</a><br>
+• Windows® Forensic Environment WinFE (Freeware)<br><a href="https://winfe.net/home" target="_blank" rel="noopener noreferrer">https://winfe.net</a><br>
+• NirSoft® (Freeware)<br><a href="https://nirsoft.net/computer_forensic_software.html">https://nirsoft.net</a><br>
+• MiTeC® (Freeware)<br><a href="https://mitec.cz">https://mitec.cz</a><br>
 • Medusa Box® (Easy J-TAG)<br> <a href="https://medusabox.com/">https://medusabox.com</a><br> ╰┈➤<a href="https://medusabox.com/eng/features/features">Models Features</a><br> ╰┈➤<a href="https://aliexpress.com/w/wholesale-medusa-box.html">Aliexpress</a><br>
-• Octoplus Box® (Easy J-TAG)<br><a href="https://octoplusbox.com">https://octoplusbox.com</a><br> ╰┈➤<a href="https://octoplusbox.com/en/features/models/">Models Features</a><br> ╰┈➤<a href="https://www.aliexpress.com/w/wholesale-octoplus-box.html">Aliexpress</a><br>
+• Octoplus Box® (Easy J-TAG)<br><a href="https://octoplusbox.com">https://octoplusbox.com</a><br> ╰┈➤<a href="https://octoplusbox.com/en/features/models/">Models Features</a><br> ╰┈➤<a href="https://aliexpress.com/w/wholesale-octoplus-box.html">Aliexpress</a><br>
 </td>
 <td align="left" valign="top" style="width: 50%;">
 • Cellebrite®<br><a href="https://cellebrite.com/" target="_blank" rel="noopener noreferrer">https://cellebrite.com</a><br>
-• NSO Group®<br><a href="https://www.nsogroup.com/" target="_blank" rel="noopener noreferrer">https://www.nsogroup.com</a><br>
-• Cognyte®<br><a href="https://www.cognyte.com/" target="_blank" rel="noopener noreferrer">https://www.cognyte.com</a><br>
-• Check Point®<br><a href="https://www.checkpoint.com" target="_blank" rel="noopener noreferrer">https://www.checkpoint.com</a><br>
-• Team Cymru®<br><a href="https://www.team-cymru.com" target="_blank" rel="noopener noreferrer">https://www.team-cymru.com</a><br>
-• BriefCam®<br><a href="https://www.briefcam.com/" target="_blank" rel="noopener noreferrer">https://www.briefcam.com/</a><br>
-• Forensic Toolkit (FTK)® <br><a href="https://www.exterro.com/forensic-toolkit" target="_blank" rel="noopener noreferrer">https://www.exterro.com/forensic-toolkit</a><br>
-• Magnet Forensic®<br><a href="https://www.magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://www.magnetforensics.com</a><br>
+• NSO Group®<br><a href="https://nsogroup.com/" target="_blank" rel="noopener noreferrer">https://nsogroup.com</a><br>
+• Cognyte®<br><a href="https://cognyte.com/" target="_blank" rel="noopener noreferrer">https://cognyte.com</a><br>
+• Check Point®<br><a href="https://checkpoint.com" target="_blank" rel="noopener noreferrer">https://checkpoint.com</a><br>
+• Team Cymru®<br><a href="https://team-cymru.com" target="_blank" rel="noopener noreferrer">https://team-cymru.com</a><br>
+• BriefCam®<br><a href="https://briefcam.com/" target="_blank" rel="noopener noreferrer">https://briefcam.com/</a><br>
+• Forensic Toolkit (FTK)® <br><a href="https://exterro.com/forensic-toolkit" target="_blank" rel="noopener noreferrer">https://exterro.com/forensic-toolkit</a><br>
+• Magnet Forensic®<br><a href="https://magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://magnetforensics.com</a><br>
 • Variston®<br><a href="https://variston.net" target="_blank" rel="noopener noreferrer">https://variston.net</a><br>
 • Intellexa®<br><a href=no refer" target="_blank" rel="noopener noreferrer">no refer</a><br>
 • Cytrox®<br><a href="no refer" target="_blank" rel="noopener noreferrer">no refer</a><br>
-• Cy4Gate®<br><a href="https://www.cy4gate.com/" target="_blank" rel="noopener noreferrer">https://www.cy4gate.com/</a><br>
-• PARS Defense®<br><a href="https://www.parsdefense.com" target="_blank" rel="noopener noreferrer">https://www.parsdefense.com</a><br>
+• Cy4Gate®<br><a href="https://cy4gate.com/" target="_blank" rel="noopener noreferrer">https://cy4gate.com/</a><br>
+• PARS Defense®<br><a href="https://parsdefense.com" target="_blank" rel="noopener noreferrer">https://parsdefense.com</a><br>
 • Candiru®<br><a href="https://saito.tech" target="_blank" rel="noopener noreferrer">https://saito.tech/</a><br>
 • Harpia Tech®<br><a href="https://harpia.tech/english.html" target="_blank" rel="noopener noreferrer">https://harpia.tech</a><br>
 • Visual Cortex®<br><a href="https://visualcortex.com/" target="_blank" rel="noopener noreferrer">https://visualcortex.com</a><br>
 • Oxygen Forensic®<br><a href="https://oxygen-forensic.wedatasolution.com/" target="_blank" rel="noopener noreferrer">https://oxygen-forensic.wedatasolution.com</a><br>
-• MSAB®<br><a href="https://www.msab.com/" target="_blank" rel="noopener noreferrer">https://www.msab.com</a><br>
-• GMDSOFT®<br><a href="https://www.gmdsoft.com/" target="_blank" rel="noopener noreferrer">https://www.gmdsoft.com</a><br>
-• Verint Systems®<br><a href="https://www.verint.com/" target="_blank" rel="noopener noreferrer">https://www.verint.com</a><br>
+• MSAB®<br><a href="https://msab.com/" target="_blank" rel="noopener noreferrer">https://msab.com</a><br>
+• GMDSOFT®<br><a href="https://gmdsoft.com/" target="_blank" rel="noopener noreferrer">https://gmdsoft.com</a><br>
+• Verint Systems®<br><a href="https://verint.com/" target="_blank" rel="noopener noreferrer">https://verint.com</a><br>
 • Cyber Arm®<br><a href="https://cyber-arm.com/services" target="_blank" rel="noopener noreferrer">https://cyber-arm.com/services</a><br>
-• Cobalt Strike®<br><a href="https://www.cobaltstrike.com" target="_blank" rel="noopener noreferrer">https://www.cobaltstrike.com</a><br>
-• Lumi Networks®<br><a href="https://www.lumi.network" target="_blank" rel="noopener noreferrer">https://www.lumi.network</a><br>
-• Clear View AI®<br><a href="https://www.clearview.ai" target="_blank" rel="noopener noreferrer">https://www.clearview.ai</a><br>
-• Lockheed Martin®<br><a href="https://www.lockheedmartin.com" target="_blank" rel="noopener noreferrer">https://www.lockheedmartin.com/</a><br>
-• MOBILedit®<br><a href="https://www.mobiledit.com/mobiledit-forensic" target="_blank" rel="noopener noreferrer">https://www.mobiledit.com</a><br>
-• Crowd Strike®<br><a href="https://www.crowdstrike.com" target="_blank" rel="noopener noreferrer">https://www.crowdstrike.com</a><br>
-• Binalyze®<br><a href="https://www.binalyze.com" target="_blank" rel="noopener noreferrer">https://www.binalyze.com</a><br>
+• Cobalt Strike®<br><a href="https://cobaltstrike.com" target="_blank" rel="noopener noreferrer">https://cobaltstrike.com</a><br>
+• Lumi Networks®<br><a href="https://lumi.network" target="_blank" rel="noopener noreferrer">https://lumi.network</a><br>
+• Clear View AI®<br><a href="https://clearview.ai" target="_blank" rel="noopener noreferrer">https://clearview.ai</a><br>
+• Lockheed Martin®<br><a href="https://lockheedmartin.com" target="_blank" rel="noopener noreferrer">https://lockheedmartin.com/</a><br>
+• MOBILedit®<br><a href="https://mobiledit.com/mobiledit-forensic" target="_blank" rel="noopener noreferrer">https://mobiledit.com</a><br>
+• Crowd Strike®<br><a href="https://crowdstrike.com" target="_blank" rel="noopener noreferrer">https://crowdstrike.com</a><br>
+• Binalyze®<br><a href="https://binalyze.com" target="_blank" rel="noopener noreferrer">https://binalyze.com</a><br>
 • LexisNexis®<br><a href="https://risk.lexisnexis.com" target="_blank" rel="noopener noreferrer">https://risk.lexisnexis.com</a><br>
 • NetQuest®<br><a href="https://netquestcorp.com" target="_blank" rel="noopener noreferrer">https://netquestcorp.com</a><br>
-• Gamma®<br><a href="https://www.gamma.co.uk" target="_blank" rel="noopener noreferrer">https://www.gamma.co.uk</a><br>
+• Gamma®<br><a href="https://gamma.co.uk" target="_blank" rel="noopener noreferrer">https://gamma.co.uk</a><br>
 • Memento Labs®<br><a href="https://mem3nt0.com" target="_blank" rel="noopener noreferrer">https://mem3nt0.com</a><br>
-• CYSource®<br><a href="https://www.cysrc.com" target="_blank" rel="noopener noreferrer">https://www.cysrc.com</a><br>
-• Maltego®<br><a href="https://www.maltego.com" target="_blank" rel="noopener noreferrer">https://www.maltego.com</a><br>
-• Thorn's Safer®<br><a href="https://www.thorn.org/" target="_blank" rel="noopener noreferrer">https://www.thorn.org</a><br>
+• CYSource®<br><a href="https://cysrc.com" target="_blank" rel="noopener noreferrer">https://cysrc.com</a><br>
+• Maltego®<br><a href="https://maltego.com" target="_blank" rel="noopener noreferrer">https://maltego.com</a><br>
+• Thorn's Safer®<br><a href="https://thorn.org/" target="_blank" rel="noopener noreferrer">https://thorn.org</a><br>
 </td>
 </tr>
 </tbody>
@@ -156,13 +156,13 @@
 <h3>FORENSIC TOOLS</h3>
 
 <h4>• Evidence ProjectForensics Tools Catalogue</h4>
-<h4><a href="https://www.dftoolscatalogue.eu/dftc.home.php">https://www.dftoolscatalogue.eu</a></h4>
+<h4><a href="https://dftoolscatalogue.eu/dftc.home.php">https://dftoolscatalogue.eu</a></h4>
 
 <h4>• NIST - Forensics Tools Catalogue</h4>
 <h4><a href="https://toolcatalog.nist.gov/search/">https://toolcatalog.nist.gov</a></h4>
 
 <h4>• S&T partners and NIST - Computer Forensic Tool Testing (CFTT)</h4>
-<h4><a href="https://www.dhs.gov/science-and-technology/nist-cftt-reports">https://www.dhs.gov/science-and-technology/nist-cftt-reports</a></h4>
+<h4><a href="https://dhs.gov/science-and-technology/nist-cftt-reports">https://dhs.gov/science-and-technology/nist-cftt-reports</a></h4>
 
 <!-- ################################## -->
 <hr>
@@ -172,29 +172,29 @@
 
 <a href="https://socradar.io/beyond-the-veil-of-surveillance-private-sector-offensive-actors-psoas">• Beyond the Veil of Surveillance: Private Sector Offensive Actors (PSOAs)</a>
 
-<a href="https://www.zdnet.com/article/burn-drown-or-smash-your-phone-forensics-can-extract-data-anyway">• Burn, drown, or smash your phone: Forensics can extract data anyway</a>
+<a href="https://zdnet.com/article/burn-drown-or-smash-your-phone-forensics-can-extract-data-anyway">• Burn, drown, or smash your phone: Forensics can extract data anyway</a>
 
 <a href="https://arstechnica.com/information-technology/2021/01/how-law-enforcement-gets-around-your-smartphones-encryption">• How law enforcement gets around your smartphone’s encryption</a>
 
-<a href="https://www.youtube.com/watch?v=EmWsW_p_ta4">• Cellphone data used to solve murder case from 2 years ago, police say</a>
+<a href="https://youtube.com/watch?v=EmWsW_p_ta4">• Cellphone data used to solve murder case from 2 years ago, police say</a>
 
-<a href="https://www.youtube.com/watch?v=wzSgLpNrr2E">• The Stingray: How Law Enforcement Can Track Your Every Move</a>
+<a href="https://youtube.com/watch?v=wzSgLpNrr2E">• The Stingray: How Law Enforcement Can Track Your Every Move</a>
 
-<a href="https://www.youtube.com/watch?v=DH7edXaZS0A">• Police are tracking you and your license plates</a>
+<a href="https://youtube.com/watch?v=DH7edXaZS0A">• Police are tracking you and your license plates</a>
 
-<a href="https://www.youtube.com/watch?v=ASYm-3NJ-GA&t=40s">• SCOTUS: Police Need Search Warrant to Ping cell Phones</a>
+<a href="https://youtube.com/watch?v=ASYm-3NJ-GA&t=40s">• SCOTUS: Police Need Search Warrant to Ping cell Phones</a>
 
-<a href="https://www.eff.org/deeplinks/2023/09/eff-michigan-court-governments-shouldnt-be-allowed-use-drone-spy-you-without">• EFF to Michigan Court: Governments Shouldn’t Be Allowed to Use a Drone to Spy on You Without a Warrant</a>
+<a href="https://eff.org/deeplinks/2023/09/eff-michigan-court-governments-shouldnt-be-allowed-use-drone-spy-you-without">• EFF to Michigan Court: Governments Shouldn’t Be Allowed to Use a Drone to Spy on You Without a Warrant</a>
 
 <a href="https://theintercept.com/document/motion-to-suppress-aerial-surveillance-evidence-in-u-s-vs-muhammed-momtaz-alazhari">• Motion to Suppress Aerial Surveillance Evidence in U.S. vs Muhammed Momtaz Alazhari</a>
 
-<a href="https://www.nytimes.com/2008/02/22/technology/22chip.html">• Researchers Find Way to Steal Encrypted Data - NYT (2008)</a>
+<a href="https://nytimes.com/2008/02/22/technology/22chip.html">• Researchers Find Way to Steal Encrypted Data - NYT (2008)</a>
 
-<a href="https://www.nakedcapitalism.com/2019/02/reverse-location-search-warrant-a-new-personal-data-hoovering-exercise-brought-to-you-by-google.html">• “Reverse Location Search Warrant”: A New Personal Data Hoovering Exercise Brought to You by Google (2019)</a>
+<a href="https://nakedcapitalism.com/2019/02/reverse-location-search-warrant-a-new-personal-data-hoovering-exercise-brought-to-you-by-google.html">• “Reverse Location Search Warrant”: A New Personal Data Hoovering Exercise Brought to You by Google (2019)</a>
 
-<a href="https://www.nakedcapitalism.com/2021/07/as-un-human-rights-chief-urges-stricter-rules-snowden-calls-for-end-to-spyware-trade.html">• As UN Human Rights Chief Urges Stricter Rules, Snowden Calls for End to Spyware Trade (2021)</a>
+<a href="https://nakedcapitalism.com/2021/07/as-un-human-rights-chief-urges-stricter-rules-snowden-calls-for-end-to-spyware-trade.html">• As UN Human Rights Chief Urges Stricter Rules, Snowden Calls for End to Spyware Trade (2021)</a>
 
-<a href="https://www.forensicscijournal.com/articles/jfsr-aid1039.pdf">• Forensics Journal Comparative analysis of mobile forensic proprietary tools: an application in forensic investigation (2022)</a>
+<a href="https://forensicscijournal.com/articles/jfsr-aid1039.pdf">• Forensics Journal Comparative analysis of mobile forensic proprietary tools: an application in forensic investigation (2022)</a>
 
 </sub>
 
@@ -348,33 +348,33 @@ NSO Group (Pegasus)
 <tbody> 
 <tr>
 <td valign="top" style="width:25%">
-<a href="https://www.cisa.gov/">US — CISA</a><br>
-<a href="https://www.cyber.gc.ca/en">CA — Cyber</a><br>
+<a href="https://cisa.gov/">US — CISA</a><br>
+<a href="https://cyber.gc.ca/en">CA — Cyber</a><br>
 <a href="https://csirtamericas.org/en">Americas — CSIRT</a><br>
 </td>
 <td valign="top" style="width:25%">
-<a href="https://www.enisa.europa.eu">EU — ENISA</a><br>
-<a href="https://www.ncsc.gov.uk">UK — NCSC</a><br>
+<a href="https://enisa.europa.eu">EU — ENISA</a><br>
+<a href="https://ncsc.gov.uk">UK — NCSC</a><br>
 <a href="https://english.ncsc.nl">NL — NCSC</a><br>
-<a href="https://www.bsi.bund.de/EN">DE — BSI</a><br>
+<a href="https://bsi.bund.de/EN">DE — BSI</a><br>
 <a href="https://cyber.gouv.fr/en">FR — ANSSI</a><br>
-<a href="https://www.ccn-cert.cni.es/es/">ES — CCN-CERT</a><br>
-<a href="https://www.acn.gov.it/en">IT — ACN</a><br>
-<a href="https://www.nki.gov.hu/en">HU — NKI</a><br>
-<a href="https://www.nukib.cz/en">CZ — NUKIB</a><br>
+<a href="https://ccn-cert.cni.es/es/">ES — CCN-CERT</a><br>
+<a href="https://acn.gov.it/en">IT — ACN</a><br>
+<a href="https://nki.gov.hu/en">HU — NKI</a><br>
+<a href="https://nukib.cz/en">CZ — NUKIB</a><br>
 <a href="https://nsm.no/areas-of-expertise/cyber-securitynorwegian-national-cyber-security-centre-ncsc">NO — NCSC</a><br>
 </td>
 <td valign="top" style="width:25%">
-<a href="https://www.gov.il/en/departments/israel_national_cyber_directorate/govil-landing-page">IS — INCD</a><br>
-<a href="https://www.cyber.gov.au">AU — Cyber</a><br>
-<a href="https://www.cert.govt.nz">NZ — CERT</a><br>
-<a href="https://www.ncsc.govt.nz">NZ — NCSC</a><br>
+<a href="https://gov.il/en/departments/israel_national_cyber_directorate/govil-landing-page">IS — INCD</a><br>
+<a href="https://cyber.gov.au">AU — Cyber</a><br>
+<a href="https://cert.govt.nz">NZ — CERT</a><br>
+<a href="https://ncsc.govt.nz">NZ — NCSC</a><br>
 </td>
 <td valign="top" style="width:25%">
-<a href="https://www.kisa.or.kr/EN">KR — KISA</a><br>
-<a href="https://www.jpcert.or.jp/english">JP — Cert</a><br>
-<a href="https://www.nisc.go.jp/eng/index.html">JP — NISC</a><br>
-<a href="https://www.csa.gov.sg">SG — CSA</a><br>
+<a href="https://kisa.or.kr/EN">KR — KISA</a><br>
+<a href="https://jpcert.or.jp/english">JP — Cert</a><br>
+<a href="https://nisc.go.jp/eng/index.html">JP — NISC</a><br>
+<a href="https://csa.gov.sg">SG — CSA</a><br>
 </td>
 </tr>
 </tbody>
@@ -399,70 +399,76 @@ ${\color{Blue}\textbf{1.PASSIVE FORENSICS}}$
 <summary><b>Standards</b></summary>
 <br>
 
-<p><b>NIST — National Institute of Standards and Technology</b></p>
+<h4>NIST — National Institute of Standards and Technology</h4>
 
-<h6>Visit: https://www.nist.gov/standards</h6>
+<h6>Visit: https://nist.gov/standards</h6>
+
+<h4>ASTM International</h4>
+
+<h5>Subcommittee E30.12 on Digital and Multimedia Evidence</h5>
+
+<h6>Visit: https://www.astm.org/get-involved/technical-committees/committee-e30/subcommittee-e30/jurisdiction-e3012</h6>
 
 <p><b>ISO/IEC — International Electrotechnical Commission</b></p>
 
-<h6>Visit: https://www.iso27001security.com</h6>
+<h6>Visit: https://iso27001security.com</h6>
 
-<h6>Official - Information security, cybersecurity and privacy protection — https://www.iso.org/standard/27001</h6>
+<h6>Official - Information security, cybersecurity and privacy protection — https://iso.org/standard/27001</h6>
 
 <ul>
-<li><A HREF="https://www.iso27001security.com/html/27000.html">ISO/IEC 27000 — ISO27k overview &amp; glossary</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27001.html">ISO/IEC 27001 — formal ISMS specification</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27002.html">ISO/IEC 27002 — infosec controls catalogue</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27003.html">ISO/IEC 27003 — ISMS implementation guide</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27004.html">ISO/IEC 27004 — infosec measurement [metrics]</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27005.html">ISO/IEC 27005 — info[sec] risk management</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27006.html">ISO/IEC 27006-n — ISMS &amp; PIMS certification </a></li>
-<li><A HREF="https://www.iso27001security.com/html/27007.html">ISO/IEC 27007 — <I>management system</I> auditing</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27008.html">ISO/IEC TS 27008 — <I>security controls</I> auditing</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27009.html">ISO/IEC 27009 — sector variants of ISO27k</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27010.html">ISO/IEC 27010 — for inter-org comms</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27011.html">ISO/IEC 27011 — ISMS for telecoms</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27013.html">ISO/IEC 27013 — ISMS &amp; ITIL/service mgmt</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27014.html">ISO/IEC 27014 — infosec governance</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27016.html">ISO/IEC TR 27016 — infosec economics</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27017.html">ISO/IEC 27017 — cloud security controls</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27018.html">ISO/IEC 27018 — cloud privacy</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27019.html">ISO/IEC 27019 — process control in energy industry</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27021.html">ISO/IEC 27021 — competences for ISMS pro&#8217;s</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27022.html">ISO/IEC TS 27022 — ISMS processes</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27031.html">ISO/IEC 27031 — ICT element of business continuity</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27032.html">ISO/IEC 27032 — Internet security</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27033.html">ISO/IEC 27033-n — network security</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27034.html">ISO/IEC 27034-n — application security</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27035.html">ISO/IEC 27035-n — incident management</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27036.html">ISO/IEC 27036-n — ICT supply chain &amp; cloud</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27037.html">ISO/IEC 27037 — digital evidence [eForensics]</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27038.html">ISO/IEC 27038 — document redaction</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27039.html">ISO/IEC 27039 — intrusion prevention</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27040.html">ISO/IEC 27040 — storage security</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27041.html">ISO/IEC 27041 — incident investigation assurance</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27042.html">ISO/IEC 27042 — analysing digital evidence</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27043.html">ISO/IEC 27043 — incident investigation</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27050.html">ISO/IEC 27050-n — digital forensics</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27070.html">ISO/IEC 27070 — virtual roots of trust</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27071.html">ISO/IEC 27071 — trusted connections</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27099.html">ISO/IEC 27099 — ISMS for PKI</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27100.html">ISO/IEC TS 27100 — cybersecurity overview/concepts</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27102.html">ISO/IEC 27102 — cyber-insurance</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27103.html">ISO/IEC 27103 —  ISMS for cybersecurity</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27110.html">ISO/IEC TS 27110 — cybersecurity frameworks</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27400.html">ISO/IEC 27400 — IoT security and privacy</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27550.html">ISO/IEC TR 27550 — privacy engineering</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27553.html">ISO/IEC 27553-n — mobile device biometrics</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27555.html">ISO/IEC 27555 — deleting PII/personal data</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27556.html">ISO/IEC 27556 — privacy preferences</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27557.html">ISO/IEC 27557 — privacy risk management</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27559.html">ISO/IEC 27559 — de-identification of personal data</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27560.html">ISO/IEC TS 27560 — privacy consent record structure</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27563.html">ISO/IEC TR 27563 — AI use case security &amp; privacy</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27570.html">ISO/IEC TS 27570 — smart city privacy</a></li>
-<li><A HREF="https://www.iso27001security.com/html/27701.html">ISO/IEC 27701 — managing privacy with an ISMS</li>
-<li><A HREF="https://www.iso27001security.com/html/27799.html">ISO 27799 — information security in healthcare</a></li>
+<li><A HREF="https://iso27001security.com/html/27000.html">ISO/IEC 27000 — ISO27k overview &amp; glossary</a></li>
+<li><A HREF="https://iso27001security.com/html/27001.html">ISO/IEC 27001 — formal ISMS specification</a></li>
+<li><A HREF="https://iso27001security.com/html/27002.html">ISO/IEC 27002 — infosec controls catalogue</a></li>
+<li><A HREF="https://iso27001security.com/html/27003.html">ISO/IEC 27003 — ISMS implementation guide</a></li>
+<li><A HREF="https://iso27001security.com/html/27004.html">ISO/IEC 27004 — infosec measurement [metrics]</a></li>
+<li><A HREF="https://iso27001security.com/html/27005.html">ISO/IEC 27005 — info[sec] risk management</a></li>
+<li><A HREF="https://iso27001security.com/html/27006.html">ISO/IEC 27006-n — ISMS &amp; PIMS certification </a></li>
+<li><A HREF="https://iso27001security.com/html/27007.html">ISO/IEC 27007 — <I>management system</I> auditing</a></li>
+<li><A HREF="https://iso27001security.com/html/27008.html">ISO/IEC TS 27008 — <I>security controls</I> auditing</a></li>
+<li><A HREF="https://iso27001security.com/html/27009.html">ISO/IEC 27009 — sector variants of ISO27k</a></li>
+<li><A HREF="https://iso27001security.com/html/27010.html">ISO/IEC 27010 — for inter-org comms</a></li>
+<li><A HREF="https://iso27001security.com/html/27011.html">ISO/IEC 27011 — ISMS for telecoms</a></li>
+<li><A HREF="https://iso27001security.com/html/27013.html">ISO/IEC 27013 — ISMS &amp; ITIL/service mgmt</a></li>
+<li><A HREF="https://iso27001security.com/html/27014.html">ISO/IEC 27014 — infosec governance</a></li>
+<li><A HREF="https://iso27001security.com/html/27016.html">ISO/IEC TR 27016 — infosec economics</a></li>
+<li><A HREF="https://iso27001security.com/html/27017.html">ISO/IEC 27017 — cloud security controls</a></li>
+<li><A HREF="https://iso27001security.com/html/27018.html">ISO/IEC 27018 — cloud privacy</a></li>
+<li><A HREF="https://iso27001security.com/html/27019.html">ISO/IEC 27019 — process control in energy industry</a></li>
+<li><A HREF="https://iso27001security.com/html/27021.html">ISO/IEC 27021 — competences for ISMS pro&#8217;s</a></li>
+<li><A HREF="https://iso27001security.com/html/27022.html">ISO/IEC TS 27022 — ISMS processes</a></li>
+<li><A HREF="https://iso27001security.com/html/27031.html">ISO/IEC 27031 — ICT element of business continuity</a></li>
+<li><A HREF="https://iso27001security.com/html/27032.html">ISO/IEC 27032 — Internet security</a></li>
+<li><A HREF="https://iso27001security.com/html/27033.html">ISO/IEC 27033-n — network security</a></li>
+<li><A HREF="https://iso27001security.com/html/27034.html">ISO/IEC 27034-n — application security</a></li>
+<li><A HREF="https://iso27001security.com/html/27035.html">ISO/IEC 27035-n — incident management</a></li>
+<li><A HREF="https://iso27001security.com/html/27036.html">ISO/IEC 27036-n — ICT supply chain &amp; cloud</a></li>
+<li><A HREF="https://iso27001security.com/html/27037.html">ISO/IEC 27037 — digital evidence [eForensics]</a></li>
+<li><A HREF="https://iso27001security.com/html/27038.html">ISO/IEC 27038 — document redaction</a></li>
+<li><A HREF="https://iso27001security.com/html/27039.html">ISO/IEC 27039 — intrusion prevention</a></li>
+<li><A HREF="https://iso27001security.com/html/27040.html">ISO/IEC 27040 — storage security</a></li>
+<li><A HREF="https://iso27001security.com/html/27041.html">ISO/IEC 27041 — incident investigation assurance</a></li>
+<li><A HREF="https://iso27001security.com/html/27042.html">ISO/IEC 27042 — analysing digital evidence</a></li>
+<li><A HREF="https://iso27001security.com/html/27043.html">ISO/IEC 27043 — incident investigation</a></li>
+<li><A HREF="https://iso27001security.com/html/27050.html">ISO/IEC 27050-n — digital forensics</a></li>
+<li><A HREF="https://iso27001security.com/html/27070.html">ISO/IEC 27070 — virtual roots of trust</a></li>
+<li><A HREF="https://iso27001security.com/html/27071.html">ISO/IEC 27071 — trusted connections</a></li>
+<li><A HREF="https://iso27001security.com/html/27099.html">ISO/IEC 27099 — ISMS for PKI</a></li>
+<li><A HREF="https://iso27001security.com/html/27100.html">ISO/IEC TS 27100 — cybersecurity overview/concepts</a></li>
+<li><A HREF="https://iso27001security.com/html/27102.html">ISO/IEC 27102 — cyber-insurance</a></li>
+<li><A HREF="https://iso27001security.com/html/27103.html">ISO/IEC 27103 —  ISMS for cybersecurity</a></li>
+<li><A HREF="https://iso27001security.com/html/27110.html">ISO/IEC TS 27110 — cybersecurity frameworks</a></li>
+<li><A HREF="https://iso27001security.com/html/27400.html">ISO/IEC 27400 — IoT security and privacy</a></li>
+<li><A HREF="https://iso27001security.com/html/27550.html">ISO/IEC TR 27550 — privacy engineering</a></li>
+<li><A HREF="https://iso27001security.com/html/27553.html">ISO/IEC 27553-n — mobile device biometrics</a></li>
+<li><A HREF="https://iso27001security.com/html/27555.html">ISO/IEC 27555 — deleting PII/personal data</a></li>
+<li><A HREF="https://iso27001security.com/html/27556.html">ISO/IEC 27556 — privacy preferences</a></li>
+<li><A HREF="https://iso27001security.com/html/27557.html">ISO/IEC 27557 — privacy risk management</a></li>
+<li><A HREF="https://iso27001security.com/html/27559.html">ISO/IEC 27559 — de-identification of personal data</a></li>
+<li><A HREF="https://iso27001security.com/html/27560.html">ISO/IEC TS 27560 — privacy consent record structure</a></li>
+<li><A HREF="https://iso27001security.com/html/27563.html">ISO/IEC TR 27563 — AI use case security &amp; privacy</a></li>
+<li><A HREF="https://iso27001security.com/html/27570.html">ISO/IEC TS 27570 — smart city privacy</a></li>
+<li><A HREF="https://iso27001security.com/html/27701.html">ISO/IEC 27701 — managing privacy with an ISMS</li>
+<li><A HREF="https://iso27001security.com/html/27799.html">ISO 27799 — information security in healthcare</a></li>
 </ul>
 
 <p><b>RFC</b></p>
@@ -470,127 +476,127 @@ ${\color{Blue}\textbf{1.PASSIVE FORENSICS}}$
 <p><b>Best Current Practices (BCP)</b></p>
 
 <ul>
- <li><a href="https://www.ietf.org/rfc/rfc1918.txt"> RFC 1918 / BCP 5: Address Allocation for Private Internets</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2350.txt"> RFC 2350 / BCP 21: Expectations for Computer Security Incident Response</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2505.txt"> RFC 2505 / BCP 30: Anti-Spam Recommendations for SMTP MTAs</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2644.txt"> RFC 2644 / BCP 34: Changing the Default for Directed Broadcasts in Routers</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2827.txt"> RFC 2827 / BCP 38: Network Ingress Filtering: Defeating Denial of Service Attacks which employ IP Source Address Spoofing</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc3013.txt"> RFC 3013 / BCP 46: Recommended Internet Service Provider Security Services and Procedures</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc3227.txt"> RFC 3227 / BCP 55: Guidelines for Evidence Collection and Archiving</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc3360.txt"> RFC 3360 / BCP 60: Inappropriate TCP Resets Considered Harmful</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc3365.txt"> RFC 3365 / BCP 61: Strong Security Requirements for Internet Engineering Task Force Standard Protocols</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc4086.txt"> RFC 4086 / BCP 106: Randomness Requirements for Security</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc4107.txt"> RFC 4107 / BCP 107: Guidelines for Cryptographic Key Management</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc5068.txt"> RFC 5068 / BCP 134: Email Submission Operations: Access and
+ <li><a href="https://ietf.org/rfc/rfc1918.txt"> RFC 1918 / BCP 5: Address Allocation for Private Internets</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2350.txt"> RFC 2350 / BCP 21: Expectations for Computer Security Incident Response</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2505.txt"> RFC 2505 / BCP 30: Anti-Spam Recommendations for SMTP MTAs</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2644.txt"> RFC 2644 / BCP 34: Changing the Default for Directed Broadcasts in Routers</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2827.txt"> RFC 2827 / BCP 38: Network Ingress Filtering: Defeating Denial of Service Attacks which employ IP Source Address Spoofing</a></li>
+ <li><a href="https://ietf.org/rfc/rfc3013.txt"> RFC 3013 / BCP 46: Recommended Internet Service Provider Security Services and Procedures</a></li>
+ <li><a href="https://ietf.org/rfc/rfc3227.txt"> RFC 3227 / BCP 55: Guidelines for Evidence Collection and Archiving</a></li>
+ <li><a href="https://ietf.org/rfc/rfc3360.txt"> RFC 3360 / BCP 60: Inappropriate TCP Resets Considered Harmful</a></li>
+ <li><a href="https://ietf.org/rfc/rfc3365.txt"> RFC 3365 / BCP 61: Strong Security Requirements for Internet Engineering Task Force Standard Protocols</a></li>
+ <li><a href="https://ietf.org/rfc/rfc4086.txt"> RFC 4086 / BCP 106: Randomness Requirements for Security</a></li>
+ <li><a href="https://ietf.org/rfc/rfc4107.txt"> RFC 4107 / BCP 107: Guidelines for Cryptographic Key Management</a></li>
+ <li><a href="https://ietf.org/rfc/rfc5068.txt"> RFC 5068 / BCP 134: Email Submission Operations: Access and
 Accountability Requirements</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc5358.txt">RFC 5358 / BCP 140: Preventing Use of Recursive Nameservers in Reflector Attacks</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc5406.txt">RFC 5406 / BCP 146: Guidelines for Specifying the Use of IPsec Version 2</a></li>
+<li><a href="https://ietf.org/rfc/rfc5358.txt">RFC 5358 / BCP 140: Preventing Use of Recursive Nameservers in Reflector Attacks</a></li>
+<li><a href="https://ietf.org/rfc/rfc5406.txt">RFC 5406 / BCP 146: Guidelines for Specifying the Use of IPsec Version 2</a></li>
 </ul>
 
 <p><b>Standards</b></p>
 
 <ul>
-<li><a href="https://www.ietf.org/rfc/rfc2142.txt"> RFC 2142: Mailbox Names for Common Services, Roles and Functions</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc2246.txt"> RFC 2246: The TLS Protocol  Version 1.0</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc2554.txt"> RFC 2554: SMTP Service Extension for Authentication</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3168.txt"> RFC 3168: The Addition of Explicit Congestion Notification (ECN) to IP</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3207.txt"> RFC 3207: SMTP Service Extension for Secure SMTP over Transport Layer Security</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3369.txt"> RFC 3369: Cryptographic Message Syntax (CMS)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3370.txt"> RFC 3370: Cryptographic Message Syntax (CMS) Algorithms</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3834.txt"> RFC 3834: Recommendations for Automatic Responses to Electronic Mail</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4033.txt"> RFC 4033: DNS Security Introduction and Requirements</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4034.txt"> RFC 4034: Resource Records for the DNS Security Extensions</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4035.txt"> RFC 4035: Protocol Modifications for the DNS Security Extensions</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4051.txt"> RFC 4051: Additional XML Security Uniform Resource Identifiers (URIs)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4055.txt">RFC 4055: Additional Algorithms and Identifiers for RSA Cryptography for use in the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4056.txt">RFC 4056: Use of the RSASSA-PSS Signature Algorithm in Cryptographic Message Syntax (CMS)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4109.txt">RFC 4109: Algorithms for Internet Key Exchange version 1 (IKEv1)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4217.txt">RFC 4217: Securing FTP with TLS</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4250.txt">RFC 4250: The Secure Shell (SSH) Protocol Assigned Numbers</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4251.txt">RFC 4251: The Secure Shell (SSH) Protocol Architecture</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4252.txt">RFC 4252: The Secure Shell (SSH) Authentication Protocol</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4253.txt">RFC 4253: The Secure Shell (SSH) Transport Layer Protocol</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4254.txt">RFC 4254: The Secure Shell (SSH) Connection Protocol</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4255.txt">RFC 4255: Using DNS to Securely Publish Secure Shell (SSH) Key Fingerprints</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4256.txt">RFC 4256: Generic Message Exchange Authentication for the Secure Shell Protocol (SSH)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4301.txt">RFC 4301: Security Architecture for the Internet Protocol</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4302.txt">RFC 4302: IP Authentication Header</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4303.txt">RFC 4303: IP Encapsulating Security Payload (ESP)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4308.txt">RFC 4308: Cryptographic Suites for IPsec</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4344.txt">RFC 4344: The Secure Shell (SSH) Transport Layer Encryption Modes</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4346.txt">RFC 4346: The Transport Layer Security (TLS) Protocol Version 1.1</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4359.txt">RFC 4359: The Use of RSA/SHA-1 Signatures within Encapsulating
+<li><a href="https://ietf.org/rfc/rfc2142.txt"> RFC 2142: Mailbox Names for Common Services, Roles and Functions</a></li>
+<li><a href="https://ietf.org/rfc/rfc2246.txt"> RFC 2246: The TLS Protocol  Version 1.0</a></li>
+<li><a href="https://ietf.org/rfc/rfc2554.txt"> RFC 2554: SMTP Service Extension for Authentication</a></li>
+<li><a href="https://ietf.org/rfc/rfc3168.txt"> RFC 3168: The Addition of Explicit Congestion Notification (ECN) to IP</a></li>
+<li><a href="https://ietf.org/rfc/rfc3207.txt"> RFC 3207: SMTP Service Extension for Secure SMTP over Transport Layer Security</a></li>
+<li><a href="https://ietf.org/rfc/rfc3369.txt"> RFC 3369: Cryptographic Message Syntax (CMS)</a></li>
+<li><a href="https://ietf.org/rfc/rfc3370.txt"> RFC 3370: Cryptographic Message Syntax (CMS) Algorithms</a></li>
+<li><a href="https://ietf.org/rfc/rfc3834.txt"> RFC 3834: Recommendations for Automatic Responses to Electronic Mail</a></li>
+<li><a href="https://ietf.org/rfc/rfc4033.txt"> RFC 4033: DNS Security Introduction and Requirements</a></li>
+<li><a href="https://ietf.org/rfc/rfc4034.txt"> RFC 4034: Resource Records for the DNS Security Extensions</a></li>
+<li><a href="https://ietf.org/rfc/rfc4035.txt"> RFC 4035: Protocol Modifications for the DNS Security Extensions</a></li>
+<li><a href="https://ietf.org/rfc/rfc4051.txt"> RFC 4051: Additional XML Security Uniform Resource Identifiers (URIs)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4055.txt">RFC 4055: Additional Algorithms and Identifiers for RSA Cryptography for use in the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</a></li>
+<li><a href="https://ietf.org/rfc/rfc4056.txt">RFC 4056: Use of the RSASSA-PSS Signature Algorithm in Cryptographic Message Syntax (CMS)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4109.txt">RFC 4109: Algorithms for Internet Key Exchange version 1 (IKEv1)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4217.txt">RFC 4217: Securing FTP with TLS</a></li>
+<li><a href="https://ietf.org/rfc/rfc4250.txt">RFC 4250: The Secure Shell (SSH) Protocol Assigned Numbers</a></li>
+<li><a href="https://ietf.org/rfc/rfc4251.txt">RFC 4251: The Secure Shell (SSH) Protocol Architecture</a></li>
+<li><a href="https://ietf.org/rfc/rfc4252.txt">RFC 4252: The Secure Shell (SSH) Authentication Protocol</a></li>
+<li><a href="https://ietf.org/rfc/rfc4253.txt">RFC 4253: The Secure Shell (SSH) Transport Layer Protocol</a></li>
+<li><a href="https://ietf.org/rfc/rfc4254.txt">RFC 4254: The Secure Shell (SSH) Connection Protocol</a></li>
+<li><a href="https://ietf.org/rfc/rfc4255.txt">RFC 4255: Using DNS to Securely Publish Secure Shell (SSH) Key Fingerprints</a></li>
+<li><a href="https://ietf.org/rfc/rfc4256.txt">RFC 4256: Generic Message Exchange Authentication for the Secure Shell Protocol (SSH)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4301.txt">RFC 4301: Security Architecture for the Internet Protocol</a></li>
+<li><a href="https://ietf.org/rfc/rfc4302.txt">RFC 4302: IP Authentication Header</a></li>
+<li><a href="https://ietf.org/rfc/rfc4303.txt">RFC 4303: IP Encapsulating Security Payload (ESP)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4308.txt">RFC 4308: Cryptographic Suites for IPsec</a></li>
+<li><a href="https://ietf.org/rfc/rfc4344.txt">RFC 4344: The Secure Shell (SSH) Transport Layer Encryption Modes</a></li>
+<li><a href="https://ietf.org/rfc/rfc4346.txt">RFC 4346: The Transport Layer Security (TLS) Protocol Version 1.1</a></li>
+<li><a href="https://ietf.org/rfc/rfc4359.txt">RFC 4359: The Use of RSA/SHA-1 Signatures within Encapsulating
 Security Payload (ESP) and Authentication Header (AH)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4366.txt">RFC 4366: Transport Layer Security (TLS) Extensions</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4513.txt">RFC 4513: Lightweight Directory Access Protocol (LDAP): Authentication Methods and Security Mechanisms</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4871.txt">RFC 4871: DomainKeys Identified Mail (DKIM) Signatures</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4959.txt">RFC 4959: IMAP Extension for Simple Authentication and Security Layer (SASL) Initial Client Response</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4985.txt">RFC 4985: Internet X.509 Public Key Infrastructure Subject Alternative Name for Expression of Service Name</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc5070.txt">RFC 5070: The Incident Object Description Exchange Format</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc5321.txt">RFC 5321: Simple Mail Transfer Protocol</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc5322.txt">RFC 5322: Internet Message Format</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc5901.txt">RFC 5901: Extensions to the IODEF-Document Class for Reporting Phishing</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6045.txt">RFC 6045: Real-time Inter-network Defense (RID)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6409.txt">RFC 6409: Message Submission for Mail</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6528.txt">RFC 6528: Defending against Sequence Number Attacks</a></li>
+<li><a href="https://ietf.org/rfc/rfc4366.txt">RFC 4366: Transport Layer Security (TLS) Extensions</a></li>
+<li><a href="https://ietf.org/rfc/rfc4513.txt">RFC 4513: Lightweight Directory Access Protocol (LDAP): Authentication Methods and Security Mechanisms</a></li>
+<li><a href="https://ietf.org/rfc/rfc4871.txt">RFC 4871: DomainKeys Identified Mail (DKIM) Signatures</a></li>
+<li><a href="https://ietf.org/rfc/rfc4959.txt">RFC 4959: IMAP Extension for Simple Authentication and Security Layer (SASL) Initial Client Response</a></li>
+<li><a href="https://ietf.org/rfc/rfc4985.txt">RFC 4985: Internet X.509 Public Key Infrastructure Subject Alternative Name for Expression of Service Name</a></li>
+<li><a href="https://ietf.org/rfc/rfc5070.txt">RFC 5070: The Incident Object Description Exchange Format</a></li>
+<li><a href="https://ietf.org/rfc/rfc5321.txt">RFC 5321: Simple Mail Transfer Protocol</a></li>
+<li><a href="https://ietf.org/rfc/rfc5322.txt">RFC 5322: Internet Message Format</a></li>
+<li><a href="https://ietf.org/rfc/rfc5901.txt">RFC 5901: Extensions to the IODEF-Document Class for Reporting Phishing</a></li>
+<li><a href="https://ietf.org/rfc/rfc6045.txt">RFC 6045: Real-time Inter-network Defense (RID)</a></li>
+<li><a href="https://ietf.org/rfc/rfc6409.txt">RFC 6409: Message Submission for Mail</a></li>
+<li><a href="https://ietf.org/rfc/rfc6528.txt">RFC 6528: Defending against Sequence Number Attacks</a></li>
 </ul>
 
 <p><b>Informational</b></p>
 
 <ul>
- <li><a href="https://www.ietf.org/rfc/rfc1281.txt"> RFC 1281: Guidelines for the Secure Operation of the Internet</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc1321.txt"> RFC 1321: The MD5 Message-Digest Algorithm</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc1470.txt"> RFC 1470: Tools for Monitoring and Debugging TCP/IP Internets and Interconnected Devices</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc1750.txt"> RFC 1750: Randomness Recommendations for Security</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2076.txt"> RFC 2076: Common Internet Message Headers</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2196.txt"> RFC 2196: Site Security Handbook</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2411.txt"> RFC 2411: IP Security Document Roadmap</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2504.txt"> RFC 2504: Users Security Handbook</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2577.txt"> RFC 2577: FTP Security Considerations</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc2979.txt"> RFC 2979: Behavior of and Requirements for Internet Firewalls</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc3067.txt"> RFC 3067: TERENA's Incident Object Description and Exchange Format Requirements</a></li>
- <li><a href="https://www.ietf.org/rfc/rfc3098.txt"> RFC 3098: How to Advertise Responsibly Using E-Mail and Newsgroups or — how NOT to $$$$$  MAKE ENEMIES FAST!  $$$$$</a></li>
+ <li><a href="https://ietf.org/rfc/rfc1281.txt"> RFC 1281: Guidelines for the Secure Operation of the Internet</a></li>
+ <li><a href="https://ietf.org/rfc/rfc1321.txt"> RFC 1321: The MD5 Message-Digest Algorithm</a></li>
+ <li><a href="https://ietf.org/rfc/rfc1470.txt"> RFC 1470: Tools for Monitoring and Debugging TCP/IP Internets and Interconnected Devices</a></li>
+ <li><a href="https://ietf.org/rfc/rfc1750.txt"> RFC 1750: Randomness Recommendations for Security</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2076.txt"> RFC 2076: Common Internet Message Headers</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2196.txt"> RFC 2196: Site Security Handbook</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2411.txt"> RFC 2411: IP Security Document Roadmap</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2504.txt"> RFC 2504: Users Security Handbook</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2577.txt"> RFC 2577: FTP Security Considerations</a></li>
+ <li><a href="https://ietf.org/rfc/rfc2979.txt"> RFC 2979: Behavior of and Requirements for Internet Firewalls</a></li>
+ <li><a href="https://ietf.org/rfc/rfc3067.txt"> RFC 3067: TERENA's Incident Object Description and Exchange Format Requirements</a></li>
+ <li><a href="https://ietf.org/rfc/rfc3098.txt"> RFC 3098: How to Advertise Responsibly Using E-Mail and Newsgroups or — how NOT to $$$$$  MAKE ENEMIES FAST!  $$$$$</a></li>
 
-<li><a href="https://www.ietf.org/rfc/rfc3164.txt">RFC 3164: The BSD syslog Protocol</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3174.txt">RFC 3174: US Secure Hash Algorithm 1 (SHA1)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3330.txt">RFC 3330: Special-Use IPv4 Addresses</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3511.txt">RFC 3511: Benchmarking Methodology for Firewall Performance</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3631.txt">RFC 3631: Security Mechanisms for the Internet</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3833.txt">RFC 3833: Threat Analysis of the Domain Name System (DNS)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3871.txt">RFC 3871: Operational Security Requirements for Large Internet Service Provider (ISP) IP Network Infrastructure</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc3964.txt">RFC 3964: Security Considerations for 6to4</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4096.txt">RFC 4096: Policy-Mandated Labels Such as "Adv:" in Email Subject Headers Considered Ineffective At Best</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4270.txt">RFC 4270: Attacks on Cryptographic Hashes in Internet Protocols</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4272.txt">RFC 4272: BGP Security Vulnerabilities Analysis</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4381.txt">RFC 4381: Analysis of the Security of BGP/MPLS IP Virtual Private Networks (VPNs)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4641.txt">RFC 4641: DNSSEC Operational Practices</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4686.txt">RFC 4686: Analysis of Threats Motivating DomainKeys Identified Mail (DKIM)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4766.txt">RFC 4766: Intrusion Detection Message Exchange Requirements</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4772.txt">RFC 4772: Security Implications of Using the Data Encryption Standard (DES)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4778.txt">RFC 4778: Current Operational Security Practices in Internet Service Provider Environments</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4890.txt">RFC 4890: Recommendations for Filtering ICMPv6 Messages in Firewalls</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4891.txt">RFC 4891: Using IPsec to Secure IPv6-in-IPv4 Tunnels</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4942.txt">RFC 4942: IPv6 Transition/Coexistence Security Considerations</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4986.txt">RFC 4986: Requirements Related to DNS Security (DNSSEC) Trust Anchor Rollover</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4949.txt">RFC 4949: Internet Security Glossary, Version 2</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6092.txt">RFC 6092: Recommended Simple Security Capabilities in Customer Premises Equipment (CPE) for Providing Residential IPv6 Internet Service</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6274.txt">RFC 6274: Security Assessment of the Internet Protocol Version 4</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6305.txt">RFC 6305: I'm Being Attacked by PRISONER.IANA.ORG!</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6471.txt">RFC 6471: Overview of Best Email DNS-Based List (DNSBL) Operational Practices</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6480.txt">RFC 6480: An Infrastructure to Support Secure Internet Routing</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6561.txt">RFC 6561: Recommendations for the Remediation of Bots in ISP Networks</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc7123.txt">RFC 7123: Security Implications of IPv6 on IPv4 Networks</a></li>
+<li><a href="https://ietf.org/rfc/rfc3164.txt">RFC 3164: The BSD syslog Protocol</a></li>
+<li><a href="https://ietf.org/rfc/rfc3174.txt">RFC 3174: US Secure Hash Algorithm 1 (SHA1)</a></li>
+<li><a href="https://ietf.org/rfc/rfc3330.txt">RFC 3330: Special-Use IPv4 Addresses</a></li>
+<li><a href="https://ietf.org/rfc/rfc3511.txt">RFC 3511: Benchmarking Methodology for Firewall Performance</a></li>
+<li><a href="https://ietf.org/rfc/rfc3631.txt">RFC 3631: Security Mechanisms for the Internet</a></li>
+<li><a href="https://ietf.org/rfc/rfc3833.txt">RFC 3833: Threat Analysis of the Domain Name System (DNS)</a></li>
+<li><a href="https://ietf.org/rfc/rfc3871.txt">RFC 3871: Operational Security Requirements for Large Internet Service Provider (ISP) IP Network Infrastructure</a></li>
+<li><a href="https://ietf.org/rfc/rfc3964.txt">RFC 3964: Security Considerations for 6to4</a></li>
+<li><a href="https://ietf.org/rfc/rfc4096.txt">RFC 4096: Policy-Mandated Labels Such as "Adv:" in Email Subject Headers Considered Ineffective At Best</a></li>
+<li><a href="https://ietf.org/rfc/rfc4270.txt">RFC 4270: Attacks on Cryptographic Hashes in Internet Protocols</a></li>
+<li><a href="https://ietf.org/rfc/rfc4272.txt">RFC 4272: BGP Security Vulnerabilities Analysis</a></li>
+<li><a href="https://ietf.org/rfc/rfc4381.txt">RFC 4381: Analysis of the Security of BGP/MPLS IP Virtual Private Networks (VPNs)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4641.txt">RFC 4641: DNSSEC Operational Practices</a></li>
+<li><a href="https://ietf.org/rfc/rfc4686.txt">RFC 4686: Analysis of Threats Motivating DomainKeys Identified Mail (DKIM)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4766.txt">RFC 4766: Intrusion Detection Message Exchange Requirements</a></li>
+<li><a href="https://ietf.org/rfc/rfc4772.txt">RFC 4772: Security Implications of Using the Data Encryption Standard (DES)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4778.txt">RFC 4778: Current Operational Security Practices in Internet Service Provider Environments</a></li>
+<li><a href="https://ietf.org/rfc/rfc4890.txt">RFC 4890: Recommendations for Filtering ICMPv6 Messages in Firewalls</a></li>
+<li><a href="https://ietf.org/rfc/rfc4891.txt">RFC 4891: Using IPsec to Secure IPv6-in-IPv4 Tunnels</a></li>
+<li><a href="https://ietf.org/rfc/rfc4942.txt">RFC 4942: IPv6 Transition/Coexistence Security Considerations</a></li>
+<li><a href="https://ietf.org/rfc/rfc4986.txt">RFC 4986: Requirements Related to DNS Security (DNSSEC) Trust Anchor Rollover</a></li>
+<li><a href="https://ietf.org/rfc/rfc4949.txt">RFC 4949: Internet Security Glossary, Version 2</a></li>
+<li><a href="https://ietf.org/rfc/rfc6092.txt">RFC 6092: Recommended Simple Security Capabilities in Customer Premises Equipment (CPE) for Providing Residential IPv6 Internet Service</a></li>
+<li><a href="https://ietf.org/rfc/rfc6274.txt">RFC 6274: Security Assessment of the Internet Protocol Version 4</a></li>
+<li><a href="https://ietf.org/rfc/rfc6305.txt">RFC 6305: I'm Being Attacked by PRISONER.IANA.ORG!</a></li>
+<li><a href="https://ietf.org/rfc/rfc6471.txt">RFC 6471: Overview of Best Email DNS-Based List (DNSBL) Operational Practices</a></li>
+<li><a href="https://ietf.org/rfc/rfc6480.txt">RFC 6480: An Infrastructure to Support Secure Internet Routing</a></li>
+<li><a href="https://ietf.org/rfc/rfc6561.txt">RFC 6561: Recommendations for the Remediation of Bots in ISP Networks</a></li>
+<li><a href="https://ietf.org/rfc/rfc7123.txt">RFC 7123: Security Implications of IPv6 on IPv4 Networks</a></li>
 </ul>
 
 <p><b>Experimental / Historic</b></p>
 
 <ul>
-<li><a href="https://www.ietf.org/rfc/rfc4406.txt"> RFC 4406: Sender ID: Authenticating E-Mail</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4408.txt"> RFC 4408: Sender Policy Framework (SPF) for Authorizing Use of Domains in E-Mail, Version 1</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4765.txt"> RFC 4765: The Intrusion Detection Message Exchange Format (IDMEF)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc4767.txt"> RFC 4767: The Intrusion Detection Exchange Protocol (IDXP)</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6541.txt"> RFC 6541: DomainKeys Identified Mail (DKIM) Authorized Third-Party Signatures</a></li>
-<li><a href="https://www.ietf.org/rfc/rfc6587.txt"> RFC 6587: Transmission of Syslog Messages over TCP </a></li>
+<li><a href="https://ietf.org/rfc/rfc4406.txt"> RFC 4406: Sender ID: Authenticating E-Mail</a></li>
+<li><a href="https://ietf.org/rfc/rfc4408.txt"> RFC 4408: Sender Policy Framework (SPF) for Authorizing Use of Domains in E-Mail, Version 1</a></li>
+<li><a href="https://ietf.org/rfc/rfc4765.txt"> RFC 4765: The Intrusion Detection Message Exchange Format (IDMEF)</a></li>
+<li><a href="https://ietf.org/rfc/rfc4767.txt"> RFC 4767: The Intrusion Detection Exchange Protocol (IDXP)</a></li>
+<li><a href="https://ietf.org/rfc/rfc6541.txt"> RFC 6541: DomainKeys Identified Mail (DKIM) Authorized Third-Party Signatures</a></li>
+<li><a href="https://ietf.org/rfc/rfc6587.txt"> RFC 6587: Transmission of Syslog Messages over TCP </a></li>
 </ul>
 
 <br>
@@ -613,7 +619,7 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 <p><a href="https://github.com/mikeroyal/Digital-Forensics-Guide">Mikeroyal - Digital Forensics Guide (Github)</a></p>
 </li>
 <li>
-<p><a href="https://www.enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material">Enisa EU - Online Training Material</a></p>
+<p><a href="https://enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material">Enisa EU - Online Training Material</a></p>
 </li>
 <li>
 <p><a href=""></a></p>
@@ -636,50 +642,50 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 • Message Header Analyzer — https://github.com/microsoft/MHA<br>
 • PhishTank — https://phishtank.org<br>
 • Simple Email Reputation — https://emailrep.io<br>
-• DeHashed — https://www.dehashed.com<br>
-• Whois — https://www.iana.org/whois<br>
+• Whois — https://iana.org/whois<br>
 • ViewDNS — https://viewdns.info<br>
 • WhoisMyDNS — https://whoismydns.com<br>
-• NSLookup — https://www.nslookup.io<br>
+• NSLookup — https://nslookup.io<br>
 • My-Addr — https://my-addr.com<br>
 • Malpedia — https://malpedia.caad.fkie.fraunhofer.de<br>
-• CVE Details — https://www.cvedetails.com<br>
-• Exploit Database — https://www.exploit-db.com<br>
+• CVE Details — https://cvedetails.com<br>
+• Exploit Database — https://exploit-db.com<br>
 • FileInfo — https://fileinfo.co<br>
 • xCyclopedia — https://strontic.github.io/xcyclopedia<br>
 • The Windows Binary Index — https://winbindex.m417z.com<br>
 • Palo Alto Applipedia — https://applipedia.paloaltonetworks.com<br>
-• Windows Securitiy Logs — https://www.ultimatewindowssecurity.com/securitylog/encyclopedia<br>
+• Windows Securitiy Logs — https://ultimatewindowssecurity.com/securitylog/encyclopedia<br>
 • Internet Archive (WayBackMachine) - https://web.archive.org<br>
 • Archive web content — https://archive.ph<br>
 • Internet Archive — https://archive.org<br>
-• HTTrack — https://www.httrack.com<br>
-• IPVOID — https://www.ipvoid.com<br>
-• AbuseIPDB — https://www.abuseipdb.com<br>
+• HTTrack — https://httrack.com<br>
+• IPVOID — https://ipvoid.com<br>
+• AbuseIPDB — https://abuseipdb.com<br>
 • Grabify IP Logger — https://grabify.link/<br>
 • IP Logger — https://iplogger.org<br>
 • IP Tracker — https://iplogger.org/ip-tracker<br>
-• IP location — https://www.iplocation.net<br>
-• Location Tracker — https://iplogger.org/location-tracker<br>
+• IP Location Tracker — https://iplogger.org/location-tracker<br>
+• IP Location — https://iplocation.net<br>
 • URL Checker —  https://iplogger.org/url_checker<br>
 • MAC Address Lookup — https://iplogger.org/mac-checker<br>
 • MAC Vendor — https://macvendors.com<br>
 • IP API<br>
 &emsp; — ip-api — https://ip-api.com<br>
-&emsp; — ipify — https://www.ipify.org<br>
+&emsp; — ipify — https://ipify.org<br>
 &emsp; — ipapi — https://ipapi.co<br>
 &emsp; — vpnapi — https://vpnapi.io<br>
 &emsp; — ipapi — https://ipapi.com<br>
 • The ZMap Project — https://zmap.io<br>
 • WiGLE — https://wigle.net<br>
 • urlscan.io — https://urlscan.io<br>
-• Virus Total — https://www.virustotal.com<br>
+• Virus Total — https://virustotal.com<br>
 • Hybrid Analysis — https://hybrid-analysis.com<br>
+• Cuckoo Sandbox — https://cuckoo.cert.ee<br>
 • AlienVault OTX — https://otx.alienvault.com<br>
 • IBM X-Force Exchange — https://exchange.xforce.ibmcloud.com<br>
 • Cisco Talos — https://talosintelligence.com/reputation_center<br>
 • Maltiverse — https://maltiverse.com/collection<br>
-• GreyNoise — https://www.greynoise.io<br>
+• GreyNoise — https://greynoise.io<br>
 • SANS Internet Storm Center — https://isc.sans.edu<br>
 • Intelligence X — https://intelx.io<br>
 • MetaDefender Cloud — https://metadefender.opswat.com<br>
@@ -688,19 +694,27 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 • Valhalla YARA Rules — https://valhalla.nextron-systems.com<br>
 • ANY.RUN — https://any.run<br>
 • Binvis — https://binvis.io<br>
-• JoeSandbox — https://www.joesandbox.com<br>
-• Verexif - https://www.verexif.com/en/<br>
-• Reverse Shell Generator — https://www.revshells.com<br>
+• JoeSandbox — https://joesandbox.com<br>
+• Verexif - https://verexif.com/en/<br>
+• Reverse Shell Generator — https://revshells.com<br>
 • Rainbow Tables (Hashes) — https://hashes.com/en/decrypt/hash<br>
-• Have I Been Pwned — https://haveibeenpwned.com<br>
-• Name OSINT — https://namechk.com<br>
-• Breach Directory - https://breachdirectory.org<br>
-• MD5 Decrypt - https://md5decrypt.net/en/Sha1<br>
 • File Signatures ("Magic Numbers") — https://en.wikipedia.org/wiki/Magic_number_(programming)<br> 
 • List of File Signatures — https://en.wikipedia.org/wiki/List_of_file_signatures<br>
 • CyberChef — https://gchq.github.io/CyberChef<br>
 • explainshell — https://explainshell.com<br>
-• Epoch Converter — https://www.epochconverter.com<br>
+• Epoch Converter — https://epochconverter.com<br>
+• Regex - https://regex-generator.olafneumann.org</br>
+• DeHashed — https://dehashed.com<br>
+• Dencode — https://dencode.com<br>
+• Commonly Used Software Development Tools - https://ctool.dev</br>
+• Text Fixer - https://textfixer.com</br>
+• SS64 Syntax Utils - https://ss64.com</br>
+• Tools4noobs - https://tools4noobs.com</br>
+• Text to ASCII Art Generator - https://patorjk.com/software/taag</br>
+• Have I Been Pwned — https://haveibeenpwned.com<br>
+• Name OSINT — https://namechk.com<br>
+• Breach Directory - https://breachdirectory.org<br>
+• MD5 Decrypt - https://md5decrypt.net/en/Sha1<br>
 
 <p>For OSINT tools visit our repository: <a href="https://github.com/RENANZG/My-OSINT">My-OSINT</a></p>
 
@@ -715,27 +729,27 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 
 <h4>Forensics Tools Catalogues</h4>
 
-<p>Evidence Project - <a href="https://www.dftoolscatalogue.eu/dftc.home.php">https://www.dftoolscatalogue.eu</a></p>
+<p>Evidence Project - <a href="https://dftoolscatalogue.eu/dftc.home.php">https://dftoolscatalogue.eu</a></p>
 <p>NIST - <a href="https://toolcatalog.nist.gov/search/">https://toolcatalog.nist.gov</a></p>
-<p>S&T partners and NIST - Computer Forensic Tool Testing (CFTT) - <a href="https://www.dhs.gov/science-and-technology/nist-cftt-reports">https://www.dhs.gov/science-and-technology/nist-cftt-reports</a></p>
+<p>S&T partners and NIST - Computer Forensic Tool Testing (CFTT) - <a href="https://dhs.gov/science-and-technology/nist-cftt-reports">https://dhs.gov/science-and-technology/nist-cftt-reports</a></p>
 
 <h4>Some tools</h4>
 
 <ul>
-<li><a href="https://www.sleuthkit.org/sleuthkit/">The Sleuth Kit (TSK)</a> <a href="https://github.com/sleuthkit/sleuthkit">(GitHub)</a></li>
-<li><a href="https://www.autopsy.com">Autopsy</a></li>
+<li><a href="https://sleuthkit.org/sleuthkit/">The Sleuth Kit (TSK)</a> <a href="https://github.com/sleuthkit/sleuthkit">(GitHub)</a></li>
+<li><a href="https://autopsy.com">Autopsy</a></li>
 <li><a href="https://github.com/WerWolv/ImHex">ImHex</a></li>
 <li><a href="https://hashcat.net">Hashcat</a></li>
-<li><a href="https://www.openwall.com/john/">John the Ripper</a></li>
+<li><a href="https://openwall.com/john/">John the Ripper</a></li>
 <li><a href="https://github.com/drivebadger/drivebadger">Drive Badger — Covert Data Exfiltration Operations</a></li>
 <li><a href="https://github.com/northloopforensics/Fetch">Making Maps for Investigators</a></li>
 <li><a href="https://github.com/mxrch/GHunt">Offensive Google framework</a></li>
 <li><a href="https://github.com/northloopforensics/Bitlocker_Key_Finder">Bitlocker Key Finder</a></li>
 <li><a href="https://github.com/teamdfir/sift">SIFT</a></li>
 <li><a href="https://github.com/keydet89/RegRipper3.0">RegRipper</a></li>
-<li><a href="https://www.nomoreransom.org/en/index.html">No More Ransom</a></li>
+<li><a href="https://nomoreransom.org/en/index.html">No More Ransom</a></li>
 <li><a href="https://docs.microsoft.com/en-us/sysinternals/downloads">MS Sysinternals</a></li>
-<li><a href="https://www.winfe.net/download">WinFE</a></li>
+<li><a href="https://winfe.net/download">WinFE</a></li>
 </ul>
 
 <h4>Image and video upscaling programs</h4>
@@ -826,7 +840,7 @@ Log into the database while it is live and employ the application used to create
 <h4>Volatile memory analysis</h4>
 
 • Volatility<br>
-https://www.volatilityfoundation.org/releases<br>
+https://volatilityfoundation.org/releases<br>
 • Linux Memory Extractor (LiME)<br>
 https://github.com/504ensicsLabs/LiME<br>
 • Cobalt Strike in memory<br>
@@ -836,16 +850,16 @@ https://andreafortuna.org/2020/11/22/how-to-detect-cobalt-strike-activity-in-mem
 
 <img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/jtag_chip-off_isp.png" title="Hardware Exploitation" style="width:100%">
 
-https://www.teeltech.com/ufaqs/what-is-jtag-chip-off-and-isp<br>
-https://www.cellebritelearningcenter.com/mod/page/view.php?id=11903<br>
-https://www.fletc.gov/jtag-chipoff-smartphones-training-program<br>
-https://www.gillware.com/phone-data-recovery-services/jtag-chip-off-forensics<br>
-https://www.gillware.com/phone-data-recovery-services/chip-off-forensics-services<br>
+https://teeltech.com/ufaqs/what-is-jtag-chip-off-and-isp<br>
+https://cellebritelearningcenter.com/mod/page/view.php?id=11903<br>
+https://fletc.gov/jtag-chipoff-smartphones-training-program<br>
+https://gillware.com/phone-data-recovery-services/jtag-chip-off-forensics<br>
+https://gillware.com/phone-data-recovery-services/chip-off-forensics-services<br>
 
 <h4>Researching support for phones in JTAG software</h4>
 https://octoplusbox.com<br>
 https://medusabox.com<br>
-https://www.riffbox.org<br>
+https://riffbox.org<br>
 https://easy-jtag.com<br>
 https://z3x-team.com<br>
 
@@ -876,6 +890,7 @@ https://polygonscan.com<br>
 
 https://github.com/demining/CryptoDeepTools<br>
 https://github.com/demining/bitcoindigger<br>
+https://github.com/graphsense<br>
 https://github.com/demining/Dao-Exploit<br>
 https://github.com/immunefi-team/Web3-Security-Library/blob/main/Tools/README.md#blockchain-analysis<br>
 
@@ -886,7 +901,6 @@ https://elliptic.co<br>
 https://ciphertrace.com<br>
 https://coinmetrics.io<br>
 https://whitestream.io<br>
-https://ciphertrace.com<br>
 https://elementus.io<br>
 https://trmlabs.com<br>
 https://bitok.org/investigations<br>
@@ -924,66 +938,22 @@ https://attack.mitre.org/techniques/mobile/<br>
 • OWASP MAS - Mobile Application Security<br>
 https://mas.owasp.org<br>
 
+• Metasploit - Penetration testing framework
+https://metasploit.com<br>
+
 <video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinFly-Web-Video.mp4" width="320" height="240" controls></video>
 <video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinSpy-Video.mp4" width="320" height="240" controls></video>
 <video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinFly-ISP-Video.mp4" width="320" height="240" controls></video>
 <video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinSpy-Mobile-Video.mp4" width="320" height="240" controls></video>
 <video src="https://github.com/RENANZG/My-Forensics/blob/main/.data/1.TOP_SECRET/Vault_7/FinFisher/FinIntrusion-Kit-Video.mp4" width="320" height="240" controls></video>
 
-
 <h4>• Training</h4>
 
-∙ Rootme — https://www.root-me.org<br>
-∙ Vulnhub — https://www.vulnhub.com<br>
-∙ Hacker101 — https://www.hacker101.com<br>
+∙ Rootme — https://root-me.org<br>
+∙ Vulnhub — https://vulnhub.com<br>
+∙ Hacker101 — https://hacker101.com<br>
 ∙ Crackmes — https://crackmes.one<br>
 ∙ Attack Defense — https://attackdefense.com<br>
-
-<h4>• Some Cases</h4>
-
-<img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/phones.png" title="Police Hack"/><br>
-
-∙ Omerta Digital (FBI Honey Pot?)<br>
-https://www.omertadigital.com/<br>
-∙ Case: ANON (also stylized as AN0M or ΛNØM)<br>
-https://en.wikipedia.org/wiki/ANOM<br>
-https://www.vice.com/en/article/n7b4gg/anom-phone-arcaneos-fbi-backdoor<br>
-∙ Case: EncroChat<br>
-https://en.wikipedia.org/wiki/EncroChat<br>
-https://eucrim.eu/news/germany-federal-court-of-justice-confirms-use-of-evidence-in-encrochat-cases<br>
-https://xperylab.medium.com/the-dark-phones-encrochat-criminals-are-building-their-own-communication-system-474f3aeef759<br>
-∙ Case: Pegasus Spyware (NSO Group)<br>
-https://theintercept.com/2021/07/27/pegasus-nso-spyware-security<br>
-∙ Case: Verint<br>
-https://wikileaks.org/spyfiles/docs/VERINT_2012_AvneTurn_en.html<br>
-https://www.reddit.com/r/InfoSecNews/comments/sxxzju/leaktheanalyst_group_leak_critical_data_from/<br>
-∙ Case: Phantom Secure<br>
-https://en.wikipedia.org/wiki/Phantom_Secure<br>
-https://www.vice.com/en/article/v7m4pj/the-network-vincent-ramos-phantom-secure<br>
-∙ Case: Sky Global<br>
-https://en.wikipedia.org/wiki/Shutdown_of_Sky_Global<br>
-∙ Case: Bundestrojaner  <br>
-https://en.wikipedia.org/wiki/Bundestrojaner<br>
-∙ Case: Magic Lantern<br>
-https://en.wikipedia.org/wiki/Magic_Lantern_(software)<br>
-https://github.com/bibanon/bibanon/blob/0b84bb23794c91c238a5601403898b61b5d193fc/Encyclopedia/History/Events/Pifts.md?plain=1#L125<br>
-∙ Case: Cryptophon<br>
-https://en.wikipedia.org/wiki/Tron_(hacker)#Cryptophon<br>
-∙ Planting Tiny Spy Chips in Hardware Can Cost as Little as $200<br>
-https://www.wired.com/story/plant-spy-chips-hardware-supermicro-cheap-proof-of-concept<br>
-∙ Installation of beacon implants<br>
-https://arstechnica.com/tech-policy/2014/05/photos-of-an-nsa-upgrade-factory-show-cisco-router-getting-implant  <br>
-∙ The tricky issue of spyware with a badge: meet ‘policeware’<br>
-https://arstechnica.com/information-technology/2007/07/will-security-firms-avoid-detecting-government-spyware<br>
-∙ Analisi della normativa e della giurisprudenza sul captatore informatico e la spiegazione del Caso Exodus<br>
-https://www.dirittoconsenso.it/2021/11/11/captatore-informatico-trojan-di-stato<br>
-∙ LightEater Demo: Stealing GPG keys/emails in Tails via remote firmware infection<br>
-https://www.youtube.com/watch?v=sNYsfUNegEA<br>
-∙ KeyGrabber Forensic Keylogger<br>
-https://www.youtube.com/watch?v=6JJo8qCYE8M<br>
-
-<br>
-</details>
 
 <!-- ########## -->
 
@@ -997,7 +967,7 @@ https://www.youtube.com/watch?v=6JJo8qCYE8M<br>
 <p>*First of all, consult court cases to see how laws are (mis)applied.</p>
 
 GE Constitution &#127465 <br>
-https://www.gesetze-im-internet.de/englisch_gg/index.html<br>
+https://gesetze-im-internet.de/englisch_gg/index.html<br>
 
 US Constitution &#127482 <br>
 https://constitution.congress.gov<br>
@@ -1048,27 +1018,25 @@ We are still reflecting on this point.<br>
 <h4>• International Law</h4>
 
 ∙ UN — Library of Resources<br>
-https://www.unodc.org/e4j/en/resdb/index.html<br>
+https://unodc.org/e4j/en/resdb/index.html<br>
 
 ∙ UN — Course Catalogue<br>
-https://www.unodc.org/elearning/en/courses/course-catalogue.html<br>
+https://unodc.org/elearning/en/courses/course-catalogue.html<br>
 
 ∙ ICRC - Cyber operations during armed conflicts<br>
-https://www.icrc.org/en/war-and-law/conduct-hostilities/cyber-warfare<br>
+https://icrc.org/en/war-and-law/conduct-hostilities/cyber-warfare<br>
 
 ∙ ICRC - New technologies and IHL<br>
-https://www.icrc.org/en/war-and-law/weapons/ihl-and-new-technologies<br>
+https://icrc.org/en/war-and-law/weapons/ihl-and-new-technologies<br>
 
 ∙ The Cyber Law Toolkit -  The intersection of international law and cyber operations<br>
 https://cyberlaw.ccdcoe.org/wiki/Main_Page<br>
 
 ∙ Budapest Convention (Cybercrime)<br>
-https://www.coe.int/en/web/cybercrime/the-budapest-convention<br>
+https://coe.int/en/web/cybercrime/the-budapest-convention<br>
 
 ∙ Octopus Project<br>
 https://coe.int/en/web/cybercrime/octopus-project<br>
-
-
 
 <h5>Public International Law</h5>
 
@@ -1119,14 +1087,14 @@ In order to promote the protection of the civilian population from the effects o
 
 References:<br>
 UN - https://legal.un.org/repertory/art1.shtml<br>
-ICRC - https://www.icrc.org/en/document/what-are-jus-ad-bellum-and-jus-bello-0<br>
+ICRC - https://icrc.org/en/document/what-are-jus-ad-bellum-and-jus-bello-0<br>
 ICRC - https://ihl-databases.icrc.org/en/ihl-treaties/api-1977?activeTab=undefined<br>
 ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilities<br>
 
 <!-- ########## -->
 
 <h4>• Council of Europe — Cybercrime</h4>
-∙ Cybercrime — https://www.coe.int/cybercrime<br>
+∙ Cybercrime — https://coe.int/cybercrime<br>
 ∙ GLACY+ — https://coe.int/en/web/cybercrime/glacyplus<br>
 ∙ iPROCEEDS-2 — https://coe.int/en/web/cybercrime/iproceeds-2<br>
 ∙ Octopus Project — https://coe.int/en/web/cybercrime/octopus-project<br>
@@ -1136,17 +1104,17 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 <h4>• Publications</h4>
 
 <ul>
-<li><a href="https://www.coe.int/en/web/cybercrime/cyber-digests-and-updates" target="_blank" rel="noopener">Council of Europe – Cybercrime Digest and </a><a href="https://www.coe.int/en/web/cybercrime/cyber-digests-and-updates" target="_blank" rel="noopener">Cybercrime@CoE Update</a>: a bi-weekly selection of news relevant to the current areas of interest to the Cybercrime Programme Office of CoE (C-PROC) and&nbsp;a quarterly review of the work carried out by the Cybercrime Convention Committee (T-CY).</li>
+<li><a href="https://coe.int/en/web/cybercrime/cyber-digests-and-updates" target="_blank" rel="noopener">Council of Europe – Cybercrime Digest and </a><a href="https://coe.int/en/web/cybercrime/cyber-digests-and-updates" target="_blank" rel="noopener">Cybercrime@CoE Update</a>: a bi-weekly selection of news relevant to the current areas of interest to the Cybercrime Programme Office of CoE (C-PROC) and&nbsp;a quarterly review of the work carried out by the Cybercrime Convention Committee (T-CY).</li>
 <li><a href="https://b96de5da.sibforms.com/serve/MUIEACLiNKgT7-T6ofXDkIGbYxDLmxvtQd9xqKxFPG247oA-YVJ9-zDJ8qkYykiBK8nVIqzbvEglSSAjqBq9QJXVV7OP586AqR8-Q7kR8OYULBlmUfx6Qx5PpLyqDiVdydk9Kjgb4HDoP9qUr0VzwZOxKsi7oOG2tspyXc6wqOaMH7vd-OgQo8rNXLrLMEgtyn0-tg1DNs7jLuEG" target="_blank" rel="noopener">Council of Europe – Cybercrime Newsletter</a>: subscribe to receive the latest updates on the topic.</li>
 <li><a href="https://cert.europa.eu/publications/threat-intelligence/2023" target="_blank" rel="noopener">CERT-EU</a>: access quarterly Threat Landscape Reports and monthly Cyber Security Briefs from the Computer Emergency Response Team for the EU institutions, bodies and agencies.</li>
-<li><a href="https://www.cepol.europa.eu/publications" target="_blank" rel="noopener">CEPOL – Publications</a>: find the latest documents on trainings for law enforcement officials including the <a href="https://www.cepol.europa.eu/scientific-knowledge-and-research/european-law-enforcement-research-bulletin" target="_blank" rel="noopener">European Law Enforcement Research Bulletin.</a></li>
-<li><a href="https://www.enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Newsroom</a>: follow the most recent news on cybersecurity.</li>
-<li><a href="https://www.enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Publications</a>: sort the latest publications on cybersecurity by topic (and download copies).</li>
+<li><a href="https://cepol.europa.eu/publications" target="_blank" rel="noopener">CEPOL – Publications</a>: find the latest documents on trainings for law enforcement officials including the <a href="https://cepol.europa.eu/scientific-knowledge-and-research/european-law-enforcement-research-bulletin" target="_blank" rel="noopener">European Law Enforcement Research Bulletin.</a></li>
+<li><a href="https://enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Newsroom</a>: follow the most recent news on cybersecurity.</li>
+<li><a href="https://enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Publications</a>: sort the latest publications on cybersecurity by topic (and download copies).</li>
 <li><a href="https://ec.europa.eu/newsroom/eurojust/user-subscriptions/2146/create" target="_blank" rel="noopener">EUROJUST Newsletter</a>: news from the European Union Agency for Criminal Justice Cooperation.</li>
 <li><a href="https://ec.europa.eu/newsroom/home/user-subscriptions/2668/create" target="_blank" rel="noopener">European Commission’s DG HOME Newsletter</a>: spotlight on Schengen and borders, internal security and relevant European funds.</li>
-<li><a href="https://www.europol.europa.eu/newsletter/subscriptions" target="_blank" rel="noopener">Europol – Email alerts</a>: ranging from news to upcoming publications and vacancies, choose what alerts to receive.</li>
-<li><a href="https://www.osce.org/subscriptions/signup" target="_blank" rel="noopener">Organisation for Security and Co-operation in Europe (OSCE) Newsletter</a>: hand-picked updates and in-depth information bundles on OSCE activities, with possibility to choose countries of interest.</li>
-<li><a href="https://www.europol.europa.eu/publications-events/publications?q=sirius" target="_blank" rel="noopener">SIRIUS project publications</a>: co-implemented by Europol and&nbsp;<a href="https://www.eurojust.europa.eu/">Eurojust</a>, in close partnership with the&nbsp;<a href="https://www.ejn-crimjust.europa.eu/ejn2021/Home/EN">European Judicial Network</a>, the SIRIUS project is a central reference point in the EU for knowledge sharing on cross-border access to electronic evidence and allows to download, among other publications, the yearly EU Digital Evidence Situation Report.</li>
+<li><a href="https://europol.europa.eu/newsletter/subscriptions" target="_blank" rel="noopener">Europol – Email alerts</a>: ranging from news to upcoming publications and vacancies, choose what alerts to receive.</li>
+<li><a href="https://osce.org/subscriptions/signup" target="_blank" rel="noopener">Organisation for Security and Co-operation in Europe (OSCE) Newsletter</a>: hand-picked updates and in-depth information bundles on OSCE activities, with possibility to choose countries of interest.</li>
+<li><a href="https://europol.europa.eu/publications-events/publications?q=sirius" target="_blank" rel="noopener">SIRIUS project publications</a>: co-implemented by Europol and&nbsp;<a href="https://eurojust.europa.eu/">Eurojust</a>, in close partnership with the&nbsp;<a href="https://ejn-crimjust.europa.eu/ejn2021/Home/EN">European Judicial Network</a>, the SIRIUS project is a central reference point in the EU for knowledge sharing on cross-border access to electronic evidence and allows to download, among other publications, the yearly EU Digital Evidence Situation Report.</li>
 </ul>
 
 <!-- ########## -->
@@ -1155,9 +1123,8 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 
 <h6>Americas</h6> 
 
-∙ US — Federal Rules — Criminal Procedure — Overview — <a href="https://www.law.cornell.edu/wex/criminal_procedure" target="_blank">Link</a><br>
-∙ US — Federal Rules — Criminal Procedure — Rule 41 — Search and Seizure — <a href="https://www.law.cornell.edu/rules/frcrmp/rule_41" target="_blank">Link</a><br>
-
+∙ US — Federal Rules — Criminal Procedure — Overview — <a href="https://law.cornell.edu/wex/criminal_procedure" target="_blank">Link</a><br>
+∙ US — Federal Rules — Criminal Procedure — Rule 41 — Search and Seizure — <a href="https://law.cornell.edu/rules/frcrmp/rule_41" target="_blank">Link</a><br>
 
 <table>
 <tbody>
@@ -1165,48 +1132,48 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 <td>On a Network<br>in a Single<br>District</td>
 <td>On a Network in Multiple Districts</td>
 <td>On a Network with Data Stored Internationally</td>
-<td >Unknown Where the Data is Stored (Cloud)</td>
+<td>Unknown Where the Data is Stored (Cloud)</td>
 </tr>
 <tr>
-<td >Search under Rule 41; consider noting in affidavit the possibility of other locations</td>
+<td>Search under Rule 41; consider noting in affidavit the possibility of other locations</td>
 <td>Multiple search warrants for each district with data or §2703 Warrant served on service provider</td>
-<td >Use legal process required in country hosting the data, or consider accessing data remotely with a search warrant under Rule 41</td>
-<td >Search under Rule 41 for subject computers, and concurrently search under §2703 served on service provider</td>
+<td>Use legal process required in country hosting the data, or consider accessing data remotely with a search warrant under Rule 41</td>
+<td>Search under Rule 41 for subject computers, and concurrently search under §2703 served on service provider</td>
 </tr>
 </tbody>
 </table>
 
 <h6>Union European</h6>
 
-∙ UE — Criminal procedural laws across the European Union – A comparative analysis — <a href="https://www.europarl.europa.eu/RegData/etudes/STUD/2018/604977/IPOL_STU(2018)604977(ANN01)_EN.pdf" target="_blank">Link</a><br>
-∙ UK — Crime, justice and law — Law and practice — <a href="https://www.gov.uk/guidance/rules-and-practice-directions-2020" target="_blank">Link</a><br>
-∙ UK — Public General Acts — Investigatory Powers Act 2016 — <a href="https://www.legislation.gov.uk/ukpga/2016/25/contents" target="_blank">Link</a><br>
-∙ GE — German Criminal Code (Strafgesetzbuch — StGB) — <a href="https://www.gesetze-im-internet.de/englisch_stgb" target="_blank">Link</a><br>
-∙ GE — German Code of Criminal Procedure (Strafprozeßordnung — StPO) — <a href="https://www.gesetze-im-internet.de/englisch_stpo/index.html" target="_blank">Link</a><br>
-∙ GE — German Code of Criminal Procedure - StPO, Section 100a - Telecommunications surveillance — <a href="https://www.gesetze-im-internet.de/englisch_stpo/englisch_stpo.html#p0572" target="_blank">Link</a><br>
-∙ GE — Law on the Federal Criminal Police Office and cooperation between the federal and state governments in criminal police matters (Federal Criminal Police Office Act - BKAG) - § 49 Covert intervention in information technology systems — <a href="https://www.gesetze-im-internet.de/bkag_2018/__49.html" target="_blank">Link</a><br>
+∙ UE — Criminal procedural laws across the European Union – A comparative analysis — <a href="https://europarl.europa.eu/RegData/etudes/STUD/2018/604977/IPOL_STU(2018)604977(ANN01)_EN.pdf" target="_blank">Link</a><br>
+∙ UK — Crime, justice and law — Law and practice — <a href="https://gov.uk/guidance/rules-and-practice-directions-2020" target="_blank">Link</a><br>
+∙ UK — Public General Acts — Investigatory Powers Act 2016 — <a href="https://legislation.gov.uk/ukpga/2016/25/contents" target="_blank">Link</a><br>
+∙ GE — German Criminal Code (Strafgesetzbuch — StGB) — <a href="https://gesetze-im-internet.de/englisch_stgb" target="_blank">Link</a><br>
+∙ GE — German Code of Criminal Procedure (Strafprozeßordnung — StPO) — <a href="https://gesetze-im-internet.de/englisch_stpo/index.html" target="_blank">Link</a><br>
+∙ GE — German Code of Criminal Procedure - StPO, Section 100a - Telecommunications surveillance — <a href="https://gesetze-im-internet.de/englisch_stpo/englisch_stpo.html#p0572" target="_blank">Link</a><br>
+∙ GE — Law on the Federal Criminal Police Office and cooperation between the federal and state governments in criminal police matters (Federal Criminal Police Office Act - BKAG) - § 49 Covert intervention in information technology systems — <a href="https://gesetze-im-internet.de/bkag_2018/__49.html" target="_blank">Link</a><br>
 
 <h4>Court Cases</h4>
 
 ∙ UNODC — Case Law Database — https://sherloc.unodc.org/cld/v3/sherloc/cldb/index.html?lng=en<br>
-∙ UNODC — Cyber Organized Crime — https://www.unodc.org/e4j/en/cybercrime/module-13/additional-teaching-tools.html<br>
+∙ UNODC — Cyber Organized Crime — https://unodc.org/e4j/en/cybercrime/module-13/additional-teaching-tools.html<br>
 
 <h6>Americas</h6>
 
-∙ US Cases — https://www.courtlistener.com/opinion<br>
+∙ US Cases — https://courtlistener.com/opinion<br>
 ∙ US Federal Cases — https://pacer.uscourts.gov/find-case<br>
-∙ US Dod - Computer Crime and Intellectual Property Section (CCIPS) - https://www.justice.gov/criminal/criminal-ccips<br>
-∙ US FBI - Internet Crime Complaint Center (IC3) - https://www.ic3.gov<br>
-∙ Computer Crime Research Center - https://www.crime-research.org<br>
+∙ US Dod - Computer Crime and Intellectual Property Section (CCIPS) - https://justice.gov/criminal/criminal-ccips<br>
+∙ US FBI - Internet Crime Complaint Center (IC3) - https://ic3.gov<br>
+∙ Computer Crime Research Center - https://crime-research.org<br>
 
 <h6>Union European</h6>
 
-∙ European Court of Justice https://curia.europa.eu<br>
 ∙ EUR-Lex https://eur-lex.europa.eu/homepage.html<br>
+∙ European Court of Justice https://curia.europa.eu<br>
 ∙ EU Common Portal of Case Law — https://network-presidents.eu/cpcl<br>
 ∙ Casetext (Thomson Reuters) - https://casetext.com<br>
-∙ Council of Europe - COE Cybercrime - https://www.coe.int/en/web/cybercrime<br>
-∙ Council of Europe - Octopus Cybercrime Community - Materials - https://www.coe.int/en/web/octopus/training<br>
+∙ Council of Europe - COE Cybercrime - https://coe.int/en/web/cybercrime<br>
+∙ Council of Europe - Octopus Cybercrime Community - Materials - https://coe.int/en/web/octopus/training<br>
 
 ![architecture](https://github.com/RENANZG/My-Forensics/assets/53377291/f92b0055-29fe-40de-9a45-da845d0f3f4b)
 
@@ -1388,14 +1355,14 @@ https://torrentfreak.com/feed<br>
 <ul>
 <li><a href="https://startyourownisp.com/">How to start your own ISP</a></li>
 <li><a href="https://i.imgur.com/3fHyG2S.png">Where are torrents permitted?</a></li>
-<li><a href="https://www.ukispcourtorders.co.uk/">UK ISP Court Orders</a></li>
+<li><a href="https://ukispcourtorders.co.uk/">UK ISP Court Orders</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Web_Sheriff">Web Sheriff</a></li>
-<li><a href="https://www.theverge.com/2020/1/31/21116788/earn-it-act-section-230-lindsey-graham-draft-bill-encryption">A new bill could punish web platforms for using end-to-end encryption</a></li>
-<li><a href="https://www.polygon.com/2019/9/19/20874384/french-court-steam-valve-used-games-eu-law">French court rules that Steam’s ban on reselling used games is contrary to European law</a></li>
-<li><a href="https://www.theguardian.com/media/2019/mar/26/meps-approve-sweeping-changes-to-copyright-law-european-copyright-directive">MEPs approve sweeping changes to copyright law</a></li>
-<li><a href="https://web.archive.org/web/20201111235605/https://www.lifewire.com/legalities-of-linking-3468972">The Legalities of Linking</a></li>
+<li><a href="https://theverge.com/2020/1/31/21116788/earn-it-act-section-230-lindsey-graham-draft-bill-encryption">A new bill could punish web platforms for using end-to-end encryption</a></li>
+<li><a href="https://polygon.com/2019/9/19/20874384/french-court-steam-valve-used-games-eu-law">French court rules that Steam’s ban on reselling used games is contrary to European law</a></li>
+<li><a href="https://theguardian.com/media/2019/mar/26/meps-approve-sweeping-changes-to-copyright-law-european-copyright-directive">MEPs approve sweeping changes to copyright law</a></li>
+<li><a href="https://web.archive.org/web/20201111235605/https://lifewire.com/legalities-of-linking-3468972">The Legalities of Linking</a></li>
 <li><a href="https://web.archive.org/web/20220422223639/https://klarislaw.com/wp-content/uploads/klarislaw-copyright-liability-for-linking-and-embedding.pdf">COPYRIGHT LIABILITY FOR LINKING AND EMBEDDING — Klaris Law (.PDF)</a></li>
-<li><a href="https://www.engadget.com/2016/04/08/eu-court-linking-copyrighted-content-is-legal/">EU court says linking to copyrighted material isn&#39;t illegal</a></li>
+<li><a href="https://engadget.com/2016/04/08/eu-court-linking-copyrighted-content-is-legal/">EU court says linking to copyrighted material isn&#39;t illegal</a></li>
 <li><a href="https://torrentfreak.com/ip-address-is-not-enough-to-identify-pirate-us-court-of-appeals-rules-180828/">IP Address is Not Enough to Identify Pirate, US Court of Appeals Rules</a> — (<a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2018/08/27/17-35041.pdf">.PDF</a>)</li>
 <li><a href="https://torrentfreak.com/new-eu-piracy-watchlist-targets-key-pirate-sites-and-cloudflare-181210/">New EU Piracy Watchlist Targets Key Pirate Sites and Cloudflare</a> — (<a href="https://torrentfreak.com/images/tradoc_157564.pdf">.PDF</a>)</li>
 <li><a href="https://torrentfreak.com/domain-registrar-can-be-held-liable-for-pirate-site-court-rules-181224/">Domain Registrar Can be Held Liable for Pirate Site, Court Rules</a></li>
@@ -1404,7 +1371,7 @@ https://torrentfreak.com/feed<br>
 <li><a href="https://en.wikipedia.org/wiki/List_of_websites_blocked_in_the_United_Kingdom">List of websites blocked in the United Kingdom</a></li>
 <li><a href="https://torrentfreak.com/major-us-isps-refuse-to-discuss-repeat-infringer-policies-190912/">Major US ISPs Refuse to Discuss Repeat Infringer Policies</a></li>
 <li><a href="https://arxiv.org/abs/1902.05796">Who Watches the Watchmen: Exploring Complaints on the Web</a></li>
-<li><a href="https://www.theregister.co.uk/2019/07/20/creative_content_piracy/">British ISPs throw in the towel, give up sending out toothless copyright infringement warnings</a></li>
+<li><a href="https://theregister.co.uk/2019/07/20/creative_content_piracy/">British ISPs throw in the towel, give up sending out toothless copyright infringement warnings</a></li>
 </ul>
 
 <br>
@@ -1421,10 +1388,6 @@ https://torrentfreak.com/feed<br>
 ∙ TOR Fingerprinting — https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead<br>
 ∙ Attacks on Tor — https://github.com/Attacks-on-Tor/Attacks-on-Tor<br>
 ∙ EFF Test — https://coveryourtracks.eff.org/learn<br>
-
-<h4>Hacker Cases</h4>
-
-<br>
 
 <br>
 </details>
@@ -1498,14 +1461,14 @@ https://torrentfreak.com/feed<br>
 <h4>Network Analysis</h4>
 
 • Snort — https://github.com/snort3<br>
-• Wireshark — https://www.wireshark.org<br>
+• Wireshark — https://wireshark.org<br>
 • NMAP — https://nmap.org<br>
 
 <p>Live System Based</p>
 
 <a href="https://securityonionsolutions.com">Security Onion</a><br>
 
-<a href="https://www.networksecuritytoolkit.org">Network Security Toolkit</a><br>
+<a href="https://networksecuritytoolkit.org">Network Security Toolkit</a><br>
 
 <br>
 </details>
@@ -1545,14 +1508,14 @@ https://ghidra-sre.org<br>
 <!-- ########## -->
 
 <details>
-<summary>2.12 Social Engineeringg (HUMINT)</summary>
+<summary>2.12 Social Engineeringg</summary>
 <br>
 
 <h4>Social Engineering</h4>
 
 <ul>
-<li><a href="https://www.symantec.com/connect/articles/social-engineering-fundamentals-part-i-hacker-tactics"> Social Engineering Fundamentals, Part I: Hacker Tactics, SecurityFocus</a></li>
-<li><a href="https://www.symantec.com/connect/articles/social-engineering-fundamentals-part-ii-combat-strategies">Social Engineering Fundamentals, Part II: Combat Strategies, SecurityFocus</a></li>
+<li><a href="https://symantec.com/connect/articles/social-engineering-fundamentals-part-i-hacker-tactics"> Social Engineering Fundamentals, Part I: Hacker Tactics, SecurityFocus</a></li>
+<li><a href="https://symantec.com/connect/articles/social-engineering-fundamentals-part-ii-combat-strategies">Social Engineering Fundamentals, Part II: Combat Strategies, SecurityFocus</a></li>
 <li><a href="https://github.com/giuliacassara/awesome-social-engineering">Awesome Social Engineering — GitHub</a></li>
 <li><a href="https://github.com/trustedsec/social-engineer-toolkit">Social Engineer Toolkit — GitHub</a></li>
 <li><a href=""> </a></li>
@@ -1569,7 +1532,7 @@ https://ghidra-sre.org<br>
 <br>
 
 • DEFCON Safe Mode - Cooper Quintin - Detecting Fake 4G Base Stations in Real-Time
-https://www.youtube.com/watch?v=siCk4pGGcqA<br>
+https://youtube.com/watch?v=siCk4pGGcqA<br>
 • SRLabs - Warn you about threats like fake base stations (IMSI Catchers)<br>
 https://github.com/srlabs/snoopsnitch<br>
 • Android IMSI-Catcher Detector (suspended)<br>
@@ -1579,7 +1542,7 @@ https://github.com/SigPloiter/SigPloit<br>
 • Telecom Exploits - HLR Lookups<br>
 https://github.com/SigPloiter/HLR-Lookups<br>
 
-<a href="https://www.youtube.com/watch?v=VonHAsY4-VA">
+<a href="https://youtube.com/watch?v=VonHAsY4-VA">
   <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVonHAsY4-VA" alt="Phone Surveillance Exposed" title="Phone Surveillance Exposed"/>
 </a>
 
@@ -1622,7 +1585,7 @@ https://github.com/SigPloiter/HLR-Lookups<br>
 </tr>
 <tr>
 <td>MSID</td>
-<td><a href="https://www.pcmag.com/encyclopedia/term/mobile-station">Mobile Station ID</a></td>
+<td><a href="https://pcmag.com/encyclopedia/term/mobile-station">Mobile Station ID</a></td>
 </tr>
 <tr>
 <td></td>
@@ -1652,13 +1615,13 @@ https://github.com/SigPloiter/HLR-Lookups<br>
 <h3>Useful Websites</h3>
 
 — OpenCellID — [Link](https://opencellid.org/)<br>
-— Cell Tower Locator (Cell2GPS) — [Link](https://www.cell2gps.com/)<br>
+— Cell Tower Locator (Cell2GPS) — [Link](https://cell2gps.com/)<br>
 — Cell Phone Trackers — [Link](https://cellphonetrackers.org/)<br>
-— International Numbering Plans — [Link](https://www.numberingplans.com/)<br>
-— GSM World Coverage Map and GSM Country List — [Link](https://www.worldtimezone.com/gsm.html)<br>
-— Imei Info — https://www.imei.info<br>
-— GSMArena Phones Ref.- https://www.gsmarena.com</br>
-— Phonescoop Phones Ref.- https://www.phonescoop.com</br>
+— International Numbering Plans — [Link](https://numberingplans.com/)<br>
+— GSM World Coverage Map and GSM Country List — [Link](https://worldtimezone.com/gsm.html)<br>
+— Imei Info — https://imei.info<br>
+— GSMArena Phones Ref.- https://gsmarena.com</br>
+— Phonescoop Phones Ref.- https://phonescoop.com</br>
 — Cell Towers — https://opencellid.org<br>
 
 <h3>Information & Explanations</h3>
@@ -1684,9 +1647,9 @@ GSM 850 / GSM 1900 MHz are used in the United States, Canada, Mexico and most co
 </pre>
 
 — SDR<br>
-  — RTL-SDR (65MHz-2.3GHz) — [Link](https://www.amazon.com/dp/B06Y1HKLHY)<br>
+  — RTL-SDR (65MHz-2.3GHz) — [Link](https://amazon.com/dp/B06Y1HKLHY)<br>
 — Antenna<br>
-  — Antenna — [Link](https://www.amazon.com/dp/B07HQJKMBD)<br>
+  — Antenna — [Link](https://amazon.com/dp/B07HQJKMBD)<br>
 
 <h3>Equipment</h3>
 
@@ -1808,28 +1771,29 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <br>
 
 <ul>
-<li><a href="https://www.cve.org">https://www.cve.org</a></li>
-<li><a href="https://www.cvedetails.com">https://www.cvedetails.com</a></li>
-<li><a href="https://www.openwall.com">https://www.openwall.com</a></li>
-<li><a href="https://www.lkrg.org">https://www.lkrg.org</a></li>
-<li><a href="https://www.attack.mitre.org">https://www.attack.mitre.org</a></li>
+<li><a href="https://cve.org">https://cve.org</a></li>
+<li><a href="https://cvedetails.com">https://cvedetails.com</a></li>
+<li><a href="https://openwall.com">https://openwall.com</a></li>
+<li><a href="https://lkrg.org">https://lkrg.org</a></li>
+<li><a href="https://attack.mitre.org">https://attack.mitre.org</a></li>
 <li><a href="https://socradar.io</a>SOCRadar</li>
-<li><a href="https://www.exterro.com">https://www.exterro.com</a></li>
-<li><a href="https://www.forensicfocus.com">https://www.forensicfocus.com</a></li>
-<li><a href="https://www.forensicscijournal.com">https://www.forensicscijournal.com</a></li>
-<li><a href="https://www.hackthebox.com">https://www.hackthebox.com</a></li>
-<li><a href="https://www.hackerone">https://www.hackerone</a></li>
-<li><a href="https://www.hackread.com">https://www.hackread.com</a></li>
-<li><a href="https://www.htcia.org">https://www.htcia.org</a></li>
-<li><a href="https://www.osforensics.com">https://www.osforensics.com</a></li>
-<li><a href="https://www.magnetforensics.com">https://www.magnetforensics.com</a></li>
-<li><a href="https://www.exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite">FTK Lite</a><br>
-<li><a href="https://www.icann.org/en/ssac/publications">SSAC Publications</a></li>
-<li><a href="https://www.cert.org/archive/pdf/Botnets.pdf">Botnets as a Vehicle for Online Crime</a> — CERT </li>
-<li><a href="https://www.security-audit.com/">Security Audit</a></li>
-<li><a href="https://www.sans.org/">SANS Institute</a></li>
+<li><a href="https://exterro.com">https://exterro.com</a></li>
+<li><a href="https://forensicfocus.com">https://forensicfocus.com</a></li>
+<li><a href="https://forensicscijournal.com">https://forensicscijournal.com</a></li>
+<li><a href="https://www.swgde.org/documents/published-complete-listing">https://www.swgde.org/documents/published-complete-listing</a></li>
+<li><a href="https://hackthebox.com">https://hackthebox.com</a></li>
+<li><a href="https://hackerone">https://hackerone</a></li>
+<li><a href="https://hackread.com">https://hackread.com</a></li>
+<li><a href="https://htcia.org">https://htcia.org</a></li>
+<li><a href="https://osforensics.com">https://osforensics.com</a></li>
+<li><a href="https://magnetforensics.com">https://magnetforensics.com</a></li>
+<li><a href="https://exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite">FTK Lite</a><br>
+<li><a href="https://icann.org/en/ssac/publications">SSAC Publications</a></li>
+<li><a href="https://cert.org/archive/pdf/Botnets.pdf">Botnets as a Vehicle for Online Crime</a> — CERT </li>
+<li><a href="https://security-audit.com/">Security Audit</a></li>
+<li><a href="https://sans.org/">SANS Institute</a></li>
 <li><a href="https://isc.sans.org/">Internet Storm Center</a> — SANS Institute</li>
-<li><a href="https://www.cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
+<li><a href="https://cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
 </ul>
 </ul>
 
@@ -1841,61 +1805,65 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <details>
 <summary><b>General Publications</b></summary>
 <br>
-
 • CVE Alerting Platform<br>
 https://github.com/opencve/opencve<br>
-• The Hacker News — Newsletter<br>
-https://thehackernews.com/#email-outer<br>
 • Black Hat<br>
 https://blackhat.com<br>
 • ZDnet<br>
-https://www.zdnet.com<br>
+https://zdnet.com<br>
+• The Hacker News<br>
+https://thehackernews.com/#email-outer<br>
 • Bleeping Computer<br>
-https://www.bleepingcomputer.com<br>
+https://bleepingcomputer.com<br>
 • Wired News<br>
-https://www.wired.com<br>
+https://wired.com<br>
+• Vice<br>
+https://vice.com/en/section/tech<br>
 • The Register<br>
-https://www.theregister.com<br>
-• Secure List by Kaspersky — Newsletter<br>
+https://theregister.com<br>
+• Secure List by Kaspersky<br>
 https://securelist.com<br>
 • PT ESC Threat Intelligence<br>
-https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence<br>
+https://ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence<br>
 • Forensic Focus — Newsletter<br>
-https://www.forensicfocus.com<br>
+https://forensicfocus.com<br>
 • SANS Institute — Newsletter<br>
-https://www.sans.org> <br>
+https://sans.org> <br>
+• Google Project Zero<br>
+https://googleprojectzero.blogspot.com<br>
 • Debian Security Announce<br>
-https://lists.debian.org/debian-security-announce
+https://lists.debian.org/debian-security-announce<br>
 • Cert Coordination Center<br>
-https://www.cert.org<br>
+https://cert.org<br>
 • DoD Instructions Cybersecurity<br>
-https://www.esd.whs.mil/dd/<br>
+https://esd.whs.mil/dd/<br>
 • Computer World<br>
 https://computerworld.com<br>
 • InfoWorld<br>
-https://www.infoworld.com<br>
+https://infoworld.com<br>
 • InformationWeek<br>
-https://www.informationweek.com<br>
+https://informationweek.com<br>
 • TechRepublic<br>
-https://www.techrepublic.com<br>
+https://techrepublic.com<br>
 • Infosecurity Magazine<br>
-https://www.infosecurity-magazine.com<br>
+https://infosecurity-magazine.com<br>
 • Sophos<br>
 https://sophos.com<br>
+https://news.sophos.com<br>
 • TechWorld<br>
-https://www.techworld.com<br>
+https://techworld.com<br>
 • Infosec Institute<br>
 https://resources.infosecinstitute.com<br>
-• Government Executive Magazine<br>
-https://govexec.com<br>
+• ComputerWeekly<br>
+https://computerweekly.com<br>
 • E Security Planet<br>
-https://www.esecurityplanet.com<br>
+https://esecurityplanet.com<br>
 • Help Net Security<br>
-https://www.helpnetsecurity.com<br>
+https://helpnetsecurity.com<br>
 • Information Security Magazine<br>
 https://searchsecurity.techtarget.com<br>
 • Network World Fusion<br>
-https://www.nwfusion.com<br>
+https://nwfusion.com<br>
 • Federal Computer Week Security News<br>
 https://fcw.com/Home.aspx<br>
 • Government Computer News IT Security<br>
@@ -1903,29 +1871,33 @@ https://gcn.com/Home.aspx<br>
 • IA Technology Analysis Center<br>
 https://iac.dtic.mil/csiac<br>
 • Overseas Security Advisory Council<br>
-https://www.osac.gov<br>
+https://osac.gov<br>
 • SANS Internet Storm Center<br>
 https://isc.sans.edu<br>
 • Search Security<br>
 https://searchsecurity.techtarget.com<br>
 • News Factor<br>
-https://www.newsfactor.com<br>
+https://newsfactor.com<br>
 • Security Focus<br>
-https://www.securityfocus.com/news<br>
+https://securityfocus.com/news<br>
+• BankInfoSecurity<br>
+https://www.bankinfosecurity.com<br>
 • New Scientist<br>
-https://www.newscientist.com/section/news<br>
+https://newscientist.com/section/news<br>
 • Silicon Valley<br>
-https://www.siliconvalley.com<br>
+https://siliconvalley.com<br>
 • TechWeb<br>
-https://www.techweb.com<br>
+https://techweb.com<br>
 • USA Today<br>
-https://www.usatoday.com/tech<br>
+https://usatoday.com/tech<br>
+• US Government Executive Magazine<br>
+https://govexec.com<br>
 • The Intercept<br>
 https://theintercept.com<br>
 • Reuters<br>
-https://www.reuters.com/news<br>
+https://reuters.com/news<br>
 • Aljazeera<br>
-https://www.aljazeera.com<br>
+https://aljazeera.com<br>
 • Gulf News<br>
 https://gulfnews.com<br>
 • China Official Publications<br>
@@ -1933,7 +1905,7 @@ https://english.www.gov.cn<br>
 • North Korea Official Publications<br>
 http://www.kcna.kp/en<br>
 • Israel Official Publications<br>
-https://www.gov.il/en<br>
+https://gov.il/en<br>
 • Iran Official Publications<br>
 https://irangov.ir/en<br>
 </details>
@@ -1962,39 +1934,39 @@ https://en.wikipedia.org/wiki/List_of_open-access_journals<br>
 <hr>
 
 • Science Direct — Forensic Science International: Digital Investigation<br>
-https://www.sciencedirect.com/journal/forensic-science-international-digital-investigation<br>
+https://sciencedirect.com/journal/forensic-science-international-digital-investigation<br>
 • Science Direct — Computer Law & Security Review<br>
-https://www.sciencedirect.com/journal/computer-law-and-security-review<br>
+https://sciencedirect.com/journal/computer-law-and-security-review<br>
 • Forensic Science — Application of science to criminal and civil laws<br>
-https://www.forensicscijournal.com<br>
+https://forensicscijournal.com<br>
 • University of London - SAS Open Journals - Digital Evidence and Electronic Signature Law Review<br>
 https://journals.sas.ac.uk/deeslr/<br>
 • IEEE Intelligence and Security Informatics (IEEE-ISI)<br>
 https://ieee-isi.org<br>
 • USENIX Conferences<br>
-https://www.usenix.org/conferences<br>
+https://usenix.org/conferences<br>
 • International Journal of Intelligence and CounterIntelligence<br>
-https://www.tandfonline.com/journals/ujic20<br>
+https://tandfonline.com/journals/ujic20<br>
 • Information Security Journal: A Global Perspective<br>
-https://www.tandfonline.com/journals/uiss20<br>
+https://tandfonline.com/journals/uiss20<br>
 • Policing and Society — An International Journal of Research and Policy<br>
-https://www.tandfonline.com/journals/gpas20<br>
+https://tandfonline.com/journals/gpas20<br>
 • Police Practice and Research — An International Journal<br>
-https://www.tandfonline.com/journals/gppr20<br>
+https://tandfonline.com/journals/gppr20<br>
 • Journal of Applied Security Research<br>
-https://www.tandfonline.com/journals/wasr20<br>
+https://tandfonline.com/journals/wasr20<br>
 • Information Systems Security<br>
-https://www.tandfonline.com/journals/uiss19<br>
+https://tandfonline.com/journals/uiss19<br>
 • Journal of Computer Information Systems<br>
-https://www.tandfonline.com/journals/ucis20<br>
+https://tandfonline.com/journals/ucis20<br>
 • Australian Journal of Forensic Sciences<br>
-https://www.tandfonline.com/journals/tajf20<br>
+https://tandfonline.com/journals/tajf20<br>
 • Advancing Technology, Research and Collaboration<br>
-https://www.acm.org/conferences<br>
+https://acm.org/conferences<br>
 • The APWG Symposium on Electronic Crime Research (APWG eCrime)<br>
 https://ecrimeresearch.org<br>
 • Communications in Computer and Information Science — Springer<br>
-https://www.springer.com/series/7899<br>
+https://springer.com/series/7899<br>
 IEEE Open Journal of Circuits and Systems<br>
 IEEE Open Journal of the Communications Society<br>
 IEEE Open Journal of the Computer Society<br>
@@ -2011,7 +1983,7 @@ IEEE Open Journal of Signal Processing<br>
 • German Law Research - Harvard Law School Library Research Services<br>
 https://guides.library.harvard.edu/GermanLaw<br>
 • The German Law Journal (open-access) - Cambridge University Press<br>
-https://www.cambridge.org/core/journals/german-law-journal<br>
+https://cambridge.org/core/journals/german-law-journal<br>
 • Foreign Law Translations - The University of Texas at Austin<br>
 https://law.utexas.edu/transnational/foreign-law-translations<br>
 • The Center for Security and Emerging Technology (CSET) - Georgetown University's Walsh School of Foreign Service<br>
@@ -2021,11 +1993,11 @@ https://journals.sagepub.com/home/euc<br>
 • European Journal of Law and Technology<br>
 https://ejlt.org/index.php/ejlt<br>
 • <br>
-https://www.sciencedirect.com/journal/computer-fraud-and-security<br>
+https://sciencedirect.com/journal/computer-fraud-and-security<br>
 • Digital Evidence and Electronic Signature Law Review<br>
 https://journals.sas.ac.uk/deeslr/issue/view/596<br>
 • <br>
-https://www.tandfonline.com/journals/cirl20<br>
+https://tandfonline.com/journals/cirl20<br>
 • <br>
 https://openyls.law.yale.edu<br>
 • <br>
@@ -2034,14 +2006,15 @@ https://dltr.law.duke.edu<br>
 https://scholarlycommons.law.northwestern.edu/njtip/<br>
 • Ohio State Technology Law Journal (Moritz College of Law)<br>
 https://kb.osu.edu/communities/a3767fe3-6fcd-5776-bbe7-44d144fb641a<br>
+• Berkeley Law - Technology Journal<br>
+https://btlj.org<br>
 • <br>
 https://scholar.smu.edu/smulr<br>
 • AIDP-IAPL Publications<br>
-https://www.penal.org/en/aidp-iapl-publications<br>
-
-• Necessary and Proportionate - https://www.necessaryandproportionate.org<br>
-• Privacy International - https://www.privacyinternational.org<br>
-• EFF - https://www.eff.org<br>
+https://penal.org/en/aidp-iapl-publications<br>
+• Necessary and Proportionate - https://necessaryandproportionate.org<br>
+• Privacy International - https://privacyinternational.org<br>
+• EFF - https://eff.org<br>
 • EPIC - https://epic.org/issues/surveillance-oversight<br>
 • S&S - https://ojs.library.queensu.ca/index.php/surveillance-and-society/index<br>
 • Citizenlab - https://citizenlab.ca<br>
@@ -2051,28 +2024,24 @@ https://www.penal.org/en/aidp-iapl-publications<br>
 • The Berkman Klein Center for Internet & Society at Harvard University - https://cyber.harvard.edu<br>
 • Carnegie Endowment for International Peace<br>
 https://carnegieendowment.org/publications/interactive/cybernorms<br>
-• Bad Internet Bills - https://www.badinternetbills.com<br>
+• Bad Internet Bills - https://badinternetbills.com<br>
 • Software Freedom Law Center - https://softwarefreedom.org<br>
-• Techdirt - https://www.techdirt.com<br>
-• Intelligence Oversight - https://www.intelligence-oversight.org
-• UN Internet Governance Forum - https://www.intgovforum.org<br>
-• The IT Law Wiki - https://itlaw.fandom.com<br>
-• Computer Crime Research Center - https://www.crime-research.org<br>
-• Internet Crime Complaint Center (IC3) - https://www.ic3.gov/Home/AnnualReports<br>
-• ETSI - https://www.etsi.org/committees<br>
-• The Bureau of Investigative Journalism - https://www.thebureauinvestigates.com<br>
-https://digitalcommons.usf.edu/mca/<br>
-https://www.fbi.gov<br>
-https://www.justice.gov/news<br>
-https://www.justice.gov/criminal/cybercrime<br>
-https://www.coe.int/en/web/cybercrime<br>
-https://www.sherloc.unodc.org<br>
-https://www.enisa.europa.eu<br>
-https://csrc.nist.gov<br>
+• Techdirt - https://techdirt.com<br>
+• Intelligence Oversight - https://intelligence-oversight.org
+• UN Internet Governance Forum - https://intgovforum.org<br>
+• Computer Crime Research Center - https://crime-research.org<br>
+• ETSI - https://etsi.org/committees<br>
+• The Bureau of Investigative Journalism - https://thebureauinvestigates.com<br>
+• Internet Crime Complaint Center (IC3) - https://ic3.gov/Home/AnnualReports<br>
 
-https://www.computerweekly.com<br>
-https://www.vice.com/en/section/tech<br>
 https://copsincyberspace.wordpress.com<br>
+https://digitalcommons.usf.edu/mca/<br>
+https://csrc.nist.gov<br>
+https://sherloc.unodc.org<br>
+https://justice.gov/criminal/cybercrime<br>
+https://coe.int/en/web/cybercrime<br>
+https://enisa.europa.eu<br>
+https://fbi.gov<br>
 <br>
 </details>
 
@@ -2110,18 +2079,24 @@ https://copsincyberspace.wordpress.com<br>
 
 • The NATO Cooperative Cyber Defence Centre of Excellence<br>
 https://ccdcoe.org<br>
+• Council on Foreign Relations (CFR)<br>
+https://www.cfr.org<br>
+• International Security Studies Section (ISSS)<br>
+https://www.isanet.org/ISA/Sections/ISS<br>
 • Taylor & Francis - Intelligence and National Security - Open access articles<br>
-https://www.tandfonline.com/action/showOpenAccess?journalCode=fint20<br>
+https://tandfonline.com/action/showOpenAccess?journalCode=fint20<br>
+• Taylor & Francis - The International Journal of Intelligence, Security, and Public Affairs<br>
+https://www.tandfonline.com/loi/usip20<br>
 • The Journal of Intelligence, Conflict, and Warfare<br>
 https://journals.lib.sfu.ca/index.php/jicw/issue/archive<br>
 • DCAF - Geneva Centre for Security Sector Governance<br>
-https://www.dcaf.ch/resources?type=publications<br>
+https://dcaf.ch/resources?type=publications<br>
 • CIA.gov - Center for the study of intelligence<br>
-https://www.cia.gov/resources/csi/studies-in-intelligence<br>
+https://cia.gov/resources/csi/studies-in-intelligence<br>
 • E-International Relations - Open access scholarly books<br> 
-https://www.e-ir.info/publications<br>
+https://e-ir.info/publications<br>
 • Springer Open<br>
-https://www.springeropen.com<br>
+https://springeropen.com<br>
 • International Security<br>
 https://direct.mit.edu/isec<br>
 • Carnegie Endowment for International Peace<br>
@@ -2136,27 +2111,27 @@ https://rieas.gr<br>
 
 <details>
 <summary><b>YouTube Conferences</b></summary>
-https://www.youtube.com/@BlackHatOfficialYT<br>
-https://www.youtube.com/@DEFCONConference<br>
-https://www.youtube.com/@mediacccde<br>
-https://www.youtube.com/@DFRWS<br>
-https://www.youtube.com/@SANSForensics<br>
-https://www.youtube.com/@SANSOffensiveOperations<br>
-https://www.youtube.com/@RSAConference<br>
-https://www.youtube.com/@USENIXEnigmaConference<br>
-https://www.youtube.com/@DebConfVideos<br>
-https://www.youtube.com/@hitbsecconf<br>
-https://www.youtube.com/@44contv<br>
-https://www.youtube.com/@OffensiveCon<br>
-https://www.youtube.com/@secwestnet<br>
-https://www.youtube.com/@EkopartyConference<br>
-https://www.youtube.com/@reconmtl<br>
-https://www.youtube.com/@TROOPERScon<br>
-https://www.youtube.com/@MCH2022NL<br>
-https://www.youtube.com/@mentalOutlaw<br>
-https://www.youtube.com/@Seytonic<br>
-https://www.youtube.com/@DoingFedTime<br>
-https://www.youtube.com/@UsenixOrg<br>
+https://youtube.com/@BlackHatOfficialYT<br>
+https://youtube.com/@DEFCONConference<br>
+https://youtube.com/@mediacccde<br>
+https://youtube.com/@DFRWS<br>
+https://youtube.com/@SANSForensics<br>
+https://youtube.com/@SANSOffensiveOperations<br>
+https://youtube.com/@RSAConference<br>
+https://youtube.com/@USENIXEnigmaConference<br>
+https://youtube.com/@DebConfVideos<br>
+https://youtube.com/@hitbsecconf<br>
+https://youtube.com/@44contv<br>
+https://youtube.com/@OffensiveCon<br>
+https://youtube.com/@secwestnet<br>
+https://youtube.com/@EkopartyConference<br>
+https://youtube.com/@reconmtl<br>
+https://youtube.com/@TROOPERScon<br>
+https://youtube.com/@MCH2022NL<br>
+https://youtube.com/@mentalOutlaw<br>
+https://youtube.com/@Seytonic<br>
+https://youtube.com/@DoingFedTime<br>
+https://youtube.com/@UsenixOrg<br>
 <br>
 </details>
 
@@ -2165,29 +2140,30 @@ https://www.youtube.com/@UsenixOrg<br>
 <details>
 <summary><b>Others</b></summary>
 <br>
-• Computer Incident Response Center for Civil Society - https://www.civicert.org<br>
+
+• Computer Incident Response Center for Civil Society<br>
+https://civicert.org<br>
 https://eforensicsmag.com<br>
-https://0x00sec.org<br>
 https://csrc.nist.gov/projects<br>
 https://nvd.nist.gov<br>
-https://www.cisa.gov/news-events/cybersecurity-advisories<br>
-https://www.nsa.gov/Press-Room/Press-Releases-Statements<br>
-https://www.nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml<br>
+https://cisa.gov/news-events/cybersecurity-advisories<br>
+https://nsa.gov/Press-Room/Press-Releases-Statements<br>
+https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml<br>
 https://malware.lu<br>
 https://securelist.com<br>
-https://www.eucybernet.eu<br>
+https://eucybernet.eu<br>
 https://oval.mitre.org<br>
-https://www.w3.org/Security/Faq/www-security-faq.html<br>
-https://www.nowsecure.com<br>
-https://www.htcia.org<br>
-https://www.digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports<br>
-https://www.reddit.com/r/InfoSecNews<br>
-https://www.reddit.com/r/digitalforensics<br>
-https://www.reddit.com/r/computerforensics<br>
-https://www.reddit.com/r/antiforensics<br>
-https://www.reddit.com/r/Smartphoneforensics<br>
-https://www.reddit.com/r/privacy<br>
-https://www.reddit.com/r/restorethefourth<br>
+https://w3.org/Security/Faq/www-security-faq.html<br>
+https://nowsecure.com<br>
+https://htcia.org<br>
+https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports<br>
+https://reddit.com/r/InfoSecNews<br>
+https://reddit.com/r/digitalforensics<br>
+https://reddit.com/r/computerforensics<br>
+https://reddit.com/r/antiforensics<br>
+https://reddit.com/r/Smartphoneforensics<br>
+https://reddit.com/r/privacy<br>
+https://reddit.com/r/restorethefourth<br>
 https://github.com/yeahhub/Hacking-Security-Ebooks<br>
 https://github.com/InfoSecIITR/reading-material<br>
 <br>

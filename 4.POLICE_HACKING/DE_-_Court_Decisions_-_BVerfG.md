@@ -1,4 +1,4 @@
-## Germany - BVerfG Cases 
+## Germany - BVerfG (Bundesverfassungsgericht) - German Federal Constitutional Court
 
 Home  
 https://www.bundesverfassungsgericht.de/en/index.html  
@@ -13,7 +13,11 @@ https://www.fallrecht.ch/dfr_bverfg.html
 
 Juristische Abkürzungen von A bis Z  
 http://www.juristische-abkuerzungen.de   
+
+Zingel -  Torsten - General The abbreviations used by lawyers
 https://www.zingel.de/die-abkuerzungen-der-juristen-00024  
+
+All Acronyms - German Law Abbreviations
 https://www.allacronyms.com/german/abbreviations/law  
 
 BVerfG  
@@ -30,6 +34,8 @@ Decisions of the BVerfG published in the Neue Juristische Wochenschrift, cited b
 
 BvR  
 Case-numbers of the Bundesverfassungsgericht  
+
+### Case Law
 
 #### BVerfG, 15.12.1983 - 1 BvR 209/83, 1 BvR 484/83, 1 BvR 440/83, 1 BvR 420/83, 1 BvR 362/83, 1 BvR 269/83 (https://dejure.org/1983,1)  
 

@@ -1,14 +1,23 @@
-## Germany - BGH Criminal Cases (Strafsachen)
+## Germany - BGH (Bundesgerichtshof) - German Federal Court of Justice
 
+Home
 https://www.bundesgerichtshof.de/DE/Home/home_node.html  
+
+Guides
 https://guides.library.harvard.edu/GermanLaw  
+
+Repo
 https://www.fallrecht.ch/dfr_bsjahre.html    
 
 ### German Abbreviations
 
 Juristische Abkürzungen von A bis Z  
 http://www.juristische-abkuerzungen.de   
+
+Zingel -  Torsten - General The abbreviations used by lawyers
 https://www.zingel.de/die-abkuerzungen-der-juristen-00024  
+
+All Acronyms - German Law Abbreviations
 https://www.allacronyms.com/german/abbreviations/law  
 
 BGH  
