@@ -1,10 +1,12 @@
 ## Germany - BVerfG (Bundesverfassungsgericht) - German Federal Constitutional Court
 
-Home  
+BVerfG Home  
 https://www.bundesverfassungsgericht.de/en/index.html  
 
 Guides  
+https://guides.ll.georgetown.edu/germanlegalresearch  
 https://guides.library.harvard.edu/GermanLaw  
+https://www.legalbluebook.com/bluebook/v21/tables/t2-foreign-jurisdictions/t2-14-germany-federal-republic-of  
 
 Repo  
 https://www.fallrecht.ch/dfr_bverfg.html  
@@ -19,6 +21,8 @@ https://www.zingel.de/die-abkuerzungen-der-juristen-00024
 
 All Acronyms - German Law Abbreviations
 https://www.allacronyms.com/german/abbreviations/law  
+
+#### Examples
 
 BVerfG  
 Bundesverfassungsgericht (German Federal Constitutional Court)  

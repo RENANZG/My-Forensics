@@ -409,6 +409,10 @@ ${\color{Blue}\textbf{1.PASSIVE FORENSICS}}$
 
 <h6>Visit: https://www.astm.org/get-involved/technical-committees/committee-e30/subcommittee-e30/jurisdiction-e3012</h6>
 
+<h4>The PCI Security Standards Council (PCI SSC)</h4>
+
+<h6>Visit: https://www.pcisecuritystandards.org</h6>
+
 <p><b>ISO/IEC — International Electrotechnical Commission</b></p>
 
 <h6>Visit: https://iso27001security.com</h6>
@@ -638,83 +642,84 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 <summary>1.03 Online forensic tools</summary>
 <br>
 
-• Message Header Analyzer — https://mha.azurewebsites.net<br>
-• Message Header Analyzer — https://github.com/microsoft/MHA<br>
-• PhishTank — https://phishtank.org<br>
-• Simple Email Reputation — https://emailrep.io<br>
-• Whois — https://iana.org/whois<br>
-• ViewDNS — https://viewdns.info<br>
-• WhoisMyDNS — https://whoismydns.com<br>
-• NSLookup — https://nslookup.io<br>
-• My-Addr — https://my-addr.com<br>
-• Malpedia — https://malpedia.caad.fkie.fraunhofer.de<br>
-• CVE Details — https://cvedetails.com<br>
-• Exploit Database — https://exploit-db.com<br>
-• FileInfo — https://fileinfo.co<br>
-• xCyclopedia — https://strontic.github.io/xcyclopedia<br>
-• The Windows Binary Index — https://winbindex.m417z.com<br>
-• Palo Alto Applipedia — https://applipedia.paloaltonetworks.com<br>
-• Windows Securitiy Logs — https://ultimatewindowssecurity.com/securitylog/encyclopedia<br>
+• Message Header Analyzer - https://mha.azurewebsites.net<br>
+• Message Header Analyzer - https://github.com/microsoft/MHA<br>
+• PhishTank - https://phishtank.org<br>
+• Simple Email Reputation - https://emailrep.io<br>
+• Whois - https://iana.org/whois<br>
+• ViewDNS - https://viewdns.info<br>
+• WhoisMyDNS - https://whoismydns.com<br>
+• NSLookup - https://nslookup.io<br>
+• My-Addr - https://my-addr.com<br>
+• Malpedia - https://malpedia.caad.fkie.fraunhofer.de<br>
+• CVE Details - https://cvedetails.com<br>
+• Exploit Database - https://exploit-db.com<br>
+• FileInfo - https://fileinfo.co<br>
+• xCyclopedia - https://strontic.github.io/xcyclopedia<br>
+• The Windows Binary Index - https://winbindex.m417z.com<br>
+• Palo Alto Applipedia - https://applipedia.paloaltonetworks.com<br>
+• Windows Securitiy Logs - https://ultimatewindowssecurity.com/securitylog/encyclopedia<br>
 • Internet Archive (WayBackMachine) - https://web.archive.org<br>
-• Archive web content — https://archive.ph<br>
-• Internet Archive — https://archive.org<br>
-• HTTrack — https://httrack.com<br>
-• IPVOID — https://ipvoid.com<br>
-• AbuseIPDB — https://abuseipdb.com<br>
-• Grabify IP Logger — https://grabify.link/<br>
-• IP Logger — https://iplogger.org<br>
-• IP Tracker — https://iplogger.org/ip-tracker<br>
-• IP Location Tracker — https://iplogger.org/location-tracker<br>
-• IP Location — https://iplocation.net<br>
-• URL Checker —  https://iplogger.org/url_checker<br>
-• MAC Address Lookup — https://iplogger.org/mac-checker<br>
-• MAC Vendor — https://macvendors.com<br>
+• Archive web content - https://archive.ph<br>
+• Internet Archive - https://archive.org<br>
+• HTTrack - https://httrack.com<br>
+• IPVOID - https://ipvoid.com<br>
+• AbuseIPDB - https://abuseipdb.com<br>
+• Grabify IP Logger - https://grabify.link/<br>
+• IP Logger - https://iplogger.org<br>
+• IP Tracker - https://iplogger.org/ip-tracker<br>
+• IP Location Tracker - https://iplogger.org/location-tracker<br>
+• IP Location - https://iplocation.net<br>
+• URL Checker -  https://iplogger.org/url_checker<br>
+• MAC Address Lookup - https://iplogger.org/mac-checker<br>
+• MAC Vendor - https://macvendors.com<br>
 • IP API<br>
-&emsp; — ip-api — https://ip-api.com<br>
-&emsp; — ipify — https://ipify.org<br>
-&emsp; — ipapi — https://ipapi.co<br>
-&emsp; — vpnapi — https://vpnapi.io<br>
-&emsp; — ipapi — https://ipapi.com<br>
-• The ZMap Project — https://zmap.io<br>
-• WiGLE — https://wigle.net<br>
-• urlscan.io — https://urlscan.io<br>
-• Virus Total — https://virustotal.com<br>
-• Hybrid Analysis — https://hybrid-analysis.com<br>
-• Cuckoo Sandbox — https://cuckoo.cert.ee<br>
-• AlienVault OTX — https://otx.alienvault.com<br>
-• IBM X-Force Exchange — https://exchange.xforce.ibmcloud.com<br>
-• Cisco Talos — https://talosintelligence.com/reputation_center<br>
-• Maltiverse — https://maltiverse.com/collection<br>
-• GreyNoise — https://greynoise.io<br>
-• SANS Internet Storm Center — https://isc.sans.edu<br>
-• Intelligence X — https://intelx.io<br>
-• MetaDefender Cloud — https://metadefender.opswat.com<br>
-• RiskIQ Community Edition — https://community.riskiq.com/home<br>
-• Pulsedive — https://pulsedive.com<br>
-• Valhalla YARA Rules — https://valhalla.nextron-systems.com<br>
-• ANY.RUN — https://any.run<br>
-• Binvis — https://binvis.io<br>
-• JoeSandbox — https://joesandbox.com<br>
+&emsp; - ip-api - https://ip-api.com<br>
+&emsp; - ipify - https://ipify.org<br>
+&emsp; - ipapi - https://ipapi.co<br>
+&emsp; - vpnapi - https://vpnapi.io<br>
+&emsp; - ipapi - https://ipapi.com<br>
+• The ZMap Project - https://zmap.io<br>
+• WiGLE - https://wigle.net<br>
+• urlscan.io - https://urlscan.io<br>
+• Virus Total - https://virustotal.com<br>
+• Hybrid Analysis - https://hybrid-analysis.com<br>
+• Cuckoo Sandbox - https://cuckoo.cert.ee<br>
+• AlienVault OTX - https://otx.alienvault.com<br>
+• IBM X-Force Exchange - https://exchange.xforce.ibmcloud.com<br>
+• Cisco Talos - https://talosintelligence.com/reputation_center<br>
+• Maltiverse - https://maltiverse.com/collection<br>
+• GreyNoise - https://greynoise.io<br>
+• SANS Internet Storm Center - https://isc.sans.edu<br>
+• Intelligence X - https://intelx.io<br>
+• MetaDefender Cloud - https://metadefender.opswat.com<br>
+• RiskIQ Community Edition - https://community.riskiq.com/home<br>
+• Pulsedive - https://pulsedive.com<br>
+• Valhalla YARA Rules - https://valhalla.nextron-systems.com<br>
+• ANY.RUN - https://any.run<br>
+• Binvis - https://binvis.io<br>
+• JoeSandbox - https://joesandbox.com<br>
 • Verexif - https://verexif.com/en/<br>
-• Reverse Shell Generator — https://revshells.com<br>
-• Rainbow Tables (Hashes) — https://hashes.com/en/decrypt/hash<br>
-• File Signatures ("Magic Numbers") — https://en.wikipedia.org/wiki/Magic_number_(programming)<br> 
-• List of File Signatures — https://en.wikipedia.org/wiki/List_of_file_signatures<br>
-• CyberChef — https://gchq.github.io/CyberChef<br>
-• explainshell — https://explainshell.com<br>
-• Epoch Converter — https://epochconverter.com<br>
+• Reverse Shell Generator - https://revshells.com<br>
+• Rainbow Tables (Hashes) - https://hashes.com/en/decrypt/hash<br>
+• File Signatures ("Magic Numbers") - https://en.wikipedia.org/wiki/Magic_number_(programming)<br> 
+• List of File Signatures - https://en.wikipedia.org/wiki/List_of_file_signatures<br>
+• CyberChef - https://gchq.github.io/CyberChef<br>
+• explainshell - https://explainshell.com<br>
+• Epoch Converter - https://epochconverter.com<br>
 • Regex - https://regex-generator.olafneumann.org</br>
-• DeHashed — https://dehashed.com<br>
-• Dencode — https://dencode.com<br>
+• DeHashed - https://dehashed.com<br>
+• Dencode - https://dencode.com<br>
 • Commonly Used Software Development Tools - https://ctool.dev</br>
 • Text Fixer - https://textfixer.com</br>
 • SS64 Syntax Utils - https://ss64.com</br>
 • Tools4noobs - https://tools4noobs.com</br>
 • Text to ASCII Art Generator - https://patorjk.com/software/taag</br>
-• Have I Been Pwned — https://haveibeenpwned.com<br>
-• Name OSINT — https://namechk.com<br>
+• Have I Been Pwned - https://haveibeenpwned.com<br>
+• Name OSINT - https://namechk.com<br>
 • Breach Directory - https://breachdirectory.org<br>
 • MD5 Decrypt - https://md5decrypt.net/en/Sha1<br>
+• DeepL - https://www.deepl.com/translator<br>
 
 <p>For OSINT tools visit our repository: <a href="https://github.com/RENANZG/My-OSINT">My-OSINT</a></p>
 
@@ -1094,6 +1099,7 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 <!-- ########## -->
 
 <h4>• Council of Europe — Cybercrime</h4>
+
 ∙ Cybercrime — https://coe.int/cybercrime<br>
 ∙ GLACY+ — https://coe.int/en/web/cybercrime/glacyplus<br>
 ∙ iPROCEEDS-2 — https://coe.int/en/web/cybercrime/iproceeds-2<br>
@@ -1146,16 +1152,19 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 <h6>Union European</h6>
 
 ∙ UE — Criminal procedural laws across the European Union – A comparative analysis — <a href="https://europarl.europa.eu/RegData/etudes/STUD/2018/604977/IPOL_STU(2018)604977(ANN01)_EN.pdf" target="_blank">Link</a><br>
-∙ UK — Crime, justice and law — Law and practice — <a href="https://gov.uk/guidance/rules-and-practice-directions-2020" target="_blank">Link</a><br>
-∙ UK — Public General Acts — Investigatory Powers Act 2016 — <a href="https://legislation.gov.uk/ukpga/2016/25/contents" target="_blank">Link</a><br>
+∙ NL - National Coordinator for Security and Counterterrorism - https://english.nctv.nl<br>
 ∙ GE — German Criminal Code (Strafgesetzbuch — StGB) — <a href="https://gesetze-im-internet.de/englisch_stgb" target="_blank">Link</a><br>
 ∙ GE — German Code of Criminal Procedure (Strafprozeßordnung — StPO) — <a href="https://gesetze-im-internet.de/englisch_stpo/index.html" target="_blank">Link</a><br>
 ∙ GE — German Code of Criminal Procedure - StPO, Section 100a - Telecommunications surveillance — <a href="https://gesetze-im-internet.de/englisch_stpo/englisch_stpo.html#p0572" target="_blank">Link</a><br>
 ∙ GE — Law on the Federal Criminal Police Office and cooperation between the federal and state governments in criminal police matters (Federal Criminal Police Office Act - BKAG) - § 49 Covert intervention in information technology systems — <a href="https://gesetze-im-internet.de/bkag_2018/__49.html" target="_blank">Link</a><br>
 
+∙ UK — Crime, justice and law — Law and practice — <a href="https://gov.uk/guidance/rules-and-practice-directions-2020" target="_blank">Link</a><br>
+∙ UK — Public General Acts — Investigatory Powers Act 2016 — <a href="https://legislation.gov.uk/ukpga/2016/25/contents" target="_blank">Link</a><br>
+
 <h4>Court Cases</h4>
 
 ∙ UNODC — Case Law Database — https://sherloc.unodc.org/cld/v3/sherloc/cldb/index.html?lng=en<br>
+
 ∙ UNODC — Cyber Organized Crime — https://unodc.org/e4j/en/cybercrime/module-13/additional-teaching-tools.html<br>
 
 <h6>Americas</h6>
@@ -1352,9 +1361,11 @@ https://t.me/torrentfreaks<br>
 https://defcon.social/@torrentfreak<br>
 https://torrentfreak.com/feed<br>
 
+<li><a href="https://vpnpro.com/blog/is-torrenting-illegal">Where are torrents permitted? (2024)</a></li>
+<img src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png" alt="World map with torrenting countries" width="800" height="421" data-src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png">
+
 <ul>
 <li><a href="https://startyourownisp.com/">How to start your own ISP</a></li>
-<li><a href="https://i.imgur.com/3fHyG2S.png">Where are torrents permitted?</a></li>
 <li><a href="https://ukispcourtorders.co.uk/">UK ISP Court Orders</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Web_Sheriff">Web Sheriff</a></li>
 <li><a href="https://theverge.com/2020/1/31/21116788/earn-it-act-section-230-lindsey-graham-draft-bill-encryption">A new bill could punish web platforms for using end-to-end encryption</a></li>
@@ -1385,9 +1396,9 @@ https://torrentfreak.com/feed<br>
 
 <h4>Tor Fingerprint</h4>
 
-∙ TOR Fingerprinting — https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead<br>
-∙ Attacks on Tor — https://github.com/Attacks-on-Tor/Attacks-on-Tor<br>
-∙ EFF Test — https://coveryourtracks.eff.org/learn<br>
+• TOR Fingerprinting — https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead<br>
+• Attacks on Tor — https://github.com/Attacks-on-Tor/Attacks-on-Tor<br>
+• EFF Test — https://coveryourtracks.eff.org/learn<br>
 
 <br>
 </details>
@@ -1412,6 +1423,7 @@ https://torrentfreak.com/feed<br>
 <br>
 
 <h4>Supply Chain Attack</h4>
+
 • https://reproducible-builds.org<br>
 • https://github.com/SAP/risk-explorer-for-software-supply-chains<br>
 • https://github.com/ossillate-inc/packj<br>
@@ -1430,7 +1442,6 @@ https://torrentfreak.com/feed<br>
 • https://attack.mitre.org/groups<br>
 • https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections<br>
 
-
 <br>
 </details>
 
@@ -1441,6 +1452,7 @@ https://torrentfreak.com/feed<br>
 <br>
 
 <h4>Man In The Middle (MitM)</h4>
+
 • https://github.com/frostbits-security/MITM-cheatsheet<br>
 • https://github.com/mitmproxy/mitmproxy<br>
 • https://mitmproxy.org<br>
@@ -1545,7 +1557,6 @@ https://github.com/SigPloiter/HLR-Lookups<br>
 <a href="https://youtube.com/watch?v=VonHAsY4-VA">
   <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVonHAsY4-VA" alt="Phone Surveillance Exposed" title="Phone Surveillance Exposed"/>
 </a>
-
 
 <table>
 <thead>
@@ -1805,6 +1816,7 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <details>
 <summary><b>General Publications</b></summary>
 <br>
+
 • CVE Alerting Platform<br>
 https://github.com/opencve/opencve<br>
 • Black Hat<br>
@@ -1856,6 +1868,8 @@ https://techworld.com<br>
 https://resources.infosecinstitute.com<br>
 • ComputerWeekly<br>
 https://computerweekly.com<br>
+• Security Affairs<br>
+https://securityaffairs.com
 • E Security Planet<br>
 https://esecurityplanet.com<br>
 • Help Net Security<br>
@@ -1882,6 +1896,8 @@ https://newsfactor.com<br>
 https://securityfocus.com/news<br>
 • BankInfoSecurity<br>
 https://www.bankinfosecurity.com<br>
+• UNIT42 Palo Alto Networks<br>
+https://unit42.paloaltonetworks.com<br>
 • New Scientist<br>
 https://newscientist.com/section/news<br>
 • Silicon Valley<br>
@@ -1915,6 +1931,7 @@ https://irangov.ir/en<br>
 <details>
 <summary><b>Forensic Publications</b></summary>
 <br>
+
 <p>• Make a Google Scholar search from an interesting subject that you want to follow up on.</p>
 
 <p>• Search paramters example:</p>
@@ -1924,19 +1941,17 @@ https://irangov.ir/en<br>
 <p>• You could set keywords alerts: https://scholar.google.com/scholar_alerts?view_op=list_alerts</p>
 
 <hr>
-
-Open access journals<br>
-
+• Open access journals<br>
 https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines<br>
 https://en.wikipedia.org/wiki/Lists_of_academic_journals<br>
 https://en.wikipedia.org/wiki/List_of_open-access_journals<br>
 
+• Non-profit research initiatives<br>
+The Public Knowledge Project - https://pkp.sfu.ca<br>
 <hr>
 
 • Science Direct — Forensic Science International: Digital Investigation<br>
 https://sciencedirect.com/journal/forensic-science-international-digital-investigation<br>
-• Science Direct — Computer Law & Security Review<br>
-https://sciencedirect.com/journal/computer-law-and-security-review<br>
 • Forensic Science — Application of science to criminal and civil laws<br>
 https://forensicscijournal.com<br>
 • University of London - SAS Open Journals - Digital Evidence and Electronic Signature Law Review<br>
@@ -1947,30 +1962,16 @@ https://ieee-isi.org<br>
 https://usenix.org/conferences<br>
 • International Journal of Intelligence and CounterIntelligence<br>
 https://tandfonline.com/journals/ujic20<br>
-• Information Security Journal: A Global Perspective<br>
-https://tandfonline.com/journals/uiss20<br>
-• Policing and Society — An International Journal of Research and Policy<br>
-https://tandfonline.com/journals/gpas20<br>
-• Police Practice and Research — An International Journal<br>
-https://tandfonline.com/journals/gppr20<br>
-• Journal of Applied Security Research<br>
-https://tandfonline.com/journals/wasr20<br>
-• Information Systems Security<br>
-https://tandfonline.com/journals/uiss19<br>
-• Journal of Computer Information Systems<br>
-https://tandfonline.com/journals/ucis20<br>
 • Australian Journal of Forensic Sciences<br>
 https://tandfonline.com/journals/tajf20<br>
 • Advancing Technology, Research and Collaboration<br>
 https://acm.org/conferences<br>
-• The APWG Symposium on Electronic Crime Research (APWG eCrime)<br>
-https://ecrimeresearch.org<br>
 • Communications in Computer and Information Science — Springer<br>
 https://springer.com/series/7899<br>
-IEEE Open Journal of Circuits and Systems<br>
-IEEE Open Journal of the Communications Society<br>
-IEEE Open Journal of the Computer Society<br>
-IEEE Open Journal of Signal Processing<br>
+• IEEE Open Journal of Circuits and Systems<br>
+• IEEE Open Journal of the Communications Society<br>
+• IEEE Open Journal of the Computer Society<br>
+• IEEE Open Journal of Signal Processing<br>
 <br>
 </details>
 
@@ -1980,61 +1981,53 @@ IEEE Open Journal of Signal Processing<br>
 <summary><b>Law Publications</b></summary>
 <br>
 
+<h4>German Law Research</h4>
+
+• German Legal Research Guide - Georgetown Law<br>
+https://guides.ll.georgetown.edu/germanlegalresearch<br>
 • German Law Research - Harvard Law School Library Research Services<br>
 https://guides.library.harvard.edu/GermanLaw<br>
 • The German Law Journal (open-access) - Cambridge University Press<br>
 https://cambridge.org/core/journals/german-law-journal<br>
 • Foreign Law Translations - The University of Texas at Austin<br>
 https://law.utexas.edu/transnational/foreign-law-translations<br>
-• The Center for Security and Emerging Technology (CSET) - Georgetown University's Walsh School of Foreign Service<br>
-https://cset.georgetown.edu<br>
-• European Journal of Criminology<br>
-https://journals.sagepub.com/home/euc<br>
-• European Journal of Law and Technology<br>
-https://ejlt.org/index.php/ejlt<br>
-• <br>
-https://sciencedirect.com/journal/computer-fraud-and-security<br>
-• Digital Evidence and Electronic Signature Law Review<br>
-https://journals.sas.ac.uk/deeslr/issue/view/596<br>
-• <br>
-https://tandfonline.com/journals/cirl20<br>
-• <br>
-https://openyls.law.yale.edu<br>
-• <br>
-https://dltr.law.duke.edu<br>
-• <br>
-https://scholarlycommons.law.northwestern.edu/njtip/<br>
-• Ohio State Technology Law Journal (Moritz College of Law)<br>
-https://kb.osu.edu/communities/a3767fe3-6fcd-5776-bbe7-44d144fb641a<br>
-• Berkeley Law - Technology Journal<br>
-https://btlj.org<br>
-• <br>
-https://scholar.smu.edu/smulr<br>
-• AIDP-IAPL Publications<br>
-https://penal.org/en/aidp-iapl-publications<br>
-• Necessary and Proportionate - https://necessaryandproportionate.org<br>
-• Privacy International - https://privacyinternational.org<br>
-• EFF - https://eff.org<br>
-• EPIC - https://epic.org/issues/surveillance-oversight<br>
-• S&S - https://ojs.library.queensu.ca/index.php/surveillance-and-society/index<br>
-• Citizenlab - https://citizenlab.ca<br>
-• BBW - https://bigbrotherwatch.org.uk<br>
-• Bugged Planet - http://buggedplanet.info<br>
-• CIS - https://cyberlaw.stanford.edu<br>
-• The Berkman Klein Center for Internet & Society at Harvard University - https://cyber.harvard.edu<br>
-• Carnegie Endowment for International Peace<br>
-https://carnegieendowment.org/publications/interactive/cybernorms<br>
+
+<h4>Law and Technology Research</h4>
 • Bad Internet Bills - https://badinternetbills.com<br>
-• Software Freedom Law Center - https://softwarefreedom.org<br>
-• Techdirt - https://techdirt.com<br>
-• Intelligence Oversight - https://intelligence-oversight.org
-• UN Internet Governance Forum - https://intgovforum.org<br>
+• Berkeley Law Technology Journal - https://btlj.org<br>
+• Carnegie Endowment for International Peace - https://carnegieendowment.org/publications/interactive/cybernorms<br>
+• CIS - https://cyberlaw.stanford.edu<br>
 • Computer Crime Research Center - https://crime-research.org<br>
 • ETSI - https://etsi.org/committees<br>
-• The Bureau of Investigative Journalism - https://thebureauinvestigates.com<br>
-• Internet Crime Complaint Center (IC3) - https://ic3.gov/Home/AnnualReports<br>
 
-https://copsincyberspace.wordpress.com<br>
+• European Journal of Law and Technology - https://ejlt.org/index.php/ejlt<br>
+• Intelligence Oversight - https://intelligence-oversight.org<br>
+• International Review of Law, Computers & Technology (Open Acess) -https://tandfonline.com/journals/cirl20<br>
+• Internet Crime Complaint Center (IC3) - https://ic3.gov/Home/AnnualReports<br>
+• Northwestern Journal of Technology and Intellectual Property - https://scholarlycommons.law.northwestern.edu/njtip/<br>
+• Ohio State Technology Law Journal (Moritz College of Law) - https://kb.osu.edu/communities/a3767fe3-6fcd-5776-bbe7-44d144fb641a<br>
+• Science Direct — Computer Law & Security Review - https://sciencedirect.com/journal/computer-law-and-security-review<br>
+• Software Freedom Law Center - https://softwarefreedom.org<br>
+• Techdirt - https://techdirt.com<br>
+• The APWG Symposium on Electronic Crime Research (APWG eCrime) - https://ecrimeresearch.org<br>
+• The Berkman Klein Center for Internet & Society at Harvard University - https://cyber.harvard.edu<br>
+• The Center for Security and Emerging Technology (CSET) - Georgetown University's Walsh School of Foreign Service<br>
+• The Center for Security and Emerging Technology within Georgetown University's Walsh School of Foreign Service - https://cset.georgetown.edu<br>
+• The Digital Evidence and Electronic Signature Law Review (DEESLR) (Open Access) - https://journals.sas.ac.uk/deeslr/issue/view/596<br>
+• The Duke Law & Technology Review (DLTR) - https://dltr.law.duke.edu<br>
+• UN Internet Governance Forum - https://intgovforum.org<br>
+
+<h4>Others</h4>
+• AIDP-IAPL Publications - https://penal.org/en/aidp-iapl-publications<br>
+• European Journal of Criminology - https://journals.sagepub.com/home/euc<br>
+• Information Security Journal: A Global Perspective - https://tandfonline.com/journals/uiss20<br>
+• Information Systems Security - https://tandfonline.com/journals/uiss19<br>
+• Journal of Applied Security Research - https://tandfonline.com/journals/wasr20<br>
+• Journal of Computer Information Systems - https://tandfonline.com/journals/ucis20<br>
+• Police Practice and Research — An International Journal - https://tandfonline.com/journals/gppr20<br>
+• Policing and Society — An International Journal of Research and Policy - https://tandfonline.com/journals/gpas20<br>
+
+
 https://digitalcommons.usf.edu/mca/<br>
 https://csrc.nist.gov<br>
 https://sherloc.unodc.org<br>
@@ -2042,6 +2035,7 @@ https://justice.gov/criminal/cybercrime<br>
 https://coe.int/en/web/cybercrime<br>
 https://enisa.europa.eu<br>
 https://fbi.gov<br>
+
 <br>
 </details>
 
@@ -2067,6 +2061,29 @@ https://fbi.gov<br>
 <DT><A HREF="http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion">Imperial Library (ONION)<BR><PRE> http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion</PRE></A>
 <DT><A HREF="http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion">Just Another Library (ONION)<BR><PRE> http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion</PRE></A>
 <DT><A HREF="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion">InfoCon (ONION)<BR><PRE> http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion</PRE></A>
+
+<br>
+</details>
+
+<!-- ################################ -->
+
+<details>
+<summary><b>Activism, Nonprofit Initiatives and Private Initiatives</b></summary>
+<br>
+
+• Cops in Cyberspace - https://copsincyberspace.wordpress.com<br>
+• AFSC and Economic Activism - https://investigate.afsc.org<br>
+• BBW - https://bigbrotherwatch.org.uk<br>
+• Bugged Planet - http://buggedplanet.info<br>
+• Citizenlab - https://citizenlab.ca<br>
+• EFF - https://eff.org<br>
+• EPIC - https://epic.org/issues/surveillance-oversight<br>
+• Necessary and Proportionate - https://necessaryandproportionate.org<br>
+• No Tech For Apartheid - https://investigate.afsc.org<br>
+• Privacy International - https://privacyinternational.org<br>
+• S&S - https://ojs.library.queensu.ca/index.php/surveillance-and-society/index<br>
+• The Bureau of Investigative Journalism - https://thebureauinvestigates.com<br>
+• The Tor Project - https://blog.torproject.org
 
 <br>
 </details>
@@ -2132,6 +2149,7 @@ https://youtube.com/@mentalOutlaw<br>
 https://youtube.com/@Seytonic<br>
 https://youtube.com/@DoingFedTime<br>
 https://youtube.com/@UsenixOrg<br>
+
 <br>
 </details>
 
@@ -2166,6 +2184,7 @@ https://reddit.com/r/privacy<br>
 https://reddit.com/r/restorethefourth<br>
 https://github.com/yeahhub/Hacking-Security-Ebooks<br>
 https://github.com/InfoSecIITR/reading-material<br>
+
 <br>
 </details>
 

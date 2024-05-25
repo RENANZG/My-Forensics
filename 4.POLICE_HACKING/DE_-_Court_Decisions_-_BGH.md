@@ -1,10 +1,12 @@
 ## Germany - BGH (Bundesgerichtshof) - German Federal Court of Justice
 
-Home
+BGH Home
 https://www.bundesgerichtshof.de/DE/Home/home_node.html  
 
 Guides
+https://guides.ll.georgetown.edu/germanlegalresearch  
 https://guides.library.harvard.edu/GermanLaw  
+https://www.legalbluebook.com/bluebook/v21/tables/t2-foreign-jurisdictions/t2-14-germany-federal-republic-of  
 
 Repo
 https://www.fallrecht.ch/dfr_bsjahre.html    
@@ -19,6 +21,8 @@ https://www.zingel.de/die-abkuerzungen-der-juristen-00024
 
 All Acronyms - German Law Abbreviations
 https://www.allacronyms.com/german/abbreviations/law  
+
+#### Examples
 
 BGH  
 Bundesgerichtshof (German Federal Court of Justice)  
