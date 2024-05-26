@@ -1361,8 +1361,8 @@ https://t.me/torrentfreaks<br>
 https://defcon.social/@torrentfreak<br>
 https://torrentfreak.com/feed<br>
 
-<li><a href="https://vpnpro.com/blog/is-torrenting-illegal">Where are torrents permitted? (2024)</a></li>
-<img src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png" alt="World map with torrenting countries" width="800" height="421" data-src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png">
+<a href="https://vpnpro.com/blog/is-torrenting-illegal">Where are torrents permitted? (2024)</a>
+<img src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png" alt="World map with torrenting countries" width="800" height="420" data-src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png">
 
 <ul>
 <li><a href="https://startyourownisp.com/">How to start your own ISP</a></li>
