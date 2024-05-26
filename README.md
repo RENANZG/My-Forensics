@@ -1806,7 +1806,6 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <li><a href="https://isc.sans.org/">Internet Storm Center</a> — SANS Institute</li>
 <li><a href="https://cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
 </ul>
-</ul>
 
 <br>
 </details>
@@ -1924,6 +1923,7 @@ http://www.kcna.kp/en<br>
 https://gov.il/en<br>
 • Iran Official Publications<br>
 https://irangov.ir/en<br>
+
 </details>
 
 <!-- ################################# -->
@@ -2028,7 +2028,6 @@ https://law.utexas.edu/transnational/foreign-law-translations<br>
 • Police Practice and Research — An International Journal - https://tandfonline.com/journals/gppr20<br>
 • Policing and Society — An International Journal of Research and Policy - https://tandfonline.com/journals/gpas20<br>
 
-
 https://digitalcommons.usf.edu/mca/<br>
 https://csrc.nist.gov<br>
 https://sherloc.unodc.org<br>
@@ -2084,7 +2083,7 @@ https://fbi.gov<br>
 • Privacy International - https://privacyinternational.org<br>
 • S&S - https://ojs.library.queensu.ca/index.php/surveillance-and-society/index<br>
 • The Bureau of Investigative Journalism - https://thebureauinvestigates.com<br>
-• The Tor Project - https://blog.torproject.org
+• The Tor Project - https://blog.torproject.org<br>
 
 <br>
 </details>
