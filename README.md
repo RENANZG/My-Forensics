@@ -961,6 +961,9 @@ https://metasploit.com<br>
 ∙ Crackmes — https://crackmes.one<br>
 ∙ Attack Defense — https://attackdefense.com<br>
 
+<br>
+</details>
+
 <!-- ########## -->
 
 <details>
@@ -1284,7 +1287,7 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 <td align="center"></td>
 <td align="center"></td>
 <td align="center">✔️</td>
-<td align="center"></td>
+<td align="c<details>enter"></td>
 </tr>
 <tr>
 <td align="left">Spain</td>
