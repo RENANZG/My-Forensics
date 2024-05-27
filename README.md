@@ -395,6 +395,8 @@ ${\color{Blue}\textbf{1.PASSIVE FORENSICS}}$
 
 <p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/2.FORENSIC">2.FORENSIC</a></p>
 
+
+<div>
 <details>
 <summary><b>Standards</b></summary>
 <br>
@@ -603,8 +605,8 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 <li><a href="https://ietf.org/rfc/rfc6587.txt"> RFC 6587: Transmission of Syslog Messages over TCP </a></li>
 </ul>
 
-<br>
 </details>
+</div>
 
 <br>
 </details>
@@ -710,11 +712,11 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 • Regex - https://regex-generator.olafneumann.org</br>
 • DeHashed - https://dehashed.com<br>
 • Dencode - https://dencode.com<br>
-• Commonly Used Software Development Tools - https://ctool.dev</br>
-• Text Fixer - https://textfixer.com</br>
-• SS64 Syntax Utils - https://ss64.com</br>
-• Tools4noobs - https://tools4noobs.com</br>
-• Text to ASCII Art Generator - https://patorjk.com/software/taag</br>
+• Commonly Used Software Development Tools - https://ctool.dev<br>
+• Text Fixer - https://textfixer.com<br>
+• SS64 Syntax Utils - https://ss64.com<br>
+• Tools4noobs - https://tools4noobs.com<br>
+• Text to ASCII Art Generator - https://patorjk.com/software/taag<br>
 • Have I Been Pwned - https://haveibeenpwned.com<br>
 • Name OSINT - https://namechk.com<br>
 • Breach Directory - https://breachdirectory.org<br>
@@ -806,12 +808,12 @@ Log into the database while it is live and employ the application used to create
 <summary>1.05 Cryptography</summary>
 <br>
 
-
 <h4>Encryption Workrounds</h4>
 
 <p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/3.DOCUMENTS/Encryption">3.DOCUMENTS/Encryption</a></p>
 
 <p>Encryption workarounds:</p>
+
 <ol>
 <li>Find the key.</li>
 <li>Guess the key.</li>
@@ -823,7 +825,7 @@ Log into the database while it is live and employ the application used to create
 
 <h4>Bruteforce</h4>
 
-<p>Read the thread <a href="https://github.com/RENANZG/My-Forensics?tab=readme-ov-file#brute-force-attacks">Brute Force Attacks</a></p>.</p>
+<p>Read the thread <a href="https://github.com/RENANZG/My-Forensics?tab=readme-ov-file#brute-force-attacks">Brute Force Attacks</a></p>
 
 <h4>Cryptanalysis</h4>
 
@@ -912,9 +914,8 @@ https://bitok.org/investigations<br>
 
 </details>
 
-<!-- ################################## -->
-
 <hr>
+<!-- ################################## -->
 
 ${\color{Red}\textbf{2.ACTIVE FORENSICS}}$
 
@@ -943,7 +944,7 @@ https://attack.mitre.org/techniques/mobile/<br>
 • OWASP MAS - Mobile Application Security<br>
 https://mas.owasp.org<br>
 
-• Metasploit - Penetration testing framework
+• Metasploit - Penetration testing framework<br>
 https://metasploit.com<br>
 
 <video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinFly-Web-Video.mp4" width="320" height="240" controls></video>
@@ -1362,7 +1363,8 @@ https://defcon.social/@torrentfreak<br>
 https://torrentfreak.com/feed<br>
 
 <a href="https://vpnpro.com/blog/is-torrenting-illegal">Where are torrents permitted? (2024)</a>
-<img src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png" alt="World map with torrenting countries" width="800" height="420" data-src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png">
+
+<img src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png" alt="World map with torrenting countries" width="800" height="420"/>
 
 <ul>
 <li><a href="https://startyourownisp.com/">How to start your own ISP</a></li>
