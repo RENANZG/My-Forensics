@@ -1960,44 +1960,6 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <hr>
 
 <details>
-<summary><b>Sites of Interest</b></summary>
-<br>
-
-<ul>
-<li><a href="https://cve.org">https://cve.org</a></li>
-<li><a href="https://cvedetails.com">https://cvedetails.com</a></li>
-<li><a href="https://openwall.com">https://openwall.com</a></li>
-<li><a href="https://lkrg.org">https://lkrg.org</a></li>
-<li><a href="https://attack.mitre.org">https://attack.mitre.org</a></li>
-<li><a href="https://socradar.io</a>SOCRadar</li>
-<li><a href="https://exterro.com">https://exterro.com</a></li>
-<li><a href="https://forensicfocus.com">https://forensicfocus.com</a></li>
-<li><a href="https://forensicscijournal.com">https://forensicscijournal.com</a></li>
-<li><a href="https://www.swgde.org/documents/published-complete-listing">https://www.swgde.org/documents/published-complete-listing</a></li>
-<li><a href="https://book.hacktricks.xyz">https://book.hacktricks.xyz</a></li>
-<li><a href="https://hackthebox.com">https://hackthebox.com</a></li>
-<li><a href="https://hackerone">https://hackerone</a></li>
-<li><a href="https://hackread.com">https://hackread.com</a></li>
-<li><a href="https://htcia.org">https://htcia.org</a></li>
-<li><a href="https://osforensics.com">https://osforensics.com</a></li>
-<li><a href="https://magnetforensics.com">https://magnetforensics.com</a></li>
-<li><a href="https://exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite">FTK Lite</a><br>
-<li><a href="https://icann.org/en/ssac/publications">SSAC Publications</a></li>
-<li><a href="https://cert.org/archive/pdf/Botnets.pdf">Botnets as a Vehicle for Online Crime</a> — CERT </li>
-<li><a href="https://security-audit.com/">Security Audit</a></li>
-<li><a href="https://sans.org/">SANS Institute</a></li>
-<li><a href="https://isc.sans.org/">Internet Storm Center</a> — SANS Institute</li>
-<li><a href="https://cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
-<li><a href="https://www.dfir.training">DFIR Training</a> — </li>
-<li><a href="https://evasions.checkpoint.com">https://evasions.checkpoint.com</a> — </li>
-</ul>
-
-<br>
-</details>
-
-<!-- ################################# -->
-
-<details>
 <summary><b>Forensic Publications</b></summary>
 <br>
 
@@ -2050,116 +2012,71 @@ https://springer.com/series/7899<br>
 <!-- ################################# -->
 
 <details>
-<summary><b>General Publications</b></summary>
+<summary><b>Sites of Interest</b></summary>
 <br>
 
-• CVE Alerting Platform<br>
-https://github.com/opencve/opencve<br>
-• Black Hat<br>
-https://blackhat.com<br>
-• ZDnet<br>
-https://zdnet.com<br>
-• The Hacker News<br>
-https://thehackernews.com/#email-outer<br>
-• Bleeping Computer<br>
-https://bleepingcomputer.com<br>
-• Wired News<br>
-https://wired.com<br>
-• Vice<br>
-https://vice.com/en/section/tech<br>
-• The Register<br>
-https://theregister.com<br>
-• Secure List by Kaspersky<br>
-https://securelist.com<br>
-• PT ESC Threat Intelligence<br>
-https://ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence<br>
-• Forensic Focus — Newsletter<br>
-https://forensicfocus.com<br>
-• SANS Institute — Newsletter<br>
-https://sans.org> <br>
-• Google Project Zero<br>
-https://googleprojectzero.blogspot.com<br>
-• Debian Security Announce<br>
-https://lists.debian.org/debian-security-announce<br>
-• Cert Coordination Center<br>
-https://cert.org<br>
-• DoD Instructions Cybersecurity<br>
-https://esd.whs.mil/dd/<br>
-• Computer World<br>
-https://computerworld.com<br>
-• InfoWorld<br>
-https://infoworld.com<br>
-• InformationWeek<br>
-https://informationweek.com<br>
-• TechRepublic<br>
-https://techrepublic.com<br>
-• Infosecurity Magazine<br>
-https://infosecurity-magazine.com<br>
-• Sophos<br>
-https://news.sophos.com<br>
-• TechWorld<br>
-https://techworld.com<br>
-• Infosec Institute<br>
-https://resources.infosecinstitute.com<br>
-• ComputerWeekly<br>
-https://computerweekly.com<br>
-• Security Affairs<br>
-https://securityaffairs.com
-• E Security Planet<br>
-https://esecurityplanet.com<br>
-• Help Net Security<br>
-https://helpnetsecurity.com<br>
-• Information Security Magazine<br>
-https://searchsecurity.techtarget.com<br>
-• Network World Fusion<br>
-https://nwfusion.com<br>
-• Federal Computer Week Security News<br>
-https://fcw.com/Home.aspx<br>
-• Government Computer News IT Security<br>
-https://gcn.com/Home.aspx<br>
-• IA Technology Analysis Center<br>
-https://iac.dtic.mil/csiac<br>
-• Overseas Security Advisory Council<br>
-https://osac.gov<br>
-• SANS Internet Storm Center<br>
-https://isc.sans.edu<br>
-• Search Security<br>
-https://searchsecurity.techtarget.com<br>
-• News Factor<br>
-https://newsfactor.com<br>
-• Security Focus<br>
-https://securityfocus.com/news<br>
-• BankInfoSecurity<br>
-https://www.bankinfosecurity.com<br>
-• UNIT42 Palo Alto Networks<br>
-https://unit42.paloaltonetworks.com<br>
-• New Scientist<br>
-https://newscientist.com/section/news<br>
-• Silicon Valley<br>
-https://siliconvalley.com<br>
-• TechWeb<br>
-https://techweb.com<br>
-• USA Today<br>
-https://usatoday.com/tech<br>
-• US Government Executive Magazine<br>
-https://govexec.com<br>
-• The Intercept<br>
-https://theintercept.com<br>
-• Reuters<br>
-https://reuters.com/news<br>
-• Aljazeera<br>
-https://aljazeera.com<br>
-• Gulf News<br>
-https://gulfnews.com<br>
-• China Official Publications<br>
-https://english.www.gov.cn<br>
-• North Korea Official Publications<br>
-http://www.kcna.kp/en<br>
-• Israel Official Publications<br>
-https://gov.il/en<br>
-• Iran Official Publications<br>
-https://irangov.ir/en<br>
+<ul>
+<li><a href="https://civicert.org" target="_blank">https://civicert.org</a></li>
+<li><a href="https://cve.org">https://cve.org</a></li>
+<li><a href="https://cvedetails.com">https://cvedetails.com</a></li>
+<li><a href="https://openwall.com">https://openwall.com</a></li>
+<li><a href="https://lkrg.org">https://lkrg.org</a></li>
+<li><a href="https://attack.mitre.org">https://attack.mitre.org</a></li>
+<li><a href="https://socradar.io</a>SOCRadar</li>
+<li><a href="https://exterro.com">https://exterro.com</a></li>
+<li><a href="https://eforensicsmag.com" target="_blank">https://eforensicsmag.com</a></li>
+<li><a href="https://csrc.nist.gov/projects" target="_blank">https://csrc.nist.gov/projects</a></li>
+<li><a href="https://nvd.nist.gov" target="_blank">https://nvd.nist.gov</a></li>
+<li><a href="https://cisa.gov/news-events/cybersecurity-advisories" target="_blank">https://cisa.gov/news-events/cybersecurity-advisories</a></li>
+<li><a href="https://nsa.gov/Press-Room/Press-Releases-Statements" target="_blank">https://nsa.gov/Press-Room/Press-Releases-Statements</a></li>
+<li><a href="https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml" target="_blank">https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml</a></li>
+<li><a href="https://malware.lu" target="_blank">https://malware.lu</a></li>
+<li><a href="https://securelist.com" target="_blank">https://securelist.com</a></li>
+<li><a href="https://eucybernet.eu" target="_blank">https://eucybernet.eu</a></li>
+<li><a href="https://oval.mitre.org" target="_blank">https://oval.mitre.org</a></li>
+<li><a href="https://w3.org/Security/Faq/www-security-faq.html" target="_blank">https://w3.org/Security/Faq/www-security-faq.html</a></li>
+<li><a href="https://nowsecure.com" target="_blank">https://nowsecure.com</a></li>
+<li><a href="https://htcia.org" target="_blank">https://htcia.org</a></li>
+<li><a href="https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports" target="_blank">https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports</a></li>
+<li><a href="https://reddit.com/r/InfoSecNews" target="_blank">https://reddit.com/r/InfoSecNews</a></li>
+<li><a href="https://reddit.com/r/digitalforensics" target="_blank">https://reddit.com/r/digitalforensics</a></li>
+<li><a href="https://reddit.com/r/computerforensics" target="_blank">https://reddit.com/r/computerforensics</a></li>
+<li><a href="https://reddit.com/r/antiforensics" target="_blank">https://reddit.com/r/antiforensics</a></li>
+<li><a href="https://reddit.com/r/Smartphoneforensics" target="_blank">https://reddit.com/r/Smartphoneforensics</a></li>
+<li><a href="https://reddit.com/r/privacy" target="_blank">https://reddit.com/r/privacy</a></li>
+<li><a href="https://reddit.com/r/restorethefourth" target="_blank">https://reddit.com/r/restorethefourth</a></li>
+<li><a href="https://www.reddit.com/r/blueteamsec/" target="_blank">BlueTeamSec</a></li>
+<li><a href="https://www.reddit.com/r/computerforensics/" target="_blank">Computer Forensics</a></li>
+<li><a href="https://www.reddit.com/r/cybersecurity/" target="_blank">CyberSecurity</a></li>
+<li><a href="https://www.reddit.com/r/netsec/" target="_blank">NetSec</a></li>
+<li><a href="https://www.reddit.com/r/netsecstudents/" target="_blank">NetSec Students</a></li>
+<li><a href="https://www.reddit.com/r/NetworkSecurity/" target="_blank">Network Security News &amp; Information</a></li>
+<li><a href="https://www.reddit.com/r/ReverseEngineering/" target="_blank">Reverse Engineering</a></li>
+<li><a href="https://www.reddit.com/r/pwned/" target="_blank">pwned</a></li>
+<li><a href="https://github.com/yeahhub/Hacking-Security-Ebooks" target="_blank">https://github.com/yeahhub/Hacking-Security-Ebooks</a></li>
+<li><a href="https://github.com/InfoSecIITR/reading-material" target="_blank">https://github.com/InfoSecIITR/reading-material</a></li>
+<li><a href="https://forensicfocus.com">https://forensicfocus.com</a></li>
+<li><a href="https://forensicscijournal.com">https://forensicscijournal.com</a></li>
+<li><a href="https://www.swgde.org/documents/published-complete-listing">https://www.swgde.org/documents/published-complete-listing</a></li>
+<li><a href="https://book.hacktricks.xyz">https://book.hacktricks.xyz</a></li>
+<li><a href="https://hackthebox.com">https://hackthebox.com</a></li>
+<li><a href="https://hackerone">https://hackerone</a></li>
+<li><a href="https://hackread.com">https://hackread.com</a></li>
+<li><a href="https://htcia.org">https://htcia.org</a></li>
+<li><a href="https://osforensics.com">https://osforensics.com</a></li>
+<li><a href="https://magnetforensics.com">https://magnetforensics.com</a></li>
+<li><a href="https://exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite">FTK Lite</a><br>
+<li><a href="https://icann.org/en/ssac/publications">SSAC Publications</a></li>
+<li><a href="https://cert.org/archive/pdf/Botnets.pdf">Botnets as a Vehicle for Online Crime</a> — CERT </li>
+<li><a href="https://security-audit.com/">Security Audit</a></li>
+<li><a href="https://sans.org/">SANS Institute</a></li>
+<li><a href="https://isc.sans.org/">Internet Storm Center</a> — SANS Institute</li>
+<li><a href="https://cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
+<li><a href="https://www.dfir.training">DFIR Training</a> — </li>
+<li><a href="https://evasions.checkpoint.com">https://evasions.checkpoint.com</a> — </li>
+</ul>
 
+<br>
 </details>
 
 <!-- ################################ -->
@@ -2296,7 +2213,7 @@ https://fbi.gov<br>
 <!-- ################################ -->
 
 <details>
-<summary><b>Intelligence, Conflict, and Warfare Publications</b></summary>
+<summary><b>Intelligence, Conflict and Warfare Publications</b></summary>
 <br>
 
 <ul>
@@ -2361,50 +2278,6 @@ https://fbi.gov<br>
     <li><a href="https://youtube.com/@Hak5">Hak5</a></li>
     <li><a href="https://youtube.com/@The8BitGuy">The 8-Bit Guy</a></li>
     <li><a href="https://youtube.com/@Computerphile">Computerphile</a></li>
-</ul>
-
-<br>
-</details>
-
-<!-- ################################ -->
-
-<details>
-<summary><b>Others</b></summary>
-<br>
-
-<ul>
-<li><a href="https://civicert.org" target="_blank">https://civicert.org</a></li>
-<li><a href="https://eforensicsmag.com" target="_blank">https://eforensicsmag.com</a></li>
-<li><a href="https://csrc.nist.gov/projects" target="_blank">https://csrc.nist.gov/projects</a></li>
-<li><a href="https://nvd.nist.gov" target="_blank">https://nvd.nist.gov</a></li>
-<li><a href="https://cisa.gov/news-events/cybersecurity-advisories" target="_blank">https://cisa.gov/news-events/cybersecurity-advisories</a></li>
-<li><a href="https://nsa.gov/Press-Room/Press-Releases-Statements" target="_blank">https://nsa.gov/Press-Room/Press-Releases-Statements</a></li>
-<li><a href="https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml" target="_blank">https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml</a></li>
-<li><a href="https://malware.lu" target="_blank">https://malware.lu</a></li>
-<li><a href="https://securelist.com" target="_blank">https://securelist.com</a></li>
-<li><a href="https://eucybernet.eu" target="_blank">https://eucybernet.eu</a></li>
-<li><a href="https://oval.mitre.org" target="_blank">https://oval.mitre.org</a></li>
-<li><a href="https://w3.org/Security/Faq/www-security-faq.html" target="_blank">https://w3.org/Security/Faq/www-security-faq.html</a></li>
-<li><a href="https://nowsecure.com" target="_blank">https://nowsecure.com</a></li>
-<li><a href="https://htcia.org" target="_blank">https://htcia.org</a></li>
-<li><a href="https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports" target="_blank">https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports</a></li>
-<li><a href="https://reddit.com/r/InfoSecNews" target="_blank">https://reddit.com/r/InfoSecNews</a></li>
-<li><a href="https://reddit.com/r/digitalforensics" target="_blank">https://reddit.com/r/digitalforensics</a></li>
-<li><a href="https://reddit.com/r/computerforensics" target="_blank">https://reddit.com/r/computerforensics</a></li>
-<li><a href="https://reddit.com/r/antiforensics" target="_blank">https://reddit.com/r/antiforensics</a></li>
-<li><a href="https://reddit.com/r/Smartphoneforensics" target="_blank">https://reddit.com/r/Smartphoneforensics</a></li>
-<li><a href="https://reddit.com/r/privacy" target="_blank">https://reddit.com/r/privacy</a></li>
-<li><a href="https://reddit.com/r/restorethefourth" target="_blank">https://reddit.com/r/restorethefourth</a></li>
-<li><a href="https://www.reddit.com/r/blueteamsec/" target="_blank">BlueTeamSec</a></li>
-<li><a href="https://www.reddit.com/r/computerforensics/" target="_blank">Computer Forensics</a></li>
-<li><a href="https://www.reddit.com/r/cybersecurity/" target="_blank">CyberSecurity</a></li>
-<li><a href="https://www.reddit.com/r/netsec/" target="_blank">NetSec</a></li>
-<li><a href="https://www.reddit.com/r/netsecstudents/" target="_blank">NetSec Students</a></li>
-<li><a href="https://www.reddit.com/r/NetworkSecurity/" target="_blank">Network Security News &amp; Information</a></li>
-<li><a href="https://www.reddit.com/r/ReverseEngineering/" target="_blank">Reverse Engineering</a></li>
-<li><a href="https://www.reddit.com/r/pwned/" target="_blank">pwned</a></li>
-<li><a href="https://github.com/yeahhub/Hacking-Security-Ebooks" target="_blank">https://github.com/yeahhub/Hacking-Security-Ebooks</a></li>
-<li><a href="https://github.com/InfoSecIITR/reading-material" target="_blank">https://github.com/InfoSecIITR/reading-material</a></li>
 </ul>
 
 <br>
