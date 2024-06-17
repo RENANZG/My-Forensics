@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-
   <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- HIDDEN CSS IN HTML SANITIZED FOR MARKDOWN 
@@ -17,7 +14,6 @@ body {
     font-family: "Liberation Sans", "Myriad", "Bitstream Vera Sans", "Lucida Grande", "Luxi Sans", "Trebuchet MS", helvetica, verdana, arial, sans-serif;
     line-height: 1.2em;
 }
-
 /* Container styles */
 body > div.book, body > div.article, body > div.set, body > div.preface, body > div.chapter, body > div.section, body > div.appendix, body > div.part, div.sect1 {
     margin-top: 0;
@@ -26,39 +22,32 @@ body > div.book, body > div.article, body > div.set, body > div.preface, body > 
     margin: 40px auto 4em;
     padding: 1px 40px 20px 30px;
 }
-
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
     color: #C70036;
 }
-
 h1 {
     line-height: 1.1em;
 }
-
 /* Links */
 a:link {
     color: #0035C7;
     text-decoration: none;
 }
-
 a:visited {
     color: #00207A;
     text-decoration: none;
 }
-
 a:hover {
     color: #00207A;
     text-decoration: underline;
 }
-
 /* Code and Preformatted Text */
 code {
     font-family: "Liberation Mono", "Bitstream Vera Mono", "DejaVu Mono", monospace;
     font-weight: bold;
     word-wrap: break-word;
 }
-
 pre {
     background-color: #F5F5F5;
     border-radius: 0.5em;
@@ -71,34 +60,27 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
-
 /* Tables */
 table {
     border-collapse: collapse;
 }
-
 th, td {
     border: 1px solid black;
     padding: 0.2em 0.5em;
 }
-
 th {
     background-color: #C70036;
 }
-
 th:hover {
     color: white;
 }
-
 /* Lists */
 ul, ol {
     padding-left: 1.5em;
 }
-
 li {
     margin-bottom: 0.5em;
 }
-
 /* Blockquote */
 blockquote {
     border-left: 4px solid #CCCCCC;
@@ -106,51 +88,41 @@ blockquote {
     margin-left: 0;
     color: #666666;
 }
-
 /* Horizontal Rule */
 hr {
     border-top: 1px dotted #808080;
     margin: 0;
 }
-
 /* Navigation */
 .navheader a, .navfooter a {
     opacity: 0.50;
     transition: opacity 0.15s ease-in-out;
 }
-
 .navheader a:hover, .navfooter a:hover {
     opacity: 1;
 }
-
 /* Info blocks */
 .important {
     border: 1px dashed red;
 }
-
 .caution {
     border: 1px dashed #EFF500;
 }
-
 .note {
     border: 1px dashed blue;
 }
-
 .important, .caution, .note, .tip {
     margin-left: 1em;
     margin-right: 1em;
 }
-
 /* Reference blocks */
 .references {
  		margin-top: 10px;
 }
-
 .reference-list {
     list-style-type: none;
     padding-left: 0;
 }
-
 .reference-list li::before {
     content: '[' counter(ref) '] ';
     counter-increment: ref;
@@ -158,8 +130,9 @@ hr {
     font-weight: bold;
 }
 </style>
--->
 <title>DIGITAL FORENSICS AND INCIDENT RESPONSE (DFIR)</title>
+-->
+
 </head>
 <body>
 
