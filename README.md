@@ -1,10 +1,166 @@
 <!DOCTYPE html>
-<html lang='en'>
+
+  <html lang="en">
 
 <head>
 
-  <meta charset='UTF-8'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- HIDDEN CSS IN HTML SANITIZED FOR MARKDOWN 
+<style>
+/* Global styles */
+body {
+    background-color: #EEEEEE;
+    border: 40px solid #EEEEEE;
+    margin: 0;
+    padding: 0 10px;
+    font-family: "Liberation Sans", "Myriad", "Bitstream Vera Sans", "Lucida Grande", "Luxi Sans", "Trebuchet MS", helvetica, verdana, arial, sans-serif;
+    line-height: 1.2em;
+}
 
+/* Container styles */
+body > div.book, body > div.article, body > div.set, body > div.preface, body > div.chapter, body > div.section, body > div.appendix, body > div.part, div.sect1 {
+    margin-top: 0;
+    padding: 2em;
+    background-color: #FFFFFF;
+    margin: 40px auto 4em;
+    padding: 1px 40px 20px 30px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #C70036;
+}
+
+h1 {
+    line-height: 1.1em;
+}
+
+/* Links */
+a:link {
+    color: #0035C7;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #00207A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00207A;
+    text-decoration: underline;
+}
+
+/* Code and Preformatted Text */
+code {
+    font-family: "Liberation Mono", "Bitstream Vera Mono", "DejaVu Mono", monospace;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+pre {
+    background-color: #F5F5F5;
+    border-radius: 0.5em;
+    color: #000000;
+    display: block;
+    font-family: "Liberation Mono", "Bitstream Vera Mono", "DejaVu Mono", monospace;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.2em 0.5em;
+}
+
+th {
+    background-color: #C70036;
+}
+
+th:hover {
+    color: white;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Blockquote */
+blockquote {
+    border-left: 4px solid #CCCCCC;
+    padding-left: 1em;
+    margin-left: 0;
+    color: #666666;
+}
+
+/* Horizontal Rule */
+hr {
+    border-top: 1px dotted #808080;
+    margin: 0;
+}
+
+/* Navigation */
+.navheader a, .navfooter a {
+    opacity: 0.50;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.navheader a:hover, .navfooter a:hover {
+    opacity: 1;
+}
+
+/* Info blocks */
+.important {
+    border: 1px dashed red;
+}
+
+.caution {
+    border: 1px dashed #EFF500;
+}
+
+.note {
+    border: 1px dashed blue;
+}
+
+.important, .caution, .note, .tip {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Reference blocks */
+.references {
+ 		margin-top: 10px;
+}
+
+.reference-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.reference-list li::before {
+    content: '[' counter(ref) '] ';
+    counter-increment: ref;
+    font-size: 0.2em;
+    font-weight: bold;
+}
+</style>
+-->
+<title>DIGITAL FORENSICS AND INCIDENT RESPONSE (DFIR)</title>
+</head>
 <body>
 
 <div id="header">
@@ -204,7 +360,7 @@
 
 <h3>INTERCEPTION PLATFORMS</h3>
 
-<p>Comparison between <a href="https://drivebadger.com">Drive Badger</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a> with other lawful interception platforms. Visit: <a href="https://docs.google.com/spreadsheets/d/1Ux0WeL-K4NOZTEQgJXuRzHPcG_ewKmcMNADuFhamytg/edit#gid=1460165261" target="_blank" rel="noopener noreferrer">Official sheet</a> or the <a href="https://github.com/RENANZG/My-Forensics/blob/main/3.DOCUMENTS/Workrounds/Drive_Bagder_-_Comparison_Of_Lawful_Interception_Platforms.pdf" target="_blank" rel="noopener noreferrer">PDF</a> version in our repo. <sub>Credits for the panel: <a href="https://github.com/tomaszklim">Tomasz Klim</a>.</sub></p> 
+<p>Comparison between <a href="https://drivebadger.com">Drive Badger</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a> with other lawful interception platforms. Visit: <a href="https://docs.google.com/spreadsheets/d/1Ux0WeL-K4NOZTEQgJXuRzHPcG_ewKmcMNADuFhamytg/edit#gid=1460165261" target="_blank" rel="noopener noreferrer">Official sheet</a> or the <a href="https://github.com/RENANZG/My-Forensics/blob/main/03_DOCUMENTS/Workrounds/Drive_Bagder_-_Comparison_Of_Lawful_Interception_Platforms.pdf" target="_blank" rel="noopener noreferrer">PDF</a> version in our repo. <sub>Credits for the panel: <a href="https://github.com/tomaszklim">Tomasz Klim</a>.</sub></p> 
 
 <img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/Drive_Bagder1_-_Comparison_Of_Lawful_Interception_Platforms-1.png?raw=true" title="Drive Bagder 1 - Comparison Of Lawful Interception Platforms" style="width:100%">
 
@@ -641,87 +797,135 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 <!-- ########## -->
 
 <details>
-<summary>1.03 Online forensic tools</summary>
+<summary>1.03 Online tools</summary>
 <br>
 
-• Message Header Analyzer - https://mha.azurewebsites.net<br>
-• Message Header Analyzer - https://github.com/microsoft/MHA<br>
-• PhishTank - https://phishtank.org<br>
-• Simple Email Reputation - https://emailrep.io<br>
-• Whois - https://iana.org/whois<br>
-• ViewDNS - https://viewdns.info<br>
-• WhoisMyDNS - https://whoismydns.com<br>
-• NSLookup - https://nslookup.io<br>
-• My-Addr - https://my-addr.com<br>
-• Malpedia - https://malpedia.caad.fkie.fraunhofer.de<br>
-• CVE Details - https://cvedetails.com<br>
-• Exploit Database - https://exploit-db.com<br>
-• FileInfo - https://fileinfo.co<br>
-• xCyclopedia - https://strontic.github.io/xcyclopedia<br>
-• The Windows Binary Index - https://winbindex.m417z.com<br>
-• Palo Alto Applipedia - https://applipedia.paloaltonetworks.com<br>
-• Windows Securitiy Logs - https://ultimatewindowssecurity.com/securitylog/encyclopedia<br>
-• Internet Archive (WayBackMachine) - https://web.archive.org<br>
-• Archive web content - https://archive.ph<br>
-• Internet Archive - https://archive.org<br>
-• HTTrack - https://httrack.com<br>
-• IPVOID - https://ipvoid.com<br>
-• AbuseIPDB - https://abuseipdb.com<br>
-• Grabify IP Logger - https://grabify.link/<br>
-• IP Logger - https://iplogger.org<br>
-• IP Tracker - https://iplogger.org/ip-tracker<br>
-• IP Location Tracker - https://iplogger.org/location-tracker<br>
-• IP Location - https://iplocation.net<br>
-• URL Checker -  https://iplogger.org/url_checker<br>
-• MAC Address Lookup - https://iplogger.org/mac-checker<br>
-• MAC Vendor - https://macvendors.com<br>
-• IP API<br>
-&emsp; - ip-api - https://ip-api.com<br>
-&emsp; - ipify - https://ipify.org<br>
-&emsp; - ipapi - https://ipapi.co<br>
-&emsp; - vpnapi - https://vpnapi.io<br>
-&emsp; - ipapi - https://ipapi.com<br>
-• The ZMap Project - https://zmap.io<br>
-• WiGLE - https://wigle.net<br>
-• urlscan.io - https://urlscan.io<br>
-• Virus Total - https://virustotal.com<br>
-• Hybrid Analysis - https://hybrid-analysis.com<br>
-• Cuckoo Sandbox - https://cuckoo.cert.ee<br>
-• AlienVault OTX - https://otx.alienvault.com<br>
-• IBM X-Force Exchange - https://exchange.xforce.ibmcloud.com<br>
-• Cisco Talos - https://talosintelligence.com/reputation_center<br>
-• Maltiverse - https://maltiverse.com/collection<br>
-• GreyNoise - https://greynoise.io<br>
-• SANS Internet Storm Center - https://isc.sans.edu<br>
-• Intelligence X - https://intelx.io<br>
-• MetaDefender Cloud - https://metadefender.opswat.com<br>
-• RiskIQ Community Edition - https://community.riskiq.com/home<br>
-• Pulsedive - https://pulsedive.com<br>
-• Valhalla YARA Rules - https://valhalla.nextron-systems.com<br>
-• ANY.RUN - https://any.run<br>
-• Binvis - https://binvis.io<br>
-• JoeSandbox - https://joesandbox.com<br>
-• Verexif - https://verexif.com/en/<br>
-• Reverse Shell Generator - https://revshells.com<br>
-• Rainbow Tables (Hashes) - https://hashes.com/en/decrypt/hash<br>
-• File Signatures ("Magic Numbers") - https://en.wikipedia.org/wiki/Magic_number_(programming)<br> 
-• List of File Signatures - https://en.wikipedia.org/wiki/List_of_file_signatures<br>
-• CyberChef - https://gchq.github.io/CyberChef<br>
-• explainshell - https://explainshell.com<br>
-• Epoch Converter - https://epochconverter.com<br>
-• Regex - https://regex-generator.olafneumann.org</br>
-• DeHashed - https://dehashed.com<br>
-• Dencode - https://dencode.com<br>
-• Commonly Used Software Development Tools - https://ctool.dev<br>
-• Text Fixer - https://textfixer.com<br>
-• SS64 Syntax Utils - https://ss64.com<br>
-• Tools4noobs - https://tools4noobs.com<br>
-• Text to ASCII Art Generator - https://patorjk.com/software/taag<br>
-• Have I Been Pwned - https://haveibeenpwned.com<br>
-• Name OSINT - https://namechk.com<br>
-• Breach Directory - https://breachdirectory.org<br>
-• MD5 Decrypt - https://md5decrypt.net/en/Sha1<br>
-• DeepL - https://www.deepl.com/translator<br>
+<h5>Message Header Analysis</h5>
+<ul>
+    <li><a href="https://mha.azurewebsites.net">Message Header Analyzer (Azure)</a></li>
+    <li><a href="https://github.com/microsoft/MHA">Message Header Analyzer (GitHub)</a></li>
+</ul>
+<h5>Phishing and Email Reputation</h5>
+<ul>
+    <li><a href="https://phishtank.org">PhishTank</a></li>
+    <li><a href="https://emailrep.io">Simple Email Reputation</a></li>
+    <li><a href="https://mxtoolbox.com/blacklists.aspx">Email Blacklist Check</a></li>
+</ul>
+<h5>Whois and DNS Lookup</h5>
+<ul>
+    <li><a href="https://iana.org/whois">Whois</a></li>
+    <li><a href="https://viewdns.info">ViewDNS</a></li>
+    <li><a href="https://whoismydns.com">WhoisMyDNS</a></li>
+    <li><a href="https://nslookup.io">NSLookup</a></li>
+    <li><a href="https://my-addr.com">My-Addr</a></li>
+    <li><a href="https://mxtoolbox.com">MXToolbox</a></li>
+    <li><a href="https://dnsstuff.com">DNSstuff</a></li>
+</ul>
+<h5>Malware and Vulnerability Databases</h5>
+<ul>
+    <li><a href="https://malpedia.caad.fkie.fraunhofer.de">Malpedia</a></li>
+    <li><a href="https://cvedetails.com">CVE Details</a></li>
+    <li><a href="https://exploit-db.com">Exploit Database</a></li>
+    <li><a href="https://fileinfo.co">FileInfo</a></li>
+    <li><a href="https://strontic.github.io/xcyclopedia">xCyclopedia</a></li>
+    <li><a href="https://winbindex.m417z.com">The Windows Binary Index</a></li>
+    <li><a href="https://applipedia.paloaltonetworks.com">Palo Alto Applipedia</a></li>
+    <li><a href="https://ultimatewindowssecurity.com/securitylog/encyclopedia">Windows Security Logs</a></li>
+    <li><a href="https://nvd.nist.gov">National Vulnerability Database (NVD)</a></li>
+</ul>
+<h5>Archiving Tools</h5>
+<ul>
+    <li><a href="https://web.archive.org">Internet Archive (WayBackMachine)</a></li>
+    <li><a href="https://archive.ph">Archive Web Content</a></li>
+    <li><a href="https://archive.org">Internet Archive</a></li>
+    <li><a href="https://httrack.com">HTTrack</a></li>
+    <li><a href="https://perma.cc">Perma.cc</a></li>
+</ul>
+<h5>IP and MAC Address Tools</h5>
+<ul>
+    <li><a href="https://ipvoid.com">IPVOID</a></li>
+    <li><a href="https://abuseipdb.com">AbuseIPDB</a></li>
+    <li><a href="https://grabify.link/">Grabify IP Logger</a></li>
+    <li><a href="https://iplogger.org">IP Logger</a></li>
+    <li><a href="https://iplogger.org/ip-tracker">IP Tracker</a></li>
+    <li><a href="https://iplogger.org/location-tracker">IP Location Tracker</a></li>
+    <li><a href="https://iplocation.net">IP Location</a></li>
+    <li><a href="https://iplogger.org/url_checker">URL Checker</a></li>
+    <li><a href="https://iplogger.org/mac-checker">MAC Address Lookup</a></li>
+    <li><a href="https://macvendors.com">MAC Vendor</a></li>
+    <li><a href="https://ip-api.com">Ip-api</a></li>
+    <li><a href="https://ipify.org">Ipify</a></li>
+    <li><a href="https://ipapi.co">Ipapi</a></li>
+    <li><a href="https://vpnapi.io">Vpnapi</a></li>
+    <li><a href="https://ipapi.com">Ipapi</a></li>
+    <li><a href="https://zmap.io">The ZMap Project</a></li>
+    <li><a href="https://wigle.net">WiGLE</a></li>
+    <li><a href="https://www.shodan.io">Shodan</a></li>
+    <li><a href="https://censys.io">Censys</a></li>
+</ul>
+<h5>URL and Virus Scanning</h5>
+<ul>
+    <li><a href="https://urlscan.io">urlscan.io</a></li>
+    <li><a href="https://virustotal.com">Virus Total</a></li>
+    <li><a href="https://hybrid-analysis.com">Hybrid Analysis</a></li>
+    <li><a href="https://cuckoo.cert.ee">Cuckoo Sandbox</a></li>
+    <li><a href="https://otx.alienvault.com">AlienVault OTX</a></li>
+    <li><a href="https://exchange.xforce.ibmcloud.com">IBM X-Force Exchange</a></li>
+    <li><a href="https://talosintelligence.com/reputation_center">Cisco Talos</a></li>
+    <li><a href="https://maltiverse.com/collection">Maltiverse</a></li>
+    <li><a href="https://greynoise.io">GreyNoise</a></li>
+    <li><a href="https://isc.sans.edu">SANS Internet Storm Center</a></li>
+    <li><a href="https://intelx.io">Intelligence X</a></li>
+    <li><a href="https://metadefender.opswat.com">MetaDefender Cloud</a></li>
+    <li><a href="https://community.riskiq.com/home">RiskIQ Community Edition</a></li>
+    <li><a href="https://pulsedive.com">Pulsedive</a></li>
+    <li><a href="https://valhalla.nextron-systems.com">Valhalla YARA Rules</a></li>
+    <li><a href="https://any.run">ANY.RUN</a></li>
+    <li><a href="https://binvis.io">Binvis</a></li>
+    <li><a href="https://joesandbox.com">JoeSandbox</a></li>
+</ul>
+<h5>File Analysis and Reverse Engineering</h5>
+<ul>
+    <li><a href="https://verexif.com/en/">Verexif</a></li>
+    <li><a href="https://revshells.com">Reverse Shell Generator</a></li>
+    <li><a href="https://hashes.com/en/decrypt/hash">Rainbow Tables (Hashes)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Magic_number_(programming)">File Signatures ("Magic Numbers")</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/List_of_file_signatures">List of File Signatures</a></li>
+    <li><a href="https://gchq.github.io/CyberChef">CyberChef</a></li>
+    <li><a href="https://explainshell.com">explainshell</a></li>
+    <li><a href="https://virusshare.com">VirusShare</a></li>
+    <li><a href="https://reverse.it">Reverse.IT</a></li>
+</ul>
+<h5>Utilities and Development Tools</h5>
+<ul>
+    <li><a href="https://epochconverter.com">Epoch Converter</a></li>
+    <li><a href="https://regex-generator.olafneumann.org">Regex Generator</a></li>
+    <li><a href="https://dehashed.com">DeHashed</a></li>
+    <li><a href="https://dencode.com">Dencode</a></li>
+    <li><a href="https://ctool.dev">Commonly Used Software Development Tools</a></li>
+    <li><a href="https://textfixer.com">Text Fixer</a></li>
+    <li><a href="https://ss64.com">SS64 Syntax Utils</a></li
+    <li><a href="https://tools4noobs.com">Tools4noobs</a></li>
+    <li><a href="https://patorjk.com/software/taag">Text to ASCII Art Generator</a></li>
+    <li><a href="https://regex101.com">Regex101</a></li>
+    <li><a href="https://crontab.guru">Cron Expression Generator</a></li>
+</ul>
+<h5>OSINT and Breach Checking</h5>
+<ul>
+    <li><a href="https://haveibeenpwned.com">Have I Been Pwned</a></li>
+    <li><a href="https://namechk.com">Name OSINT</a></li>
+    <li><a href="https://breachdirectory.org">Breach Directory</a></li>
+    <li><a href="https://hunter.io">Hunter.io</a></li>
+    <li><a href="https://inteltechniques.com">Intel Techniques</a></li>
+</ul>
+<h5>Translation and Markdown Tools</h5>
+<ul>
+    <li><a href="https://deepl.com/translator">DeepL</a></li>
+    <li><a href="https://www.markdowntoolbox.com">Markdown Toolbox</a></li>
+    <li><a href="https://mermaid.live">Mermaid</a></li>
+    <li><a href="https://kutt.it">Kutt your links shorter</a></li>
+    <li><a href="https://grammarly.com">Grammarly</a></li>
+</ul>
 
 <p>For OSINT tools visit our repository: <a href="https://github.com/RENANZG/My-OSINT">My-OSINT</a></p>
 
@@ -759,11 +963,15 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 <li><a href="https://winfe.net/download">WinFE</a></li>
 </ul>
 
-<h4>Image and video upscaling programs</h4>
+<h4>Image and video enhancement techniques</h4>
 
+• <a href="https://github.com/upscayl/upscayl">Ppscayl</a><br>
 • <a href="https://github.com/imagej/ImageJ">ImageJ</a><br>
 • <a href="https://github.com/hollowaykeanho/Upscaler">Upscalers</a><br>
 
+<h4>Computer-animated movies.</h4>
+
+• <a href="https://github.com/stuffmatic/fSpy">fSpy</a><br>
 
 <h4>Encryption workarounds:</h4>
 
@@ -810,7 +1018,7 @@ Log into the database while it is live and employ the application used to create
 
 <h4>Encryption Workrounds</h4>
 
-<p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/3.DOCUMENTS/Encryption">3.DOCUMENTS/Encryption</a></p>
+<p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/03_DOCUMENTS/Encryption">3.DOCUMENTS/Encryption</a></p>
 
 <p>Encryption workarounds:</p>
 
@@ -829,7 +1037,7 @@ Log into the database while it is live and employ the application used to create
 
 <h4>Cryptanalysis</h4>
 
-<p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/3.DOCUMENTS/Cryptanalysis">3.DOCUMENTS/Cryptanalysis</a></p>
+<p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/03_DOCUMENTS/Cryptanalysis">03_DOCUMENTS/Cryptanalysis</a></p>
 
 <h4>Steganography</h4>
 
@@ -850,6 +1058,8 @@ Log into the database while it is live and employ the application used to create
 https://volatilityfoundation.org/releases<br>
 • Linux Memory Extractor (LiME)<br>
 https://github.com/504ensicsLabs/LiME<br>
+• Memory Analysis<br
+https://www.memoryanalysis.net/amf<br>
 • Cobalt Strike in memory<br>
 https://andreafortuna.org/2020/11/22/how-to-detect-cobalt-strike-activity-in-memory-forensics/<br>
 
@@ -926,7 +1136,7 @@ ${\color{Red}\textbf{2.ACTIVE FORENSICS}}$
 <br>
 
 <h3>Visit our repo tree:<br>
-<a href="https://github.com/RENANZG/My-Forensics/tree/main/4.POLICE_HACKING">4.POLICE_HACKING</a></h3>
+<a href="https://github.com/RENANZG/My-Forensics/tree/main/04_POLICE_HACKING">04_POLICE_HACKING</a></h3>
 
 <h4>The Cyber Kill Chain</h4>
 
@@ -946,12 +1156,6 @@ https://mas.owasp.org<br>
 
 • Metasploit - Penetration testing framework<br>
 https://metasploit.com<br>
-
-<video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinFly-Web-Video.mp4" width="320" height="240" controls></video>
-<video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinSpy-Video.mp4" width="320" height="240" controls></video>
-<video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinFly-ISP-Video.mp4" width="320" height="240" controls></video>
-<video src=".data/1.TOP_SECRET/Vault_7/FinFisher/FinSpy-Mobile-Video.mp4" width="320" height="240" controls></video>
-<video src="https://github.com/RENANZG/My-Forensics/blob/main/.data/1.TOP_SECRET/Vault_7/FinFisher/FinIntrusion-Kit-Video.mp4" width="320" height="240" controls></video>
 
 <h4>• Training</h4>
 
@@ -1541,7 +1745,7 @@ https://ghidra-sre.org<br>
 <br>
 </details>
 
-<!-- ############################################################################### -->
+<!-- ############################################################### -->
 <hr>
 
 <details>
@@ -1797,6 +2001,7 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <li><a href="https://forensicfocus.com">https://forensicfocus.com</a></li>
 <li><a href="https://forensicscijournal.com">https://forensicscijournal.com</a></li>
 <li><a href="https://www.swgde.org/documents/published-complete-listing">https://www.swgde.org/documents/published-complete-listing</a></li>
+<li><a href="https://book.hacktricks.xyz">https://book.hacktricks.xyz</a></li>
 <li><a href="https://hackthebox.com">https://hackthebox.com</a></li>
 <li><a href="https://hackerone">https://hackerone</a></li>
 <li><a href="https://hackread.com">https://hackread.com</a></li>
@@ -1810,6 +2015,8 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <li><a href="https://sans.org/">SANS Institute</a></li>
 <li><a href="https://isc.sans.org/">Internet Storm Center</a> — SANS Institute</li>
 <li><a href="https://cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
+<li><a href="https://www.dfir.training">DFIR Training</a> — </li>
+<li><a href="https://evasions.checkpoint.com">https://evasions.checkpoint.com</a> — </li>
 </ul>
 
 <br>
@@ -1864,7 +2071,6 @@ https://techrepublic.com<br>
 • Infosecurity Magazine<br>
 https://infosecurity-magazine.com<br>
 • Sophos<br>
-https://sophos.com<br>
 https://news.sophos.com<br>
 • TechWorld<br>
 https://techworld.com<br>
@@ -1952,7 +2158,9 @@ https://en.wikipedia.org/wiki/Lists_of_academic_journals<br>
 https://en.wikipedia.org/wiki/List_of_open-access_journals<br>
 
 • Non-profit research initiatives<br>
+
 The Public Knowledge Project - https://pkp.sfu.ca<br>
+
 <hr>
 
 • Science Direct — Forensic Science International: Digital Investigation<br>
@@ -2050,22 +2258,33 @@ https://fbi.gov<br>
 <summary><b>Libraries</b></summary>
 <br>
 
-<DT><H3>Libraries</H3>
+<h3>Libraries</h3>
+<ul>
+<li><A HREF="https://archive.org">Internet Archive<BR><PRE> https://archive.org</PRE></A></li>
+<li><A HREF="https://annas-archive.org">Anna's Archive<BR><PRE> https://annas-archive.org</PRE></A></li>
+<li><A HREF="https://t.me/zlibrary_official">Z-Library Official (Telegram)<BR><PRE> https://t.me/zlibrary_official</PRE></A></li>
+<li><A HREF="https://go-to-zlibrary.se/#desktop_app_tab"> Z-Library (APP)<BR><PRE> https://go-to-zlibrary.se/#desktop_app_tab</PRE></A></li>
+<li><A HREF="https://singlelogin.se">Z-Library (WEB)<BR><PRE> https://singlelogin.se</PRE></A></li>
+<li><A HREF="http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion"> Z-Library (ONION)<BR><PRE> http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion</PRE></A></li>
+<li><A HREF="https://libgen.rs">Library Genesis (.rs alias domain)<BR><PRE> https://libgen.rs</PRE></A></li>
+<li><A HREF="https://libgen.is">Library Genesis (.is alias domain)<BR><PRE> https://libgen.is</PRE></A></li>
+<li><A HREF="https://libgen.st">Library Genesis (.st alias domain)<BR><PRE> https://libgen.st</PRE></A></li>
+<li><A HREF="https://wiki.mhut.org/software:libgen_desktop">Library Genesis (APP)<BR><PRE> https://wiki.mhut.org/software:libgen_desktop</PRE></A></li>
+<li><A HREF="http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion">Library Genesis (ONION)<BR><PRE> http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion</PRE></A></li>
+<li><A HREF="http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion">Imperial Library (ONION)<BR><PRE> http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion</PRE></A></li>
+<li><A HREF="http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion">Just Another Library (ONION)<BR><PRE> http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion</PRE></A></li>
+<li><A HREF="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion">InfoCon (ONION)<BR><PRE> http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion</PRE></A></li>
+</ul>
 
-<DT><A HREF="https://archive.org">Internet Archive<BR><PRE> https://archive.org</PRE></A>
-<DT><A HREF="https://annas-archive.org">Anna's Archive<BR><PRE> https://annas-archive.org</PRE></A>
-<DT><A HREF="https://t.me/zlibrary_official">Z-Library Official (Telegram)<BR><PRE> https://t.me/zlibrary_official</PRE></A>
-<DT><A HREF="https://go-to-zlibrary.se/#desktop_app_tab"> Z-Library (APP)<BR><PRE> https://go-to-zlibrary.se/#desktop_app_tab</PRE></A>
-<DT><A HREF="https://singlelogin.se">Z-Library (WEB)<BR><PRE> https://singlelogin.se</PRE></A>
-<DT><A HREF="http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion"> Z-Library (ONION)<BR><PRE> http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion</PRE></A>
-<DT><A HREF="https://libgen.rs">Library Genesis (.rs alias domain)<BR><PRE> https://libgen.rs</PRE></A>
-<DT><A HREF="https://libgen.is">Library Genesis (.is alias domain)<BR><PRE> https://libgen.is</PRE></A>
-<DT><A HREF="https://libgen.st">Library Genesis (.st alias domain)<BR><PRE> https://libgen.st</PRE></A>
-<DT><A HREF="https://wiki.mhut.org/software:libgen_desktop">Library Genesis (APP)<BR><PRE> https://wiki.mhut.org/software:libgen_desktop</PRE></A>
-<DT><A HREF="http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion">Library Genesis (ONION)<BR><PRE> http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion</PRE></A>
-<DT><A HREF="http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion">Imperial Library (ONION)<BR><PRE> http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion</PRE></A>
-<DT><A HREF="http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion">Just Another Library (ONION)<BR><PRE> http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion</PRE></A>
-<DT><A HREF="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion">InfoCon (ONION)<BR><PRE> http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion</PRE></A>
+<ul>
+<li><a href="https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Courses">https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Courses</a></li>
+<li><a href="https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Textbooks">https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Textbooks</a></li>
+<li><a href="https://freecomputerbooks.com">https://freecomputerbooks.com</a></li>
+<li><a href="https://freetechbooks.com">https://freetechbooks.com</a></li>
+<li><a href="https://riptutorial.com/ebook">https://riptutorial.com/ebook</a></li>
+<li><a href="https://e-booksdirectory.com">https://e-booksdirectory.com</a></li>
+<li><a href="https://programmer-books.com">https://programmer-books.com</a></li>
+</ul>
 
 <br>
 </details>
@@ -2076,19 +2295,27 @@ https://fbi.gov<br>
 <summary><b>Activism, Nonprofit Initiatives and Private Initiatives</b></summary>
 <br>
 
-• Cops in Cyberspace - https://copsincyberspace.wordpress.com<br>
-• AFSC and Economic Activism - https://investigate.afsc.org<br>
-• BBW - https://bigbrotherwatch.org.uk<br>
-• Bugged Planet - http://buggedplanet.info<br>
-• Citizenlab - https://citizenlab.ca<br>
-• EFF - https://eff.org<br>
-• EPIC - https://epic.org/issues/surveillance-oversight<br>
-• Necessary and Proportionate - https://necessaryandproportionate.org<br>
-• No Tech For Apartheid - https://investigate.afsc.org<br>
-• Privacy International - https://privacyinternational.org<br>
-• S&S - https://ojs.library.queensu.ca/index.php/surveillance-and-society/index<br>
-• The Bureau of Investigative Journalism - https://thebureauinvestigates.com<br>
-• The Tor Project - https://blog.torproject.org<br>
+<ul>
+<li><a href="https://investigate.afsc.org" target="_blank">AFSC and Economic Activism</a></li>
+<li><a href="https://bigbrotherwatch.org.uk" target="_blank">BBW</a></li>
+<li><a href="http://buggedplanet.info" target="_blank">Bugged Planet</a></li>
+<li><a href="https://citizenlab.ca" target="_blank">Citizenlab</a></li>
+<li><a href="https://copsincyberspace.wordpress.com" target="_blank">Cops in Cyberspace</a></li>
+<li><a href="https://eff.org" target="_blank">EFF</a></li>
+<li><a href="https://epic.org/issues/surveillance-oversight" target="_blank">EPIC</a></li>
+<li><a href="https://eyeonsurveillance.org" target="_blank">Eye on Surveillance</a></li>
+<li><a href="https://necessaryandproportionate.org" target="_blank">Necessary and Proportionate</a></li>
+<li><a href="https://investigate.afsc.org" target="_blank">No Tech For Apartheid</a></li>
+<li><a href="https://privacyinternational.org" target="_blank">Privacy International</a></li>
+<li><a href="https://ojs.library.queensu.ca/index.php/surveillance-and-society/index" target="_blank">S&S</a></li>
+<li><a href="https://thebureauinvestigates.com" target="_blank">The Bureau of Investigative Journalism</a></li>
+<li><a href="https://www.stiftung-nv.de/en/about-us" target="_blank">Stiftung Neue Verantwortung (SNV)</a></li>
+<li><a href="https://blog.torproject.org" target="_blank">The Tor Project</a></li>
+<li><a href="https://guardint.org " target="_blank">GUARDINT</a></li>
+<li><a href="https://data.guardint.org/en/" target="_blank">Surveillance Oversight Database</a></li>
+<li><a href="https://www.intelligence-oversight.org" target="_blank">Intelligence Oversight</a></li>
+<li><a href="https://aboutintel.eu" target="_blank">about:intel</a></li>
+</ul>
 
 <br>
 </details>
@@ -2099,32 +2326,21 @@ https://fbi.gov<br>
 <summary><b>Intelligence, Conflict, and Warfare Publications</b></summary>
 <br>
 
-• The NATO Cooperative Cyber Defence Centre of Excellence<br>
-https://ccdcoe.org<br>
-• Council on Foreign Relations (CFR)<br>
-https://www.cfr.org<br>
-• International Security Studies Section (ISSS)<br>
-https://www.isanet.org/ISA/Sections/ISS<br>
-• Taylor & Francis - Intelligence and National Security - Open access articles<br>
-https://tandfonline.com/action/showOpenAccess?journalCode=fint20<br>
-• Taylor & Francis - The International Journal of Intelligence, Security, and Public Affairs<br>
-https://www.tandfonline.com/loi/usip20<br>
-• The Journal of Intelligence, Conflict, and Warfare<br>
-https://journals.lib.sfu.ca/index.php/jicw/issue/archive<br>
-• DCAF - Geneva Centre for Security Sector Governance<br>
-https://dcaf.ch/resources?type=publications<br>
-• CIA.gov - Center for the study of intelligence<br>
-https://cia.gov/resources/csi/studies-in-intelligence<br>
-• E-International Relations - Open access scholarly books<br> 
-https://e-ir.info/publications<br>
-• Springer Open<br>
-https://springeropen.com<br>
-• International Security<br>
-https://direct.mit.edu/isec<br>
-• Carnegie Endowment for International Peace<br>
-https://carnegieendowment.org<br>
-• RIEAS<br>
-https://rieas.gr<br>
+<ul>
+<li><a href="https://ccdcoe.org" target="_blank">The NATO Cooperative Cyber Defence Centre of Excellence<br></a></li>
+<li><a href="https://www.cfr.org" target="_blank">Council on Foreign Relations (CFR)<br></a></li>
+<li><a href="https://www.isanet.org/ISA/Sections/ISS" target="_blank">International Security Studies Section (ISSS)<br></a></li>
+<li><a href="https://tandfonline.com/action/showOpenAccess?journalCode=fint20" target="_blank">Taylor & Francis - Intelligence and National Security - Open access articles<br></a></li>
+<li><a href="https://www.tandfonline.com/loi/usip20" target="_blank">Taylor & Francis - The International Journal of Intelligence, Security, and Public Affairs<br></a></li>
+<li><a href="https://journals.lib.sfu.ca/index.php/jicw/issue/archive" target="_blank">The Journal of Intelligence, Conflict, and Warfare<br></a></li>
+<li><a href="https://dcaf.ch/resources?type=publications" target="_blank">DCAF - Geneva Centre for Security Sector Governance<br></a></li>
+<li><a href="https://cia.gov/resources/csi/studies-in-intelligence" target="_blank">CIA.gov - Center for the study of intelligence<br></a></li>
+<li><a href="https://e-ir.info/publications" target="_blank">E-International Relations - Open access scholarly books<br> </a></li>
+<li><a href="https://springeropen.com" target="_blank">Springer Open<br></a></li>
+<li><a href="https://direct.mit.edu/isec" target="_blank">International Security<br></a></li>
+<li><a href="https://carnegieendowment.org" target="_blank">Carnegie Endowment for International Peace<br></a></li>
+<li><a href="https://rieas.gr" target="_blank">RIEAS<br></a></li>
+</ul>
 
 <br>
 </details>
@@ -2133,27 +2349,46 @@ https://rieas.gr<br>
 
 <details>
 <summary><b>YouTube Conferences</b></summary>
-https://youtube.com/@BlackHatOfficialYT<br>
-https://youtube.com/@DEFCONConference<br>
-https://youtube.com/@mediacccde<br>
-https://youtube.com/@DFRWS<br>
-https://youtube.com/@SANSForensics<br>
-https://youtube.com/@SANSOffensiveOperations<br>
-https://youtube.com/@RSAConference<br>
-https://youtube.com/@USENIXEnigmaConference<br>
-https://youtube.com/@DebConfVideos<br>
-https://youtube.com/@hitbsecconf<br>
-https://youtube.com/@44contv<br>
-https://youtube.com/@OffensiveCon<br>
-https://youtube.com/@secwestnet<br>
-https://youtube.com/@EkopartyConference<br>
-https://youtube.com/@reconmtl<br>
-https://youtube.com/@TROOPERScon<br>
-https://youtube.com/@MCH2022NL<br>
-https://youtube.com/@mentalOutlaw<br>
-https://youtube.com/@Seytonic<br>
-https://youtube.com/@DoingFedTime<br>
-https://youtube.com/@UsenixOrg<br>
+
+<h4>Digital Forensics and Incident Response:</h4>
+<ul>
+    <li><a href="https://youtube.com/@DFRWS">DFRWS</a></li>
+    <li><a href="https://youtube.com/@SANSForensics">SANSForensics</a></li>
+    <li><a href="https://youtube.com/@SANSOffensiveOperations">SANSOffensiveOperations</a></li>
+</ul>
+
+<h4>Security Conferences:</h4>
+<ul>
+    <li><a href="https://youtube.com/@BlackHatOfficialYT">BlackHat Official YT</a></li>
+    <li><a href="https://youtube.com/@DEFCONConference">DEFCON Conference</a></li>
+    <li><a href="https://youtube.com/@EkopartyConference">Ekoparty Conference</a></li>
+    <li><a href="https://youtube.com/@reconmtl">reconmtl</a></li>
+    <li><a href="https://youtube.com/@TROOPERScon">TROOPERScon</a></li>
+    <li><a href="https://youtube.com/@OffensiveCon">OffensiveCon</a></li>
+    <li><a href="https://youtube.com/@hitbsecconf">hitbsecconf</a></li>
+</ul>
+
+<h4>General Tech Conferences:</h4>
+<ul>
+    <li><a href="https://youtube.com/@RSAConference">RSA Conference</a></li>
+    <li><a href="https://youtube.com/@UsenixOrg">UsenixOrg</a></li>
+    <li><a href="https://youtube.com/@USENIXEnigmaConference">USENIX Enigma Conference</a></li>
+    <li><a href="https://youtube.com/@MCH2022NL">MCH2022NL</a></li>
+</ul>
+
+<h4>Miscellaneous Tech and Cybersecurity:</h4>
+<ul>
+    <li><a href="https://youtube.com/@mediacccde">mediacccde</a></li>
+    <li><a href="https://youtube.com/@secwestnet">secwestnet</a></li>
+    <li><a href="https://youtube.com/@DebConfVideos">DebConf Videos</a></li>
+    <li><a href="https://youtube.com/@44contv">44contv</a></li>
+    <li><a href="https://youtube.com/@mentalOutlaw">mentalOutlaw</a></li>
+    <li><a href="https://youtube.com/@Seytonic">Seytonic</a></li>
+    <li><a href="https://youtube.com/@DoingFedTime">DoingFedTime</a></li>
+    <li><a href="https://youtube.com/@Hak5">Hak5</a></li>
+    <li><a href="https://youtube.com/@The8BitGuy">The 8-Bit Guy</a></li>
+    <li><a href="https://youtube.com/@Computerphile">Computerphile</a></li>
+</ul>
 
 <br>
 </details>
@@ -2164,31 +2399,40 @@ https://youtube.com/@UsenixOrg<br>
 <summary><b>Others</b></summary>
 <br>
 
-• Computer Incident Response Center for Civil Society<br>
-https://civicert.org<br>
-https://eforensicsmag.com<br>
-https://csrc.nist.gov/projects<br>
-https://nvd.nist.gov<br>
-https://cisa.gov/news-events/cybersecurity-advisories<br>
-https://nsa.gov/Press-Room/Press-Releases-Statements<br>
-https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml<br>
-https://malware.lu<br>
-https://securelist.com<br>
-https://eucybernet.eu<br>
-https://oval.mitre.org<br>
-https://w3.org/Security/Faq/www-security-faq.html<br>
-https://nowsecure.com<br>
-https://htcia.org<br>
-https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports<br>
-https://reddit.com/r/InfoSecNews<br>
-https://reddit.com/r/digitalforensics<br>
-https://reddit.com/r/computerforensics<br>
-https://reddit.com/r/antiforensics<br>
-https://reddit.com/r/Smartphoneforensics<br>
-https://reddit.com/r/privacy<br>
-https://reddit.com/r/restorethefourth<br>
-https://github.com/yeahhub/Hacking-Security-Ebooks<br>
-https://github.com/InfoSecIITR/reading-material<br>
+<ul>
+<li><a href="https://civicert.org" target="_blank">https://civicert.org</a></li>
+<li><a href="https://eforensicsmag.com" target="_blank">https://eforensicsmag.com</a></li>
+<li><a href="https://csrc.nist.gov/projects" target="_blank">https://csrc.nist.gov/projects</a></li>
+<li><a href="https://nvd.nist.gov" target="_blank">https://nvd.nist.gov</a></li>
+<li><a href="https://cisa.gov/news-events/cybersecurity-advisories" target="_blank">https://cisa.gov/news-events/cybersecurity-advisories</a></li>
+<li><a href="https://nsa.gov/Press-Room/Press-Releases-Statements" target="_blank">https://nsa.gov/Press-Room/Press-Releases-Statements</a></li>
+<li><a href="https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml" target="_blank">https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml</a></li>
+<li><a href="https://malware.lu" target="_blank">https://malware.lu</a></li>
+<li><a href="https://securelist.com" target="_blank">https://securelist.com</a></li>
+<li><a href="https://eucybernet.eu" target="_blank">https://eucybernet.eu</a></li>
+<li><a href="https://oval.mitre.org" target="_blank">https://oval.mitre.org</a></li>
+<li><a href="https://w3.org/Security/Faq/www-security-faq.html" target="_blank">https://w3.org/Security/Faq/www-security-faq.html</a></li>
+<li><a href="https://nowsecure.com" target="_blank">https://nowsecure.com</a></li>
+<li><a href="https://htcia.org" target="_blank">https://htcia.org</a></li>
+<li><a href="https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports" target="_blank">https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports</a></li>
+<li><a href="https://reddit.com/r/InfoSecNews" target="_blank">https://reddit.com/r/InfoSecNews</a></li>
+<li><a href="https://reddit.com/r/digitalforensics" target="_blank">https://reddit.com/r/digitalforensics</a></li>
+<li><a href="https://reddit.com/r/computerforensics" target="_blank">https://reddit.com/r/computerforensics</a></li>
+<li><a href="https://reddit.com/r/antiforensics" target="_blank">https://reddit.com/r/antiforensics</a></li>
+<li><a href="https://reddit.com/r/Smartphoneforensics" target="_blank">https://reddit.com/r/Smartphoneforensics</a></li>
+<li><a href="https://reddit.com/r/privacy" target="_blank">https://reddit.com/r/privacy</a></li>
+<li><a href="https://reddit.com/r/restorethefourth" target="_blank">https://reddit.com/r/restorethefourth</a></li>
+<li><a href="https://www.reddit.com/r/blueteamsec/" target="_blank">BlueTeamSec</a></li>
+<li><a href="https://www.reddit.com/r/computerforensics/" target="_blank">Computer Forensics</a></li>
+<li><a href="https://www.reddit.com/r/cybersecurity/" target="_blank">CyberSecurity</a></li>
+<li><a href="https://www.reddit.com/r/netsec/" target="_blank">NetSec</a></li>
+<li><a href="https://www.reddit.com/r/netsecstudents/" target="_blank">NetSec Students</a></li>
+<li><a href="https://www.reddit.com/r/NetworkSecurity/" target="_blank">Network Security News &amp; Information</a></li>
+<li><a href="https://www.reddit.com/r/ReverseEngineering/" target="_blank">Reverse Engineering</a></li>
+<li><a href="https://www.reddit.com/r/pwned/" target="_blank">pwned</a></li>
+<li><a href="https://github.com/yeahhub/Hacking-Security-Ebooks" target="_blank">https://github.com/yeahhub/Hacking-Security-Ebooks</a></li>
+<li><a href="https://github.com/InfoSecIITR/reading-material" target="_blank">https://github.com/InfoSecIITR/reading-material</a></li>
+</ul>
 
 <br>
 </details>
@@ -2205,36 +2449,40 @@ https://github.com/InfoSecIITR/reading-material<br>
 <tbody> 
 <tr>
 <td valign="top" style="width:50%">
-https://dfrws.org/presentation<br>
-https://issworldtraining.com<br>
-https://sciencedirect.com/journal/forensic-science-international-digital-investigation<br>
-https://sciencedirect.com/journal/computer-law-and-security-review<br>
-https://github.com/MISP/misp-training<br>
-https://github.com/ail-project/ail-training<br>
-https://isc2.org/Certifications/CISSP<br>
-https://github.com/connectans/awesome-CISSP-CCSP<br>
-https://github.com/jefferywmoore/CISSP-Study-Resources<br>
-https://github.com/Syslifters/OffSec-Reporting<br>
-https://attack.mitre.org<br>
-https://forensicfocus.com<br>
-https://ecrimeresearch.org<br>
-https://drivebadger.com<br>
-https://cellebritelearningcenter.com<br>
-https://public.cyber.mil<br>
+<ul>
+<li><a href="https://dfrws.org/presentation">https://dfrws.org/presentation</a></li>
+<li><a href="https://issworldtraining.com">https://issworldtraining.com</a></li>
+<li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">https://sciencedirect.com/journal/forensic-science-international-digital-investigation</a></li>
+<li><a href="https://sciencedirect.com/journal/computer-law-and-security-review">https://sciencedirect.com/journal/computer-law-and-security-review</a></li>
+<li><a href="https://github.com/MISP/misp-training">https://github.com/MISP/misp-training</a></li>
+<li><a href="https://github.com/ail-project/ail-training">https://github.com/ail-project/ail-training</a></li>
+<li><a href="https://isc2.org/Certifications/CISSP">https://isc2.org/Certifications/CISSP</a></li>
+<li><a href="https://github.com/connectans/awesome-CISSP-CCSP">https://github.com/connectans/awesome-CISSP-CCSP</a></li>
+<li><a href="https://github.com/jefferywmoore/CISSP-Study-Resources">https://github.com/jefferywmoore/CISSP-Study-Resources</a></li>
+<li><a href="https://github.com/Syslifters/OffSec-Reporting">https://github.com/Syslifters/OffSec-Reporting</a></li>
+<li><a href="https://attack.mitre.org">https://attack.mitre.org</a></li>
+<li><a href="https://forensicfocus.com">https://forensicfocus.com</a></li>
+<li><a href="https://ecrimeresearch.org">https://ecrimeresearch.org</a></li>
+<li><a href="https://drivebadger.com">https://drivebadger.com</a></li>
+<li><a href="https://cellebritelearningcenter.com">https://cellebritelearningcenter.com</a></li>
+<li><a href="https://public.cyber.mil">https://public.cyber.mil</a></li>
+</ul>
 </td>
 <td valign="top" style="width:50%">
-https://github.com/Cugu/awesome-forensics<br>
-https://github.com/shadawck/awesome-anti-forensic<br>
-https://github.com/Ignitetechnologies/Mindmap<br>
-https://github.com/asiamina/A-Course-on-Digital-Forensics<br>
-https://github.com/mikeroyal/Digital-Forensics-Guide<br>
-https://github.com/forensicswiki/wiki<br>
-https://github.com/Digital-Forensics-Discord-Server/LawEnforcementResources<br>
-https://github.com/Digital-Forensics-Discord-Server/TheHitchhikersGuidetoDFIRExperiencesFromBeginnersandExperts<br>
-https://github.com/Hack-with-Github/Awesome-Hacking<br>
-https://github.com/enaqx/awesome-pentest<br>
-https://github.com/onlurking/awesome-infosec<br>
-https://github.com/504ensicsLabs<br>
+<ul>
+<li><a href="https://github.com/Cugu/awesome-forensics">https://github.com/Cugu/awesome-forensics</a></li>
+<li><a href="https://github.com/shadawck/awesome-anti-forensic">https://github.com/shadawck/awesome-anti-forensic</a></li>
+<li><a href="https://github.com/Ignitetechnologies/Mindmap">https://github.com/Ignitetechnologies/Mindmap</a></li>
+<li><a href="https://github.com/asiamina/A-Course-on-Digital-Forensics">https://github.com/asiamina/A-Course-on-Digital-Forensics</a></li>
+<li><a href="https://github.com/mikeroyal/Digital-Forensics-Guide">https://github.com/mikeroyal/Digital-Forensics-Guide</a></li>
+<li><a href="https://github.com/forensicswiki/wiki">https://github.com/forensicswiki/wiki</a></li>
+<li><a href="https://github.com/Digital-Forensics-Discord-Server/LawEnforcementResources">https://github.com/Digital-Forensics-Discord-Server/LawEnforcementResources</a></li>
+<li><a href="https://github.com/Digital-Forensics-Discord-Server/TheHitchhikersGuidetoDFIRExperiencesFromBeginnersandExperts">https://github.com/Digital-Forensics-Discord-Server/TheHitchhikersGuidetoDFIRExperiencesFromBeginnersandExperts</a></li>
+<li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">https://github.com/Hack-with-Github/Awesome-Hacking</a></li>
+<li><a href="https://github.com/enaqx/awesome-pentest">https://github.com/enaqx/awesome-pentest</a></li>
+<li><a href="https://github.com/onlurking/awesome-infosec">https://github.com/onlurking/awesome-infosec</a></li>
+<li><a href="https://github.com/504ensicsLabs">https://github.com/504ensicsLabs</a></li>
+</ul>
 </td>
 </tr>
 </tbody>
