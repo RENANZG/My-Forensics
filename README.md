@@ -1998,6 +1998,58 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <!-- ################################# -->
 
 <details>
+<summary><b>Forensic Publications</b></summary>
+<br>
+
+<p>• Make a Google Scholar search from an interesting subject that you want to follow up on.</p>
+
+<p>• Search paramters example:</p>
+
+<pre>police hacking intext:ilegal intext:abusive intext:law</pre>
+
+<p>• You could set keywords alerts: https://scholar.google.com/scholar_alerts?view_op=list_alerts</p>
+
+<hr>
+• Open access journals<br>
+https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines<br>
+https://en.wikipedia.org/wiki/Lists_of_academic_journals<br>
+https://en.wikipedia.org/wiki/List_of_open-access_journals<br>
+
+• Non-profit research initiatives<br>
+
+The Public Knowledge Project - https://pkp.sfu.ca<br>
+
+<hr>
+
+• Science Direct — Forensic Science International: Digital Investigation<br>
+https://sciencedirect.com/journal/forensic-science-international-digital-investigation<br>
+• Forensic Science — Application of science to criminal and civil laws<br>
+https://forensicscijournal.com<br>
+• University of London - SAS Open Journals - Digital Evidence and Electronic Signature Law Review<br>
+https://journals.sas.ac.uk/deeslr/<br>
+• IEEE Intelligence and Security Informatics (IEEE-ISI)<br>
+https://ieee-isi.org<br>
+• USENIX Conferences<br>
+https://usenix.org/conferences<br>
+• International Journal of Intelligence and CounterIntelligence<br>
+https://tandfonline.com/journals/ujic20<br>
+• Australian Journal of Forensic Sciences<br>
+https://tandfonline.com/journals/tajf20<br>
+• Advancing Technology, Research and Collaboration<br>
+https://acm.org/conferences<br>
+• Communications in Computer and Information Science — Springer<br>
+https://springer.com/series/7899<br>
+• IEEE Open Journal of Circuits and Systems<br>
+• IEEE Open Journal of the Communications Society<br>
+• IEEE Open Journal of the Computer Society<br>
+• IEEE Open Journal of Signal Processing<br>
+
+<br>
+</details>
+
+<!-- ################################# -->
+
+<details>
 <summary><b>General Publications</b></summary>
 <br>
 
@@ -2108,58 +2160,6 @@ https://gov.il/en<br>
 • Iran Official Publications<br>
 https://irangov.ir/en<br>
 
-</details>
-
-<!-- ################################# -->
-
-<details>
-<summary><b>Forensic Publications</b></summary>
-<br>
-
-<p>• Make a Google Scholar search from an interesting subject that you want to follow up on.</p>
-
-<p>• Search paramters example:</p>
-
-<pre>police hacking intext:ilegal intext:abusive intext:law</pre>
-
-<p>• You could set keywords alerts: https://scholar.google.com/scholar_alerts?view_op=list_alerts</p>
-
-<hr>
-• Open access journals<br>
-https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines<br>
-https://en.wikipedia.org/wiki/Lists_of_academic_journals<br>
-https://en.wikipedia.org/wiki/List_of_open-access_journals<br>
-
-• Non-profit research initiatives<br>
-
-The Public Knowledge Project - https://pkp.sfu.ca<br>
-
-<hr>
-
-• Science Direct — Forensic Science International: Digital Investigation<br>
-https://sciencedirect.com/journal/forensic-science-international-digital-investigation<br>
-• Forensic Science — Application of science to criminal and civil laws<br>
-https://forensicscijournal.com<br>
-• University of London - SAS Open Journals - Digital Evidence and Electronic Signature Law Review<br>
-https://journals.sas.ac.uk/deeslr/<br>
-• IEEE Intelligence and Security Informatics (IEEE-ISI)<br>
-https://ieee-isi.org<br>
-• USENIX Conferences<br>
-https://usenix.org/conferences<br>
-• International Journal of Intelligence and CounterIntelligence<br>
-https://tandfonline.com/journals/ujic20<br>
-• Australian Journal of Forensic Sciences<br>
-https://tandfonline.com/journals/tajf20<br>
-• Advancing Technology, Research and Collaboration<br>
-https://acm.org/conferences<br>
-• Communications in Computer and Information Science — Springer<br>
-https://springer.com/series/7899<br>
-• IEEE Open Journal of Circuits and Systems<br>
-• IEEE Open Journal of the Communications Society<br>
-• IEEE Open Journal of the Computer Society<br>
-• IEEE Open Journal of Signal Processing<br>
-
-<br>
 </details>
 
 <!-- ################################ -->
@@ -2412,8 +2412,9 @@ https://fbi.gov<br>
 
 <!-- ################################ -->
 
-<h3>REFERENCES</h3>
+<h6>REFERENCES</h6>
 
+<small>
 <table style="width:100%" cellspacing="0" cellpadding="0">
 <thead>
   <tr>
@@ -2460,6 +2461,7 @@ https://fbi.gov<br>
 </tr>
 </tbody>
 </table>
+</small>
 
 <!--################################### -->
 <br>
