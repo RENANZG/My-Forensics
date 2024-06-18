@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+<!-- 
 <title>DIGITAL FORENSICS AND INCIDENT RESPONSE (DFIR)</title>
 <meta charset="utf-8">
-<!-- 
 <style>
 /* Global styles */
 body {
