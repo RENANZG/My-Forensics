@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-  <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- HIDDEN CSS IN HTML SANITIZED FOR MARKDOWN 
+<html lang="en">
+ <head>
+<title>DIGITAL FORENSICS AND INCIDENT RESPONSE (DFIR)</title>
+<meta charset="utf-8">
+<!-- 
 <style>
 /* Global styles */
 body {
@@ -130,9 +130,7 @@ hr {
     font-weight: bold;
 }
 </style>
-<title>DIGITAL FORENSICS AND INCIDENT RESPONSE (DFIR)</title>
 -->
-
 </head>
 <body>
 
