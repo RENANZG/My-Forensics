@@ -1,134 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-<title>DIGITAL FORENSICS AND INCIDENT RESPONSE (DFIR)</title>
-<meta charset="utf-8">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORENSICS</title>
 <style>
-/* Global styles */
-body {
-    background-color: #EEEEEE;
-    border: 40px solid #EEEEEE;
-    margin: 0;
-    padding: 0 10px;
-    font-family: "Liberation Sans", "Myriad", "Bitstream Vera Sans", "Lucida Grande", "Luxi Sans", "Trebuchet MS", helvetica, verdana, arial, sans-serif;
-    line-height: 1.2em;
-}
-/* Container styles */
-body > div.book, body > div.article, body > div.set, body > div.preface, body > div.chapter, body > div.section, body > div.appendix, body > div.part, div.sect1 {
-    margin-top: 0;
-    padding: 2em;
-    background-color: #FFFFFF;
-    margin: 40px auto 4em;
-    padding: 1px 40px 20px 30px;
-}
-/* Typography */
-h1, h2, h3, h4, h5, h6 {
-    color: #C70036;
-}
-h1 {
-    line-height: 1.1em;
-}
-/* Links */
-a:link {
-    color: #0035C7;
-    text-decoration: none;
-}
-a:visited {
-    color: #00207A;
-    text-decoration: none;
-}
-a:hover {
-    color: #00207A;
-    text-decoration: underline;
-}
-/* Code and Preformatted Text */
-code {
-    font-family: "Liberation Mono", "Bitstream Vera Mono", "DejaVu Mono", monospace;
-    font-weight: bold;
-    word-wrap: break-word;
-}
-pre {
-    background-color: #F5F5F5;
-    border-radius: 0.5em;
-    color: #000000;
-    display: block;
-    font-family: "Liberation Mono", "Bitstream Vera Mono", "DejaVu Mono", monospace;
-    font-size: 0.9em;
-    margin-bottom: 1em;
-    padding: 0.5em;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-/* Tables */
-table {
-    border-collapse: collapse;
-}
-th, td {
-    border: 1px solid black;
-    padding: 0.2em 0.5em;
-}
-th {
-    background-color: #C70036;
-}
-th:hover {
-    color: white;
-}
-/* Lists */
-ul, ol {
-    padding-left: 1.5em;
-}
-li {
-    margin-bottom: 0.5em;
-}
-/* Blockquote */
-blockquote {
-    border-left: 4px solid #CCCCCC;
-    padding-left: 1em;
-    margin-left: 0;
-    color: #666666;
-}
-/* Horizontal Rule */
-hr {
-    border-top: 1px dotted #808080;
-    margin: 0;
-}
-/* Navigation */
-.navheader a, .navfooter a {
-    opacity: 0.50;
-    transition: opacity 0.15s ease-in-out;
-}
-.navheader a:hover, .navfooter a:hover {
-    opacity: 1;
-}
-/* Info blocks */
-.important {
-    border: 1px dashed red;
-}
-.caution {
-    border: 1px dashed #EFF500;
-}
-.note {
-    border: 1px dashed blue;
-}
-.important, .caution, .note, .tip {
-    margin-left: 1em;
-    margin-right: 1em;
-}
-/* Reference blocks */
-.references {
- 		margin-top: 10px;
-}
-.reference-list {
-    list-style-type: none;
-    padding-left: 0;
-}
-.reference-list li::before {
-    content: '[' counter(ref) '] ';
-    counter-increment: ref;
-    font-size: 0.2em;
-    font-weight: bold;
-}
+  /* CSS Crime Scene Style*/
+  * {
+    box-sizing: border-box;
+    margin: 2;
+    padding: 2;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(22, 22, 24); /* Dark gray background */
+    color: #fff; /* White text color */
+    margin: 40px; /* Margin for better readability */
+  }
+
+  /* Titles */
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* White text color */
+  }
+
+  /* Elements with yellow details */
+  hr, blockquote, table, thead, tbody, tfoot, tr, td, th {
+    border-color: rgb(226, 181, 25); /* Yellowish color for borders */
+  }
+
+  /* Links within content */
+  a {
+    color: rgb(226, 26, 65); /* Reddish color for links */
+    text-decoration: none; /* Remove underline by default */
+  }
+
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
 </style>
 
 </head>
@@ -1961,48 +1872,43 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <summary><b>Forensic Publications</b></summary>
 <br>
 
-<p>• Make a Google Scholar search from an interesting subject that you want to follow up on.</p>
-
-<p>• Search paramters example:</p>
-
-<pre>police hacking intext:ilegal intext:abusive intext:law</pre>
-
-<p>• You could set keywords alerts: https://scholar.google.com/scholar_alerts?view_op=list_alerts</p>
-
-<hr>
-• Open access journals<br>
-https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines<br>
-https://en.wikipedia.org/wiki/Lists_of_academic_journals<br>
-https://en.wikipedia.org/wiki/List_of_open-access_journals<br>
-
-• Non-profit research initiatives<br>
-
-The Public Knowledge Project - https://pkp.sfu.ca<br>
+<h4>Make a Google Scholar search on an interesting subject you want to follow up on.</h4>
+<p>Search parameters example:</p>
+<pre>police hacking intext:illegal intext:abusive intext:law</pre>
+<p>You could set keyword alerts: <a href="https://scholar.google.com/scholar_alerts?view_op=list_alerts">Google Scholar Alerts</a></p>
 
 <hr>
 
-• Science Direct — Forensic Science International: Digital Investigation<br>
-https://sciencedirect.com/journal/forensic-science-international-digital-investigation<br>
-• Forensic Science — Application of science to criminal and civil laws<br>
-https://forensicscijournal.com<br>
-• University of London - SAS Open Journals - Digital Evidence and Electronic Signature Law Review<br>
-https://journals.sas.ac.uk/deeslr/<br>
-• IEEE Intelligence and Security Informatics (IEEE-ISI)<br>
-https://ieee-isi.org<br>
-• USENIX Conferences<br>
-https://usenix.org/conferences<br>
-• International Journal of Intelligence and CounterIntelligence<br>
-https://tandfonline.com/journals/ujic20<br>
-• Australian Journal of Forensic Sciences<br>
-https://tandfonline.com/journals/tajf20<br>
-• Advancing Technology, Research and Collaboration<br>
-https://acm.org/conferences<br>
-• Communications in Computer and Information Science — Springer<br>
-https://springer.com/series/7899<br>
-• IEEE Open Journal of Circuits and Systems<br>
-• IEEE Open Journal of the Communications Society<br>
-• IEEE Open Journal of the Computer Society<br>
-• IEEE Open Journal of Signal Processing<br>
+<h4>Open Access Journals</h4>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines">List of Academic Databases and Search Engines - Wikipedia</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Lists_of_academic_journals">Lists of Academic Journals - Wikipedia</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/List_of_open-access_journals">List of Open-Access Journals - Wikipedia</a></li>
+</ul>
+
+<h4>Non-Profit Research Initiatives</h4>
+<ul>
+    <li><a href="https://pkp.sfu.ca">The Public Knowledge Project</a></li>
+</ul>
+
+<hr>
+
+<h4>Forensic Science Journals and Publications</h4>
+<ul>
+    <li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">Science Direct — Forensic Science International: Digital Investigation</a></li>
+    <li><a href="https://forensicscijournal.com">Forensic Science — Application of Science to Criminal and Civil Laws</a></li>
+    <li><a href="https://journals.sas.ac.uk/deeslr/">University of London - SAS Open Journals - Digital Evidence and Electronic Signature Law Review</a></li>
+    <li><a href="https://ieee-isi.org">IEEE Intelligence and Security Informatics (IEEE-ISI)</a></li>
+    <li><a href="https://usenix.org/conferences">USENIX Conferences</a></li>
+    <li><a href="https://tandfonline.com/journals/ujic20">International Journal of Intelligence and CounterIntelligence</a></li>
+    <li><a href="https://tandfonline.com/journals/tajf20">Australian Journal of Forensic Sciences</a></li>
+    <li><a href="https://acm.org/conferences">Advancing Technology, Research and Collaboration</a></li>
+    <li><a href="https://springer.com/series/7899">Communications in Computer and Information Science — Springer</a></li>
+    <li><a href="">IEEE Open Journal of Circuits and Systems</a></li>
+    <li><a href="">IEEE Open Journal of the Communications Society</a></li>
+    <li><a href="">IEEE Open Journal of the Computer Society</a></li>
+    <li><a href="">IEEE Open Journal of Signal Processing</a></li>
+</ul>
 
 <br>
 </details>
@@ -2085,57 +1991,73 @@ https://springer.com/series/7899<br>
 
 <h4>German Law Research</h4>
 
-• German Legal Research Guide - Georgetown Law<br>
-https://guides.ll.georgetown.edu/germanlegalresearch<br>
-• German Law Research - Harvard Law School Library Research Services<br>
-https://guides.library.harvard.edu/GermanLaw<br>
-• The German Law Journal (open-access) - Cambridge University Press<br>
-https://cambridge.org/core/journals/german-law-journal<br>
-• Foreign Law Translations - The University of Texas at Austin<br>
-https://law.utexas.edu/transnational/foreign-law-translations<br>
+<ul>
+    <li><a href="https://guides.ll.georgetown.edu/germanlegalresearch">German Legal Research Guide - Georgetown Law</a></li>
+    <li><a href="https://guides.library.harvard.edu/GermanLaw">German Law Research - Harvard Law School Library Research Services</a></li>
+    <li><a href="https://cambridge.org/core/journals/german-law-journal">The German Law Journal (open-access) - Cambridge University Press</a></li>
+    <li><a href="https://law.utexas.edu/transnational/foreign-law-translations">Foreign Law Translations - The University of Texas at Austin</a></li>
+</ul>
 
 <h4>Law and Technology Research</h4>
-• Bad Internet Bills - https://badinternetbills.com<br>
-• Berkeley Law Technology Journal - https://btlj.org<br>
-• Carnegie Endowment for International Peace - https://carnegieendowment.org/publications/interactive/cybernorms<br>
-• CIS - https://cyberlaw.stanford.edu<br>
-• Computer Crime Research Center - https://crime-research.org<br>
-• ETSI - https://etsi.org/committees<br>
 
-• European Journal of Law and Technology - https://ejlt.org/index.php/ejlt<br>
-• Intelligence Oversight - https://intelligence-oversight.org<br>
-• International Review of Law, Computers & Technology (Open Acess) -https://tandfonline.com/journals/cirl20<br>
-• Internet Crime Complaint Center (IC3) - https://ic3.gov/Home/AnnualReports<br>
-• Northwestern Journal of Technology and Intellectual Property - https://scholarlycommons.law.northwestern.edu/njtip/<br>
-• Ohio State Technology Law Journal (Moritz College of Law) - https://kb.osu.edu/communities/a3767fe3-6fcd-5776-bbe7-44d144fb641a<br>
-• Science Direct — Computer Law & Security Review - https://sciencedirect.com/journal/computer-law-and-security-review<br>
-• Software Freedom Law Center - https://softwarefreedom.org<br>
-• Techdirt - https://techdirt.com<br>
-• The APWG Symposium on Electronic Crime Research (APWG eCrime) - https://ecrimeresearch.org<br>
-• The Berkman Klein Center for Internet & Society at Harvard University - https://cyber.harvard.edu<br>
-• The Center for Security and Emerging Technology (CSET) - Georgetown University's Walsh School of Foreign Service<br>
-• The Center for Security and Emerging Technology within Georgetown University's Walsh School of Foreign Service - https://cset.georgetown.edu<br>
-• The Digital Evidence and Electronic Signature Law Review (DEESLR) (Open Access) - https://journals.sas.ac.uk/deeslr/issue/view/596<br>
-• The Duke Law & Technology Review (DLTR) - https://dltr.law.duke.edu<br>
-• UN Internet Governance Forum - https://intgovforum.org<br>
+<h5>Journals and Publications</h5>
+<ul>
+    <li><a href="https://btlj.org">Berkeley Law Technology Journal</a></li>
+    <li><a href="https://ejlt.org/index.php/ejlt">European Journal of Law and Technology</a></li>
+    <li><a href="https://tandfonline.com/journals/cirl20">International Review of Law, Computers & Technology (Open Access)</a></li>
+    <li><a href="https://scholarlycommons.law.northwestern.edu/njtip/">Northwestern Journal of Technology and Intellectual Property</a></li>
+    <li><a href="https://kb.osu.edu/communities/a3767fe3-6fcd-5776-bbe7-44d144fb641a">Ohio State Technology Law Journal (Moritz College of Law)</a></li>
+    <li><a href="https://sciencedirect.com/journal/computer-law-and-security-review">Science Direct — Computer Law & Security Review</a></li>
+    <li><a href="https://journals.sas.ac.uk/deeslr/issue/view/596">The Digital Evidence and Electronic Signature Law Review (DEESLR) (Open Access)</a></li>
+    <li><a href="https://dltr.law.duke.edu">The Duke Law & Technology Review (DLTR)</a></li>
+</ul>
+
+<h5>Research Centers and Institutes</h5>
+<ul>
+    <li><a href="https://carnegieendowment.org/publications/interactive/cybernorms">Carnegie Endowment for International Peace</a></li>
+    <li><a href="https://cyberlaw.stanford.edu">CIS - Stanford Center for Internet and Society</a></li>
+    <li><a href="https://cyber.harvard.edu">The Berkman Klein Center for Internet & Society at Harvard University</a></li>
+    <li><a href="https://cset.georgetown.edu">The Center for Security and Emerging Technology (CSET) - Georgetown University's Walsh School of Foreign Service</a></li>
+</ul>
+
+<h5>Organizations and Resources</h5>
+<ul>
+    <li><a href="https://badinternetbills.com">Bad Internet Bills</a></li>
+    <li><a href="https://crime-research.org">Computer Crime Research Center</a></li>
+    <li><a href="https://etsi.org/committees">ETSI - European Telecommunications Standards Institute</a></li>
+    <li><a href="https://intelligence-oversight.org">Intelligence Oversight</a></li>
+    <li><a href="https://ic3.gov/Home/AnnualReports">Internet Crime Complaint Center (IC3)</a></li>
+    <li><a href="https://softwarefreedom.org">Software Freedom Law Center</a></li>
+    <li><a href="https://techdirt.com">Techdirt</a></li>
+    <li><a href="https://ecrimeresearch.org">The APWG Symposium on Electronic Crime Research (APWG eCrime)</a></li>
+    <li><a href="https://intgovforum.org">UN Internet Governance Forum</a></li>
+    <li><a href="https://www.ssrn.com/index.cfm/en/tilburg-leg/tilburg-tilt/">Tilburg: TILT Law & Technology Working Paper Series</a></li>
+</ul>
 
 <h4>Others</h4>
-• AIDP-IAPL Publications - https://penal.org/en/aidp-iapl-publications<br>
-• European Journal of Criminology - https://journals.sagepub.com/home/euc<br>
-• Information Security Journal: A Global Perspective - https://tandfonline.com/journals/uiss20<br>
-• Information Systems Security - https://tandfonline.com/journals/uiss19<br>
-• Journal of Applied Security Research - https://tandfonline.com/journals/wasr20<br>
-• Journal of Computer Information Systems - https://tandfonline.com/journals/ucis20<br>
-• Police Practice and Research — An International Journal - https://tandfonline.com/journals/gppr20<br>
-• Policing and Society — An International Journal of Research and Policy - https://tandfonline.com/journals/gpas20<br>
 
-https://digitalcommons.usf.edu/mca/<br>
-https://csrc.nist.gov<br>
-https://sherloc.unodc.org<br>
-https://justice.gov/criminal/cybercrime<br>
-https://coe.int/en/web/cybercrime<br>
-https://enisa.europa.eu<br>
-https://fbi.gov<br>
+<h5>Criminology and Security Journals</h5>
+<ul>
+    <li><a href="https://penal.org/en/aidp-iapl-publications">AIDP-IAPL Publications</a></li>
+    <li><a href="https://journals.sagepub.com/home/euc">European Journal of Criminology</a></li>
+    <li><a href="https://tandfonline.com/journals/uiss20">Information Security Journal: A Global Perspective</a></li>
+    <li><a href="https://tandfonline.com/journals/uiss19">Information Systems Security</a></li>
+    <li><a href="https://tandfonline.com/journals/wasr20">Journal of Applied Security Research</a></li>
+    <li><a href="https://tandfonline.com/journals/ucis20">Journal of Computer Information Systems</a></li>
+    <li><a href="https://tandfonline.com/journals/gppr20">Police Practice and Research — An International Journal</a></li>
+    <li><a href="https://tandfonline.com/journals/gpas20">Policing and Society — An International Journal of Research and Policy</a></li>
+</ul>
+
+<h5>Security and Cybercrime Resources</h5>
+<ul>
+    <li><a href="https://digitalcommons.usf.edu/mca/">Digital Commons @ USF</a></li>
+    <li><a href="https://csrc.nist.gov">NIST Computer Security Resource Center</a></li>
+    <li><a href="https://sherloc.unodc.org">SHERLOC UNODC</a></li>
+    <li><a href="https://justice.gov/criminal/cybercrime">U.S. Department of Justice - Cybercrime</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime">Council of Europe - Cybercrime</a></li>
+    <li><a href="https://enisa.europa.eu">European Union Agency for Cybersecurity (ENISA)</a></li>
+    <li><a href="https://fbi.gov">FBI</a></li>
+</ul>
 
 <br>
 </details>
@@ -2165,13 +2087,16 @@ https://fbi.gov<br>
 </ul>
 
 <ul>
-<li><a href="https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Courses">https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Courses</a></li>
-<li><a href="https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Textbooks">https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Textbooks</a></li>
+<li><a href="https://www.gutenberg.org">https://www.gutenberg.org</a></li>
+<li><a href="https://openlibrary.org">https://openlibrary.org</a></li>
+<li><a href="https://sanet.st/books">https://sanet.st/books</a></li>
 <li><a href="https://freecomputerbooks.com">https://freecomputerbooks.com</a></li>
 <li><a href="https://freetechbooks.com">https://freetechbooks.com</a></li>
+<li><a href="https://programmer-books.com">https://programmer-books.com</a></li>
 <li><a href="https://riptutorial.com/ebook">https://riptutorial.com/ebook</a></li>
 <li><a href="https://e-booksdirectory.com">https://e-booksdirectory.com</a></li>
-<li><a href="https://programmer-books.com">https://programmer-books.com</a></li>
+<li><a href="https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Courses">https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Courses</a></li>
+<li><a href="https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Textbooks">https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Textbooks</a></li>
 </ul>
 
 <br>
@@ -2214,21 +2139,139 @@ https://fbi.gov<br>
 <summary><b>Intelligence, Conflict and Warfare Publications</b></summary>
 <br>
 
-<ul>
-<li><a href="https://ccdcoe.org" target="_blank">The NATO Cooperative Cyber Defence Centre of Excellence<br></a></li>
-<li><a href="https://www.cfr.org" target="_blank">Council on Foreign Relations (CFR)<br></a></li>
-<li><a href="https://www.isanet.org/ISA/Sections/ISS" target="_blank">International Security Studies Section (ISSS)<br></a></li>
-<li><a href="https://tandfonline.com/action/showOpenAccess?journalCode=fint20" target="_blank">Taylor & Francis - Intelligence and National Security - Open access articles<br></a></li>
-<li><a href="https://www.tandfonline.com/loi/usip20" target="_blank">Taylor & Francis - The International Journal of Intelligence, Security, and Public Affairs<br></a></li>
-<li><a href="https://journals.lib.sfu.ca/index.php/jicw/issue/archive" target="_blank">The Journal of Intelligence, Conflict, and Warfare<br></a></li>
-<li><a href="https://dcaf.ch/resources?type=publications" target="_blank">DCAF - Geneva Centre for Security Sector Governance<br></a></li>
-<li><a href="https://cia.gov/resources/csi/studies-in-intelligence" target="_blank">CIA.gov - Center for the study of intelligence<br></a></li>
-<li><a href="https://e-ir.info/publications" target="_blank">E-International Relations - Open access scholarly books<br> </a></li>
-<li><a href="https://springeropen.com" target="_blank">Springer Open<br></a></li>
-<li><a href="https://direct.mit.edu/isec" target="_blank">International Security<br></a></li>
-<li><a href="https://carnegieendowment.org" target="_blank">Carnegie Endowment for International Peace<br></a></li>
-<li><a href="https://rieas.gr" target="_blank">RIEAS<br></a></li>
-</ul>
+<h4>Intelligence, Conflict, and Warfare Publications</h4>
+
+    <ul>
+        <li>
+            <a href="https://ccdcoe.org" target="_blank">
+            The NATO Cooperative Cyber Defence Centre of Excellence
+            </a>
+        </li>
+        <li>
+            <a href="https://www.cfr.org" target="_blank">
+            Council on Foreign Relations (CFR)
+            </a>
+        </li>
+        <li>
+            <a href="https://www.isanet.org/ISA/Sections/ISS" target="_blank">
+            International Security Studies Section (ISSS)
+            </a>
+        </li>
+        <li>
+            <a href="https://tandfonline.com/action/showOpenAccess?journalCode=fint20" target="_blank">
+                Taylor & Francis - Intelligence and National Security
+            </a> - Open access articles
+        </li>
+        <li>
+            <a href="https://journals.lib.sfu.ca/index.php/jicw/issue/archive" target="_blank">
+                The Journal of Intelligence, Conflict, and Warfare
+            </a> - Archive of past issues
+        </li>
+        <li>
+            <a href="https://dcaf.ch/resources?type=publications" target="_blank">
+                DCAF - Geneva Centre for Security Sector Governance
+            </a> - Publications on security sector governance
+        </li>
+        <li>
+            <a href="https://e-ir.info/publications" target="_blank">
+                E-International Relations
+            </a> - Open access scholarly books
+        </li>
+        <li>
+            <a href="https://cia.gov/resources/csi/studies-in-intelligence" target="_blank">
+                CIA.gov - Center for the Study of Intelligence
+            </a> - Studies in Intelligence
+        </li>
+        <li>
+            <a href="https://www.tandfonline.com/toc/fjss20/current" target="_blank">
+                Journal of Strategic Studies
+            </a> - Scholarly articles on strategic studies, intelligence, and military affairs
+        </li>
+        <li>
+            <a href="https://www.tandfonline.com/toc/ujic20/current" target="_blank">
+                International Journal of Intelligence and CounterIntelligence
+            </a> - Articles on intelligence operations, security, and counterintelligence
+        </li>
+        <li>
+            <a href="https://www.rand.org/pubs.html" target="_blank">
+                RAND Corporation
+            </a> - Research and analysis on security, defense, and intelligence
+        </li>
+        <li>
+            <a href="https://www.chathamhouse.org/our-research/topics/international-security" target="_blank">
+                Chatham House - International Security Programme
+            </a> - Publications on international security and conflict
+        </li>
+        <li>
+            <a href="https://www.brookings.edu/topic/foreign-policy/" target="_blank">
+                Brookings Institution - Foreign Policy
+            </a> - Articles and research on global security and intelligence
+        </li>
+        <li>
+            <a href="https://www.foreignaffairs.com/" target="_blank">
+                Foreign Affairs
+            </a> - Articles and analyses on international affairs, security, and intelligence
+        </li>
+        <li>
+            <a href="https://smallwarsjournal.com/jrnl" target="_blank">
+                Small Wars Journal
+            </a> - Discussions on military strategy, defense policy, and irregular warfare
+        </li>
+        <li>
+            <a href="https://www.tandfonline.com/toc/usip20/current" target="_blank">
+                The International Journal of Intelligence, Security, and Public Affairs
+            </a> - Research on intelligence, security, and public affairs
+        </li>
+    </ul>
+
+    <h2>English-Language Materials from Specific Countries</h2>
+    <ul>
+        <li>
+            <a href="https://www.unibw.de/metis-en/publikationen" target="_blank">
+                Bundeswehr University Munich - Metis Institute for Strategy and Foresight
+            </a> - Research on strategy, security, and military affairs
+        </li>
+        <li>
+            <a href="https://www.realinstitutoelcano.org/en/publications/" target="_blank">
+                Real Instituto Elcano - Elcano Royal Institute
+            </a> - Publications on international and strategic studies
+        </li>
+        <li>
+            <a href="https://indsr.org.tw/en/publish" target="_blank">
+                Institute for National Defense and Security Research (INDSR)
+            </a> - Research and analysis on security and defense
+        </li>
+        <li>
+            <a href="http://www.css.ir/en/" target="_blank">
+                Strategic Research Center - Expediency Discernment Council
+            </a> - Research papers and publications on strategic issues (limited English content)
+        </li>
+        <li>
+            <a href="https://invesp.org.ve/en/publications/" target="_blank">
+                Venezuelan Institute for Social and Political Studies (INVESP)
+            </a> - Publications on political and social issues (limited English content)
+        </li>
+        <li>
+            <a href="https://russiancouncil.ru/en/" target="_blank">
+                Russian International Affairs Council (RIAC)
+            </a> - Articles and analysis on international relations and security
+        </li>
+        <li>
+            <a href="https://www.csis.or.id/publications" target="_blank">
+                Centre for Strategic and International Studies (CSIS) Indonesia
+            </a> - Research and publications on security and international affairs
+        </li>
+        <li>
+            <a href="https://www.cicp.org.kh/" target="_blank">
+                Cambodian Institute for Cooperation and Peace (CICP)
+            </a> - Publications on peace, security, and cooperation
+        </li>
+        <li>
+            <a href="https://iseas.vass.gov.vn/en/" target="_blank">
+                Institute for Southeast Asian Studies (ISEAS) - Vietnam Academy of Social Sciences
+            </a> - Research on regional security and international relations
+        </li>
+    </ul>
 
 <br>
 </details>

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 ########################################################################
 # VISIT: https://github.com/rizinorg/cutter
