@@ -1,2502 +1,1504 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
 <!--
-  <head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORENSICS</title>
+    <title>ONION LINKS</title> 
 <style>
-  /* CSS Crime Scene Style*/
-  * {
-    box-sizing: border-box;
-    margin: 2;
-    padding: 2;
+  /* Dracula Darker Theme */
+   body {
+       background-color: #21222c;
+       border: 40px solid #21222c;
+       margin: 0;
+       padding: 0 10px;
+       font-family: "Liberation Sans", "Myriad", "Bitstream Vera Sans", "Lucida Grande", "Luxi Sans", "Trebuchet MS", helvetica, verdana, arial, sans-serif;
+       line-height: 1.2em;
+       color: #f8f8f2; /* Foreground color */
   }
-
-  body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(22, 22, 24); /* Dark gray background */
-    color: #fff; /* White text color */
-    margin: 40px; /* Margin for better readability */
+  /* Container styles */
+   body > div.book, body > div.article, body > div.set, body > div.preface, body > div.chapter, body > div.section, body > div.appendix, body > div.part, div.sect1 {
+       margin-top: 0;
+       padding: 2em;
+       background-color: #282a36; /* Container background */
+       margin: 40px auto 4em;
+       padding: 1px 40px 20px 30px;
+       color: #f8f8f2; /* Container text */
   }
-
-  /* Titles */
-  h1, h2, h3, h4, h5, h6 {
-    color: #fff; /* White text color */
+  /* Headers */
+   h1, h2, h3, h4, h5, h6 {
+       color: #bd93f9;
   }
-
-  /* Elements with yellow details */
-  hr, blockquote, table, thead, tbody, tfoot, tr, td, th {
-    border-color: rgb(226, 181, 25); /* Yellowish color for borders */
+  /* Links */
+   a {
+       color: #8be9fd; 
+       text-decoration: none;
   }
-
-  /* Links within content */
-  a {
-    color: rgb(226, 26, 65); /* Reddish color for links */
-    text-decoration: none; /* Remove underline by default */
+   a:hover, a:focus {
+       text-decoration: underline;
   }
-
-  a:hover {
-    text-decoration: underline; /* Underline on hover */
+   p, ol, ul, blockquote, dl, dt, dd, pre, code, kbd, samp, var {
+       margin-bottom: 1em;
+  }
+  /* Bold elements */
+   b, strong {
+       font-weight: bold;
+       color: #ff79c6;
+  }
+   i, em {
+       font-style: italic;
+       color: #ff79c6; /* Italic elements */
+  }
+  /* Code block */
+   pre, code, kbd, samp, tt {
+       font-family: 'Courier New', Courier, monospace;
+       background-color: #282a36; /* Code block background */
+       border: 1px solid #44475a; /* Code block border */
+       padding: 3px;
+       border-radius: 3px;
+       color: #f8f8f2; /* Code text color */
+       margin: 0;
+       display: inline-block;
+  }
+   img {
+       max-width: 100%;
+       height: auto;
+  }
+   table {
+       width: 100%;
+       border-collapse: collapse;
+       margin-bottom: 1em;
+  }
+  /* Tables */
+   th, td {
+       border: 1px solid #44475a; /* Table borders */
+       padding: 0.5em;
+  }
+   thead {
+       background-color: #6272a4; /* Table header background */
+       color: #f8f8f2; /* Table header text */
+  }
+   tfoot {
+       background-color: #282a36; /* Table footer background */
+       color: #f8f8f2; /* Table footer text */
+  }
+  /* Bullet List */
+  ul {
+     margin: 0;
+     padding-left: 10px;
+      }
+  /* Horizontal rule */
+   hr {
+       border: 0;
+       border-top: 1px solid #44475a;
+       margin: 2em 0;
+  }
+   blockquote {
+       border-left: 5px solid #bd93f9; /* Blockquote left border */
+       padding-left: 1em;
+       color: #ff79c6; /* Blockquote text */
+       background-color: #282a36; /* Blockquote background */
+  }
+   sup, sub {
+       font-size: 0.8em;
+       vertical-align: super;
+  }
+   sub {
+       vertical-align: sub;
+  }
+   ins {
+       background-color: #282a36; /* Inserted text background */
+       text-decoration: none;
+  }
+   del {
+       text-decoration: line-through;
+       color: #ff79c6; /* Deleted text */
+  }
+   s, strike {
+       text-decoration: line-through;
+  }
+   ruby, rt, rp {
+       font-size: 0.9em;
+  }
+   summary {
+       cursor: pointer;
+       color: #bd93f9; /* Details summary text */
+       font-weight: bold;
+  }
+   details {
+       margin-bottom: 1em;
+  }
+   .container {
+       max-width: 800px;
+       margin: 0 auto;
+       padding: 1em;
+       background-color: #282a36; /* Container background */
+       color: #f8f8f2; /* Container text */
   }
 </style>
 -->
+<title>ONION LINKS</title>
 </head>
+
 <body>
 
-<div id="header">
+  <div id="header">
 
-<h1>DIGITAL FORENSICS AND INCIDENT RESPONSE (DFIR)</h1>
+    <h1>👽🤡🧙👻💀 ONION LINKS 💀👻🧙🤡👽</h1>
 
-<blockquote><h3>"These programs were never about terrorism: they're about economic spying, social control and diplomatic manipulation. They're about power." (Edward Snowden)</h3></blockquote>
+    <blockquote>
+      <h3>"If the government or the parties won't address our needs, we will. It's about direct action, even civil disobedience." (Edward Snowden)</h3></blockquote>
 
-<p align="center"><img src="https://github.com/RENANZG/My-Forensics/assets/53377291/a4ef4137-7b20-4df0-8678-1f48be665386" title="The Treachery of Images (1929) - René Magritte"/></p>
+    <p align="center"><img src="https://github.com/RENANZG/My-Onion-Links/assets/53377291/13688964-5ddd-4d11-9ae9-baf0c8f996db"
+      title="Las Meninas (1656) - Velazquez" /></p>
 
-</div>
+  </div>
 
-<!-- ################################## -->
+  <hr>
 
-<hr>
+  <!-- ############################################################ -->
 
-<h3>BASIC STRATEGY</h3>
+  <h2>WARNING! NO ILLEGAL OR COPYRIGHTED CONTENT IS ALLOWED !</h2>
 
-<table style="width: 100%" cellspacing="0" cellpadding="0">
-<thead>
-  <tr>
-  </tr>
-</thead>
-<tbody> 
-<tr>
-  <td align="center" valign="top"><b>Crime Triangle</b></td>
-  <td align="center" valign="top"><b>Basic Investigative Metodology</b></td>
-</tr>
-<tr>
-  <td align="center" valign="top">
-    <img src=".data/crime_triangle.png" title="Crime Triangle">
-  </td>
-  <td align="left" valign="top">
-    <p>
-    <b>• 5W:</b> Who, What, When, Where and Why<br> 
-    <b>• PDCA Cycle:</b> Plan, Do, Check and Act<br>
-    <b>• Root Cause Analysis (RCA):</b><br>
-    <ol>
-    <li>Identify and describe the problem clearly</li>
-    <li>Establish a timeline from the normal situation until <br>
-    the problem occurs</li>
-    <li>Distinguish between the root cause and other causal <br>
-    factors (e.g., using event correlation)</li>
-    <li>Establish a causal graph between the root cause<br>
-    and the problem</li>
-    </ol>
+  <p>Read <a href="https://www.torproject.org" target="_blank" rel="noopener noreferrer">Tor Project</a>    and <a href="https://tb-manual.torproject.org/ " target="_blank" rel="noopener noreferrer">Tor Browser User Manual</a>    for information on how to use Tor.</p>
+
+  <details>
+    <summary><b>The Basics of the Dark Web</b></summary>
+
+    <a href="https://youtube.com/watch?v=nFZm4sVsPXk">
+      <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnFZm4sVsPXk"
+      alt="Secure TailsOS Setup For The Average Dark Web Enjoyer" title="Secure TailsOS Setup For The Average Dark Web Enjoyer"
+      />
+    </a>
+    <a href="https://youtube.com/watch?v=GR_U0G-QGA0">
+      <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGR_U0G-QGA0"
+      alt="Bad Opsec - How Tor Users Got Caught" title="Bad Opsec - How Tor Users Got Caught"
+      />
+    </a>
+    <br>
+
+    <a href="https://youtube.com/watch?v=NGiUhjuB22Y">
+      <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNGiUhjuB22Y"
+      alt="DEF CON 30 - Sam Bent - Tor - Darknet Opsec By a Veteran Darknet Vendor"
+      title="DEF CON 30 - Sam Bent - Tor - Darknet Opsec By a Veteran Darknet Vendor"
+      />
+    </a>
+    <a href="https://youtube.com/watch?v=47zJPU0VHSQ">
+      <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D47zJPU0VHSQ"
+      alt="Cyber Security: Why Is This (Still) So Hard? General Michael V. Hayden, former Director of the NSA and CIA"
+      title="Cyber Security: Why Is This (Still) So Hard? General Michael V. Hayden, former Director of the NSA and CIA"
+      /></a>
+    <br>
+
+    <a href="https://youtu.be/ovAmnAirvz8">
+      <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FovAmnAirvz8"
+      alt="Twitter Hacker Faces 77 Years in Prison" title="Twitter Hacker Faces 77 Years in Prison"
+      />
+    </a>
+    <a href="https://youtu.be/JehEh7i1PIE">
+      <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FJehEh7i1PIE"
+      alt="This image Can Hack You (The .webp Exploit)" title="This image Can Hack You (The .webp Exploit)"
+      />
+      <br>
+
+      <a href="https://youtube.com/watch?v=PYuB-cCJwkU">
+        <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DPYuB-cCJwkU"
+        alt="How is Interpol experimenting with policing the metaverse? - BBC News"
+        title="How is Interpol experimenting with policing the metaverse? - BBC News"
+        />
+      </a>
+      <a href="https://youtube.com/watch?v=d-Jm8-eTLhw&pp=ygUVbG9saSBtZXRhdmVyc2UgcG9saWNl">
+        <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dd-Jm8-eTLhw%26pp%3DygUVbG9saSBtZXRhdmVyc2UgcG9saWNl"
+        alt="The Loli Police Department in VRChat" title="The Loli Police Department in VRChat"
+        />
+      </a>
+      <br>
+
+      <a href="https://youtube.com/watch?v=u8jLUjpCWrs">
+        <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Du8jLUjpCWrs"
+        alt="All PHP Applications are Vulnerable" title="All PHP Applications are Vulnerable"
+        /></a>
+      <a href="https://youtube.com/watch?v=KdbRU1JbcEA">
+        <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKdbRU1JbcEA"
+        alt="World's Most SECURE Data Center" title="World's Most SECURE Data Center"
+        />
+      </a>
+      <br>
+
+  </details>
+
+  <!--############################## -->
+
+  <details>
+    <summary><b>Tor Settings for Dark Web</b></summary>
+    <br>
+
+    <h4>Tor Browser Security Settings</h4>
+
+    <h2>Privacy Preferences (<code>about:preferences#privacy</code>)</h2>
+
+    <p>To access privacy preferences, go to (CTRL + L):</p>
+
+    <pre><code>about:preferences#privacy</code></pre>
+
+    <p>Adjust the following settings:</p>
+    <ul>
+      <li><strong>Prioritize .onion sites when known</strong> - Always prioritize
+        .onion websites for enhanced security within the Tor network.</li>
+      <li><strong>Security Level</strong> - Choose the <em>Safest</em> level
+        to disable potentially insecure features like JavaScript by default.</li>
+    </ul>
+
+    <h2>Tor Network Settings (<code>about:preferences#tor</code>)</h2>
+
+    <p>To configure Tor network settings, navigate to (CTRL + L):</p>
+
+    <pre><code>about:preferences#tor</code></pre>
+
+    <p>Configure the following options:</p>
+    <ul>
+      <li><strong>Always connect automatically</strong> - Ensures Tor connects
+        automatically when you start Tor Browser, maintaining your anonymity.</li>
+      <li><strong>Use a bridge</strong> - Select a built-in bridge to obfuscate
+        your Tor traffic and prevent ISP detection.</li>
+    </ul>
+
+    <h5>How Tor Bridges Work</h5>
+
+    <p>Tor bridges are specialized relays used to bypass censorship and enhance
+      your privacy when connecting to the Tor network. They are particularly
+      useful in situations where access to the Tor network is restricted
+      or monitored by ISPs or governments.</p>
+
+    <p>When you connect to the Tor network, your ISP can see that you are
+      using Tor based on the distinctive network traffic patterns it generates.
+      This can lead to censorship or monitoring of Tor usage.</p>
+
+    <p>Tor bridges help in circumventing this detection by acting as intermediary
+      relays that are not publicly listed in the main Tor directory. They
+      employ various techniques, such as <strong>obfuscation</strong> (e.g.,
+      <a href="https://tb-manual.torproject.org/bridges/">obfs4 protocol</a>      - <a href="https://bridges.torproject.org/bridges/?transport=obfs4">Get Bridges Here</a>),
+      to disguise Tor traffic as regular encrypted traffic, making it harder
+      for ISPs to detect and block.</p>
+
+    <p>When to Use Tor Bridges</p>
+
+    <ul>
+      <li>You need to maintain anonymity and privacy without your ISP detecting
+        your Tor usage.</li>
+      <li>You are in a region where Tor usage is actively monitored or blocked
+        by ISPs or governments.</li>
+      <li>You are experiencing connection issues or slow performance while
+        using Tor.</li>
+    </ul>
+
+    <hr>
+
+    <h4>Advanced Configuration (<code>about:config</code>)</h4>
+
+    <p>To access advanced configuration settings, go to (CTRL + L):</p>
+
+    <pre><code>about:config</code></pre>
+
+    <h5>Basic Configuration</h5>
+
+    <p>Adjust the following basic settings:</p>
+    <ul>
+      <li><code>javascript.enabled</code> - <b>false</b> - Disables JavaScript
+        to mitigate potential security risks associated with executing
+        scripts on web pages.</li>
+    </ul>
+
+    <h5>Advanced Configuration (Enhanced Privacy Settings)</h5>
+
+    <p>Configure these settings carefully to enhance your privacy and security
+      (*take care with fingerprinting):</p>
+
+    <ul>
+      <li><code>webgl.disabled</code> - <b>true</b> - Disables WebGL to prevent
+        device fingerprinting and potential security vulnerabilities associated
+        with WebGL. Some advanced graphics and interactive web applications
+        that rely on WebGL may not function properly.</li>
+      <li><code>media.peerconnection.enabled</code> - <b>false</b> - Disables
+        WebRTC to prevent websites from revealing your real IP address
+        through peer-to-peer connections. Web applications and services
+        that rely on real-time communication features such as video conferencing,
+        voice calls, and file sharing may not work properly.</li>
+      <li><code>privacy.resistFingerprinting</code> - <b>true</b> - Makes Tor
+        Browser more resistant to fingerprinting techniques by standardizing
+        browser behaviors.</li>
+      <li><code>geo.enabled</code> - <b>false</b> - Disables geolocation tracking
+        to prevent websites from accessing your physical location.</li>
+      <li><code>dom.battery.enabled</code> - <b>false</b> - Prevents websites
+        from detecting your device's battery status, enhancing privacy.</li>
+      <li><code>dom.event.clipboardevents.enabled</code> - <b>false</b> - Disables
+        clipboard events detection to prevent websites from knowing when
+        you copy/paste content.</li>
+      <li><code>network.trr.mode</code> - <b>2</b> - Enables DNS-over-HTTPS
+        (DoH) to encrypt DNS queries, protecting against DNS manipulation
+        and surveillance.</li>
+      <li><code>browser.cache.offline.enable</code> - <b>false</b> - Disables
+        offline cache to prevent websites from storing data on your computer
+        for offline use.</li>
+    </ul>
+
+    <hr>
+    <br>
+  </details>
+
+  <!--############################## -->
+
+  <details>
+    <summary><b>KVM — Using Whonix with KVM (Kernel Virtual Machine)</b></summary>
+    <br>
+    <a href="https://whonix.org/wiki/KVM#What_is_KVM?">https://whonix.org/wiki/KVM</a>
+    <br>
+    <hr>
+    <br>
+  </details>
+
+  <!--############################## -->
+
+  <details>
+    <summary><b>HVM — Use any desktop OS without leaving a trace with HiddenVM</b></summary>
+    <br>
+    <a href="https://github.com/aforensics/HiddenVM">https://github.com/aforensics/HiddenVM</a>
+    <br>
+    <hr>
+    <br>
+  </details>
+
+  <!--############################## -->
+
+  <details>
+    <summary><b>Whonix — How to set up Whonix VM with VirtualBox (Oracle®) on Linux</b></summary>
+
+    <em>Always prefer the live system mode that doesn't leave any kind of forensic trace. Always prefer Linux as a host.</em>
+
+    <h4>1. Check that you have the required computer specification:</h4>
+
+    <p><b>Hardware requirements:</b></p>
+    <p>For optimal performance: 8 GB of RAM.</p>
+    <p>Processor: A quadcore, 64-bit x86-64 compatible.</p>
+    <p>Storage device: Minimum of 32 GB.</p>
+
+    <a href="https://forums.whonix.org/t/recommended-specs/9679">https://forums.whonix.org/t/recommended-specs/9679</a>
+
+    <h4>2. Automatic installation for Linux:</h4>
+    <a href="https://whonix.org/wiki/Linux">https://whonix.org/wiki/Linux</a>
+    <br>
+
+    <h4>3. Manual installation for Linux:</h4>
+    <a href="https://whonix.org/wiki/Debian#Debian">https://whonix.org/wiki/Debian#Debian</a>
+    <br>
+
+    <hr>
+    <br>
+  </details>
+
+  <!--############################## -->
+
+  <details>
+    <summary><b>TailsOS VM — How to setup TailsOS VM with VirtualBox (Oracle®)</b></summary>
+    <br>
+
+    <sub>Credits: https://github.com/SuleimanGithub/how-to-setup-tails-os-vm</sub>
+
+    <p>Introduction:</p>
+
+    <p>Welcome to the tutorial on creating a VirtualBox with TailsOS, Oracle
+      VM VirtualBox is simple yet powerful as it can be run from a multitude
+      of devices such as small embedded systems to datacenter deployments
+      whilst TailsOS is a portable operating system that protects against
+      surveillance and censorship.</p>
+
+    <em>Always prefer the live mode that doesn't leave any kind of forensic trace. Always prefer Linux as a host.</em>
+
+    <h4>1. Check that you have the required computer specification:</h4>
+
+    <p><b>Hardware requirements:</b></p>
+    <p>For optimal performance: 8 GB of RAM.</p>
+    <p>Processor: A quadcore, 64-bit x86-64 compatible.</p>
+    <p>Storage device: Minimum of 32 GB.</p>
+
+    <p>Edited because of:
+      <a href="https://forums.whonix.org/t/recommended-specs/9679">https://forums.whonix.org/t/recommended-specs/9679</a>
     </p>
-  </td>
-</tr>
-</tbody>
-</table>
 
-<br>
+    <b>How can I check my system's hardware?</b>
+    <p>Click the Start button and type "system information" then open it.</p>
+    <p>You can find most of the details you need on the first page, in the
+      System Summary node.</p>
+    <p>You can also expand each node in the left pane for additional information.</p>
 
-<h4>Steps to Protect a Criminal Investigation from Leaks:</h4>
+    <h4>2. Setting up the VirtualBox:</h4>
+    <b><em>What is a VirtualBox?</em></b>
+    <p>In short, VirtualBox is a tool developed by Oracle to allow running
+      multiple operating systems simultaneously. This allows easier software
+      installations, better testing, faster disaster recovery, and it significantly
+      reduces hardware and electricity costs.
+      <br>The complete introduction can be found here:
+      <br>
+      <a href="https://virtualbox.org/manual/ch01.html#virt-why-useful">virtualbox.org - Chapter 1. First Steps</a></p>
+    <br>
 
-<ol>
-  <li>Data Collection</li>
+    <b>How to install the VirtualBox?</b>
+    <p>You can install VirtualBox by downloading the executable file for your
+      operating system.
+      <br>The download page that can be found here:
+      <br>
+      <a href="https://virtualbox.org/wiki/Downloads">virtualbox.org - Downloads</a></p>
+    <h4>3. Setting up Tails OS:</h4>
+    <p>Running Tails in a virtual machine is easy. First, you need to download
+      an ISO (Optical Disc Image) with the latest Tails Operating System
+      (OS). This ISO image will be used to emulate inserting a CD into
+      our VirtualBox to set up our Tails OS machine.
+      <br>The Tails OS ISO image can be found here:
+      <br>
+      <a href="https://tails.boum.org/install/vm-download/index.en.html">tails.net - Downloads</a></p>
+
+    <h4>Running Tails in a virtual machine:</h4>
+    <b>Start VirtualBox, and follow the instructions below:</b>
+    <b>A) To create a new virtual machine:</b>
+    <ol>
+      <li>Choose <strong>Machine ▸ New</strong></li>
+      <li>In the <strong>Name and operating system screen</strong>, specify:
+        <ul>
+          <li>A name of your choice.</li>
+          <li>Type: <strong>Linux</strong>.</li>
+          <li>Version: <strong>Other Linux (64 bit)</strong>.</li>
+          <li>Click <strong>Next</strong>.</li>
+        </ul>
+      </li>
+      <li>In the <strong>Memory size</strong> screen:
+        <ul>
+          <li>Allocate at least 2048 MB of RAM.</li>
+          <li>Click <strong>Next</strong>.</li>
+        </ul>
+      </li>
+      <li>In the Hard drive screen:
+        <ul>
+          <li>Choose <strong>Do not add a virtual hard drive</strong>.</li>
+          <li>Click <strong>Create</strong>.</li>
+          <li>Click <em><strong>Continue</strong></em> in the warning dialog
+            about creating a virtual machine without a hard drive.</li>
+        </ul>
+      </li>
+    </ol>
+    <b>B) To configure the virtual machine to start from our ISO image:</b>
+    <ol>
+      <li>Select the new virtual machine in the left pane.</li>
+      <li>Choose <strong>Machine ▸ Settings</strong>....</li>
+      <li>Select <strong>System</strong> in the left pane.</li>
+      <li>In the <strong>Extended Features</strong> section of the <strong>Motherboard</strong>        tab, make sure that <strong>Enable I/O APIC</strong> is enabled.</li>
+      <li>Select <strong>Storage</strong> in the left pane.</li>
+      <li>Select <strong>Empty</strong> below <strong>Contoller IDE</strong>        in the Storage Tree selection list in the right pane.</li>
+      <li>Click on the <strong>CD</strong> icon on the right of the window
+        and select <strong>Choose a virtual CD/DVD disk file</strong>...
+        to browse for the ISO image you want to start Tails from.</li>
+      <li>Check the <strong>Live CD/DVD</strong> option.</li>
+      <li>Click <strong>OK</strong>.</li>
+    </ol>
+    <b>C) To start the new virtual machine:</b>
+    <ol>
+      <li>Select the virtual machine in the left pane.</li>
+      <li>Click <strong>Start</strong>.</li>
+    </ol>
+
+    <hr>
+    <br>
+  </details>
+
+  <!--############################## -->
+
+  <details>
+    <summary><b>Attacks on Tor — Thirteen Years of Tor Attacks</b></summary>
+    <br>
+
+    <p>Attacks on Tor — Thirteen Years of Tor Attacks</p>
+
+    <a href="https://github.com/Attacks-on-Tor/Attacks-on-Tor">https://github.com/Attacks-on-Tor/Attacks-on-Tor</a>
+    <br>
+
+    <p>LightEater Demo: Stealing GPG keys/emails in Tails via remote firmware
+      infection</p>
+
+    <a href="https://youtube.com/watch?v=sNYsfUNegEA">https://youtube.com/watch?v=sNYsfUNegEA</a>
+    <br>
+
+    <hr>
+    <br>
+  </details>
+
+  <!--############################## -->
+
+  <details>
+    <summary><b>Dark Web Infographics</b></summary>
+    <br>
+
+    <p>The Dark Web - A Time Line</p>
+
+    <img src=".data/Dark_Web_-_A_Time_Line.jpeg" title="The Dark Web - A Time Line"
+    width="100%" />
+
+    <sub>Credits: https://betanews.com/2020/03/13/happy-birthday-dark-web/</sub>
+
+    <p>Dark Web Markets (2017) - Europol</p>
+
+    <img src=".data/Dark_Web_Markets_-_Europol_2017.jpg" title="Dark Web Markets (2017) - Europol"
+    width="100%" />
+
+    <p>Dark Web - Price Index 2022</p>
+
+    <img src=".data/Dark_Web_-_2022_Index_Full.jpg" title="Dark Web - Price Index 2022"
+    width="100%" />
+
+    <p>Others: https://github.com/bibanon</p>
+
+    <hr>
+    <br>
+  </details>
+
+  <hr>
+  <!-- ############################################################ -->
+
+  <h4>Ready-to-import bookmarks: https://github.com/RENANZG/My-Onion-Links/blob/main/import_bookmarks_from_html.html</h4>
+
+  <h4>Tails install script from Debian or Ubuntu: https://github.com/RENANZG/My-Onion-Links/blob/main/tails-install.sh</h4>
+
+  <p><small>(*The script may need some improvements, but I don't have the patience and time to do it.)</small></p>
+
+  <hr>
+  <!-- ############################################################ -->
+
   <ul>
     <li>
-      Exhaust data collection from open sources (OSINT) and closed sources
-      (CSINT) with strict access controls and logging to track who accesses the
-      information.
-    </li>
-  </ul>
-  <li>Covert Monitoring and Tracking</li>
-  <ul>
-    <li>
-      Implement covert monitoring and tracking measures (SIGINT, HUMINT, etc.)
-      with secure communication protocols and encrypted data storage.
-    </li>
-  </ul>
-  <li>Public Operation Launch:</li>
-  <ul>
-    <li>
-      Once concrete evidence is gathered and remote options are exhausted, plan
-      the public operation with OpSec measures in place. This includes:
-    </li>
+      <h3>GENERAL</h3></li>
     <ul>
       <li>
-        Executing warrants and arrests**: Ensure only involved personnel are
-        briefed, and the operation is kept confidential until execution.
+        <a href="http://7fc532c5lvbky6lxlt3gxnbj67gqmpzym2rowtekllgypyprbjxfiiad.onion">My Onion Bookmarks</a>
+        <pre><code>http://7fc532c5lvbky6lxlt3gxnbj67gqmpzym2rowtekllgypyprbjxfiiad.onion</code></pre>
       </li>
       <li>
-        Taking statements**: Secure environments for taking statements and
-        protect the identities of witnesses and informants.
+        <a href="http://afajj7x4zfl2d3fc2u7uzxp4iwf4r2kucr5on24xk2hwrssoj7yivhid.onion">Simple Bookmarks</a>
+        <pre><code>http://afajj7x4zfl2d3fc2u7uzxp4iwf4r2kucr5on24xk2hwrssoj7yivhid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://torpastezr7464pevuvdjisbvaf4yqi4n7sgz7lkwgqwxznwy5duj4ad.onion">TorPaste</a>
+        <pre><code>http://torpastezr7464pevuvdjisbvaf4yqi4n7sgz7lkwgqwxznwy5duj4ad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://strongerw2ise74v3duebgsvug4mehyhlpa7f6kfwnas7zofs3kov7yd.onion">Stronghold Paste</a>
+        <pre><code>http://strongerw2ise74v3duebgsvug4mehyhlpa7f6kfwnas7zofs3kov7yd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://7eoz4h2nvw4zlr7gvlbutinqqpm546f5egswax54az6lt2u7e3t6d7yd.onion">Hidden Answers</a>
+        <pre><code>http://7eoz4h2nvw4zlr7gvlbutinqqpm546f5egswax54az6lt2u7e3t6d7yd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://deepa2kol4ur4wkzpmjf5rf7lvsflzisslnrnr2n7goaebav4j6w7zyd.onion">Deep Answers</a>
+        <pre><code>http://deepa2kol4ur4wkzpmjf5rf7lvsflzisslnrnr2n7goaebav4j6w7zyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://v3pastedc5jeqahtq77gvu3vz222bcqhlfubfunzjzqedg6jdqqlvgqd.onion">V3Paste</a>
+        <pre><code>http://v3pastedc5jeqahtq77gvu3vz222bcqhlfubfunzjzqedg6jdqqlvgqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion">Invidious YouTube</a>
+        <pre><code>http://kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion">Facebook</a>
+        <pre><code>http://facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://vfaomgh4jxphpbdfizkm5gbtjahmei234giqj4facbwhrfjtcldauqad.onion">Nitter Twitter</a>
+        <pre><code>http://vfaomgh4jxphpbdfizkm5gbtjahmei234giqj4facbwhrfjtcldauqad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion">Reddit</a>
+        <pre><code>http://reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion">Dread</a>
+        <pre><code>http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://libreeunomyly6ot7kspglmbd5cvlkogib6rozy43r2glatc6rmwauqd.onion">Libre Forum</a>
+        <pre><code>http://libreeunomyly6ot7kspglmbd5cvlkogib6rozy43r2glatc6rmwauqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://envoyyvazgz2wbkq65md7dcqsgmujmgksowhx2446yep7tgnpfvlxbqd.onion">Envoy</a>
+        <pre><code>http://envoyyvazgz2wbkq65md7dcqsgmujmgksowhx2446yep7tgnpfvlxbqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://enxx3byspwsdo446jujc52ucy2pf5urdbhqw3kbsfhlfjwmbpj5smdad.onion">Endchan</a>
+        <pre><code>http://enxx3byspwsdo446jujc52ucy2pf5urdbhqw3kbsfhlfjwmbpj5smdad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://ho2hua2hfduv6f7hcbzdj2e6qdn4szgyy2jjnx545v4z3epq7uyrscid.onion">Satanic Ceremony</a>
+        <pre><code>http://ho2hua2hfduv6f7hcbzdj2e6qdn4szgyy2jjnx545v4z3epq7uyrscid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://bible4u2lvhacg4b3to2e2veqpwmrc2c3tjf2wuuqiz332vlwmr4xbad.onion">Bible4u</a>
+        <pre><code>http://bible4u2lvhacg4b3to2e2veqpwmrc2c3tjf2wuuqiz332vlwmr4xbad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion">CIA.gov</a>
+        <pre><code>http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion">Breaking Bad</a>
+        <pre><code>http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion">Psychonaut Wiki</a>
+        <pre><code>http://vvedndyt433kopnhv6vejxnut54y5752vpxshjaqmj7ftwiu6quiv2ad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://hacktowns3sba2xavxecm23aoocvzciaxirh3vekg2ovzdjgjxedfvqd.onion">HackTown</a>
+        <pre><code>http://hacktowns3sba2xavxecm23aoocvzciaxirh3vekg2ovzdjgjxedfvqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://suprbaydvdcaynfo4dgdzgxb4zuso7rftlil5yg5kqjefnw4wq4ulcad.onion">SuprBay</a>
+        <pre><code>http://suprbaydvdcaynfo4dgdzgxb4zuso7rftlil5yg5kqjefnw4wq4ulcad.onion</code></pre>
       </li>
     </ul>
-  </ul>
-</ol>
-
-
-<!-- ################################## -->
-<br>
-<hr>
-
-<h3>FORENSIC SUITES</h3>
-
-<table style="width: 100%;" cellspacing="0" cellpadding="5">
-  <thead>
-    <tr>
-      <th style="text-align: center; width: 50%;"><small><b>FLOSS</b><br>Free/Libre and Open Source Software</small></th>
-      <th style="text-align: center; width: 50%;"><small><b>PROPRIETARY</b><br>Cyber-surveillance Industry</small></th>
-    </tr>
-  </thead>
-  <tbody> 
-    <tr>
-      <td align="left" valign="top" style="width: 50%;">
-        <small>
-          • Kali Linux - Penetration Testing and Ethical Hacking Distribution<br><a href="https://kali.org">https://kali.org</a><br>
-          • Drive Badger - Data Extraction Tool for Forensics<br><a href="https://drivebadger.com">https://drivebadger.com</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a><br>
-          • SIFT Workstation - Forensic and Incident Response Toolkit<br><a href="https://sans.org/tools/sift-workstation" target="_blank" rel="noopener noreferrer">https://sans.org/tools/sift-workstation</a><br>
-          • Parrot Security - Security-Oriented Operating System<br><a href="https://parrotsec.org">https://parrotsec.org</a><br>
-          • CAINE - Computer Aided INvestigative Environment<br><a href="https://caine-live.net">https://caine-live.net</a><br>
-          • CSI Linux - Cyber Forensics Operating System<br><a href="https://csilinux.com">https://csilinux.com</a><br>
-          • Avilla Forensics - Open Source Forensic Tools<br><a href="https://github.com/AvillaDaniel/AvillaForensics">https://github.com/AvillaDaniel/AvillaForensics</a><br>
-          • IPED - Indexador e Processador de Evidências Digitais (Digital Evidence Indexer and Processor)<br><a href="https://github.com/sepinf-inc/IPED">https://github.com/sepinf-inc/IPED</a><br>
-          • Debian Forensics Package - Forensic Tools for Debian Systems<br><a href="https://packages.debian.org/unstable/forensics-all">https://packages.debian.org/unstable/forensics-all</a><br>
-          • Mobile Verification Toolkit (MVT) - Mobile Analysis Toolkit<br><a href="https://docs.mvt.re/en/latest">https://docs.mvt.re/en/latest</a><br>
-          • Tsurugi Linux - Forensics and Pentesting Distro<br><a href="https://tsurugi-linux.org/">https://tsurugi-linux.org</a><br>
-          • REMnux - Linux Toolkit for Malware Analysis<br><a href="https://remnux.org/">https://remnux.org</a><br>
-          • Bitscout - Remote Digital Forensics Tool<br><a href="https://github.com/vitaly-kamluk/bitscout">https://github.com/vitaly-kamluk/bitscout</a><br>
-          • Didier Stevens's tools - Security and Forensic Utilities<br><a href="https://blog.didierstevens.com">https://blog.didierstevens.com</a><br>
-          • Eric Zimmerman's tools (Freeware) - Forensic Tools Collection<br><a href="https://ericzimmerman.github.io/#!index.md">https://ericzimmerman.github.io/#!index.md</a><br>
-          • Paladin® (Freeware) - Forensic Suite Based on Ubuntu<br><a href="https://sumuri.com/product/paladin-lts/">https://sumuri.com/software/paladin/</a><br>
-          • MISP® - Malware Information Sharing Platform & Threat Sharing<br><a href="https://misp-project.org/">https://misp-project.org/</a><br>
-          • OSForensics® - Digital Investigation and Forensics Software<br><a href="https://osforensics.com/">https://osforensics.com/</a><br>
-          • CyberChef® - Cyber Operations Toolkit<br><a href="https://gchq.github.io/CyberChef/">https://gchq.github.io/CyberChef/</a><br>
-          • GRR Rapid Response® - Incident Response Framework<br><a href="https://grr.dev/">https://grr.dev/</a><br>
-          • Brim® - Network Forensics and Security Tool<br><a href="https://brimsecurity.com/">https://brimsecurity.com/</a><br>
-          • Viper® - Binary Analysis and Management Framework<br><a href="https://viper-toolkit.readthedocs.io/">https://viper-toolkit.readthedocs.io/</a><br>
-          • Forensic Toolkit (FTK)® - Lite (Freeware) - Digital Investigations Suite<br><a href="https://exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite" target="_blank" rel="noopener noreferrer">https://exterro.com/forensic-toolkit</a><br>
-          • Magnet Forensic® - Mobile Extractor (Freeware) - Mobile Data Recovery<br><a href="https://magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://magnetforensics.com</a><br>
-          • Windows® Forensic Environment WinFE (Freeware) - Bootable Forensic Environment<br><a href="https://winfe.net/home" target="_blank" rel="noopener noreferrer">https://winfe.net</a><br>
-          • NirSoft® (Freeware) - Collection of Network and System Utilities<br><a href="https://nirsoft.net/computer_forensic_software.html">https://nirsoft.net</a><br>
-          • MiTeC® (Freeware) - Advanced System Information Tools<br><a href="https://mitec.cz">https://mitec.cz</a><br>
-          • Medusa Box® (Easy J-TAG) - Mobile Device Servicing Tool<br><a href="https://medusabox.com/">https://medusabox.com</a><br> ╰┈➤<a href="https://medusabox.com/eng/features/features">Models Features</a><br> ╰┈➤<a href="https://aliexpress.com/w/wholesale-medusa-box.html">Aliexpress</a><br>
-          • Octoplus Box® (Easy J-TAG) - Mobile Device Repair Tool<br><a href="https://octoplusbox.com">https://octoplusbox.com</a><br> ╰┈➤<a href="https://octoplusbox.com/en/features/models/">Models Features</a><br> ╰┈➤<a href="https://aliexpress.com/w/wholesale-octoplus-box.html">Aliexpress</a><br>
-        </small>
-      </td>
-      <td align="left" valign="top" style="width: 50%;">
-        <small>
-          • Cellebrite® - Digital Intelligence and Investigative Solutions<br><a href="https://cellebrite.com/" target="_blank" rel="noopener noreferrer">https://cellebrite.com</a><br>
-          • NSO Group® - Cyber Intelligence and Surveillance Tools<br><a href="https://nsogroup.com/" target="_blank" rel="noopener noreferrer">https://nsogroup.com</a><br>
-          • Cognyte® - Security Analytics Software<br><a href="https://cognyte.com/" target="_blank" rel="noopener noreferrer">https://cognyte.com</a><br>
-          • Check Point® - Cyber Security Solutions<br><a href="https://checkpoint.com" target="_blank" rel="noopener noreferrer">https://checkpoint.com</a><br>
-          • Team Cymru® - Internet Security Research and Threat Intelligence<br><a href="https://team-cymru.com" target="_blank" rel="noopener noreferrer">https://team-cymru.com</a><br>
-          • BriefCam® - Video Content Analysis Software<br><a href="https://briefcam.com/" target="_blank" rel="noopener noreferrer">https://briefcam.com</a><br>
-          • Forensic Toolkit (FTK)® - Digital Investigations Suite<br><a href="https://exterro.com/forensic-toolkit" target="_blank" rel="noopener noreferrer">https://exterro.com/forensic-toolkit</a><br>
-          • Magnet Forensic® - Digital Forensics and Incident Response Solutions<br><a href="https://magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://magnetforensics.com</a><br>
-          • Variston® - Cybersecurity and Cyber Intelligence Solutions<br><a href="https://variston.net" target="_blank" rel="noopener noreferrer">https://variston.net</a><br>
-          • Intellexa® - Cyber Intelligence Solutions<br><a href="no refer" target="_blank" rel="noopener noreferrer">no refer</a><br>
-          • Cytrox® - Cyber Intelligence and Security Solutions<br><a href="no refer" target="_blank" rel="noopener noreferrer">no refer</a><br>
-          • Cy4Gate® - Cyber Intelligence and Cyber Security Solutions<br><a href="https://cy4gate.com/" target="_blank" rel="noopener noreferrer">https://cy4gate.com</a><br>
-          • PARS Defense® - Cyber Defense and Intelligence Solutions<br><a href="https://parsdefense.com" target="_blank" rel="noopener noreferrer">https://parsdefense.com</a><br>
-          • Candiru® - Cyber Intelligence Solutions<br><a href="https://saito.tech" target="_blank" rel="noopener noreferrer">https://saito.tech</a><br>
-          • Harpia Tech® - Advanced Surveillance Technologies<br><a href="https://harpia.tech/english.html" target="_blank" rel="noopener noreferrer">https://harpia.tech/english.html</a><br>
-          • Visual Cortex® - Video Analytics and Intelligence Platform<br><a href="https://visualcortex.com/" target="_blank" rel="noopener noreferrer">https://visualcortex.com/</a><br>
-          • Oxygen Forensic® - Mobile Forensics and Data Extraction Tools<br><a href="https://oxygen-forensic.wedatasolution.com/" target="_blank" rel="noopener noreferrer">https://oxygen-forensic.wedatasolution.com</a><br>
-          • MSAB® - Mobile Device Forensics<br><a href="https://msab.com/" target="_blank" rel="noopener noreferrer">https://msab.com</a><br>
-          • GMDSOFT® - Cyber Intelligence and Surveillance Solutions<br><a href="https://gmdsoft.com/" target="_blank" rel="noopener noreferrer">https://gmdsoft.com</a><br>
-          • Verint Systems® - Actionable Intelligence Solutions<br><a href="https://verint.com/" target="_blank" rel="noopener noreferrer">https://verint.com</a><br>
-          • Cyber Arm® - Cybersecurity and Intelligence Solutions<br><a href="https://cyber-arm.com/services" target="_blank" rel="noopener noreferrer">https://cyber-arm.com/services</a><br>
-          • Cobalt Strike® - Adversary Simulation Software<br><a href="https://cobaltstrike.com" target="_blank" rel="noopener noreferrer">https://cobaltstrike.com</a><br>
-          • Lumi Networks® - Network Surveillance Solutions<br><a href="https://lumi.network" target="_blank" rel="noopener noreferrer">https://lumi.network</a><br>
-          • Clear View AI® - Facial Recognition Technology<br><a href="https://clearview.ai" target="_blank" rel="noopener noreferrer">https://clearview.ai</a><br>
-          • Lockheed Martin® - Global Security and Aerospace Company<br><a href="https://lockheedmartin.com" target="_blank" rel="noopener noreferrer">https://lockheedmartin.com/</a><br>
-          • MOBILedit® - Mobile Device Management and Forensics<br><a href="https://mobiledit.com/mobiledit-forensic" target="_blank" rel="noopener noreferrer">https://mobiledit.com</a><br>
-          • Crowd Strike® - Endpoint Security and Cyber Threat Intelligence<br><a href="https://crowdstrike.com" target="_blank" rel="noopener noreferrer">https://crowdstrike.com</a><br>
-          • Binalyze® - Digital Forensics and Incident Response Platform<br><a href="https://binalyze.com" target="_blank" rel="noopener noreferrer">https://binalyze.com</a><br>
-          • LexisNexis® - Risk Management and Data Analytics<br><a href="https://risk.lexisnexis.com" target="_blank" rel="noopener noreferrer">https://risk.lexisnexis.com</a><br>
-          • NetQuest® - Network Intelligence and Analytics Solutions<br><a href="https://netquestcorp.com" target="_blank" rel="noopener noreferrer">https://netquestcorp.com</a><br>
-          • Gamma® - Cyber Security and Intelligence Solutions<br><a href="https://gamma.co.uk" target="_blank" rel="noopener noreferrer">https://gamma.co.uk</a><br>
-          • Memento Labs® - Cyber Intelligence and Security Solutions<br><a href="https://mem3nt0.com" target="_blank" rel="noopener noreferrer">https://mem3nt0.com</a><br>
-          • CYSource® - Cybersecurity Services and Solutions<br><a href="https://cysrc.com" target="_blank" rel="noopener noreferrer">https://cysrc.com</a><br>
-          • Maltego® - Data Mining and Link Analysis Tool<br><a href="https://maltego.com" target="_blank" rel="noopener noreferrer">https://maltego.com</a><br>
-          • Thorn's Safer® - Technology Solutions for Child Protection<br><a href="https://thorn.org/" target="_blank" rel="noopener noreferrer">https://thorn.org</a><br>
-        </small>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<sub>Browse: https://dimse.info</sub>
-
-<!-- ################################## -->
-<hr>
-
-<h3>FORENSIC TOOLS</h3>
-
-<h4>• Evidence ProjectForensics Tools Catalogue</h4>
-<h4><a href="https://dftoolscatalogue.eu/dftc.home.php">https://dftoolscatalogue.eu</a></h4>
-
-<h4>• NIST - Forensics Tools Catalogue</h4>
-<h4><a href="https://toolcatalog.nist.gov/search/">https://toolcatalog.nist.gov</a></h4>
-
-<h4>• S&T partners and NIST - Computer Forensic Tool Testing (CFTT)</h4>
-<h4><a href="https://dhs.gov/science-and-technology/nist-cftt-reports">https://dhs.gov/science-and-technology/nist-cftt-reports</a></h4>
-
-<!-- ################################## -->
-<hr>
-
-<sub>
-<p><b>Interesting information</b></p>
-
-<a href="https://socradar.io/beyond-the-veil-of-surveillance-private-sector-offensive-actors-psoas">• Beyond the Veil of Surveillance: Private Sector Offensive Actors (PSOAs)</a>
-
-<a href="https://zdnet.com/article/burn-drown-or-smash-your-phone-forensics-can-extract-data-anyway">• Burn, drown, or smash your phone: Forensics can extract data anyway</a>
-
-<a href="https://arstechnica.com/information-technology/2021/01/how-law-enforcement-gets-around-your-smartphones-encryption">• How law enforcement gets around your smartphone’s encryption</a>
-
-<a href="https://youtube.com/watch?v=EmWsW_p_ta4">• Cellphone data used to solve murder case from 2 years ago, police say</a>
-
-<a href="https://youtube.com/watch?v=wzSgLpNrr2E">• The Stingray: How Law Enforcement Can Track Your Every Move</a>
-
-<a href="https://youtube.com/watch?v=DH7edXaZS0A">• Police are tracking you and your license plates</a>
-
-<a href="https://youtube.com/watch?v=ASYm-3NJ-GA&t=40s">• SCOTUS: Police Need Search Warrant to Ping cell Phones</a>
-
-<a href="https://eff.org/deeplinks/2023/09/eff-michigan-court-governments-shouldnt-be-allowed-use-drone-spy-you-without">• EFF to Michigan Court: Governments Shouldn’t Be Allowed to Use a Drone to Spy on You Without a Warrant</a>
-
-<a href="https://theintercept.com/document/motion-to-suppress-aerial-surveillance-evidence-in-u-s-vs-muhammed-momtaz-alazhari">• Motion to Suppress Aerial Surveillance Evidence in U.S. vs Muhammed Momtaz Alazhari</a>
-
-<a href="https://nytimes.com/2008/02/22/technology/22chip.html">• Researchers Find Way to Steal Encrypted Data - NYT (2008)</a>
-
-<a href="https://nakedcapitalism.com/2019/02/reverse-location-search-warrant-a-new-personal-data-hoovering-exercise-brought-to-you-by-google.html">• “Reverse Location Search Warrant”: A New Personal Data Hoovering Exercise Brought to You by Google (2019)</a>
-
-<a href="https://nakedcapitalism.com/2021/07/as-un-human-rights-chief-urges-stricter-rules-snowden-calls-for-end-to-spyware-trade.html">• As UN Human Rights Chief Urges Stricter Rules, Snowden Calls for End to Spyware Trade (2021)</a>
-
-<a href="https://forensicscijournal.com/articles/jfsr-aid1039.pdf">• Forensics Journal Comparative analysis of mobile forensic proprietary tools: an application in forensic investigation (2022)</a>
-
-</sub>
-
-<!-- ################################## -->
-<br>
-<hr>
-
-<h3>INTERCEPTION PLATFORMS</h3>
-
-<p>Comparison between <a href="https://drivebadger.com">Drive Badger</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a> with other lawful interception platforms. Visit: <a href="https://docs.google.com/spreadsheets/d/1Ux0WeL-K4NOZTEQgJXuRzHPcG_ewKmcMNADuFhamytg/edit#gid=1460165261" target="_blank" rel="noopener noreferrer">Official sheet</a> or the <a href="https://github.com/RENANZG/My-Forensics/blob/main/03_DOCUMENTS/Workrounds/Drive_Bagder_-_Comparison_Of_Lawful_Interception_Platforms.pdf" target="_blank" rel="noopener noreferrer">PDF</a> version in our repo. <sub>Credits for the panel: <a href="https://github.com/tomaszklim">Tomasz Klim</a>.</sub></p> 
-
-<img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/Drive_Bagder1_-_Comparison_Of_Lawful_Interception_Platforms-1.png?raw=true" title="Drive Bagder 1 - Comparison Of Lawful Interception Platforms" style="width:100%">
-
-<!-- ################################## -->
-
-<br>
-<hr>
-
-
-<h3>Exploit and Spyware Vendor</h3>
-
-<table>
-<tbody>
-<tr>
-<td>
-<strong>Zero-day Exploit (2023)</strong>
-</td>
-<td>
-<strong>Associated Spyware Vendor</strong>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/04/apple-releases-updates-to-address-zero.html">CVE-2023-28205 and CVE-2023-28206</a> (Apple iOS)
-</td>
-<td>
-Variston (BridgeHead)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/04/google-releases-urgent-chrome-update-to.html">CVE-2023-2033</a> (Google Chrome)
-</td>
-<td>
-Intellexa/Cytrox (Predator)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/04/google-chrome-hit-by-second-zero-day.html">CVE-2023-2136</a> (Google Chrome)
-</td>
-<td>
-Intellexa/Cytrox (Predator)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/05/webkit-under-attack-apple-issues.html">CVE-2023-32409</a> (Apple iOS)
-</td>
-<td>
-Variston (BridgeHead)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/06/zero-day-alert-google-issues-patch-for.html">CVE-2023-3079</a> (Google Chrome)
-</td>
-<td>
-Intellexa/Cytrox (Predator)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/09/apple-rushes-to-patch-zero-day-flaws.html">CVE-2023-41061 and CVE-2023-41064</a> (Apple iOS)
-</td>
-<td>
-NSO Group (Pegasus)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/09/apple-rushes-to-patch-3-new-zero-day.html">CVE-2023-41991, CVE-2023-41992, and CVE-2023-41993</a> (Apple iOS)
-</td>
-<td>
-Intellexa/Cytrox (Predator)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/09/update-chrome-now-google-releases-patch.html">CVE-2023-5217</a> (Google Chrome)
-</td>
-<td>
-Candiru (DevilsTongue)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/10/arm-issues-patch-for-mali-gpu-kernel.html">CVE-2023-4211</a> (Arm Mali GPU)
-</td>
-<td>
-Cy4Gate (Epeius)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/10/qualcomm-releases-patch-for-3-new-zero.html">CVE-2023-33063</a> (Qualcomm Adreno GPU)
-</td>
-<td>
-Variston (BridgeHead)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/10/qualcomm-releases-patch-for-3-new-zero.html">CVE-2023-33106 and CVE-2023-33107</a> (Qualcomm Adreno GPU)
-</td>
-<td>
-Cy4Gate (Epeius)
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/12/zero-day-alert-apple-rolls-out-ios.html">CVE-2023-42916 and CVE-2023-42917</a> (Apple iOS)
-</td>
-<td>
-PARS Defense
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://thehackernews.com/2023/12/urgent-new-chrome-zero-day.html">CVE-2023-7024</a> (Google Chrome)
-</td>
-<td>
-NSO Group (Pegasus)
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- ################################## -->
-
-<br>
-<hr>
-
-<h3>NATIONAL CYBER SECURITY AGENCIES</h3>
-
-<table style="width:830px" cellspacing="0" cellpadding="0">
-<thead>
-  <tr>
-  </tr>
-</thead>
-<tbody> 
-<tr>
-<td valign="top" style="width:25%">
-<a href="https://cisa.gov/">US — CISA</a><br>
-<a href="https://cyber.gc.ca/en">CA — Cyber</a><br>
-<a href="https://csirtamericas.org/en">Americas — CSIRT</a><br>
-</td>
-<td valign="top" style="width:25%">
-<a href="https://enisa.europa.eu">EU — ENISA</a><br>
-<a href="https://ncsc.gov.uk">UK — NCSC</a><br>
-<a href="https://english.ncsc.nl">NL — NCSC</a><br>
-<a href="https://bsi.bund.de/EN">DE — BSI</a><br>
-<a href="https://cyber.gouv.fr/en">FR — ANSSI</a><br>
-<a href="https://ccn-cert.cni.es/es/">ES — CCN-CERT</a><br>
-<a href="https://acn.gov.it/en">IT — ACN</a><br>
-<a href="https://nki.gov.hu/en">HU — NKI</a><br>
-<a href="https://nukib.cz/en">CZ — NUKIB</a><br>
-<a href="https://nsm.no/areas-of-expertise/cyber-securitynorwegian-national-cyber-security-centre-ncsc">NO — NCSC</a><br>
-</td>
-<td valign="top" style="width:25%">
-<a href="https://gov.il/en/departments/israel_national_cyber_directorate/govil-landing-page">IS — INCD</a><br>
-<a href="https://cyber.gov.au">AU — Cyber</a><br>
-<a href="https://cert.govt.nz">NZ — CERT</a><br>
-<a href="https://ncsc.govt.nz">NZ — NCSC</a><br>
-</td>
-<td valign="top" style="width:25%">
-<a href="https://kisa.or.kr/EN">KR — KISA</a><br>
-<a href="https://jpcert.or.jp/english">JP — Cert</a><br>
-<a href="https://nisc.go.jp/eng/index.html">JP — NISC</a><br>
-<a href="https://csa.gov.sg">SG — CSA</a><br>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- ############################## -->
-
-<br>
-<hr>
-
-${\color{Blue}\textbf{1.PASSIVE FORENSICS}}$
-
-👷🛠️UNDER CONSTRUCTION🚧🏗<br>
-
-<details>
-<summary>1.01 Forensic standards</summary>
-<br>
-
-<p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/2.FORENSIC">2.FORENSIC</a></p>
-
-
-<div>
-<details>
-<summary><b>Standards</b></summary>
-<br>
-
-<h4>NIST — National Institute of Standards and Technology</h4>
-
-<h6>Visit: https://nist.gov/standards</h6>
-
-<h4>ASTM International</h4>
-
-<h5>Subcommittee E30.12 on Digital and Multimedia Evidence</h5>
-
-<h6>Visit: https://astm.org/get-involved/technical-committees/committee-e30/subcommittee-e30/jurisdiction-e3012</h6>
-
-<h4>The PCI Security Standards Council (PCI SSC)</h4>
-
-<h6>Visit: https://pcisecuritystandards.org</h6>
-
-<p><b>ISO/IEC — International Electrotechnical Commission</b></p>
-
-<h6>Visit: https://iso27001security.com</h6>
-
-<h6>Official - Information security, cybersecurity and privacy protection — https://iso.org/standard/27001</h6>
-
-<ul>
-<li><A HREF="https://iso27001security.com/html/27000.html">ISO/IEC 27000 — ISO27k overview &amp; glossary</a></li>
-<li><A HREF="https://iso27001security.com/html/27001.html">ISO/IEC 27001 — formal ISMS specification</a></li>
-<li><A HREF="https://iso27001security.com/html/27002.html">ISO/IEC 27002 — infosec controls catalogue</a></li>
-<li><A HREF="https://iso27001security.com/html/27003.html">ISO/IEC 27003 — ISMS implementation guide</a></li>
-<li><A HREF="https://iso27001security.com/html/27004.html">ISO/IEC 27004 — infosec measurement [metrics]</a></li>
-<li><A HREF="https://iso27001security.com/html/27005.html">ISO/IEC 27005 — info[sec] risk management</a></li>
-<li><A HREF="https://iso27001security.com/html/27006.html">ISO/IEC 27006-n — ISMS &amp; PIMS certification </a></li>
-<li><A HREF="https://iso27001security.com/html/27007.html">ISO/IEC 27007 — <I>management system</I> auditing</a></li>
-<li><A HREF="https://iso27001security.com/html/27008.html">ISO/IEC TS 27008 — <I>security controls</I> auditing</a></li>
-<li><A HREF="https://iso27001security.com/html/27009.html">ISO/IEC 27009 — sector variants of ISO27k</a></li>
-<li><A HREF="https://iso27001security.com/html/27010.html">ISO/IEC 27010 — for inter-org comms</a></li>
-<li><A HREF="https://iso27001security.com/html/27011.html">ISO/IEC 27011 — ISMS for telecoms</a></li>
-<li><A HREF="https://iso27001security.com/html/27013.html">ISO/IEC 27013 — ISMS &amp; ITIL/service mgmt</a></li>
-<li><A HREF="https://iso27001security.com/html/27014.html">ISO/IEC 27014 — infosec governance</a></li>
-<li><A HREF="https://iso27001security.com/html/27016.html">ISO/IEC TR 27016 — infosec economics</a></li>
-<li><A HREF="https://iso27001security.com/html/27017.html">ISO/IEC 27017 — cloud security controls</a></li>
-<li><A HREF="https://iso27001security.com/html/27018.html">ISO/IEC 27018 — cloud privacy</a></li>
-<li><A HREF="https://iso27001security.com/html/27019.html">ISO/IEC 27019 — process control in energy industry</a></li>
-<li><A HREF="https://iso27001security.com/html/27021.html">ISO/IEC 27021 — competences for ISMS pro&#8217;s</a></li>
-<li><A HREF="https://iso27001security.com/html/27022.html">ISO/IEC TS 27022 — ISMS processes</a></li>
-<li><A HREF="https://iso27001security.com/html/27031.html">ISO/IEC 27031 — ICT element of business continuity</a></li>
-<li><A HREF="https://iso27001security.com/html/27032.html">ISO/IEC 27032 — Internet security</a></li>
-<li><A HREF="https://iso27001security.com/html/27033.html">ISO/IEC 27033-n — network security</a></li>
-<li><A HREF="https://iso27001security.com/html/27034.html">ISO/IEC 27034-n — application security</a></li>
-<li><A HREF="https://iso27001security.com/html/27035.html">ISO/IEC 27035-n — incident management</a></li>
-<li><A HREF="https://iso27001security.com/html/27036.html">ISO/IEC 27036-n — ICT supply chain &amp; cloud</a></li>
-<li><A HREF="https://iso27001security.com/html/27037.html">ISO/IEC 27037 — digital evidence [eForensics]</a></li>
-<li><A HREF="https://iso27001security.com/html/27038.html">ISO/IEC 27038 — document redaction</a></li>
-<li><A HREF="https://iso27001security.com/html/27039.html">ISO/IEC 27039 — intrusion prevention</a></li>
-<li><A HREF="https://iso27001security.com/html/27040.html">ISO/IEC 27040 — storage security</a></li>
-<li><A HREF="https://iso27001security.com/html/27041.html">ISO/IEC 27041 — incident investigation assurance</a></li>
-<li><A HREF="https://iso27001security.com/html/27042.html">ISO/IEC 27042 — analysing digital evidence</a></li>
-<li><A HREF="https://iso27001security.com/html/27043.html">ISO/IEC 27043 — incident investigation</a></li>
-<li><A HREF="https://iso27001security.com/html/27050.html">ISO/IEC 27050-n — digital forensics</a></li>
-<li><A HREF="https://iso27001security.com/html/27070.html">ISO/IEC 27070 — virtual roots of trust</a></li>
-<li><A HREF="https://iso27001security.com/html/27071.html">ISO/IEC 27071 — trusted connections</a></li>
-<li><A HREF="https://iso27001security.com/html/27099.html">ISO/IEC 27099 — ISMS for PKI</a></li>
-<li><A HREF="https://iso27001security.com/html/27100.html">ISO/IEC TS 27100 — cybersecurity overview/concepts</a></li>
-<li><A HREF="https://iso27001security.com/html/27102.html">ISO/IEC 27102 — cyber-insurance</a></li>
-<li><A HREF="https://iso27001security.com/html/27103.html">ISO/IEC 27103 —  ISMS for cybersecurity</a></li>
-<li><A HREF="https://iso27001security.com/html/27110.html">ISO/IEC TS 27110 — cybersecurity frameworks</a></li>
-<li><A HREF="https://iso27001security.com/html/27400.html">ISO/IEC 27400 — IoT security and privacy</a></li>
-<li><A HREF="https://iso27001security.com/html/27550.html">ISO/IEC TR 27550 — privacy engineering</a></li>
-<li><A HREF="https://iso27001security.com/html/27553.html">ISO/IEC 27553-n — mobile device biometrics</a></li>
-<li><A HREF="https://iso27001security.com/html/27555.html">ISO/IEC 27555 — deleting PII/personal data</a></li>
-<li><A HREF="https://iso27001security.com/html/27556.html">ISO/IEC 27556 — privacy preferences</a></li>
-<li><A HREF="https://iso27001security.com/html/27557.html">ISO/IEC 27557 — privacy risk management</a></li>
-<li><A HREF="https://iso27001security.com/html/27559.html">ISO/IEC 27559 — de-identification of personal data</a></li>
-<li><A HREF="https://iso27001security.com/html/27560.html">ISO/IEC TS 27560 — privacy consent record structure</a></li>
-<li><A HREF="https://iso27001security.com/html/27563.html">ISO/IEC TR 27563 — AI use case security &amp; privacy</a></li>
-<li><A HREF="https://iso27001security.com/html/27570.html">ISO/IEC TS 27570 — smart city privacy</a></li>
-<li><A HREF="https://iso27001security.com/html/27701.html">ISO/IEC 27701 — managing privacy with an ISMS</li>
-<li><A HREF="https://iso27001security.com/html/27799.html">ISO 27799 — information security in healthcare</a></li>
-</ul>
-
-<p><b>RFC</b></p>
-
-<p><b>Best Current Practices (BCP)</b></p>
-
-<ul>
- <li><a href="https://ietf.org/rfc/rfc1918.txt"> RFC 1918 / BCP 5: Address Allocation for Private Internets</a></li>
- <li><a href="https://ietf.org/rfc/rfc2350.txt"> RFC 2350 / BCP 21: Expectations for Computer Security Incident Response</a></li>
- <li><a href="https://ietf.org/rfc/rfc2505.txt"> RFC 2505 / BCP 30: Anti-Spam Recommendations for SMTP MTAs</a></li>
- <li><a href="https://ietf.org/rfc/rfc2644.txt"> RFC 2644 / BCP 34: Changing the Default for Directed Broadcasts in Routers</a></li>
- <li><a href="https://ietf.org/rfc/rfc2827.txt"> RFC 2827 / BCP 38: Network Ingress Filtering: Defeating Denial of Service Attacks which employ IP Source Address Spoofing</a></li>
- <li><a href="https://ietf.org/rfc/rfc3013.txt"> RFC 3013 / BCP 46: Recommended Internet Service Provider Security Services and Procedures</a></li>
- <li><a href="https://ietf.org/rfc/rfc3227.txt"> RFC 3227 / BCP 55: Guidelines for Evidence Collection and Archiving</a></li>
- <li><a href="https://ietf.org/rfc/rfc3360.txt"> RFC 3360 / BCP 60: Inappropriate TCP Resets Considered Harmful</a></li>
- <li><a href="https://ietf.org/rfc/rfc3365.txt"> RFC 3365 / BCP 61: Strong Security Requirements for Internet Engineering Task Force Standard Protocols</a></li>
- <li><a href="https://ietf.org/rfc/rfc4086.txt"> RFC 4086 / BCP 106: Randomness Requirements for Security</a></li>
- <li><a href="https://ietf.org/rfc/rfc4107.txt"> RFC 4107 / BCP 107: Guidelines for Cryptographic Key Management</a></li>
- <li><a href="https://ietf.org/rfc/rfc5068.txt"> RFC 5068 / BCP 134: Email Submission Operations: Access and
-Accountability Requirements</a></li>
-<li><a href="https://ietf.org/rfc/rfc5358.txt">RFC 5358 / BCP 140: Preventing Use of Recursive Nameservers in Reflector Attacks</a></li>
-<li><a href="https://ietf.org/rfc/rfc5406.txt">RFC 5406 / BCP 146: Guidelines for Specifying the Use of IPsec Version 2</a></li>
-</ul>
-
-<p><b>Standards</b></p>
-
-<ul>
-<li><a href="https://ietf.org/rfc/rfc2142.txt"> RFC 2142: Mailbox Names for Common Services, Roles and Functions</a></li>
-<li><a href="https://ietf.org/rfc/rfc2246.txt"> RFC 2246: The TLS Protocol  Version 1.0</a></li>
-<li><a href="https://ietf.org/rfc/rfc2554.txt"> RFC 2554: SMTP Service Extension for Authentication</a></li>
-<li><a href="https://ietf.org/rfc/rfc3168.txt"> RFC 3168: The Addition of Explicit Congestion Notification (ECN) to IP</a></li>
-<li><a href="https://ietf.org/rfc/rfc3207.txt"> RFC 3207: SMTP Service Extension for Secure SMTP over Transport Layer Security</a></li>
-<li><a href="https://ietf.org/rfc/rfc3369.txt"> RFC 3369: Cryptographic Message Syntax (CMS)</a></li>
-<li><a href="https://ietf.org/rfc/rfc3370.txt"> RFC 3370: Cryptographic Message Syntax (CMS) Algorithms</a></li>
-<li><a href="https://ietf.org/rfc/rfc3834.txt"> RFC 3834: Recommendations for Automatic Responses to Electronic Mail</a></li>
-<li><a href="https://ietf.org/rfc/rfc4033.txt"> RFC 4033: DNS Security Introduction and Requirements</a></li>
-<li><a href="https://ietf.org/rfc/rfc4034.txt"> RFC 4034: Resource Records for the DNS Security Extensions</a></li>
-<li><a href="https://ietf.org/rfc/rfc4035.txt"> RFC 4035: Protocol Modifications for the DNS Security Extensions</a></li>
-<li><a href="https://ietf.org/rfc/rfc4051.txt"> RFC 4051: Additional XML Security Uniform Resource Identifiers (URIs)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4055.txt">RFC 4055: Additional Algorithms and Identifiers for RSA Cryptography for use in the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</a></li>
-<li><a href="https://ietf.org/rfc/rfc4056.txt">RFC 4056: Use of the RSASSA-PSS Signature Algorithm in Cryptographic Message Syntax (CMS)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4109.txt">RFC 4109: Algorithms for Internet Key Exchange version 1 (IKEv1)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4217.txt">RFC 4217: Securing FTP with TLS</a></li>
-<li><a href="https://ietf.org/rfc/rfc4250.txt">RFC 4250: The Secure Shell (SSH) Protocol Assigned Numbers</a></li>
-<li><a href="https://ietf.org/rfc/rfc4251.txt">RFC 4251: The Secure Shell (SSH) Protocol Architecture</a></li>
-<li><a href="https://ietf.org/rfc/rfc4252.txt">RFC 4252: The Secure Shell (SSH) Authentication Protocol</a></li>
-<li><a href="https://ietf.org/rfc/rfc4253.txt">RFC 4253: The Secure Shell (SSH) Transport Layer Protocol</a></li>
-<li><a href="https://ietf.org/rfc/rfc4254.txt">RFC 4254: The Secure Shell (SSH) Connection Protocol</a></li>
-<li><a href="https://ietf.org/rfc/rfc4255.txt">RFC 4255: Using DNS to Securely Publish Secure Shell (SSH) Key Fingerprints</a></li>
-<li><a href="https://ietf.org/rfc/rfc4256.txt">RFC 4256: Generic Message Exchange Authentication for the Secure Shell Protocol (SSH)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4301.txt">RFC 4301: Security Architecture for the Internet Protocol</a></li>
-<li><a href="https://ietf.org/rfc/rfc4302.txt">RFC 4302: IP Authentication Header</a></li>
-<li><a href="https://ietf.org/rfc/rfc4303.txt">RFC 4303: IP Encapsulating Security Payload (ESP)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4308.txt">RFC 4308: Cryptographic Suites for IPsec</a></li>
-<li><a href="https://ietf.org/rfc/rfc4344.txt">RFC 4344: The Secure Shell (SSH) Transport Layer Encryption Modes</a></li>
-<li><a href="https://ietf.org/rfc/rfc4346.txt">RFC 4346: The Transport Layer Security (TLS) Protocol Version 1.1</a></li>
-<li><a href="https://ietf.org/rfc/rfc4359.txt">RFC 4359: The Use of RSA/SHA-1 Signatures within Encapsulating
-Security Payload (ESP) and Authentication Header (AH)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4366.txt">RFC 4366: Transport Layer Security (TLS) Extensions</a></li>
-<li><a href="https://ietf.org/rfc/rfc4513.txt">RFC 4513: Lightweight Directory Access Protocol (LDAP): Authentication Methods and Security Mechanisms</a></li>
-<li><a href="https://ietf.org/rfc/rfc4871.txt">RFC 4871: DomainKeys Identified Mail (DKIM) Signatures</a></li>
-<li><a href="https://ietf.org/rfc/rfc4959.txt">RFC 4959: IMAP Extension for Simple Authentication and Security Layer (SASL) Initial Client Response</a></li>
-<li><a href="https://ietf.org/rfc/rfc4985.txt">RFC 4985: Internet X.509 Public Key Infrastructure Subject Alternative Name for Expression of Service Name</a></li>
-<li><a href="https://ietf.org/rfc/rfc5070.txt">RFC 5070: The Incident Object Description Exchange Format</a></li>
-<li><a href="https://ietf.org/rfc/rfc5321.txt">RFC 5321: Simple Mail Transfer Protocol</a></li>
-<li><a href="https://ietf.org/rfc/rfc5322.txt">RFC 5322: Internet Message Format</a></li>
-<li><a href="https://ietf.org/rfc/rfc5901.txt">RFC 5901: Extensions to the IODEF-Document Class for Reporting Phishing</a></li>
-<li><a href="https://ietf.org/rfc/rfc6045.txt">RFC 6045: Real-time Inter-network Defense (RID)</a></li>
-<li><a href="https://ietf.org/rfc/rfc6409.txt">RFC 6409: Message Submission for Mail</a></li>
-<li><a href="https://ietf.org/rfc/rfc6528.txt">RFC 6528: Defending against Sequence Number Attacks</a></li>
-</ul>
-
-<p><b>Informational</b></p>
-
-<ul>
- <li><a href="https://ietf.org/rfc/rfc1281.txt"> RFC 1281: Guidelines for the Secure Operation of the Internet</a></li>
- <li><a href="https://ietf.org/rfc/rfc1321.txt"> RFC 1321: The MD5 Message-Digest Algorithm</a></li>
- <li><a href="https://ietf.org/rfc/rfc1470.txt"> RFC 1470: Tools for Monitoring and Debugging TCP/IP Internets and Interconnected Devices</a></li>
- <li><a href="https://ietf.org/rfc/rfc1750.txt"> RFC 1750: Randomness Recommendations for Security</a></li>
- <li><a href="https://ietf.org/rfc/rfc2076.txt"> RFC 2076: Common Internet Message Headers</a></li>
- <li><a href="https://ietf.org/rfc/rfc2196.txt"> RFC 2196: Site Security Handbook</a></li>
- <li><a href="https://ietf.org/rfc/rfc2411.txt"> RFC 2411: IP Security Document Roadmap</a></li>
- <li><a href="https://ietf.org/rfc/rfc2504.txt"> RFC 2504: Users Security Handbook</a></li>
- <li><a href="https://ietf.org/rfc/rfc2577.txt"> RFC 2577: FTP Security Considerations</a></li>
- <li><a href="https://ietf.org/rfc/rfc2979.txt"> RFC 2979: Behavior of and Requirements for Internet Firewalls</a></li>
- <li><a href="https://ietf.org/rfc/rfc3067.txt"> RFC 3067: TERENA's Incident Object Description and Exchange Format Requirements</a></li>
- <li><a href="https://ietf.org/rfc/rfc3098.txt"> RFC 3098: How to Advertise Responsibly Using E-Mail and Newsgroups or — how NOT to $$$$$  MAKE ENEMIES FAST!  $$$$$</a></li>
-
-<li><a href="https://ietf.org/rfc/rfc3164.txt">RFC 3164: The BSD syslog Protocol</a></li>
-<li><a href="https://ietf.org/rfc/rfc3174.txt">RFC 3174: US Secure Hash Algorithm 1 (SHA1)</a></li>
-<li><a href="https://ietf.org/rfc/rfc3330.txt">RFC 3330: Special-Use IPv4 Addresses</a></li>
-<li><a href="https://ietf.org/rfc/rfc3511.txt">RFC 3511: Benchmarking Methodology for Firewall Performance</a></li>
-<li><a href="https://ietf.org/rfc/rfc3631.txt">RFC 3631: Security Mechanisms for the Internet</a></li>
-<li><a href="https://ietf.org/rfc/rfc3833.txt">RFC 3833: Threat Analysis of the Domain Name System (DNS)</a></li>
-<li><a href="https://ietf.org/rfc/rfc3871.txt">RFC 3871: Operational Security Requirements for Large Internet Service Provider (ISP) IP Network Infrastructure</a></li>
-<li><a href="https://ietf.org/rfc/rfc3964.txt">RFC 3964: Security Considerations for 6to4</a></li>
-<li><a href="https://ietf.org/rfc/rfc4096.txt">RFC 4096: Policy-Mandated Labels Such as "Adv:" in Email Subject Headers Considered Ineffective At Best</a></li>
-<li><a href="https://ietf.org/rfc/rfc4270.txt">RFC 4270: Attacks on Cryptographic Hashes in Internet Protocols</a></li>
-<li><a href="https://ietf.org/rfc/rfc4272.txt">RFC 4272: BGP Security Vulnerabilities Analysis</a></li>
-<li><a href="https://ietf.org/rfc/rfc4381.txt">RFC 4381: Analysis of the Security of BGP/MPLS IP Virtual Private Networks (VPNs)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4641.txt">RFC 4641: DNSSEC Operational Practices</a></li>
-<li><a href="https://ietf.org/rfc/rfc4686.txt">RFC 4686: Analysis of Threats Motivating DomainKeys Identified Mail (DKIM)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4766.txt">RFC 4766: Intrusion Detection Message Exchange Requirements</a></li>
-<li><a href="https://ietf.org/rfc/rfc4772.txt">RFC 4772: Security Implications of Using the Data Encryption Standard (DES)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4778.txt">RFC 4778: Current Operational Security Practices in Internet Service Provider Environments</a></li>
-<li><a href="https://ietf.org/rfc/rfc4890.txt">RFC 4890: Recommendations for Filtering ICMPv6 Messages in Firewalls</a></li>
-<li><a href="https://ietf.org/rfc/rfc4891.txt">RFC 4891: Using IPsec to Secure IPv6-in-IPv4 Tunnels</a></li>
-<li><a href="https://ietf.org/rfc/rfc4942.txt">RFC 4942: IPv6 Transition/Coexistence Security Considerations</a></li>
-<li><a href="https://ietf.org/rfc/rfc4986.txt">RFC 4986: Requirements Related to DNS Security (DNSSEC) Trust Anchor Rollover</a></li>
-<li><a href="https://ietf.org/rfc/rfc4949.txt">RFC 4949: Internet Security Glossary, Version 2</a></li>
-<li><a href="https://ietf.org/rfc/rfc6092.txt">RFC 6092: Recommended Simple Security Capabilities in Customer Premises Equipment (CPE) for Providing Residential IPv6 Internet Service</a></li>
-<li><a href="https://ietf.org/rfc/rfc6274.txt">RFC 6274: Security Assessment of the Internet Protocol Version 4</a></li>
-<li><a href="https://ietf.org/rfc/rfc6305.txt">RFC 6305: I'm Being Attacked by PRISONER.IANA.ORG!</a></li>
-<li><a href="https://ietf.org/rfc/rfc6471.txt">RFC 6471: Overview of Best Email DNS-Based List (DNSBL) Operational Practices</a></li>
-<li><a href="https://ietf.org/rfc/rfc6480.txt">RFC 6480: An Infrastructure to Support Secure Internet Routing</a></li>
-<li><a href="https://ietf.org/rfc/rfc6561.txt">RFC 6561: Recommendations for the Remediation of Bots in ISP Networks</a></li>
-<li><a href="https://ietf.org/rfc/rfc7123.txt">RFC 7123: Security Implications of IPv6 on IPv4 Networks</a></li>
-</ul>
-
-<p><b>Experimental / Historic</b></p>
-
-<ul>
-<li><a href="https://ietf.org/rfc/rfc4406.txt"> RFC 4406: Sender ID: Authenticating E-Mail</a></li>
-<li><a href="https://ietf.org/rfc/rfc4408.txt"> RFC 4408: Sender Policy Framework (SPF) for Authorizing Use of Domains in E-Mail, Version 1</a></li>
-<li><a href="https://ietf.org/rfc/rfc4765.txt"> RFC 4765: The Intrusion Detection Message Exchange Format (IDMEF)</a></li>
-<li><a href="https://ietf.org/rfc/rfc4767.txt"> RFC 4767: The Intrusion Detection Exchange Protocol (IDXP)</a></li>
-<li><a href="https://ietf.org/rfc/rfc6541.txt"> RFC 6541: DomainKeys Identified Mail (DKIM) Authorized Third-Party Signatures</a></li>
-<li><a href="https://ietf.org/rfc/rfc6587.txt"> RFC 6587: Transmission of Syslog Messages over TCP </a></li>
-</ul>
-
-</details>
-</div>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>1.02 Forensic certs & training</summary>
-<br>
-
-<ul>
-<li>
-<p><a href="https://aboutdfir.com/education/certifications-training/">About DFIR - Certifications Training</a></p>
-</li>
-<li>
-<p><a href="https://github.com/mikeroyal/Digital-Forensics-Guide">Mikeroyal - Digital Forensics Guide (Github)</a></p>
-</li>
-<li>
-<p><a href="https://enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material">Enisa EU - Online Training Material</a></p>
-</li>
-<li>
-<p><a href=""></a></p>
-</li>
-<li>
-<p><a href=""></a></p>
-</li>
-</ul>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>1.03 Online tools</summary>
-<br>
-
-<h5>Message Header Analysis</h5>
-<ul>
-    <li><a href="https://mha.azurewebsites.net">Message Header Analyzer (Azure)</a></li>
-    <li><a href="https://github.com/microsoft/MHA">Message Header Analyzer (GitHub)</a></li>
-</ul>
-<h5>Phishing and Email Reputation</h5>
-<ul>
-    <li><a href="https://phishtank.org">PhishTank</a></li>
-    <li><a href="https://emailrep.io">Simple Email Reputation</a></li>
-    <li><a href="https://mxtoolbox.com/blacklists.aspx">Email Blacklist Check</a></li>
-</ul>
-<h5>Whois and DNS Lookup</h5>
-<ul>
-    <li><a href="https://iana.org/whois">Whois</a></li>
-    <li><a href="https://viewdns.info">ViewDNS</a></li>
-    <li><a href="https://whoismydns.com">WhoisMyDNS</a></li>
-    <li><a href="https://nslookup.io">NSLookup</a></li>
-    <li><a href="https://my-addr.com">My-Addr</a></li>
-    <li><a href="https://mxtoolbox.com">MXToolbox</a></li>
-    <li><a href="https://dnsstuff.com">DNSstuff</a></li>
-</ul>
-<h5>Malware and Vulnerability Databases</h5>
-<ul>
-    <li><a href="https://malpedia.caad.fkie.fraunhofer.de">Malpedia</a></li>
-    <li><a href="https://cvedetails.com">CVE Details</a></li>
-    <li><a href="https://exploit-db.com">Exploit Database</a></li>
-    <li><a href="https://fileinfo.co">FileInfo</a></li>
-    <li><a href="https://strontic.github.io/xcyclopedia">xCyclopedia</a></li>
-    <li><a href="https://winbindex.m417z.com">The Windows Binary Index</a></li>
-    <li><a href="https://applipedia.paloaltonetworks.com">Palo Alto Applipedia</a></li>
-    <li><a href="https://ultimatewindowssecurity.com/securitylog/encyclopedia">Windows Security Logs</a></li>
-    <li><a href="https://nvd.nist.gov">National Vulnerability Database (NVD)</a></li>
-    <li><a href="https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator"> NIST CVE Calculator</a></li>
-</ul>
-<h5>Archiving Tools</h5>
-<ul>
-    <li><a href="https://web.archive.org">Internet Archive (WayBackMachine)</a></li>
-    <li><a href="https://archive.ph">Archive Web Content</a></li>
-    <li><a href="https://archive.org">Internet Archive</a></li>
-    <li><a href="https://httrack.com">HTTrack</a></li>
-    <li><a href="https://perma.cc">Perma.cc</a></li>
-</ul>
-<h5>IP and MAC Address Tools</h5>
-<ul>
-    <li><a href="https://ipvoid.com">IPVOID</a></li>
-    <li><a href="https://abuseipdb.com">AbuseIPDB</a></li>
-    <li><a href="https://grabify.link/">Grabify IP Logger</a></li>
-    <li><a href="https://iplogger.org">IP Logger</a></li>
-    <li><a href="https://iplogger.org/ip-tracker">IP Tracker</a></li>
-    <li><a href="https://iplogger.org/location-tracker">IP Location Tracker</a></li>
-    <li><a href="https://iplocation.net">IP Location</a></li>
-    <li><a href="https://iplogger.org/url_checker">URL Checker</a></li>
-    <li><a href="https://iplogger.org/mac-checker">MAC Address Lookup</a></li>
-    <li><a href="https://macvendors.com">MAC Vendor</a></li>
-    <li><a href="https://ip-api.com">Ip-api</a></li>
-    <li><a href="https://ipify.org">Ipify</a></li>
-    <li><a href="https://ipapi.co">Ipapi</a></li>
-    <li><a href="https://vpnapi.io">Vpnapi</a></li>
-    <li><a href="https://ipapi.com">Ipapi</a></li>
-    <li><a href="https://zmap.io">The ZMap Project</a></li>
-    <li><a href="https://wigle.net">WiGLE</a></li>
-    <li><a href="https://shodan.io">Shodan</a></li>
-    <li><a href="https://censys.io">Censys</a></li>
-</ul>
-<h5>URL and Virus Scanning</h5>
-<ul>
-    <li><a href="https://urlscan.io">urlscan.io</a></li>
-    <li><a href="https://virustotal.com">Virus Total</a></li>
-    <li><a href="https://hybrid-analysis.com">Hybrid Analysis</a></li>
-    <li><a href="https://cuckoo.cert.ee">Cuckoo Sandbox</a></li>
-    <li><a href="https://otx.alienvault.com">AlienVault OTX</a></li>
-    <li><a href="https://exchange.xforce.ibmcloud.com">IBM X-Force Exchange</a></li>
-    <li><a href="https://talosintelligence.com/reputation_center">Cisco Talos</a></li>
-    <li><a href="https://maltiverse.com/collection">Maltiverse</a></li>
-    <li><a href="https://greynoise.io">GreyNoise</a></li>
-    <li><a href="https://isc.sans.edu">SANS Internet Storm Center</a></li>
-    <li><a href="https://intelx.io">Intelligence X</a></li>
-    <li><a href="https://metadefender.opswat.com">MetaDefender Cloud</a></li>
-    <li><a href="https://community.riskiq.com/home">RiskIQ Community Edition</a></li>
-    <li><a href="https://pulsedive.com">Pulsedive</a></li>
-    <li><a href="https://valhalla.nextron-systems.com">Valhalla YARA Rules</a></li>
-    <li><a href="https://any.run">ANY.RUN</a></li>
-    <li><a href="https://binvis.io">Binvis</a></li>
-    <li><a href="https://joesandbox.com">JoeSandbox</a></li>
-</ul>
-<h5>File Analysis and Reverse Engineering</h5>
-<ul>
-    <li><a href="https://verexif.com/en/">Verexif</a></li>
-    <li><a href="https://revshells.com">Reverse Shell Generator</a></li>
-    <li><a href="https://hashes.com/en/decrypt/hash">Rainbow Tables (Hashes)</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Magic_number_(programming)">File Signatures ("Magic Numbers")</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/List_of_file_signatures">List of File Signatures</a></li>
-    <li><a href="https://gchq.github.io/CyberChef">CyberChef</a></li>
-    <li><a href="https://explainshell.com">explainshell</a></li>
-    <li><a href="https://virusshare.com">VirusShare</a></li>
-    <li><a href="https://reverse.it">Reverse.IT</a></li>
-</ul>
-<h5>Utilities and Development Tools</h5>
-<ul>
-    <li><a href="https://epochconverter.com">Epoch Converter</a></li>
-    <li><a href="https://regex-generator.olafneumann.org">Regex Generator</a></li>
-    <li><a href="https://dehashed.com">DeHashed</a></li>
-    <li><a href="https://dencode.com">Dencode</a></li>
-    <li><a href="https://ctool.dev">Commonly Used Software Development Tools</a></li>
-    <li><a href="https://textfixer.com">Text Fixer</a></li>
-    <li><a href="https://ss64.com">SS64 Syntax Utils</a></li
-    <li><a href="https://tools4noobs.com">Tools4noobs</a></li>
-    <li><a href="https://patorjk.com/software/taag">Text to ASCII Art Generator</a></li>
-    <li><a href="https://regex101.com">Regex101</a></li>
-    <li><a href="https://crontab.guru">Cron Expression Generator</a></li>
-</ul>
-<h5>OSINT and Breach Checking</h5>
-<ul>
-    <li><a href="https://haveibeenpwned.com">Have I Been Pwned</a></li>
-    <li><a href="https://namechk.com">Name OSINT</a></li>
-    <li><a href="https://breachdirectory.org">Breach Directory</a></li>
-    <li><a href="https://hunter.io">Hunter.io</a></li>
-    <li><a href="https://inteltechniques.com">Intel Techniques</a></li>
-</ul>
-<h5>Translation and Markdown Tools</h5>
-<ul>
-    <li><a href="https://deepl.com/translator">DeepL</a></li>
-    <li><a href="https://markdowntoolbox.com">Markdown Toolbox</a></li>
-    <li><a href="https://mermaid.live">Mermaid</a></li>
-    <li><a href="https://kutt.it">Kutt your links shorter</a></li>
-    <li><a href="https://grammarly.com">Grammarly</a></li>
-</ul>
-
-<p>For OSINT tools visit our repository: <a href="https://github.com/RENANZG/My-OSINT">My-OSINT</a></p>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>1.04 Forensic tools</summary>
-<br>
-
-<h4>Forensics Tools Catalogues</h4>
-
-<p>Evidence Project - <a href="https://dftoolscatalogue.eu/dftc.home.php">https://dftoolscatalogue.eu</a></p>
-<p>NIST - <a href="https://toolcatalog.nist.gov/search/">https://toolcatalog.nist.gov</a></p>
-<p>S&T partners and NIST - Computer Forensic Tool Testing (CFTT) - <a href="https://dhs.gov/science-and-technology/nist-cftt-reports">https://dhs.gov/science-and-technology/nist-cftt-reports</a></p>
-
-<h4>Some tools</h4>
-
-<ul>
-<li><a href="https://sleuthkit.org/sleuthkit/">The Sleuth Kit (TSK)</a> <a href="https://github.com/sleuthkit/sleuthkit">(GitHub)</a></li>
-<li><a href="https://autopsy.com">Autopsy</a></li>
-<li><a href="https://github.com/WerWolv/ImHex">ImHex</a></li>
-<li><a href="https://hashcat.net">Hashcat</a></li>
-<li><a href="https://openwall.com/john/">John the Ripper</a></li>
-<li><a href="https://github.com/drivebadger/drivebadger">Drive Badger — Covert Data Exfiltration Operations</a></li>
-<li><a href="https://github.com/northloopforensics/Fetch">Making Maps for Investigators</a></li>
-<li><a href="https://github.com/mxrch/GHunt">Offensive Google framework</a></li>
-<li><a href="https://github.com/northloopforensics/Bitlocker_Key_Finder">Bitlocker Key Finder</a></li>
-<li><a href="https://github.com/teamdfir/sift">SIFT</a></li>
-<li><a href="https://github.com/keydet89/RegRipper3.0">RegRipper</a></li>
-<li><a href="https://nomoreransom.org/en/index.html">No More Ransom</a></li>
-<li><a href="https://docs.microsoft.com/en-us/sysinternals/downloads">MS Sysinternals</a></li>
-<li><a href="https://winfe.net/download">WinFE</a></li>
-</ul>
-
-<h4>Image and video enhancement techniques</h4>
-
-• <a href="https://github.com/upscayl/upscayl">Ppscayl</a><br>
-• <a href="https://github.com/imagej/ImageJ">ImageJ</a><br>
-• <a href="https://github.com/hollowaykeanho/Upscaler">Upscalers</a><br>
-
-<h4>Computer-animated movies.</h4>
-
-• <a href="https://github.com/stuffmatic/fSpy">fSpy</a><br>
-
-<h4>Encryption workarounds:</h4>
-
-<ol>
-<li>Find the key.</li>
-<li>Guess the key.</li>
-<li>Compel the key.</li>
-<li>Exploit a flaw in the encryption software.</li>
-<li>Access plaintext while the device is in use.</li>
-<li>Locate another plaintext copy.</li>
-<li>Using legal processes to compel suspects to provide encryption keys or passwords.</li>
-</ol>
-
-<h4>Extraction Methods</h4>
-
-<table>
-<tbody>
-<tr>
-<td>Encryption:</td>
-<td><p>Seize the encrypted files and decrypt them using a password or key and the appropriate decryption software. <br> OR<br> Seize the data while it is in an unencrypted state.</p></td>
-</tr>
-<tr>
-<td>Virtualization:</td>
-<td>Seize the virtual image file and open it with the correct password.<br>
- OR<br>
- Log into the virtual machine and seize the data while the virtual machine is turned on and in an unencrypted state.</td>
-</tr>
-<tr>
-<td>Relational Database:</td>
-<td>Seize all the files containing records. Obtain a copy of the database software and rebuild the database.<br>
-OR<br>
-Log into the database while it is live and employ the application used to create and manage the database as a search tool. Download the data using the method allowed by the application, either in the form of printouts or data files.</td>
-</tr>
-</tbody>
-</table>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>1.05 Cryptography</summary>
-<br>
-
-<h4>Encryption Workrounds</h4>
-
-<p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/03_DOCUMENTS/Encryption">3.DOCUMENTS/Encryption</a></p>
-
-<p>Encryption workarounds:</p>
-
-<ol>
-<li>Find the key.</li>
-<li>Guess the key.</li>
-<li>Compel the key.</li>
-<li>Exploit a flaw in the encryption software.</li>
-<li>Access plaintext while the device is in use.</li>
-<li>Locate another plaintext copy.</li>
-</ol>
-
-<h4>Bruteforce</h4>
-
-<p>Read the thread <a href="https://github.com/RENANZG/My-Forensics?tab=readme-ov-file#brute-force-attacks">Brute Force Attacks</a></p>
-
-<h4>Cryptanalysis</h4>
-
-<p>Visit our repo tree: <a href="https://github.com/RENANZG/My-Forensics/tree/main/03_DOCUMENTS/Cryptanalysis">03_DOCUMENTS/Cryptanalysis</a></p>
-
-<h4>Steganography</h4>
-
-<p></p>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>1.06 Memory analysis</summary>
-<br>
-
-<h4>Volatile memory analysis</h4>
-
-• Volatility<br>
-https://volatilityfoundation.org/releases<br>
-• Linux Memory Extractor (LiME)<br>
-https://github.com/504ensicsLabs/LiME<br>
-• Memory Analysis<br
-https://memoryanalysis.net/amf<br>
-• Cobalt Strike in memory<br>
-https://andreafortuna.org/2020/11/22/how-to-detect-cobalt-strike-activity-in-memory-forensics/<br>
-
-<h3>JTag, Chip-off and ISP forensics</h3>
-
-<img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/jtag_chip-off_isp.png" title="Hardware Exploitation" style="width:100%">
-
-https://teeltech.com/ufaqs/what-is-jtag-chip-off-and-isp<br>
-https://cellebritelearningcenter.com/mod/page/view.php?id=11903<br>
-https://fletc.gov/jtag-chipoff-smartphones-training-program<br>
-https://gillware.com/phone-data-recovery-services/jtag-chip-off-forensics<br>
-https://gillware.com/phone-data-recovery-services/chip-off-forensics-services<br>
-
-<h4>Researching support for phones in JTAG software</h4>
-https://octoplusbox.com<br>
-https://medusabox.com<br>
-https://riffbox.org<br>
-https://easy-jtag.com<br>
-https://z3x-team.com<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>1.07 Cryptocurrencies analysis</summary>
-<br>
-
-<h4>Cryptocurrencies analysis</h4>
-
-https://github.com/OffcierCia/On-Chain-Investigations-Tools-List<br>
-https://github.com/aaarghhh/awesome_osint_criypto_web3_stuff<br>
-https://blocksherlock.com/home/blockchain-explorers<br>
-https://tronscan.org<br>
-https://etherscan.io<br>
-https://algoexplorer.io<br>
-https://explorer.solana.com<br>
-https://stellar.expert<br>
-https://snowtrace.io<br>
-https://flowscan.org<br>
-https://polygonscan.com<br>
-
-<h4>Some tools</h4>
-
-https://github.com/demining/CryptoDeepTools<br>
-https://github.com/demining/bitcoindigger<br>
-https://github.com/graphsense<br>
-https://github.com/demining/Dao-Exploit<br>
-https://github.com/immunefi-team/Web3-Security-Library/blob/main/Tools/README.md#blockchain-analysis<br>
-
-<h4>Private sector</h4>
-
-https://chainalysis.com<br>
-https://elliptic.co<br>
-https://ciphertrace.com<br>
-https://coinmetrics.io<br>
-https://whitestream.io<br>
-https://elementus.io<br>
-https://trmlabs.com<br>
-https://bitok.org/investigations<br>
-
-</details>
-
-<hr>
-<!-- ################################## -->
-
-${\color{Red}\textbf{2.ACTIVE FORENSICS}}$
-
-👷🛠️UNDER CONSTRUCTION🚧🏗<br>
-
-<details>
-<summary>2.01 Police hacking</summary>
-<br>
-
-<h3>Visit our repo tree:<br>
-<a href="https://github.com/RENANZG/My-Forensics/tree/main/04_POLICE_HACKING">04_POLICE_HACKING</a></h3>
-
-<h4>The Cyber Kill Chain</h4>
-
-<img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/the_cyber_kill_chain.png" title="The Cyber Kill Chain" style="width:100%">
-
-• MITRE ATT&CK — ICS Techniques<br>
-https://attack.mitre.org/techniques/ics<br>
-
-• MITRE ATT&CK — Enterprise Techniques<br>
-https://attack.mitre.org/techniques/enterprise/<br>
-
-• MITRE ATT&CK — Mobile Techniques<br>
-https://attack.mitre.org/techniques/mobile/<br>
-
-• OWASP MAS - Mobile Application Security<br>
-https://mas.owasp.org<br>
-
-• Metasploit - Penetration testing framework<br>
-https://metasploit.com<br>
-
-<h4>• Training</h4>
-
-∙ Rootme — https://root-me.org<br>
-∙ Vulnhub — https://vulnhub.com<br>
-∙ Hacker101 — https://hacker101.com<br>
-∙ Crackmes — https://crackmes.one<br>
-∙ Attack Defense — https://attackdefense.com<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.02 Law Enforcement Agency (LEA)</summary>
-
-    <h4>• Rule of Law Benchmarks</h4>
-
-    <img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/law_in_books_22.png" 
-         alt="Always remember that the law in books is different from the law in action." 
-         title="Always remember that the law in books is different from the law in action.">
-
-    <p>*First of all, consult court cases to see how laws are (mis)applied.</p>
-
-<section>
-    <h5>DE and US Legislation Comparison</h5>
-
-    <table border="1" cellpadding="10" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Aspect</th>
-                <th>Germany (GE)</th>
-                <th>United States (US)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Constitution</td>
-                <td>
-                    German Constitution (Grundgesetz — GG)<br>
-                    <a href="https://gesetze-im-internet.de/englisch_gg/index.html" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    United States Constitution<br>
-                    <a href="https://constitution.congress.gov" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Criminal Code</td>
-                <td>
-                    German Criminal Code (Strafgesetzbuch — StGB)<br>
-                    <a href="https://gesetze-im-internet.de/englisch_stgb" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    United States Code Title 18 - Crimes and Criminal Procedure<br>
-                    <a href="https://law.cornell.edu/uscode/text/18" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Criminal Procedure Code</td>
-                <td>
-                    German Code of Criminal Procedure (Strafprozeßordnung — StPO)<br>
-                    <a href="https://gesetze-im-internet.de/englisch_stpo/index.html" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    Federal Rules of Criminal Procedure<br>
-                    <a href="https://law.cornell.edu/rules/frcrmp" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Telecommunications Surveillance</td>
-                <td>
-                    German Code of Criminal Procedure - StPO, Section 100a - Telecommunications Surveillance<br>
-                    <a href="https://gesetze-im-internet.de/englisch_stpo/englisch_stpo.html#p0572" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    Title III of the Omnibus Crime Control and Safe Streets Act of 1968 (Federal Wiretap Act)<br>
-                    <a href="https://law.cornell.edu/uscode/text/18/part-I/chapter-119" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Covert Intervention in IT Systems</td>
-                <td>
-                    Law on the Federal Criminal Police Office and Cooperation Between the Federal and State Governments in Criminal Police Matters (Federal Criminal Police Office Act - BKAG) - § 49 Covert Intervention in Information Technology Systems<br>
-                    <a href="https://gesetze-im-internet.de/bkag_2018/__49.html" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    Computer Fraud and Abuse Act (CFAA)<br>
-                    <a href="https://law.cornell.edu/uscode/text/18/1030" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Constitutional Court Home Page</td>
-                <td>
-                    Federal Constitutional Court (Bundesverfassungsgericht)<br>
-                    <a href="https://bundesverfassungsgericht.de/EN/Home/home_node.html" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    Supreme Court of the United States (SCOTUS)<br>
-                    <a href="https://supremecourt.gov" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Constitutional Court Jurisprudence Search</td>
-                <td>
-                    Federal Constitutional Court Decisions Search<br>
-                    <a href="https://bundesverfassungsgericht.de/EN/Entscheidungen/entscheidungen_node.html" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    Supreme Court of the United States Opinions Search<br>
-                    <a href="https://supremecourt.gov/opinions/opinions.aspx" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Federal Court Home Page</td>
-                <td>
-                    Federal Court of Justice (Bundesgerichtshof)<br>
-                    <a href="https://bundesgerichtshof.de/DE/Home/home_node.html" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    U.S. Courts - Federal Judiciary<br>
-                    <a href="https://uscourts.gov" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Federal Court Jurisprudence Search</td>
-                <td>
-                    Federal Court of Justice Decisions Search<br>
-                    <a href="https://bundesgerichtshof.de/DE/Entscheidungen/entscheidungen_node.html" target="_blank" rel="noopener">Link</a>
-                </td>
-                <td>
-                    PACER - Federal Case Search<br>
-                    <a href="https://pacer.uscourts.gov" target="_blank" rel="noopener">Link</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</section>
-
-    <h4>• Difference between Legal Regimes or Multi-Level Chains of Statutory References</h4>
-
-    <p>We are still reflecting on this point.</p>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Security Bodies (Judiciary Police)</th>
-                <th>Administration of Justice (Criminal Procedural Law)</th>
-                <th>Intelligence Services</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    • Conducts criminal investigations, carries out whatever steps it deems appropriate to elucidate the facts, with a view to discovering evidence of the existence of the crime and signs of its authorship.<br>
-                    • Criminal police bodies act as a precautionary measure, such as in the case of preserving evidence or in the case of a flagrant crime.<br>
-                    • Has an obligation to preserve the confidentiality of the investigation, therefore the right to adversarial proceedings is limited.<br>
-                    • In general, the investigation is already a procedural phase.<br>
-                </td>
-                <td>
-                    • In general, the criminal investigation can be directly initiated by other institutions, such as the Public Prosecutor's Office.<br>
-                    • Full exercise of the right to adversarial proceedings.<br>
-                    • Follow due legal process, the criminal procedural law.
-                </td>
-                <td>
-                    • Production of knowledge, with production of intelligence reports, to support decision making.<br>
-                    • Their main objectives are to collect information and provide analyses, as well as anticipate and counteract external threats.<br>
-                    • Compartmentalization principle: the production of information is separate from decision making, it ensures no single spy knows everything, meaning if they're captured, spies won’t know enough to compromise a mission.<br>
-                    • In general, intelligence activity does not follow due legal process; intelligence agencies do not conduct criminal proceedings, although they can combat terrorism.<br>
-                    • Related to military activities of national defense and conquest against foreign enemies.<br>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    <p>*Informational separation of powers: in Germany, where the Gestapo of National Socialism existed, the separation between intelligence (knowledge) and police (power) was one of the denazification measures imposed by the allies in 1949.</p>
-
-    <p>*There is some controversy as to whether intelligence can be considered security.</p>
-
-    <h4>• International Law</h4>
-
+    <li>
+      <h3>SEARCH ENGINES</h3></li>
     <ul>
-        <li><a href="https://unodc.org/e4j/en/resdb/index.html" target="_blank" rel="noopener">UN — Library of Resources</a></li>
-        <li><a href="https://unodc.org/elearning/en/courses/course-catalogue.html" target="_blank" rel="noopener">UN — Course Catalogue</a></li>
-        <li><a href="https://icrc.org/en/war-and-law/conduct-hostilities/cyber-warfare" target="_blank" rel="noopener">ICRC - Cyber operations during armed conflicts</a></li>
-        <li><a href="https://icrc.org/en/war-and-law/weapons/ihl-and-new-technologies" target="_blank" rel="noopener">ICRC - New technologies and IHL</a></li>
-        <li><a href="https://cyberlaw.ccdcoe.org/wiki/Main_Page" target="_blank" rel="noopener">The Cyber Law Toolkit - The intersection of international law and cyber operations</a></li>
-        <li><a href="https://coe.int/en/web/cybercrime/the-budapest-convention" target="_blank" rel="noopener">Budapest Convention (Cybercrime)</a></li>
-        <li><a href="https://coe.int/en/web/cybercrime/octopus-project" target="_blank" rel="noopener">Octopus Project</a></li>
+      <li>
+        <a href="http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion">Ahmia.fi</a>
+        <pre><code>http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion">DuckDuckGo</a>
+        <pre><code>http://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion">ExcavaTOR</a>
+        <pre><code>http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion">Haystak</a>
+        <pre><code>http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://metagerv65pwclop2rsfzg4jwowpavpwd6grhhlvdgsswvo6ii4akgyd.onion">Metager.org</a>
+        <pre><code>http://metagerv65pwclop2rsfzg4jwowpavpwd6grhhlvdgsswvo6ii4akgyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://notevilmtxf25uw7tskqxj6njlpebyrmlrerfv5hc4tuq7c7hilbyiqd.onion">NotEvil Dark Web</a>
+        <pre><code>http://notevilmtxf25uw7tskqxj6njlpebyrmlrerfv5hc4tuq7c7hilbyiqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion">OnionLand Search</a>
+        <pre><code>http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://kn3hl4xwon63tc6hpjrwza2npb7d4w5yhbzq7jjewpfzyhsd65tm6dad.onion">Onion Search</a>
+        <pre><code>http://kn3hl4xwon63tc6hpjrwza2npb7d4w5yhbzq7jjewpfzyhsd65tm6dad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://searxingux6na3djgdrcfwutafxmmagerhbieihsgu7sgmjee3u777yd.onion">SearX</a>
+        <pre><code>http://searxingux6na3djgdrcfwutafxmmagerhbieihsgu7sgmjee3u777yd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion">Tor66</a>
+        <pre><code>http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion">Torch</a>
+        <pre><code>http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://orealmvxooetglfeguv2vp65a3rig2baq2ljc7jxxs4hsqsrcemkxcad.onion">OurRealm</a>
+        <pre><code>http://orealmvxooetglfeguv2vp65a3rig2baq2ljc7jxxs4hsqsrcemkxcad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://e27slbec2ykiyo26gfuovaehuzsydffbit5nlxid53kigw3pvz6uosqd.onion">Sentor</a>
+        <pre><code>http://e27slbec2ykiyo26gfuovaehuzsydffbit5nlxid53kigw3pvz6uosqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://spacednczzrstmwlrt2olozfyrxcnrn3seyz2t4nhigujx5yivfy23id.onion">Space</a>
+        <pre><code>http://spacednczzrstmwlrt2olozfyrxcnrn3seyz2t4nhigujx5yivfy23id.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://krakenai2gmgwwqyo7bcklv2lzcvhe7cxzzva2xpygyax5f33oqnxpad.onion">Kraken</a>
+        <pre><code>http://krakenai2gmgwwqyo7bcklv2lzcvhe7cxzzva2xpygyax5f33oqnxpad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion">Tor66</a>
+        <pre><code>http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://xcprh4cjas33jnxgs3zhakof6mctilfxigwjcsevdfap7vtyj57lmjad.onion">TGS</a>
+        <pre><code>http://xcprh4cjas33jnxgs3zhakof6mctilfxigwjcsevdfap7vtyj57lmjad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://q3o3hdjbf6vwxdnpskyhxw7w7rnmnfhz2szbuala4q24x6csbp7adiad.onion">HST</a>
+        <pre><code>http://q3o3hdjbf6vwxdnpskyhxw7w7rnmnfhz2szbuala4q24x6csbp7adiad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion">Archive.today</a>
+        <pre><code>http://archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://torwhois2wo3cdwveznqlf2jz7ezm6icqrmnnr3fnez67vnyatqc65ad.onion">TorWhois</a>
+        <pre><code>http://torwhois2wo3cdwveznqlf2jz7ezm6icqrmnnr3fnez67vnyatqc65ad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://srcdemonm74icqjvejew6fprssuolyoc2usjdwflevbdpqoetw4x3ead.onion">Demon</a>
+        <pre><code>http://srcdemonm74icqjvejew6fprssuolyoc2usjdwflevbdpqoetw4x3ead.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://findtorroveq5wdnipkaojfpqulxnkhblymc7aramjzajcvpptd4rjqd.onion">FindTor</a>
+        <pre><code>http://findtorroveq5wdnipkaojfpqulxnkhblymc7aramjzajcvpptd4rjqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://tordexu73joywapk2txdr54jed4imqledpcvcuf75qsas2gwdgksvnyd.onion">Tordex</a>
+        <pre><code>http://tordexu73joywapk2txdr54jed4imqledpcvcuf75qsas2gwdgksvnyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://5n4qdkw2wavc55peppyrelmb2rgsx7ohcb2tkxhub2gyfurxulfyd3id.onion">Tor Links</a>
+        <pre><code>http://5n4qdkw2wavc55peppyrelmb2rgsx7ohcb2tkxhub2gyfurxulfyd3id.onion</code></pre>
+      </li>
     </ul>
-
-    <h5>Public International Law</h5>
-
-    <table>
-        <thead>
-            <tr>
-                <th colspan="4">PUBLIC INTERNATIONAL LAW</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="2">LAWS OF WAR</td>
-                <td colspan="2">LAWS OF PEACE</td>
-            </tr>
-            <tr>
-                <td>"Jus ad bellum"</td>
-                <td>"Jus in bello"</td>
-                <td>Occupation and "Jus Post Bellum"</td>
-                <td>Human Rights Law</td>
-            </tr>
-            <tr>
-                <td>The international rules pertaining to which extent the use of military force against another state is allowed.</td>
-                <td>The international rules pertaining to how armed conflict must be conducted.</td>
-                <td>The Justice at the end of the war, helps move from conflict to peace. Reasonable peace treaties, civilian population should be protected, leaders who broke Hague/Geneva laws must face prosecution, cities must be reconstructed.</td>
-                <td>International Bill on Human Rights. Treaties and Conventions. Covenants and Declarations.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h4>Jus ad Bellum</h4>
-
-    <p>Charter of the United Nations. Chapter VII — Action with respect to Threats to the Peace, Breaches of the Peace, and Acts of Aggression - Article 51</p>
-
-    <blockquote>“Nothing in the present Charter shall impair the inherent right of individual or collective self-defence if an armed attack occurs against a Member of the United Nations, until the Security Council has taken measures necessary to maintain international peace and security. Measures taken by Members in the exercise of this right of self-defence shall be immediately reported to the Security Council and shall not in any way affect the authority and responsibility of the Security Council under the present Charter to take at any time such action as it deems necessary in order to maintain or restore international peace and security.”</blockquote>
-
-    <h4>Jus in Bello</h4>
-
-    <p>Protocol Additional to the Geneva Conventions of 12 August 1949, and relating to the Protection of Victims of International Armed Conflicts (Protocol I)</p>
-
-    <blockquote>“Article 3 of the Geneva Conventions and Article 44 Additional Protocol I <br>
-    In order to promote the protection of the civilian population from the effects of hostilities, combatants are obliged to distinguish themselves from the civilian population while they are engaged in an attack or in a military operation preparatory to an attack. Recognizing, however, that there are situations in armed conflicts where, owing to the nature of the hostilities an armed combatant cannot so distinguish himself, he shall retain his status as a combatant, provided that, in such situations, he carries his arms openly:
-(a) During each military engagement, and
-(b) During such time as he is visible to the adversary while he is engaged in a military deployment preceding the launching of an attack in which he is to participate.
-(c) Acts which comply with the requirements of this paragraph shall not be considered as perfidious within the meaning of Article 37, paragraph 1.”</blockquote>
-
-<h4>• Council of Europe — Cybercrime</h4>
-
-<ul>
-    <li><a href="https://coe.int/cybercrime" target="_blank" rel="noopener">Cybercrime — Overview</a></li>
-    <li><a href="https://coe.int/en/web/cybercrime/glacyplus" target="_blank" rel="noopener">GLACY+ — Global Action on Cybercrime</a></li>
-    <li><a href="https://coe.int/en/web/cybercrime/iproceeds-2" target="_blank" rel="noopener">iPROCEEDS-2 — Combatting Cybercrime in South-East Europe</a></li>
-    <li><a href="https://coe.int/en/web/cybercrime/octopus-project" target="_blank" rel="noopener">Octopus Project — Cybercrime and Cybersecurity</a></li>
-    <li><a href="https://coe.int/en/web/cybercrime/cybersouth" target="_blank" rel="noopener">CyberSouth — Enhancing Cybercrime Capacity in Southern Mediterranean</a></li>
-    <li><a href="https://coe.int/en/web/cybercrime/cybereast" target="_blank" rel="noopener">CyberEast — Cybercrime Capacity Building in Eastern Europe</a></li>
-</ul>
-
-<h4>• Publications</h4>
-
-<ul>
-    <li><a href="https://coe.int/en/web/cybercrime/cyber-digests-and-updates" target="_blank" rel="noopener">Council of Europe – Cybercrime Digest and Cybercrime@CoE Update</a>: A bi-weekly selection of news relevant to the Cybercrime Programme Office of CoE (C-PROC) and a quarterly review of the work carried out by the Cybercrime Convention Committee (T-CY).</li>
-    <li><a href="https://b96de5da.sibforms.com/serve/MUIEACLiNKgT7-T6ofXDkIGbYxDLmxvtQd9xqKxFPG247oA-YVJ9-zDJ8qkYykiBK8nVIqzbvEglSSAjqBq9QJXVV7OP586AqR8-Q7kR8OYULBlmUfx6Qx5PpLyqDiVdydk9Kjgb4HDoP9qUr0VzwZOxKsi7oOG2tspyXc6wqOaMH7vd-OgQo8rNXLrLMEgtyn0-tg1DNs7jLuEG" target="_blank" rel="noopener">Council of Europe – Cybercrime Newsletter</a>: Subscribe to receive the latest updates on the topic.</li>
-    <li><a href="https://cert.europa.eu/publications/threat-intelligence/2023" target="_blank" rel="noopener">CERT-EU</a>: Access quarterly Threat Landscape Reports and monthly Cyber Security Briefs from the Computer Emergency Response Team for the EU institutions, bodies, and agencies.</li>
-    <li><a href="https://cepol.europa.eu/publications" target="_blank" rel="noopener">CEPOL – Publications</a>: Find the latest documents on trainings for law enforcement officials including the <a href="https://cepol.europa.eu/scientific-knowledge-and-research/european-law-enforcement-research-bulletin" target="_blank" rel="noopener">European Law Enforcement Research Bulletin.</a></li>
-    <li><a href="https://enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Newsroom</a>: Follow the most recent news on cybersecurity.</li>
-    <li><a href="https://enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Publications</a>: Sort the latest publications on cybersecurity by topic (and download copies).</li>
-    <li><a href="https://ec.europa.eu/newsroom/eurojust/user-subscriptions/2146/create" target="_blank" rel="noopener">EUROJUST Newsletter</a>: News from the European Union Agency for Criminal Justice Cooperation.</li>
-    <li><a href="https://ec.europa.eu/newsroom/home/user-subscriptions/2668/create" target="_blank" rel="noopener">European Commission’s DG HOME Newsletter</a>: Spotlight on Schengen and borders, internal security, and relevant European funds.</li>
-    <li><a href="https://europol.europa.eu/newsletter/subscriptions" target="_blank" rel="noopener">Europol – Email Alerts</a>: Ranging from news to upcoming publications and vacancies, choose what alerts to receive.</li>
-    <li><a href="https://osce.org/subscriptions/signup" target="_blank" rel="noopener">Organisation for Security and Co-operation in Europe (OSCE) Newsletter</a>: Hand-picked updates and in-depth information bundles on OSCE activities, with the possibility to choose countries of interest.</li>
-    <li><a href="https://europol.europa.eu/publications-events/publications?q=sirius" target="_blank" rel="noopener">SIRIUS Project Publications</a>: Co-implemented by Europol and <a href="https://eurojust.europa.eu/" target="_blank" rel="noopener">Eurojust</a>, in close partnership with the <a href="https://ejn-crimjust.europa.eu/ejn2021/Home/EN" target="_blank" rel="noopener">European Judicial Network</a>, the SIRIUS project is a central reference point in the EU for knowledge sharing on cross-border access to electronic evidence and allows downloading, among other publications, the yearly EU Digital Evidence Situation Report.</li>
-</ul>
-
-<h4>• Investigatory Powers — Criminal Law</h4>
-
-<h6>Americas</h6> 
-
-<ul>
-    <li><a href="https://law.cornell.edu/wex/criminal_procedure" target="_blank" rel="noopener">US — Federal Rules — Criminal Procedure — Overview</a></li>
-    <li><a href="https://law.cornell.edu/rules/frcrmp/rule_41" target="_blank" rel="noopener">US — Federal Rules — Criminal Procedure — Rule 41 — Search and Seizure</a></li>
-    <li><a href="https://justice.gov/usao/justice-101" target="_blank" rel="noopener">US - Justice 101</a></li>
-</ul>
-
-<table>
-<thead>
-  <tr>
-    <th>On a Network<br>in a Single<br>District</th>
-    <th>On a Network in Multiple Districts</th>
-    <th>On a Network with Data Stored Internationally</th>
-    <th>Unknown Where the Data is Stored (Cloud)</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Search under Rule 41; consider noting in affidavit the possibility of other locations</td>
-    <td>Multiple search warrants for each district with data or §2703 Warrant served on service provider</td>
-    <td>Use legal process required in country hosting the data, or consider accessing data remotely with a search warrant under Rule 41</td>
-    <td>Search under Rule 41 for subject computers, and concurrently search under §2703 served on service provider</td>
-  </tr>
-</tbody>
-</table>
-
-<h6>European Union</h6>
-
-<ul>
-    <li>UE — Criminal Procedural Laws Across the European Union: A Comparative Analysis — <a href="https://europarl.europa.eu/RegData/etudes/STUD/2018/604977/IPOL_STU(2018)604977(ANN01)_EN.pdf" target="_blank" rel="noopener">Link</a></li>
-    <li>NL — National Coordinator for Security and Counterterrorism — <a href="https://english.nctv.nl" target="_blank" rel="noopener">Link</a></li>
-    <li>GE — German Criminal Code (Strafgesetzbuch — StGB) — <a href="https://gesetze-im-internet.de/englisch_stgb" target="_blank" rel="noopener">Link</a></li>
-    <li>GE — German Code of Criminal Procedure (Strafprozeßordnung — StPO) — <a href="https://gesetze-im-internet.de/englisch_stpo/index.html" target="_blank" rel="noopener">Link</a></li>
-    <li>GE — German Code of Criminal Procedure - StPO, Section 100a - Telecommunications Surveillance — <a href="https://gesetze-im-internet.de/englisch_stpo/englisch_stpo.html#p0572" target="_blank" rel="noopener">Link</a></li>
-    <li>GE — Law on the Federal Criminal Police Office and Cooperation Between the Federal and State Governments in Criminal Police Matters (Federal Criminal Police Office Act - BKAG) - § 49 Covert Intervention in Information Technology Systems — <a href="https://gesetze-im-internet.de/bkag_2018/__49.html" target="_blank" rel="noopener">Link</a></li>
-    <li>UK — Crime, Justice, and Law — Law and Practice — <a href="https://gov.uk/guidance/rules-and-practice-directions-2020" target="_blank" rel="noopener">Link</a></li>
-    <li>UK — Public General Acts — Investigatory Powers Act 2016 — <a href="https://legislation.gov.uk/ukpga/2016/25/contents" target="_blank" rel="noopener">Link</a></li>
-</ul>
-
-<h4>Court Cases</h4>
-
-<ul>
-    <li>UNODC — Case Law Database — <a href="https://sherloc.unodc.org/cld/v3/sherloc/cldb/index.html?lng=en" target="_blank" rel="noopener">Link</a></li>
-    <li>UNODC — Cyber Organized Crime — <a href="https://unodc.org/e4j/en/cybercrime/module-13/additional-teaching-tools.html" target="_blank" rel="noopener">Link</a></li>
-</ul>
-
-<h6>Americas</h6>
-
-<ul>
-    <li>US Cases — <a href="https://courtlistener.com/opinion" target="_blank" rel="noopener">Link</a></li>
-    <li>US Federal Cases — <a href="https://pacer.uscourts.gov/find-case" target="_blank" rel="noopener">Link</a></li>
-    <li>US DOJ - Computer Crime and Intellectual Property Section (CCIPS) — <a href="https://justice.gov/criminal/criminal-ccips" target="_blank" rel="noopener">Link</a></li>
-    <li>US FBI - Internet Crime Complaint Center (IC3) — <a href="https://ic3.gov" target="_blank" rel="noopener">Link</a></li>
-    <li>Computer Crime Research Center — <a href="https://crime-research.org" target="_blank" rel="noopener">Link</a></li>
-</ul>
-
-<h6>European Union</h6>
-
-<ul>
-    <li>EUR-Lex — <a href="https://eur-lex.europa.eu/homepage.html" target="_blank" rel="noopener">Link</a></li>
-    <li>European Court of Justice — <a href="https://curia.europa.eu" target="_blank" rel="noopener">Link</a></li>
-    <li>EU Common Portal of Case Law — <a href="https://network-presidents.eu/cpcl" target="_blank" rel="noopener">Link</a></li>
-    <li>Casetext (Thomson Reuters) — <a href="https://casetext.com" target="_blank" rel="noopener">Link</a></li>
-    <li>Council of Europe - COE Cybercrime — <a href="https://coe.int/en/web/cybercrime" target="_blank" rel="noopener">Link</a></li>
-    <li>Council of Europe - Octopus Cybercrime Community - Materials — <a href="https://coe.int/en/web/octopus/training" target="_blank" rel="noopener">Link</a></li>
-</ul>
-
-
-![architecture](https://github.com/RENANZG/My-Forensics/assets/53377291/f92b0055-29fe-40de-9a45-da845d0f3f4b)
-
-<!-- ########## -->
-
-<h2>The Five, Nine, & Fourteen Eyes surveillance alliance includes the following countries:</h2>
-
-<table style="width: 100%;" cellspacing="0" cellpadding="0">
-<thead>
-  <tr>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><b>Countries</b></td>
-<td align="center"><b>Five Eyes</b></td>
-<td align="center"><b>Nine Eyes</b></td>
-<td align="center"><b>Fourteen Eyes</b></td>
-<td align="center"><b>Other</b></td>
-</tr>
-<tr>
-<td align="left">United Kingdom</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">United States</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Australia</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Canada</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">New Zealand</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Denmark</td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Netherlands</td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">France</td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Norway</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Germany</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Belgium</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="c<details>enter"></td>
-</tr>
-<tr>
-<td align="left">Spain</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Sweden</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Italy</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="left">Israel</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-</tr>
-<tr>
-<td align="left">Japan</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-</tr>
-<tr>
-<td align="left">Singapore</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-</tr>
-<tr>
-<td align="left">South Korea</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">✔️</td>
-</tr>
-</tbody>
-</table>
-
-<p>"Apart from these methods of cooperation, there are a number of equally secretive bilateral and multilateral agreements in other regions of the globe – such as the Club of Berne (an intelligence-sharing arrangement among the EU intelligence services) and the Shanghai Cooperation Organizations (an affiliation among the People’s Republic of China (‘China’), India, Kazakhstan, Kyrgyzstan, Pakistan, the Russian Federation (‘Russia’), Tajikistan and Uzbekistan) – together with intelligence exchange arrangements within a group of states comprising Russia, Iraq, Iran and Syria to facilitate the fight against the Islamic State."</p>
-
-(Ref.: WATT, Eliza. State Sponsored Cyber Surveillance: The Right to Privacy of Communications and International Law. Edward Elgar Publishing, 2021.)
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.03 Liability for Contents</summary>
-<br>
-
-<p>TorrentFreak</p>
-https://torrentfreak.com<br>
-https://torrentfreak.com/category/lawsuits<br>
-https://torrentfreak.com/category/law-politics<br>
-
-<p>TorrentFreak - Newsletter</p>
-https://torrentfreak.com/subscriptions<br>
-https://t.me/torrentfreaks<br>
-https://defcon.social/@torrentfreak<br>
-https://torrentfreak.com/feed<br>
-
-<a href="https://vpnpro.com/blog/is-torrenting-illegal">Where are torrents permitted? (2024)</a>
-
-<img src="https://vpnpro.com/wp-content/uploads/Torrenting-map.png" alt="World map with torrenting countries" width="800" height="420"/>
-
-<ul>
-<li><a href="https://startyourownisp.com/">How to start your own ISP</a></li>
-<li><a href="https://ukispcourtorders.co.uk/">UK ISP Court Orders</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Web_Sheriff">Web Sheriff</a></li>
-<li><a href="https://theverge.com/2020/1/31/21116788/earn-it-act-section-230-lindsey-graham-draft-bill-encryption">A new bill could punish web platforms for using end-to-end encryption</a></li>
-<li><a href="https://polygon.com/2019/9/19/20874384/french-court-steam-valve-used-games-eu-law">French court rules that Steam’s ban on reselling used games is contrary to European law</a></li>
-<li><a href="https://theguardian.com/media/2019/mar/26/meps-approve-sweeping-changes-to-copyright-law-european-copyright-directive">MEPs approve sweeping changes to copyright law</a></li>
-<li><a href="https://web.archive.org/web/20201111235605/https://lifewire.com/legalities-of-linking-3468972">The Legalities of Linking</a></li>
-<li><a href="https://web.archive.org/web/20220422223639/https://klarislaw.com/wp-content/uploads/klarislaw-copyright-liability-for-linking-and-embedding.pdf">COPYRIGHT LIABILITY FOR LINKING AND EMBEDDING — Klaris Law (.PDF)</a></li>
-<li><a href="https://engadget.com/2016/04/08/eu-court-linking-copyrighted-content-is-legal/">EU court says linking to copyrighted material isn&#39;t illegal</a></li>
-<li><a href="https://torrentfreak.com/ip-address-is-not-enough-to-identify-pirate-us-court-of-appeals-rules-180828/">IP Address is Not Enough to Identify Pirate, US Court of Appeals Rules</a> — (<a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2018/08/27/17-35041.pdf">.PDF</a>)</li>
-<li><a href="https://torrentfreak.com/new-eu-piracy-watchlist-targets-key-pirate-sites-and-cloudflare-181210/">New EU Piracy Watchlist Targets Key Pirate Sites and Cloudflare</a> — (<a href="https://torrentfreak.com/images/tradoc_157564.pdf">.PDF</a>)</li>
-<li><a href="https://torrentfreak.com/domain-registrar-can-be-held-liable-for-pirate-site-court-rules-181224/">Domain Registrar Can be Held Liable for Pirate Site, Court Rules</a></li>
-<li><a href="https://torrentfreak.com/reporting-when-pirate-releases-hit-the-internet-is-apparently-illegal-now-190101/">Reporting When Pirate Releases Hit The Internet is Apparently Illegal Now</a></li>
-<li><a href="https://torrentfreak.com/swiss-copyright-law-downloading-stays-legal-no-site-blocking/">Swiss Copyright Law: Downloading Stays Legal, No Site Blocking</a></li>
-<li><a href="https://en.wikipedia.org/wiki/List_of_websites_blocked_in_the_United_Kingdom">List of websites blocked in the United Kingdom</a></li>
-<li><a href="https://torrentfreak.com/major-us-isps-refuse-to-discuss-repeat-infringer-policies-190912/">Major US ISPs Refuse to Discuss Repeat Infringer Policies</a></li>
-<li><a href="https://arxiv.org/abs/1902.05796">Who Watches the Watchmen: Exploring Complaints on the Web</a></li>
-<li><a href="https://theregister.co.uk/2019/07/20/creative_content_piracy/">British ISPs throw in the towel, give up sending out toothless copyright infringement warnings</a></li>
-</ul>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.04 Tor Fingerprint</summary>
-<br>
-
-<h4>Tor Fingerprint</h4>
-
-• TOR Fingerprinting — https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead<br>
-• Attacks on Tor — https://github.com/Attacks-on-Tor/Attacks-on-Tor<br>
-• EFF Test — https://coveryourtracks.eff.org/learn<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.05 Forensics Footprints</summary>
-<br>
-
-<h4>Forensics Footprints</h4>
-
-• https://github.com/PaulNorman01/Forensia<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.06 Supply Chain Attack</summary>
-<br>
-
-<h4>Supply Chain Attack</h4>
-
-• https://owasp.org/www-project-dependency-check<br>
-• https://reproducible-builds.org<br>
-• https://github.com/SAP/risk-explorer-for-software-supply-chains<br>
-• https://github.com/ossillate-inc/packj<br>
-• https://eclypsium.com<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.07 APT & Cybercriminal Campagin Collections</summary>
-<br>
-
-<h4>APT & Cybercriminal Campagin Collections</h4>
-
-• https://attack.mitre.org/groups<br>
-• https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.08 Man In The Middle (MitM)</summary>
-<br>
-
-<h4>Man In The Middle (MitM)</h4>
-
-• https://github.com/frostbits-security/MITM-cheatsheet<br>
-• https://github.com/mitmproxy/mitmproxy<br>
-• https://mitmproxy.org<br>
-• https://github.com/andreafortuna/MITMInjector<br>
-• https://github.com/KoreLogicSecurity/wmkick<br>
-• https://github.com/jakev/mitm-helper-wifi<br>
-• https://github.com/jakev/mitm-helper-vpn<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.09 Network Analysis (SIGINT)</summary>
-<br>
-
-<h4>Network Analysis</h4>
-
-• Snort — https://github.com/snort3<br>
-• Wireshark — https://wireshark.org<br>
-• NMAP — https://nmap.org<br>
-
-<p>Live System Based</p>
-
-<a href="https://securityonionsolutions.com">Security Onion</a><br>
-
-<a href="https://networksecuritytoolkit.org">Network Security Toolkit</a><br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.10 Metadata</summary>
-<br>
-
-<h4>Metadata</h4>
-
-∙ ExifTool — https://github.com/exiftool/exiftool<br>
-∙ PhotoDNA — https://anishathalye.com/inverting-photodna<br>
-∙ Geo-tags — https://tool.geoimgr.com<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.11 Reverse Engineering</summary>
-<br>
-
-<h4>Reverse Engineering</h4>
-
-https://github.com/alphaSeclab/awesome-reverse-engineering<br>
-
-<h4>Ghidra</h4>
-
-https://ghidra-sre.org<br>
-
-<br>
-</details>
-
-<!-- ########## -->
-
-<details>
-<summary>2.12 Social Engineeringg</summary>
-<br>
-
-<h4>Social Engineering</h4>
-
-<ul>
-<li><a href="https://symantec.com/connect/articles/social-engineering-fundamentals-part-i-hacker-tactics"> Social Engineering Fundamentals, Part I: Hacker Tactics, SecurityFocus</a></li>
-<li><a href="https://symantec.com/connect/articles/social-engineering-fundamentals-part-ii-combat-strategies">Social Engineering Fundamentals, Part II: Combat Strategies, SecurityFocus</a></li>
-<li><a href="https://github.com/giuliacassara/awesome-social-engineering">Awesome Social Engineering — GitHub</a></li>
-<li><a href="https://github.com/trustedsec/social-engineer-toolkit">Social Engineer Toolkit — GitHub</a></li>
-<li><a href=""> </a></li>
-</ul>
-
-<br>
-</details>
-
-<!-- ############################################################### -->
-<hr>
-
-<details>
-<summary>${\color{Yellow}\textbf{PHONE SNIFFING}}$</summary>
-<br>
-
-• DEFCON Safe Mode - Cooper Quintin - Detecting Fake 4G Base Stations in Real-Time
-https://youtube.com/watch?v=siCk4pGGcqA<br>
-• SRLabs - Warn you about threats like fake base stations (IMSI Catchers)<br>
-https://github.com/srlabs/snoopsnitch<br>
-• Android IMSI-Catcher Detector (suspended)<br>
-https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector<br>
-• Telecom Exploits - Signalling System 7 (SS7)<br>
-https://github.com/SigPloiter/SigPloit<br>
-• Telecom Exploits - HLR Lookups<br>
-https://github.com/SigPloiter/HLR-Lookups<br>
-
-<a href="https://youtube.com/watch?v=VonHAsY4-VA">
-  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DVonHAsY4-VA" alt="Phone Surveillance Exposed" title="Phone Surveillance Exposed"/>
-</a>
-
-<table>
-<thead>
-  <tr>
-    <th></th>
-    <th></th>
-   </tr>
-</thead>
-<tbody>
-<tr>
-<td>NAME</td>
-<td>MEANING</td>
-</tr>
-<tr>
-<td>IMEI</td>
-<td><a href="https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity">International Mobile Equipment Identity</a></td>
-</tr>
-<tr>
-<td>IMSI</td>
-<td><a href="https://en.wikipedia.org/wiki/International_mobile_subscriber_identity">International Mobile Subscriber Identity</a></td>
-</tr>
-<tr>
-<td>MCC</td>
-<td><a href="https://en.wikipedia.org/wiki/Mobile_country_code">Mobile Country Code</a></td>
-</tr>
-<tr>
-<td>MNC</td>
-<td><a href="https://en.wikipedia.org/wiki/Mobile_country_code">Mobile Network Code</a></td>
-</tr>
-<tr>
-<td>MSIN</td>
-<td><a href="https://en.wikipedia.org/wiki/Mobile_identification_number">Mobile Subscription Identification Number</a></td>
-</tr>
-<tr>
-<td>ICCID</td>
-<td><a href="https://en.wikipedia.org/wiki/SIM_card#ICCID">Integrated Circuit Card Identifier</a></td>
-</tr>
-<tr>
-<td>MSID</td>
-<td><a href="https://pcmag.com/encyclopedia/term/mobile-station">Mobile Station ID</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>GSM</td>
-<td><a href="https://en.wikipedia.org/wiki/GSM">Global System for Mobile Communications</a></td>
-</tr>
-<tr>
-<td>SIM Card</td>
-<td><a href="https://en.wikipedia.org/wiki/SIM_card">Subscriber Identity Module Card</a></td>
-</tr>
-<tr>
-<td>SMS</td>
-<td><a href="https://en.wikipedia.org/wiki/SMS">Short Message/Messaging Service</a></td>
-</tr>
-<tr>
-<td>SDR</td>
-<td><a href="https://en.wikipedia.org/wiki/Software-defined_radio">Software-Defined Radio</a></td>
-</tr>
-</tbody>
-</table>
-
-<img src="https://user-images.githubusercontent.com/53458032/209445888-a0b016ee-0b05-49d6-a4ab-d14d72f632f7.png" title="IMSI">
-
-<h3>Useful Websites</h3>
-
-— OpenCellID — [Link](https://opencellid.org/)<br>
-— Cell Tower Locator (Cell2GPS) — [Link](https://cell2gps.com/)<br>
-— Cell Phone Trackers — [Link](https://cellphonetrackers.org/)<br>
-— International Numbering Plans — [Link](https://numberingplans.com/)<br>
-— GSM World Coverage Map and GSM Country List — [Link](https://worldtimezone.com/gsm.html)<br>
-— Imei Info — https://imei.info<br>
-— GSMArena Phones Ref.- https://gsmarena.com</br>
-— Phonescoop Phones Ref.- https://phonescoop.com</br>
-— Cell Towers — https://opencellid.org<br>
-
-<h3>Information & Explanations</h3>
-
-— IMSI-catcher — [Link](https://en.wikipedia.org/wiki/IMSI-catcher)<br>
-— GSM frequency bands — [Link](https://en.wikipedia.org/wiki/GSM_frequency_bands)<br>
-— List of software-defined radios — [Link](https://en.wikipedia.org/wiki/List_of_software-defined_radios)<br>
-
-<h3>Useful Apps</h3>
-
-— Mobile Software<br>
-  — AIMSICD — [Link](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector)<br>
-  — SnoopSnitch — [Link](https://f-droid.org/en/packages/de.srlabs.snoopsnitch/)<br>
-— Desktop Software<br>
-  — GsmEvil 2 — [Link](https://github.com/ninjhacks/gsmevil2)<br>
-  — IMSI-catcher — [Link](https://github.com/Oros42/IMSI-catcher)<br>
-
-<h3>Equipment</h3>
-
-<pre>
-GSM 900 / GSM 1800 MHz are used in most parts of the world: Europe, Asia, Australia, Middle East, Africa.
-GSM 850 / GSM 1900 MHz are used in the United States, Canada, Mexico and most countries of S. America.
-</pre>
-
-— SDR<br>
-  — RTL-SDR (65MHz-2.3GHz) — [Link](https://amazon.com/dp/B06Y1HKLHY)<br>
-— Antenna<br>
-  — Antenna — [Link](https://amazon.com/dp/B07HQJKMBD)<br>
-
-<h3>Equipment</h3>
-
-— Catching IMSI Catchers — [Link](https://youtu.be/eivHO1OzF5E)<br>
-
-<h3>GSM Sniffing Install/Setup Guide</h3>
-
-<h4>Install</h4>
-
-<pre>
-$ sudo apt install python3-numpy python3-scipy python3-scapy gr-gsm
-$ git clone https://github.com/Oros42/IMSI-catcher && cd IMSI-catcher
-$ sudo grgsm_livemon && python3 simple_IMSI-catcher.py --sniff
-</pre>
-
-<h4>GSM Install Error? Try this!</h4>
-
-<pre>
-$ sudo apt-get install -y \
-cmake \
-autoconf \
-libtool \
-pkg-config \
-build-essential \
-docutils \
-libcppunit-dev \
-swig \
-doxygen \
-liblog4cpp5-dev \
-gnuradio-dev \
-gr-osmosdr \
-libosmocore-dev \
-liborc-0.4-dev \
-swig
-
-$ gnuradio-config-info -v
-</pre>
-
-<h4>Tips</h4>
-
-<pre>
-$ sudo grgsm_scanner -l  # List your SDR connected.
-$ sudo grgsm_scanner     # Scan for cell towers near you.
-$ sudo grgsm_livemon     # Live radio scanning.
-</pre>
-
-<br>
-</details>
-
-<!-- ############################################################################### -->
-<hr>
-
-<details>
-<summary>${\color{Green}\textbf{BRUTE FORCE ATTACKS}}$</summary>
-<br>
-
-<h4>Brute Force Attacks</h4>
-
-<p>The speed at which your password is cracked depends on the entropy of your password and the power of the computer.</p>
-
-<p>Computer programs used for brute force attacks can check anywhere from 10,000 to 1 billion passwords per second. A Pentium 100 can try 10.000 passwords a second. A supercomputer can try 1.000.000.000 per second.</p>
-
-<p>Complex sheet:</p>
-
-<img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/Password_Brute_Force_Strenght_Table.png" title="Password Brute Force Strenght" style="width:100%">
-
-<p>Simplified sheet:</p>
-
-<img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/Password_Brute_Force_Strenght_Table_2023.png" title="Password Brute Force Strenght" style="width:100%">
-
-<h4>Types of brute force attacks</h4>
-
-<h5>Simple Brute Force Attack</h5>
-
-<p>The attacker relies on trying out commonly used, weak passwords such as 123456, qwerty, admin, changeme, qazwsxedc etc.</p>
-
-<h5>Dictionary attack</h5>
-
-<p>Software that can make thousands of guesses every second using dictionary databases, hence the name of the attack.</p>
-
-<h5>Hybrid Brute Force Attack</h5>
-
-<p>A hybrid attack is utilized once the attacker already knows the username of its prey.</p>
-
-<h5>Reverse Brute Force Attack</h5>
-
-<p>A reverse brute force attack requires the attacker to know the password beforehand and then attempt to guess the username.</p>
-
-<h5>Credential stuffing</h5>
-
-<p>Hackers can get entire databases of stolen login credentials and then try to apply them to the account they’re trying to access. This kind of attack can be especially devastating if the attacked user reuses passwords across multiple accounts.</p>
-
-<h5>Rainbow Table Attack</h5>
-
-<p>A rainbow table attack is a method of password cracking that employs rainbow tables to break the password hashes in a database. Websites or apps don’t store passwords in plain text; instead, they encrypt passwords with hashes. Once the password is used for logging in, it is immediately converted to a hash. The next time the user logs in using their passwords, the server checks whether the password matches the previously created hash. If the two hashes match, the user is then authenticated. The tables used to store password hashes are known as rainbow tables.</p>
-
-<h4>Multi Factor Authenticator (MFA) or Two-factor Authenticator (2FA)</h4>
-
-<p>Set up MFA whenever possible, It's an extra layer of security that requires additional steps to verify the user's identity.</p>
-
-<p>Encryption workarounds:</p>
-<ol>
-<li>Find the key.</li>
-<li>Guess the key.</li>
-<li>Compel the key.</li>
-<li>Exploit a flaw in the encryption software.</li>
-<li>Access plaintext while the device is in use.</li>
-<li>Locate another plaintext copy.</li>
-</ol>
-
-<br>
-</details>
-
-<!-- ############################################################################### -->
-<hr>
-
-<details>
-<summary><b>Forensic Resources</b></summary>
-<br>
-
-<h4>Forensic Publications</h4>
-
-<h4>Make a Google Scholar search on an interesting subject you want to follow up on.</h4>
-<p>Search parameters example:</p>
-<pre>police hacking intext:illegal intext:abusive intext:law</pre>
-<p>You could set keyword alerts: <a href="https://scholar.google.com/scholar_alerts?view_op=list_alerts">Google Scholar Alerts</a></p>
-
-<h4>Open Access Journals</h4>
-<ul>
-    <li><a href="https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines">List of Academic Databases and Search Engines - Wikipedia</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Lists_of_academic_journals">Lists of Academic Journals - Wikipedia</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/List_of_open-access_journals">List of Open-Access Journals - Wikipedia</a></li>
-</ul>
-
-<h4>Forensic Science Journals and Publications</h4>
-<ul>
-    <li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">Science Direct — Forensic Science International: Digital Investigation</a></li>
-    <li><a href="https://forensicscijournal.com">Forensic Science — Application of Science to Criminal and Civil Laws</a></li>
-    <li><a href="https://journals.sas.ac.uk/deeslr/">University of London - SAS Open Journals - Digital Evidence and Electronic Signature Law Review</a></li>
-    <li><a href="ieee.org"> Institute of Electrical and Electronics Engineers</a></li>
-    <li><a href="https://ieee-isi.org">IEEE Intelligence and Security Informatics (IEEE-ISI)</a></li>
-    <li><a href="https://usenix.org/conferences">USENIX Conferences</a></li>
-    <li><a href="https://acm.org/conferences">Advancing Technology, Research and Collaboration</a></li>
-    <li><a href="https://tandfonline.com/journals/ujic20">International Journal of Intelligence and CounterIntelligence</a></li>
-    <li><a href="https://tandfonline.com/journals/tajf20">Australian Journal of Forensic Sciences</a></li>
-    <li><a href="https://springer.com/series/7899">Communications in Computer and Information Science — Springer</a></li>
-    <li><a href="https://commons.erau.edu/jdfsl">https://commons.erau.edu/jdfsl</a></li>
-    <li><a href="iacis.com">International Association of Computer Investigative Specialists</a></li>
-    <li><a href="htcia.org">High Technology Crime Investigation Association</a></li>
-    <li><a href="isfce.com"> International Society of Forensic Computer Examiners</a></li>
-    <li><a href="aes.org"> Audio Engineering Society</a></li>
-    <li><a href="theiai.org">International Association of Identification</a></li>
-    <li><a href="leva.org">Law Enforcement &amp; Emergency Services Video Association</a></li>
-</ul>
-
-<h4>Training and Certification</h4>
-<ul>
-    <li><a href="https://issworldtraining.com">ISS World Training</a></li>
-    <li><a href="https://isc2.org/Certifications/CISSP">ISC2 CISSP Certification</a></li>
-    <li><a href="https://github.com/MISP/misp-training">MISP Training  (GitHub)</a></li>
-    <li><a href="https://github.com/ail-project/ail-training">AIL Training (GitHub)</a></li>
-    <li><a href="https://github.com/connectans/awesome-CISSP-CCSP">Awesome CISSP & CCSP Resources (GitHub)</a></li>
-    <li><a href="https://github.com/jefferywmoore/CISSP-Study-Resources">CISSP Study Resources (GitHub)</a></li>
-</ul>
-
-<h4>Digital Forensics and Investigation Resources</h4>
-<ul>
-    <li><a href="https://dfrws.org/presentation">DFRWS Presentations</a></li>
-    <li><a href="https://drivebadger.com">DriveBadger</a></li>
-    <li><a href="https://forensicfocus.com">Forensic Focus</a></li>
-    <li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">Forensic Science International: Digital Investigation</a></li>
-    <li><a href="https://ecrimeresearch.org">eCrime Research</a></li>
-    <li><a href="https://cellebritelearningcenter.com">Cellebrite Learning Center</a></li>
-    <li><a href="https://public.cyber.mil">US Public Cyber</a></li>
-</ul>
-
-<h4>Forensics and Incident Response</h4>
-<ul>
-    <li><a href="https://forensicfocus.com">Forensic Focus</a></li>
-    <li><a href="https://magnetforensics.com">Magnet Forensics</a></li>
-    <li><a href="https://osforensics.com">OSForensics</a></li>
-    <li><a href="https://exterro.com">Exterro</a></li>
-
-</ul>
-
-<h4>Forensics and Anti-Forensics Guides</h4>
-<ul>
-    <li><a href="https://github.com/Cugu/awesome-forensics">Awesome Forensics (GitHub)</a></li>
-    <li><a href="https://github.com/shadawck/awesome-anti-forensic">Awesome Anti-Forensic (GitHub)</a></li>
-    <li><a href="https://github.com/asiamina/A-Course-on-Digital-Forensics">A Course on Digital Forensics (GitHub)</a></li>
-    <li><a href="https://github.com/mikeroyal/Digital-Forensics-Guide">Digital Forensics Guide (GitHub)</a></li>
-    <li><a href="https://github.com/forensicswiki/wiki">Forensics Wiki (GitHub)</a></li>
-    <li><a href="https://github.com/504ensicsLabs">504ensics Labs (GitHub)</a></li>
-    <li><a href="https://github.com/Digital-Forensics-Discord-Server/LawEnforcementResources">Law Enforcement Resources (GitHub)</a></li>
-    <li><a href="https://github.com/Digital-Forensics-Discord-Server/TheHitchhikersGuidetoDFIRExperiencesFromBeginnersandExperts">Hitchhiker's Guide to DFIR (GitHub)</a></li>
-</ul>
-
-<h4>Digital Forensics and Investigation Resources</h4>
-<ul>
-    <li><a href="https://dfrws.org/presentation">DFRWS Presentations</a></li>
-    <li><a href="https://forensicfocus.com">Forensic Focus</a></li>
-    <li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">Forensic Science International: Digital Investigation</a></li>
-    <li><a href="https://ecrimeresearch.org">eCrime Research</a></li>
-    <li><a href="https://drivebadger.com">DriveBadger</a></li>
-    <li><a href="https://cellebritelearningcenter.com">Cellebrite Learning Center</a></li>
-    <li><a href="https://public.cyber.mil">Public Cyber</a></li>
-</ul>
-
-<h4>Cybersecurity and Hacking Resources</h4>
-<ul>
-    <li><a href="https://anarsec.guide">https://anarsec.guide</a></li>
-    <li><a href="https://book.hacktricks.xyz">https://book.hacktricks.xyz</a></li>
-    <li><a href="https://notrace.how">https://notrace.how</a></li>
-    <li><a href="https://0x00sec.org">https://0x00sec.org</a></li>
-    <li><a href="https://darkreading.com">https://darkreading.com</a></li>
-    <li><a href="https://github.com/Syslifters/OffSec-Reporting">OffSec Reporting (GitHub)</a></li>
-    <li><a href="https://github.com/enaqx/awesome-pentest">Awesome Pentest (GitHub)</a></li>
-    <li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">Awesome Hacking (GitHub)</a></li>
-    <li><a href="https://github.com/onlurking/awesome-infosec">Awesome Infosec (GitHub)</a></li>
-    <li><a href="https://hackread.com">HackRead</a></li>
-    <li><a href="https://hackthebox.com">Hack The Box</a></li>
-    <li><a href="https://hackerone.com">HackerOne</a></li>
-</ul>
-
-<br>
-</details>
-
-<!-- ################################# -->
-
-<details>
-<summary><b>References of Interest</b></summary>
-<br>
-
-<h4>Vulnerability Databases</h4>
-<ul>
-    <li><a href="https://cve.org">CVE</a></li>
-    <li><a href="https://cvedetails.com">CVEDetails</a></li>
-    <li><a href="https://nvd.nist.gov" target="_blank">NIST National Vulnerability Database</a></li>
-    <li><a href="https://oval.mitre.org" target="_blank">MITRE OVAL</a></li>
-</ul>
-
-<h4>Threat Intelligence and Security Advisories</h4>
-<ul>
-    <li><a href="https://attack.mitre.org">MITRE ATT&CK</a></li>
-    <li><a href="https://cisa.gov/news-events/cybersecurity-advisories" target="_blank">CISA Cybersecurity Advisories</a></li>
-    <li><a href="https://securelist.com" target="_blank">Securelist</a></li>
-    <li><a href="https://socradar.io">SOCRadar</a></li>
-</ul>
-
-
-
-<h4>Cybersecurity Education and Resources</h4>
-<ul>
-    <li><a href="https://github.com/yeahhub/Hacking-Security-Ebooks" target="_blank">Hacking Security Ebooks (GitHub)</a></li>
-    <li><a href="https://github.com/InfoSecIITR/reading-material" target="_blank">InfoSec IITR Reading Material (GitHub)</a></li>
-    <li><a href="https://w3.org/Security/Faq/www-security-faq.html" target="_blank">W3 Security FAQ</a></li>
-</ul>
-
-<h4>Security Tools and Resources</h4>
-<ul>
-    <li><a href="https://lkrg.org">LKRG</a></li>
-    <li><a href="https://openwall.com">Openwall</a></li>
-    <li><a href="https://eucybernet.eu" target="_blank">EU Cybernet</a></li>
-    <li><a href="https://malware.lu" target="_blank">Malware.Lu</a></li>
-    <li><a href="https://civicert.org" target="_blank">Civicert</a></li>
-</ul>
-
-<h4>Security Organizations and Publications</h4>
-<ul>
-    <li><a href="https://csrc.nist.gov/projects" target="_blank">NIST CSRC Projects</a></li>
-    <li><a href="https://nsa.gov/Press-Room/Press-Releases-Statements" target="_blank">NSA Press Releases and Statements</a></li>
-    <li><a href="https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml" target="_blank">NSA Security Configuration Guides</a></li>
-    <li><a href="https://icann.org/en/ssac/publications">SSAC Publications</a></li>
-    <li><a href="https://cert.org/archive/pdf/Botnets.pdf">Botnets as a Vehicle for Online Crime</a> — CERT</li>
-    <li><a href="https://security-audit.com/">Security Audit</a></li>
-    <li><a href="https://sans.org/">SANS Institute</a></li>
-    <li><a href="https://isc.sans.org/">Internet Storm Center</a> — SANS Institute</li>
-    <li><a href="https://cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
-</ul>
-
-<h4>Other Resources</h4>
-<ul>
-    <li><a href="https://eucybernet.eu" target="_blank">EU Cybernet</a></li>
-    <li><a href="https://evasions.checkpoint.com">Evasions by Checkpoint</a></li>
-    <li><a href="https://book.hacktricks.xyz">HackTricks</a></li>
-    <li><a href="https://swgde.org/documents/published-complete-listing">SWGDE Complete Listing</a></li>
-    <li><a href="https://ed.ac.uk/">University of Edinburgh</a> (Scotland - 1583)</li>
-</ul>
-
-<h4>Reddit Communities</h4>
-<ul>
-    <li><a href="https://reddit.com/r/InfoSecNews" target="_blank">InfoSec News (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/digitalforensics" target="_blank">Digital Forensics (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/computerforensics" target="_blank">Computer Forensics (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/antiforensics" target="_blank">Anti-Forensics (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/Smartphoneforensics" target="_blank">Smartphone Forensics (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/privacy" target="_blank">Privacy (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/restorethefourth" target="_blank">Restore The Fourth (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/blueteamsec/" target="_blank">BlueTeamSec (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/cybersecurity/" target="_blank">CyberSecurity (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/netsec/" target="_blank">NetSec (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/netsecstudents/" target="_blank">NetSec Students (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/NetworkSecurity/" target="_blank">Network Security News & Information (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/ReverseEngineering/" target="_blank">Reverse Engineering (Reddit)</a></li>
-    <li><a href="https://reddit.com/r/pwned/" target="_blank">Pwned (Reddit)</a></li>
-</ul>
-
-<br>
-</details>
-
-<!-- ################################ -->
-
-<details>
-<summary><b>Law Publications</b></summary>
-<br>
-
-<h4>German Law Research</h4>
-<ul>
-    <li><a href="https://guides.ll.georgetown.edu/germanlegalresearch">German Legal Research Guide - Georgetown Law</a></li>
-    <li><a href="https://guides.library.harvard.edu/GermanLaw">German Law Research - Harvard Law School Library Research Services</a></li>
-    <li><a href="https://cambridge.org/core/journals/german-law-journal">The German Law Journal (open-access) - Cambridge University Press</a></li>
-    <li><a href="https://law.utexas.edu/transnational/foreign-law-translations">Foreign Law Translations - The University of Texas at Austin</a></li>
-</ul>
-
-<h4>Law and Technology Research</h4>
-
-<h5>Journals and Publications</h5>
-<ul>
-    <li><a href="https://btlj.org">Berkeley Law Technology Journal</a></li>
-    <li><a href="https://ejlt.org/index.php/ejlt">European Journal of Law and Technology</a></li>
-    <li><a href="https://tandfonline.com/journals/cirl20">International Review of Law, Computers & Technology (Open Access)</a></li>
-    <li><a href="https://scholarlycommons.law.northwestern.edu/njtip/">Northwestern Journal of Technology and Intellectual Property</a></li>
-    <li><a href="https://kb.osu.edu/communities/a3767fe3-6fcd-5776-bbe7-44d144fb641a">Ohio State Technology Law Journal (Moritz College of Law)</a></li>
-    <li><a href="https://sciencedirect.com/journal/computer-law-and-security-review">Science Direct — Computer Law & Security Review</a></li>
-    <li><a href="https://journals.sas.ac.uk/deeslr/issue/view/596">The Digital Evidence and Electronic Signature Law Review (DEESLR) (Open Access)</a></li>
-    <li><a href="https://dltr.law.duke.edu">The Duke Law & Technology Review (DLTR)</a></li>
-    <li><a href="https://law.ox.ac.uk/computers-and-law-research-group/computers-and-law-research-group">Oxford - Computers and Law Research Group</a></li>
-</ul>
-
-<h5>Research Centers and Institutes</h5>
-<ul>
-    <li><a href="https://cset.georgetown.edu">The Center for Security and Emerging Technology (CSET) - Georgetown University's Walsh School of Foreign Service</a></li>
-    <li><a href="https://cyber.harvard.edu">The Berkman Klein Center for Internet & Society at Harvard University</a></li>
-    <li><a href="https://cyberlaw.stanford.edu">CIS - Stanford Center for Internet and Society</a></li>
-    <li><a href="https://carnegieendowment.org/publications/interactive/cybernorms">Carnegie Endowment for International Peace</a></li>
-</ul>
-
-<h5>Organizations and Resources</h5>
-<ul>
-    <li><a href="https://intgovforum.org">UN Internet Governance Forum</a></li>
-    <li><a href="https://ssrn.com/index.cfm/en/tilburg-leg/tilburg-tilt/">Tilburg: TILT Law & Technology Working Paper Series</a></li>
-    <li><a href="https://badinternetbills.com">Bad Internet Bills</a></li>
-    <li><a href="https://crime-research.org">Computer Crime Research Center</a></li>
-    <li><a href="https://etsi.org/committees">ETSI - European Telecommunications Standards Institute</a></li>
-    <li><a href="https://intelligence-oversight.org">Intelligence Oversight</a></li>
-    <li><a href="https://ic3.gov/Home/AnnualReports">Internet Crime Complaint Center (IC3)</a></li>
-    <li><a href="https://softwarefreedom.org">Software Freedom Law Center</a></li>
-    <li><a href="https://techdirt.com">Techdirt</a></li>
-    <li><a href="https://ecrimeresearch.org">The APWG Symposium on Electronic Crime Research (APWG eCrime)</a></li>
-</ul>
-
-<h4>Others</h4>
-
-<h5>Criminology and Security Journals</h5>
-<ul>
-    <li><a href="https://penal.org/en/aidp-iapl-publications">AIDP-IAPL Publications</a></li>
-    <li><a href="https://journals.sagepub.com/home/euc">European Journal of Criminology</a></li>
-    <li><a href="https://tandfonline.com/journals/uiss20">Information Security Journal: A Global Perspective</a></li>
-    <li><a href="https://tandfonline.com/journals/uiss19">Information Systems Security</a></li>
-    <li><a href="https://tandfonline.com/journals/wasr20">Journal of Applied Security Research</a></li>
-    <li><a href="https://tandfonline.com/journals/ucis20">Journal of Computer Information Systems</a></li>
-    <li><a href="https://tandfonline.com/journals/gppr20">Police Practice and Research — An International Journal</a></li>
-    <li><a href="https://tandfonline.com/journals/gpas20">Policing and Society — An International Journal of Research and Policy</a></li>
-</ul>
-
-<h5>Security and Cybercrime Resources</h5>
-<ul>
-    <li><a href="https://csrc.nist.gov">NIST Computer Security Resource Center</a></li>
-    <li><a href="https://sherloc.unodc.org">SHERLOC UNODC</a></li>
-    <li><a href="https://justice.gov/criminal/cybercrime">U.S. Department of Justice - Cybercrime</a></li>
-    <li><a href="https://coe.int/en/web/cybercrime">Council of Europe - Cybercrime</a></li>
-    <li><a href="https://enisa.europa.eu">European Union Agency for Cybersecurity (ENISA)</a></li>
-    <li><a href="https://fbi.gov">FBI</a></li>
-    <li><a href="https://digitalcommons.usf.edu/mca/">Digital Commons @ USF</a></li>
-</ul>
-
-<br>
-</details>
-
-
-
-<!-- ################################ -->
-
-<details>
-<summary><b>Activism, Nonprofit Initiatives and Private Initiatives</b></summary>
-<br>
-
-<h4>Activism and Advocacy Groups</h4>
-<ul>
-  <li><a href="https://accessnow.org" target="_blank">Access Now</a></li>
-  <li><a href="https://citizenlab.ca" target="_blank">Citizen Lab</a></li>
-  <li><a href="https://privacyinternational.org" target="_blank">Privacy International</a></li>
-  <li><a href="https://eff.org" target="_blank">Electronic Frontier Foundation (EFF)</a></li>
-  <li><a href="https://epic.org/issues/surveillance-oversight" target="_blank">Electronic Privacy Information Center (EPIC)</a></li>
-  <li><a href="https://bigbrotherwatch.org.uk" target="_blank">Big Brother Watch (BBW)</a></li>
-  <li><a href="https://buggedplanet.info" target="_blank">Bugged Planet</a></li>
-  <li><a href="https://copsincyberspace.wordpress.com" target="_blank">Cops in Cyberspace</a></li>
-  <li><a href="https://eyeonsurveillance.org" target="_blank">Eye on Surveillance</a></li>
-  <li><a href="https://thebureauinvestigates.com" target="_blank">The Bureau of Investigative Journalism</a></li>
-  <li><a href="https://blog.torproject.org" target="_blank">The Tor Project</a></li>
-  <li><a href="https://necessaryandproportionate.org" target="_blank">Necessary and Proportionate</a></li>
-  <li><a href="https://dimse.info">DIMSE</a></li>
-  <li><a href="https://guardint.org" target="_blank">GUARDINT</a></li>
-  <li><a href="https://intelligence-oversight.org" target="_blank">Intelligence Oversight</a></li>
-  <li><a href="https://aboutintel.eu" target="_blank">about:intel</a></li>
-  <li><a href="https://investigate.afsc.org" target="_blank">AFSC and Economic Activism</a></li>
-  <li><a href="https://stiftung-nv.de/en/about-us" target="_blank">Stiftung Neue Verantwortung (SNV)</a></li>
-</ul>
-
-<h4>Research and Publications</h4>
-<ul>
-  <li><a href="https://hrw.org/topic/free-speech/internet-freedom" target="_blank">Human Rights Watch (HRW) Internet Freedom</a></li>
-  <li><a href="https://ojs.library.queensu.ca/index.php/surveillance-and-society/index" target="_blank">Surveillance & Society (S&S)</a></li>
-  <li><a href="https://surveillance-studies.org" target="_blank">Surveillance Studies Network</a></li>
-  <li><a href="https://biometricupdate.com" target="_blank">Biometric Update</a></li>
-  <li><a href="https://digitalfreedomfund.org" target="_blank">Digital Freedom Fund</a></li>
-  <li><a href="https://privacytools.io" target="_blank">PrivacyTools</a></li>
-  <li><a href="https://panopticlick.eff.org" target="_blank">Panopticlick by EFF</a></li>
-  <li><a href="https://privacy.org" target="_blank">Privacy.org</a></li>
-  <li><a href="https://reclaimthenet.org" target="_blank">Reclaim The Net</a></li>
-  <li><a href="https://data.guardint.org/en/" target="_blank">Surveillance Oversight Database</a></li>
-  <li><a href="https://dataethics.eu" target="_blank">DataEthics.eu</a></li>
-</ul>
-
-<h4>News and Media</h4>
-<ul>
-  <li><a href="https://politico.com/section/cybersecurity" target="_blank">Politico Cybersecurity</a></li>
-  <li><a href="https://cnet.com/topics/privacy" target="_blank">CNET Privacy</a></li>
-  <li><a href="https://fightforthefuture.org" target="_blank">Fight for the Future</a></li>
-  <li><a href="https://techdirt.com" target="_blank">Techdirt</a></li>
-</ul>
-
-<h4>Events and Conferences</h4>
-<ul>
-  <li><a href="https://rightscon.org" target="_blank">RightsCon</a></li>
-  <li><a href="https://pkp.sfu.ca" target="_blank">The Public Knowledge Project</a></li>
-</ul>
-
-<br>
-</details>
-
-<!-- ################################ -->
-
-<details>
-<summary><b>Libraries</b></summary>
-<br>
-
-<h3>Libraries</h3>
-
-<ul>
-  <li><a href="https://openlibrary.org">https://openlibrary.org</a></li>
-  <li><a href="https://archive.org">Internet Archiveh</a> </li>
-  <li><a href="https://gutenberg.org">https://gutenberg.org</a></li>
-  <li><a href="https://sanet.st/books">https://sanet.st/books</a></li>
-</ul>
-  
-<ul>
-  <li><a href="https://annas-archive.org">Anna's Archive</a> </li>
-  <li><a href="https://t.me/zlibrary_official">Z-Library Official (Telegram)</a> </li>
-  <li><a href="https://go-to-zlibrary.se/#desktop_app_tab">Z-Library (APP)</a> </li>
-  <li><a href="https://singlelogin.se">Z-Library (WEB)</a> </li>
-  <li><a href="http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion">Z-Library (ONION)</a> </li>
-  <li><a href="https://libgen.rs">Library Genesis (.rs alias domain)</a> </li>
-  <li><a href="https://libgen.is">Library Genesis (.is alias domain)</a> </li>
-  <li><a href="https://libgen.st">Library Genesis (.st alias domain)</a> </li>
-  <li><a href="https://wiki.mhut.org/software:libgen_desktop">Library Genesis (APP)</a> </li>
-  <li><a href="http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion">Library Genesis (ONION)</a> </li>
-  <li><a href="http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion">Imperial Library (ONION)</a> </li>
-  <li><a href="http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion">Just Another Library (ONION)</a> </li>
-  <li><a href="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion">InfoCon (ONION)</a> </li>
-</ul>
-
-<ul>
-<li><a href="https://freecomputerbooks.com">https://freecomputerbooks.com</a></li>
-<li><a href="https://freetechbooks.com">https://freetechbooks.com</a></li>
-<li><a href="https://programmer-books.com">https://programmer-books.com</a></li>
-<li><a href="https://riptutorial.com/ebook">https://riptutorial.com/ebook</a></li>
-<li><a href="https://e-booksdirectory.com">https://e-booksdirectory.com</a></li>
-<li><a href="https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Courses">https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Courses</a></li>
-<li><a href="https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Textbooks">https://en.wikiversity.org/wiki/Open_Educational_Resources/Open_Textbooks</a></li>
-</ul>
-
-<br>
-</details>
-
-<!-- ################################ -->
-
-<details>
-<summary><b>Intelligence, Conflict and Warfare Publications</b></summary>
-<br>
-
-<h4>Intelligence, Conflict, and Warfare Publications</h4>
-
-<ul>
-  <li><a href="https://ccdcoe.org" target="_blank">The NATO Cooperative Cyber Defence Centre of Excellence </a></li>
-  <li><a href="https://cfr.org" target="_blank">Council on Foreign Relations (CFR)</a></li>
-  <li><a href="https://isanet.org/ISA/Sections/ISS" target="_blank"> International Security Studies Section (ISSS)</a></li>
-  <li><a href="https://tandfonline.com/action/showOpenAccess?journalCode=fint20" target="_blank"> Taylor & Francis - Intelligence and National Security </a> - Open access articles</li>
-  <li><a href="https://journals.lib.sfu.ca/index.php/jicw/issue/archive" target="_blank"> The Journal of Intelligence, Conflict, and Warfare </a> - Archive of past issues</li>
-  <li><a href="https://dcaf.ch/resources?type=publications" target="_blank"> DCAF - Geneva Centre for Security Sector Governance </a> - Publications on security sector governance </li>
-  <li><a href="https://e-ir.info/publications" target="_blank"> E-International Relations</a> - Open access scholarly books</li>
-  <li><a href="https://cia.gov/resources/csi/studies-in-intelligence" target="_blank"> CIA.gov - Center for the Study of Intelligence</a> - Studies in Intelligence</li>
-  <li><a href="https://tandfonline.com/toc/fjss20/current" target="_blank"> Journal of Strategic Studies</a> - Scholarly articles on strategic studies, intelligence, and military affairs </li>
-  <li><a href="https://tandfonline.com/toc/ujic20/current" target="_blank"> International Journal of Intelligence and CounterIntelligence </a> - Articles on intelligence operations, security, and counterintelligence </li>
-  <li><a href="https://rand.org/pubs.html" target="_blank"> RAND Corporation</a> - Research and analysis on security, defense, and intelligence </li>
-  <li><a href="https://chathamhouse.org/our-research/topics/international-security" target="_blank"> Chatham House - International Security Programme </a> - Publications on international security and conflict </li>
-  <li><a href="https://brookings.edu/topic/foreign-policy/" target="_blank"> Brookings Institution - Foreign Policy</a> - Articles and research on global security and intelligence </li>
-  <li><a href="https://foreignaffairs.com/" target="_blank"> Foreign Affairs</a> - Articles and analyses on international affairs, security, and intelligence </li>
-  <li><a href="https://smallwarsjournal.com/jrnl" target="_blank"> Small Wars Journal</a> - Discussions on military strategy, defense policy, and irregular warfare </li>
-  <li><a href="https://tandfonline.com/toc/usip20/current" target="_blank"> The International Journal of Intelligence, Security, and Public Affairs </a> - Research on intelligence, security, and public affairs </li>
-</ul>
-
-<h2>English-Language Materials from Specific Countries</h2>
-<ul>
-  <li><a href="https://unibw.de/metis-en/publikationen" target="_blank"> Bundeswehr University Munich - Metis Institute for Strategy and Foresight </a> - Research on strategy, security, and military affairs </li>
-  <li><a href="https://realinstitutoelcano.org/en/publications/" target="_blank"> Real Instituto Elcano - Elcano Royal Institute</a> - Publications on international and strategic studies </li>
-  <li><a href="https://indsr.org.tw/en/publish" target="_blank"> Institute for National Defense and Security Research (INDSR) </a> - Research and analysis on security and defense </li>
-  <li><a href="http://css.ir/en/" target="_blank"> Strategic Research Center - Expediency Discernment Council </a> - Research papers and publications on strategic issues (limited English content) </li>
-  <li><a href="https://invesp.org.ve/en/publications/" target="_blank"> Venezuelan Institute for Social and Political Studies (INVESP) </a> - Publications on political and social issues (limited English content) </li>
-  <li><a href="https://russiancouncil.ru/en/" target="_blank"> Russian International Affairs Council (RIAC)</a> - Articles and analysis on international relations and security </li>
-  <li><a href="https://csis.or.id/publications" target="_blank"> Centre for Strategic and International Studies (CSIS) Indonesia </a> - Research and publications on security and international affairs </li>
-  <li><a href="https://cicp.org.kh/" target="_blank"> Cambodian Institute for Cooperation and Peace (CICP) </a> - Publications on peace, security, and cooperation </li>
-  <li><a href="https://iseas.vass.gov.vn/en/" target="_blank"> Institute for Southeast Asian Studies (ISEAS) - Vietnam Academy of Social Sciences </a> - Research on regional security and international relations </li>
-</ul>
-
-<br>
-</details>
-
-<!-- ################################ -->
-
-<details>
-<summary><b>YouTube Conferences</b></summary>
-
-<h4>Digital Forensics and Incident Response:</h4>
-<ul>
-    <li><a href="https://youtube.com/@DFRWS">DFRWS</a></li>
-    <li><a href="https://youtube.com/@SANSForensics">SANSForensics</a></li>
-    <li><a href="https://youtube.com/@SANSOffensiveOperations">SANSOffensiveOperations</a></li>
-</ul>
-
-<h4>Security Conferences:</h4>
-<ul>
-    <li><a href="https://youtube.com/@BlackHatOfficialYT">BlackHat Official YT</a></li>
-    <li><a href="https://youtube.com/@DEFCONConference">DEFCON Conference</a></li>
-    <li><a href="https://youtube.com/@EkopartyConference">Ekoparty Conference</a></li>
-    <li><a href="https://youtube.com/@reconmtl">reconmtl</a></li>
-    <li><a href="https://youtube.com/@TROOPERScon">TROOPERScon</a></li>
-    <li><a href="https://youtube.com/@OffensiveCon">OffensiveCon</a></li>
-    <li><a href="https://youtube.com/@hitbsecconf">hitbsecconf</a></li>
-</ul>
-
-<h4>General Tech Conferences:</h4>
-<ul>
-    <li><a href="https://youtube.com/@RSAConference">RSA Conference</a></li>
-    <li><a href="https://youtube.com/@UsenixOrg">UsenixOrg</a></li>
-    <li><a href="https://youtube.com/@USENIXEnigmaConference">USENIX Enigma Conference</a></li>
-    <li><a href="https://youtube.com/@MCH2022NL">MCH2022NL</a></li>
-</ul>
-
-<h4>Miscellaneous Tech and Cybersecurity:</h4>
-<ul>
-    <li><a href="https://youtube.com/@mediacccde">mediacccde</a></li>
-    <li><a href="https://youtube.com/@secwestnet">secwestnet</a></li>
-    <li><a href="https://youtube.com/@DebConfVideos">DebConf Videos</a></li>
-    <li><a href="https://youtube.com/@44contv">44contv</a></li>
-    <li><a href="https://youtube.com/@mentalOutlaw">mentalOutlaw</a></li>
-    <li><a href="https://youtube.com/@Seytonic">Seytonic</a></li>
-    <li><a href="https://youtube.com/@DoingFedTime">DoingFedTime</a></li>
-    <li><a href="https://youtube.com/@Hak5">Hak5</a></li>
-    <li><a href="https://youtube.com/@The8BitGuy">The 8-Bit Guy</a></li>
-    <li><a href="https://youtube.com/@Computerphile">Computerphile</a></li>
-</ul>
-
-<br>
-</details>
-
-<!--################################### -->
-<br>
-
-<p align="right"> <a href="https://github.com/RENANZG/My-Forensics?tab=readme-ov-file#">Back to Top ⬆</a> </p>
-
-<!--################################### -->
-
-<div id="footer">
-
-<br>
-<br>
-<br>
-
-<p align="center">Made with ♥</p>
-</div>
-
-<!--################################### -->
+    <li>
+      <h3>SECURITY AND PRIVACY</h3></li>
+    <ul>
+      <li>
+        <a href="http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion">The Tor Project</a>
+        <pre><code>http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://iykpqm7jiradoeezzkhj7c4b33g4hbgfwelht2evxxeicbpjy44c7ead.onion">Electronic Frontier Foundation (EFF)</a>
+        <pre><code>http://iykpqm7jiradoeezzkhj7c4b33g4hbgfwelht2evxxeicbpjy44c7ead.onion</code></pre>
+      </li>
+      <li>
+        <a href="https://amnestyl337aduwuvpf57irfl54ggtnuera45ygcxzuftwxjvvmpuzqd.onion">Amnesty International</a>
+        <pre><code>https://amnestyl337aduwuvpf57irfl54ggtnuera45ygcxzuftwxjvvmpuzqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://biblemeowimkh3utujmhm6oh2oeb3ubjw2lpgeq3lahrfr2l6ev6zgyd.onion">DNM Bible</a>
+        <pre><code>http://biblemeowimkh3utujmhm6oh2oeb3ubjw2lpgeq3lahrfr2l6ev6zgyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://xmrguide25ibknxgaray5rqksrclddxqku3ggdcnzg4ogdi5qkdkd2yd.onion">XMRGuide</a>
+        <pre><code>http://xmrguide25ibknxgaray5rqksrclddxqku3ggdcnzg4ogdi5qkdkd2yd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion">CryptBB</a>
+        <pre><code>http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://cr756sdj2ukmiid6io6wlp5clg7227af7ttqqnge2t357bwdgsr22did.onion">Skywalkers</a>
+        <pre><code>http://cr756sdj2ukmiid6io6wlp5clg7227af7ttqqnge2t357bwdgsr22did.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion">Privacy Guides</a>
+        <pre><code>http://xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion">Dark.fail's PGP Tool</a>
+        <pre><code>http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://y7yea4pmqqtznb33qiugvysyn2bob5v62e4pvoadoibrwkq3tsddjeyd.onion">Surveillance Self-Defense</a>
+        <pre><code>http://y7yea4pmqqtznb33qiugvysyn2bob5v62e4pvoadoibrwkq3tsddjeyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://thgtoa27ujspeqxasrfvcf5aozqdczvgmwgorrmblh6jn4nino3spcqd.onion">The Hitchhiker’s Guide to Online Anonymity</a>
+        <pre><code>http://thgtoa27ujspeqxasrfvcf5aozqdczvgmwgorrmblh6jn4nino3spcqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://lxjacvxrozjlxd7pqced7dyefnbityrwqjosuuaqponlg3v7esifrzad.onion">Security in a box</a>
+        <pre><code>http://lxjacvxrozjlxd7pqced7dyefnbityrwqjosuuaqponlg3v7esifrzad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://5ekxbftvqg26oir5wle3p27ax3wksbxcecnm6oemju7bjra2pn26s3qd.onion">Debian</a>
+        <pre><code>http://5ekxbftvqg26oir5wle3p27ax3wksbxcecnm6oemju7bjra2pn26s3qd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://lkiw4tmbudbr43hbyhm636sarn73vuow77czzohdbqdpjuq3vdzvenyd.onion">Hardened BSD</a>
+        <pre><code>http://lkiw4tmbudbr43hbyhm636sarn73vuow77czzohdbqdpjuq3vdzvenyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion">Hack This Site</a>
+        <pre><code>http://hackthisjogneh42n5o7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion">Qubes OS</a>
+        <pre><code>http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion">Whonix OS</a>
+        <pre><code>http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://guideeedvgbpkthetphncab5aqj7dp5t74y7vxsoonnvmaeamq74vuqd.onion">Tor Guide</a>
+        <pre><code>http://guideeedvgbpkthetphncab5aqj7dp5t74y7vxsoonnvmaeamq74vuqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion">DEF CON Forum</a>
+        <pre><code>http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://jrw32khnmfehvdsvwdf34mywoqj5emvxh4mzbkls6jk2cb3thcgz6nid.onion">DEF CON Groups</a>
+        <pre><code>http://jrw32khnmfehvdsvwdf34mywoqj5emvxh4mzbkls6jk2cb3thcgz6nid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion">DEF CON Media</a>
+        <pre><code>http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://elfqv3zjfegus3bgg5d7pv62eqght4h6sl6yjjhe7kjpi2s56bzgk2yd.onion">Fake ID Generator</a>
+        <pre><code>http://elfqv3zjfegus3bgg5d7pv62eqght4h6sl6yjjhe7kjpi2s56bzgk2yd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://blkhatjxlrvc5aevqzz5t6kxldayog6jlx5h7glnu44euzongl4fh5ad.onion">Black Hat Chat</a>
+        <pre><code>http://blkhatjxlrvc5aevqzz5t6kxldayog6jlx5h7glnu44euzongl4fh5ad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://i3xi5qxvbrngh3g6o7czwjfxwjzigook7zxzjmgwg5b7xnjcn5hzciad.onion">Tor Specifications</a>
+        <pre><code>http://i3xi5qxvbrngh3g6o7czwjfxwjzigook7zxzjmgwg5b7xnjcn5hzciad.onion</code></pre>
+      </li>
+    </ul>
+    <li>
+      <h3>VPN</h3></li>
+    <ul>
+      <li>
+        <a href="http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion">Mullvad</a>
+        <pre><code>http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://stormwayszuh4juycoy4kwoww5gvcu2c4tdtpkup667pdwe4qenzwayd.onion">Cryptostorm VPN</a>
+        <pre><code>http://stormwayszuh4juycoy4kwoww5gvcu2c4tdtpkup667pdwe4qenzwayd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://njallalafimoej5i4eg7vlnqjvmb6zhdh27qxcatdn647jtwwwui3nad.onion">Njalla VPN</a>
+        <pre><code>http://njallalafimoej5i4eg7vlnqjvmb6zhdh27qxcatdn647jtwwwui3nad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://airvpn3epnw2fnsbx5x2ppzjs6vxtdarldas7wjyqvhscj7x43fxylqd.onion">AirVPN</a>
+        <pre><code>http://airvpn3epnw2fnsbx5x2ppzjs6vxtdarldas7wjyqvhscj7x43fxylqd.onion</code></pre>
+    </ul>
+    <li>
+      <h3>COMUNICATION</h3></li>
+    <ul>
+      <li>
+        <a href="http://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion">Protonmail</a>
+        <pre><code>http://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://pflujznptk5lmuf6xwadfqy6nffykdvahfbljh7liljailjbxrgvhfid.onion">Onion Mail</a>
+        <pre><code>http://pflujznptk5lmuf6xwadfqy6nffykdvahfbljh7liljailjbxrgvhfid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion">OnionShare</a>
+        <pre><code>http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://4tdb2oju6nrrp77en6opmyfucvycs22y5ohuizfgjvbyjqjovltooyyd.onion">Tempsend</a>
+        <pre><code>http://4tdb2oju6nrrp77en6opmyfucvycs22y5ohuizfgjvbyjqjovltooyyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://bcloudwenjxgcxjh6uheyt72a5isimzgg4kv5u74jb2s22y3hzpwh6id.onion">BlackCloud</a>
+        <pre><code>http://bcloudwenjxgcxjh6uheyt72a5isimzgg4kv5u74jb2s22y3hzpwh6id.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dumpliwoard5qsrrsroni7bdiishealhky4snigbzfmzcquwo3kml4id.onion">dump.li</a>
+        <pre><code>http://dumpliwoard5qsrrsroni7bdiishealhky4snigbzfmzcquwo3kml4id.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion">Riseup</a>
+        <pre><code>http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://tempmail4gi5qfqzjs2bxo3wf6eurpelxmior6ohzq5vw7aeay67wiyd.onion">TempMail</a>
+        <pre><code>http://tempmail4gi5qfqzjs2bxo3wf6eurpelxmior6ohzq5vw7aeay67wiyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://chillingguw3yu2rmrkqsog4554egiry6fmy264l5wblyadds3c2lnyd.onion">Im Hot Chilli</a>
+        <pre><code>http://chillingguw3yu2rmrkqsog4554egiry6fmy264l5wblyadds3c2lnyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://torbox36ijlcevujx7mjb4oiusvwgvmue7jfn2cvutwa6kl6to3uyqad.onion">TorBox</a>
+        <pre><code>http://torbox36ijlcevujx7mjb4oiusvwgvmue7jfn2cvutwa6kl6to3uyqad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://rurcblzhmdk22kttfkel2zduhyu3r6to7knyc7wiorzrx5gw4c3lftad.onion">Cock.li</a>
+        <pre><code>http://rurcblzhmdk22kttfkel2zduhyu3r6to7knyc7wiorzrx5gw4c3lftad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://mail2torjgmxgexntbrmhvgluavhj7ouul5yar6ylbvjkxwqf6ixkwyd.onion">Mail2Tor</a>
+        <pre><code>http://mail2torjgmxgexntbrmhvgluavhj7ouul5yar6ylbvjkxwqf6ixkwyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://sdolvtfhatvsysc6l34d65ymdwxcujausv7k5jk4cy5ttzhjoi6fzvyd.onion">SecureDrop</a>
+        <pre><code>http://sdolvtfhatvsysc6l34d65ymdwxcujausv7k5jk4cy5ttzhjoi6fzvyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://7sk2kov2xwx6cbc32phynrifegg6pklmzs7luwcggtzrnlsolxxuyfyd.onion">systemli</a>
+        <pre><code>http://7sk2kov2xwx6cbc32phynrifegg6pklmzs7luwcggtzrnlsolxxuyfyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://imprezareshna326gqgmbdzwmnad2wnjmeowh45bs2buxarh5qummjad.onion">Impreza</a>
+        <pre><code>http://imprezareshna326gqgmbdzwmnad2wnjmeowh45bs2buxarh5qummjad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion">Brave</a>
+        <pre><code>http://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://bcloudwenjxgcxjh6uheyt72a5isimzgg4kv5u74jb2s22y3hzpwh6id.onion">BlackCloud</a>
+        <pre><code>http://bcloudwenjxgcxjh6uheyt72a5isimzgg4kv5u74jb2s22y3hzpwh6id.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://cwtchim3z2gdsyb27acfc26lup5aqbegjrjsqulzrnkuoalq5h4gmcid.onion">Cwtch</a>
+        <pre><code>http://cwtchim3z2gdsyb27acfc26lup5aqbegjrjsqulzrnkuoalq5h4gmcid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dumpliwoard5qsrrsroni7bdiishealhky4snigbzfmzcquwo3kml4id.onion">dump.li</a>
+        <pre><code>http://dumpliwoard5qsrrsroni7bdiishealhky4snigbzfmzcquwo3kml4id.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://3ewfgrt4gzfccp6bnquhqb266r3zepiqpnsk3falwygkegtluwuyevid.onion">Nyx</a>
+        <pre><code>http://3ewfgrt4gzfccp6bnquhqb266r3zepiqpnsk3falwygkegtluwuyevid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://adamant6457join2rxdkr2y7iqatar7n4n72lordxeknj435i4cjhpyd.onion">Adamant</a>
+        <pre><code>http://adamant6457join2rxdkr2y7iqatar7n4n72lordxeknj435i4cjhpyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://titanxsu7bfd7vlyyffilprauwngr4acbnz27ulfhyxrqutu7atyptad.onion">Titan</a>
+        <pre><code>http://titanxsu7bfd7vlyyffilprauwngr4acbnz27ulfhyxrqutu7atyptad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://34vnln24rlakgbk6gpityvljieayyw7q4bhdbbgs6zp2v5nbh345zgad.onion">WebIRC</a>
+        <pre><code>http://34vnln24rlakgbk6gpityvljieayyw7q4bhdbbgs6zp2v5nbh345zgad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://cwtchim3z2gdsyb27acfc26lup5aqbegjrjsqulzrnkuoalq5h4gmcid.onion">Cwtch</a>
+        <pre><code>http://cwtchim3z2gdsyb27acfc26lup5aqbegjrjsqulzrnkuoalq5h4gmcid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://zerobinftagjpeeebbvyzjcqyjpmjvynj5qlexwyxe7l3vqejxnqv5qd.onion">ZeroBin</a>
+        <pre><code>http://zerobinftagjpeeebbvyzjcqyjpmjvynj5qlexwyxe7l3vqejxnqv5qd.onion</code></pre>
+    </ul>
+    <li>
+      <h3>CRYPTOCURRENCY</h3></li>
+    <ul>
+      <li>
+        <a href="http://monerotoruzizulg5ttgat2emf4d6fbmiea25detrmmy7erypseyteyd.onion">Monero</a>
+        <pre><code>http://monerotoruzizulg5ttgat2emf4d6fbmiea25detrmmy7erypseyteyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dnmxjaitaiafwmss2lx7tbs5bv66l7vjdmb5mtb3yqpxqhk3it5zivad.onion">DNMX</a>
+        <pre><code>http://dnmxjaitaiafwmss2lx7tbs5bv66l7vjdmb5mtb3yqpxqhk3it5zivad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://featherdvtpi7ckdbkb2yxjfwx3oyvr3xjz3oo4rszylfzjdg6pbm3id.onion">Feather</a>
+        <pre><code>http://featherdvtpi7ckdbkb2yxjfwx3oyvr3xjz3oo4rszylfzjdg6pbm3id.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://blkchairbknpn73cfjhevhla7rkp4ed5gg2knctvv7it4lioy22defid.onion">Blockchair</a>
+        <pre><code>http://blkchairbknpn73cfjhevhla7rkp4ed5gg2knctvv7it4lioy22defid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://s3p666he6q6djb6u3ekjdkmoyd77w63zq6gqf6sde54yg6bdfqukz2qd.onion">Bisq Wiki</a>
+        <pre><code>http://s3p666he6q6djb6u3ekjdkmoyd77w63zq6gqf6sde54yg6bdfqukz2qd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion">Wasabi</a>
+        <pre><code>http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://d46a7ehxj6d6f2cf4hi3b424uzywno24c7qtnvdvwsah5qpogewoeqid.onion">Hidden Wallet</a>
+        <pre><code>http://d46a7ehxj6d6f2cf4hi3b424uzywno24c7qtnvdvwsah5qpogewoeqid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://p2qzxkca42e3wccvqgby7jrcbzlf6g7pnkvybnau4szl5ykdydzmvbid.onion">OnionWallet</a>
+        <pre><code>http://p2qzxkca42e3wccvqgby7jrcbzlf6g7pnkvybnau4szl5ykdydzmvbid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://nehdddktmhvqklsnkjqcbpmb63htee2iznpcbs5tgzctipxykpj6yrid.onion">LocalMonero.co</a>
+        <pre><code>http://nehdddktmhvqklsnkjqcbpmb63htee2iznpcbs5tgzctipxykpj6yrid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://pdcdvggsz5vhzbtxqn2rh27qovzga4pnrygya4ossewu64dqh2tvhsyd.onion">Antinalysis</a>
+        <pre><code>http://pdcdvggsz5vhzbtxqn2rh27qovzga4pnrygya4ossewu64dqh2tvhsyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://6hasakffvppilxgehrswmffqurlcjjjhd76jgvaqmsg6ul25s7t3rzyd.onion">Bitcoin Core</a>
+        <pre><code>http://6hasakffvppilxgehrswmffqurlcjjjhd76jgvaqmsg6ul25s7t3rzyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion">Mempool</a>
+        <pre><code>http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion">Blockstream</a>
+        <pre><code>http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://lgh3eosuqrrtvwx3s4nurujcqrm53ba5vqsbim5k5ntdpo33qkl7buyd.onion">Cryptostamps</a>
+        <pre><code>http://lgh3eosuqrrtvwx3s4nurujcqrm53ba5vqsbim5k5ntdpo33qkl7buyd.onion</code></pre>
+      </li>
+    </ul>
+    <li>
+      <h3>CRYPTOCURRENCY EXCHANGES</h3></li>
+    <ul>
+      <li>
+        <a href="http://hszyoqnysrl7lpyfms2o5xonhelz2qrz36zrogi2jhnzvpxdzbvzimqd.onion">Exch</a>
+        <pre><code>http://hszyoqnysrl7lpyfms2o5xonhelz2qrz36zrogi2jhnzvpxdzbvzimqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://vyzjtg3peh3rspo67i55pd644o4vh5ygggqhz25c7w3qwfqwuacifoyd.onion">Majestic Bank</a>
+        <pre><code>http://vyzjtg3peh3rspo67i55pd644o4vh5ygggqhz25c7w3qwfqwuacifoyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://coinokfc7xi42zoxp5l7c42zidr3nf6bvbhcevqqiey5d5q2h555mwid.onion">Coinomize</a>
+        <pre><code>http://coinokfc7xi42zoxp5l7c42zidr3nf6bvbhcevqqiey5d5q2h555mwid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://exchanger.fn2b4tg4nfo7lu67dg4txdv7nrvfqavhg3pxlqnrgpfo7jz4g6hxamid.onion">Infinity Exchanger</a>
+        <pre><code>http://exchanger.fn2b4tg4nfo7lu67dg4txdv7nrvfqavhg3pxlqnrgpfo7jz4g6hxamid.onion</code></pre>
+    </ul>
+    <li>
+      <h3>MARKETS AND SERVICES</h3></li>
+    <ul>
+      <li>
+        <pre><code>http://lockbit3753ekiocyo5epmpy6klmejchjtzddoekjlnt6mu3qh4de2id.onion</code></pre>
+        <a href="http://ares4mlk24n7jeekzvmagvv6o3kt6smr7v3vrcmcxwummtkniexx7qad.onion">Ares</a>
+        <pre><code>http://ares4mlk24n7jeekzvmagvv6o3kt6smr7v3vrcmcxwummtkniexx7qad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://kerberqtg7xpofsc3w47nvjd52sys6hqdejk3h7fz6kbqhyqrds3xgqd.onion">Kerberos</a>
+        <pre><code>http://kerberqtg7xpofsc3w47nvjd52sys6hqdejk3h7fz6kbqhyqrds3xgqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://bo4z2ekesxllebpqijubxklnkehoobeu5q7qjdqzfh3hxitwo5fatrad.onion">Nemesis Market</a>
+        <pre><code>http://bo4z2ekesxllebpqijubxklnkehoobeu5q7qjdqzfh3hxitwo5fatrad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://incognizudojrh3z47tfudcqkuwayp6aeeiufjkccgvvt4jrjcbq3gyd.onion">Incognito Market</a>
+        <pre><code>http://incognizudojrh3z47tfudcqkuwayp6aeeiufjkccgvvt4jrjcbq3gyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://bohemianli3oj427gmh7t7yrpkxuxh7zdjwofim74tdpgtx6tlbelfyd.onion">Bohemia</a>
+        <pre><code>http://bohemianli3oj427gmh7t7yrpkxuxh7zdjwofim74tdpgtx6tlbelfyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://guzjgkpodzshso2nohspxijzk5jgoaxzqioa7vzy6qdmwpz3hq4mwfid.onion">Bitpharma</a>
+        <pre><code>http://guzjgkpodzshso2nohspxijzk5jgoaxzqioa7vzy6qdmwpz3hq4mwfid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://abacusxqw5uv7amzqazdbxo2nd57vaioblew6m25pbzznaf4ph6nh6ad.onion">Abacus Market</a>
+        <pre><code>http://abacusxqw5uv7amzqazdbxo2nd57vaioblew6m25pbzznaf4ph6nh6ad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://duysanj4hc67rd2hkkrmngj66vj25kxhvafnp3qwrcjcyfgwwd4eeiid.onion">MGM Grand Market</a>
+        <pre><code>http://duysanj4hc67rd2hkkrmngj66vj25kxhvafnp3qwrcjcyfgwwd4eeiid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://darkmatu4oxdnzpm7j2lohty35nboxdvxz4stfburupf3f4teg6vetyd.onion">Dark Matter</a>
+        <pre><code>http://darkmatu4oxdnzpm7j2lohty35nboxdvxz4stfburupf3f4teg6vetyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://flugsvplodga6slsddquahf523xjst2an7umejwgrgbwuk7jd4mbotqd.onion">Flugsvamp 4.0 (Sweden)</a>
+        <pre><code>http://flugsvplodga6slsddquahf523xjst2an7umejwgrgbwuk7jd4mbotqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://mega5cl42slffqduo64dopju3xxnuxbbzycir6vi3gzvhwd2iyilerad.onion">Mega Market (Russia)</a>
+        <pre><code>http://mega5cl42slffqduo64dopju3xxnuxbbzycir6vi3gzvhwd2iyilerad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://hqfld5smkr4b4xrjcco7zotvoqhuuoehjdvoin755iytmpk4sm7cbwad.onion">Mixabit</a>
+        <pre><code>http://hqfld5smkr4b4xrjcco7zotvoqhuuoehjdvoin755iytmpk4sm7cbwad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://y22arit74fqnnc2pbieq3wqqvkfub6gnlegx3cl6thclos4f7ya7rvad.onion">Dark Mixer</a>
+        <pre><code>http://y22arit74fqnnc2pbieq3wqqvkfub6gnlegx3cl6thclos4f7ya7rvad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://mp3fpv6xbrwka4skqliiifoizghfbjy5uyu77wwnfruwub5s4hly2oid.onion">EasyCoin</a>
+        <pre><code>http://mp3fpv6xbrwka4skqliiifoizghfbjy5uyu77wwnfruwub5s4hly2oid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://zkj7mzglnrbvu3elepazau7ol26cmq7acryvsqxvh4sreoydhzin7zid.onion">Hackers for hire</a>
+        <pre><code>http://zkj7mzglnrbvu3elepazau7ol26cmq7acryvsqxvh4sreoydhzin7zid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://prjd5pmbug2cnfs67s3y65ods27vamswdaw2lnwf45ys3pjl55h2gwqd.onion">Hackers for hire</a>
+        <pre><code>http://prjd5pmbug2cnfs67s3y65ods27vamswdaw2lnwf45ys3pjl55h2gwqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://t43fsf65omvf7grt46wlt2eo5jbj3hafyvbdb7jtr2biyre5v24pebad.onion">EuroGuns</a>
+        <pre><code>http://t43fsf65omvf7grt46wlt2eo5jbj3hafyvbdb7jtr2biyre5v24pebad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://hyjgsnkanan2wsrksd53na4xigtxhlz57estwqtptzhpa53rxz53pqad.onion">EuroGuns</a>
+        <pre><code>http://hyjgsnkanan2wsrksd53na4xigtxhlz57estwqtptzhpa53rxz53pqad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://k6m3fagp4w4wspmdt23fldnwrmknse74gmxosswvaxf3ciasficpenad.onion">UkGunsAndAmmo</a>
+        <pre><code>http://k6m3fagp4w4wspmdt23fldnwrmknse74gmxosswvaxf3ciasficpenad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://onili244aue7jkvzn2bgaszcb7nznkpyihdhh7evflp3iskfq7vhlzid.onion">UkGunsAndAmmo</a>
+        <pre><code>http://onili244aue7jkvzn2bgaszcb7nznkpyihdhh7evflp3iskfq7vhlzid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://4pt4axrbg44wivonwz5hqac6ccuuqtysvuyzldd4cqox5vnogxb4koqd.onion">Archetyp</a>
+        <pre><code>http://4pt4axrbg44wivonwz5hqac6ccuuqtysvuyzldd4cqox5vnogxb4koqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://torzonqgq7icutzxe4pjpsftwk2tuj5lnbj2j3tmnwwuak6kurvpp3yd.onion">TorZon</a>
+        <pre><code>http://torzonqgq7icutzxe4pjpsftwk2tuj5lnbj2j3tmnwwuak6kurvpp3yd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://abacusxmi5bwqncyr3kbhqwpcl2dmzevla4rhi6ijekp7x2w5bg5yyqd.onion">Abacus</a>
+        <pre><code>http://abacusxmi5bwqncyr3kbhqwpcl2dmzevla4rhi6ijekp7x2w5bg5yyqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://citymtntdj32ztac3mendod2ld6sq2234u4pvsspxo4o5stk57ssz2qd.onion">City</a>
+        <pre><code>http://citymtntdj32ztac3mendod2ld6sq2234u4pvsspxo4o5stk57ssz2qd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://questxsxg2mdlkqeus2esdnsgxue4xwdrwq6vskothhx7xbusvwla7ad.onion">Quest</a>
+        <pre><code>http://questxsxg2mdlkqeus2esdnsgxue4xwdrwq6vskothhx7xbusvwla7ad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://6c5qav2hck3j4mctrcav4b6i6tp5hd2bgcpflnkre2xxum6lcliuxkad.onion">Cypher</a>
+        <pre><code>http://6c5qav2hck3j4mctrcav4b6i6tp5hd2bgcpflnkre2xxum6lcliuxkad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://blackpykv66cybipwjxda6c6mvk3uxfih736ljmzeultufyx5y7fohyd.onion">BlackPyramid</a>
+        <pre><code>http://blackpykv66cybipwjxda6c6mvk3uxfih736ljmzeultufyx5y7fohyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://hn2pawxhwytyhtexin3x65q2aza2q7zkhrybeujpsy2523r777cdxxad.onion">WeTheNorth</a>
+        <pre><code>http://hn2pawxhwytyhtexin3x65q2aza2q7zkhrybeujpsy2523r777cdxxad.onion</code></pre>
+    </ul>
+    <li>
+      <h3>LIBRARIES</h3></li>
+    <ul>
+      <li>
+        <a href="https://archive.org">Internet Archive</a>
+        <pre><code>https://archive.org</code></pre>
+      </li>
+      <li>
+        <a href="https://annas-archive.org">Anna's Archive</a>
+        <pre><code>https://annas-archive.org</code></pre>
+      </li>
+      <li>
+        <a href="https://t.me/zlibrary_official">Z-Library Official (Telegram)</a>
+        <pre><code>https://t.me/zlibrary_official</code></pre>
+      </li>
+      <li>
+        <a href="https://go-to-zlibrary.se/#desktop_app_tab"> Z-Library (APP)</a>
+        <pre><code>https://go-to-zlibrary.se/#desktop_app_tab</code></pre>
+      </li>
+      <li>
+        <a href="https://singlelogin.se">Z-Library (WEB)</a>
+        <pre><code>https://singlelogin.se</code></pre>
+      </li>
+      <li>
+        <a href="http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion"> Z-Library (ONION)</a>
+        <pre><code>http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="https://libgen.rs">Library Genesis (.rs alias domain)</a>
+        <pre><code>https://libgen.rs</code></pre>
+      </li>
+      <li>
+        <a href="https://libgen.is">Library Genesis (.is alias domain)</a>
+        <pre><code>https://libgen.is</code></pre>
+      </li>
+      <li>
+        <a href="https://libgen.st">Library Genesis (.st alias domain)</a>
+        <pre><code>https://libgen.st</code></pre>
+      </li>
+      <li>
+        <a href="https://wiki.mhut.org/software:libgen_desktop">Library Genesis (APP)</a>
+        <pre><code>https://wiki.mhut.org/software:libgen_desktop</code></pre>
+      </li>
+      <li>
+        <a href="http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion">Library Genesis (ONION)</a>
+        <pre><code>http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion">Imperial Library (ONION)</a>
+        <pre><code>http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion">Just Another Library (ONION)</a>
+        <pre><code>http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion">InfoCon (ONION)</a>
+        <pre><code>http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion</code></pre>
+      </li>
+    </ul>
+    <li>
+      <h3>NEWS AND BLOGS</h3></li>
+    <ul>
+      <li>
+        <a href="http://tortimeswqlzti2aqbjoieisne4ubyuoeiiugel2layyudcfrwln76qd.onion">Tor Times</a>
+        <pre><code>http://tortimeswqlzti2aqbjoieisne4ubyuoeiiugel2layyudcfrwln76qd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dark3i5wry7zl7hdpmidmaflve7cmxzhvhpoutrryb5vd44qc52tbhad.onion">DarkMatter</a>
+        <pre><code>http://dark3i5wry7zl7hdpmidmaflve7cmxzhvhpoutrryb5vd44qc52tbhad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion">DarkNetLive</a>
+        <pre><code>http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://ovgl57qc3a5abwqgdhdtssvmydr6f6mjz6ey23thwy63pmbxqmi45iid.onion">Flashlight</a>
+        <pre><code>http://ovgl57qc3a5abwqgdhdtssvmydr6f6mjz6ey23thwy63pmbxqmi45iid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://tape6m4x7swc7lwx2n2wtyccu4lt2qyahgwinx563gqfzeedn5nb4gid.onion">Tape-News</a>
+        <pre><code>http://tape6m4x7swc7lwx2n2wtyccu4lt2qyahgwinx563gqfzeedn5nb4gid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://ncidetfs7banpz2d7vpndev5somwoki5vwdpfty2k7javniujekit6ad.onion">NCIDE Task Force</a>
+        <pre><code>http://ncidetfs7banpz2d7vpndev5somwoki5vwdpfty2k7javniujekit6ad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://tcecdnp2fhyxlcrjoyc2eimdjosr65hweut6y7r2u6b5y75yuvbkvfyd.onion">National Police of the Netherlands</a>
+        <pre><code>http://tcecdnp2fhyxlcrjoyc2eimdjosr65hweut6y7r2u6b5y75yuvbkvfyd.onion</code></pre>
+    </ul>
+    <li>
+      <h3>CHANS</h3></li>
+    <ul>
+      <li>
+        <a href="http://4usoivrpy52lmc4mgn2h34cmfiltslesthr56yttv2pxudd3dapqciyd.onion">8Chan</a>
+        <pre><code>http://4usoivrpy52lmc4mgn2h34cmfiltslesthr56yttv2pxudd3dapqciyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://ninechnjd5aaxfbcsszlbr4inp7qjsficep4hiffh4jbzovpt2ok3cad.onion">9chan</a>
+        <pre><code>http://ninechnjd5aaxfbcsszlbr4inp7qjsficep4hiffh4jbzovpt2ok3cad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dngtk6iydmpokbyyk3irqznceft3hze6q6rasrqlz46v7pq4klxnl4yd.onion">256Chan</a>
+        <pre><code>http://dngtk6iydmpokbyyk3irqznceft3hze6q6rasrqlz46v7pq4klxnl4yd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://nanochanqzaytwlydykbg5nxkgyjxk3zsrctxuoxdmbx5jbh2ydyprid.onion">Nanochan</a>
+        <pre><code>http://nanochanqzaytwlydykbg5nxkgyjxk3zsrctxuoxdmbx5jbh2ydyprid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://picochanwvqfa2xsrfzlul4x4aqtog2eljll5qnj5iagpbhx2vmfqnid.onion">Picochan</a>
+        <pre><code>http://picochanwvqfa2xsrfzlul4x4aqtog2eljll5qnj5iagpbhx2vmfqnid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://crghlabr45r5pqkgnbgehywk5nxutdks5iss7tabyux5psikqqjirryd.onion">zzzchan</a>
+        <pre><code>http://crghlabr45r5pqkgnbgehywk5nxutdks5iss7tabyux5psikqqjirryd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://tdsrvhos656xypxsqtkqmiwefuvlyqmnvk5faoo23oh2m4xqg4gr47ad.onion">NeinChan</a>
+        <pre><code>http://tdsrvhos656xypxsqtkqmiwefuvlyqmnvk5faoo23oh2m4xqg4gr47ad.onion</code></pre>
+    </ul>
+    <li>
+      <h3>DOWNLOADS</h3></li>
+    <ul>
+      <li>
+        <a href="http://archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion">Archive.is</a>
+        <pre><code>http://archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://demonoidevmsgasmojajlhikwetsr4pxzw6xkjt3dgdv6nr5yxvsamid.onion">Demonoid</a>
+        <pre><code>http://demonoidevmsgasmojajlhikwetsr4pxzw6xkjt3dgdv6nr5yxvsamid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion">The Pirate Bay</a>
+        <pre><code>http://piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://galaxy3yrfbwlwo72q3v2wlyjinqr2vejgpkxb22ll5pcpuaxlnqjiid.onion">Torrent Galaxy</a>
+        <pre><code>http://galaxy3yrfbwlwo72q3v2wlyjinqr2vejgpkxb22ll5pcpuaxlnqjiid.onion</code></pre>
+    </ul>
+    <li>
+      <h3>HOSTING AND DOMAINS</h3></li>
+    <ul>
+      <li>
+        <a href="http://njallalafimoej5i4eg7vlnqjvmb6zhdh27qxcatdn647jtwwwui3nad.onion">Njalla</a>
+        <pre><code>http://njallalafimoej5i4eg7vlnqjvmb6zhdh27qxcatdn647jtwwwui3nad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://fhostingineiwjg6cppciac2bemu42nwsupvvisihnczinok362qfrqd.onion">Freedom Hosting</a>
+        <pre><code>http://fhostingineiwjg6cppciac2bemu42nwsupvvisihnczinok362qfrqd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion">Ablative</a>
+        <pre><code>http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion">OnionLand</a>
+        <pre><code>http://dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://privex3guvvasyer6pxz2fqcgy56auvw5egkir6ykwpptferdcb5toad.onion">Privex</a>
+        <pre><code>http://privex3guvvasyer6pxz2fqcgy56auvw5egkir6ykwpptferdcb5toad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://imprezareshna326gqgmbdzwmnad2wnjmeowh45bs2buxarh5qummjad.onion">Impreza</a>
+        <pre><code>http://imprezareshna326gqgmbdzwmnad2wnjmeowh45bs2buxarh5qummjad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://spore64i5sofqlfz5gq2ju4msgzojjwifls7rok2cti624zyq3fcelad.onion">SporeStack</a>
+        <pre><code>http://spore64i5sofqlfz5gq2ju4msgzojjwifls7rok2cti624zyq3fcelad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://njallalafimoej5i4eg7vlnqjvmb6zhdh27qxcatdn647jtwwwui3nad.onion">Njalla</a>
+        <pre><code>http://njallalafimoej5i4eg7vlnqjvmb6zhdh27qxcatdn647jtwwwui3nad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://dns4torpnlfs2ifuz2s2yf3fc7rdmsbhm6rw75euj35pac6ap25zgqad.onion">Cloudflare Public DNS 1.1.1.1</a>
+        <pre><code>http://dns4torpnlfs2ifuz2s2yf3fc7rdmsbhm6rw75euj35pac6ap25zgqad.onion</code></pre>
+      </li>
+      <li>
+        <a href="http://4gmrlefxkq4mtan6a2lqwfwa7un4brjlatka75nwdczemqqwn3wznnad.onion">HARICA Certificate Authority</a>
+        <pre><code>http://4gmrlefxkq4mtan6a2lqwfwa7un4brjlatka75nwdczemqqwn3wznnad.onion</code></pre>
+    </ul>
+  </ul>
+
+  <br>
+  <hr>
+
+  <h4>REFERENCES</h4>
+
+  <h5>International Organizations</h5>
+  <ul>
+    <li><a href="https://sherloc.unodc.org/cld/st/home.html">UNODC Sherloc</a></li>
+    <li><a href="https://globalinitiative.net">Global Initiative Against Transnational Organized Crime</a></li>
+    <li><a href="https://eurojust.europa.eu/publications">Eurojust Publications</a></li>
+    <li><a href="https://www.unicef.org/reports/online-safety">UNICEF Reports on Online Safety</a></li>
+    <li><a href="https://www.icrc.org/en/document/cyber-security">ICRC Cyber Security</a></li>
+    <li><a href="https://www.nato.int/cps/en/natolive/topics_82795.htm">NATO Cyber Defence</a></li>
+    <li><a href="https://www.ccdcoe.org/library/publications/">CCDCOE Publications</a></li>
+    <li><a href="https://coe.int/cybercrime" target="_blank" rel="noopener">COE Cybercrime — Overview</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/glacyplus" target="_blank"
+      rel="noopener">GLACY+ — Global Action on Cybercrime</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/iproceeds-2" target="_blank"
+      rel="noopener">iPROCEEDS-2 — Combatting Cybercrime in South-East Europe</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/octopus-project" target="_blank"
+      rel="noopener">Octopus Project — Cybercrime and Cybersecurity</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/cybersouth" target="_blank"
+      rel="noopener">CyberSouth — Enhancing Cybercrime Capacity in Southern Mediterranean</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/cybereast" target="_blank"
+      rel="noopener">CyberEast — Cybercrime Capacity Building in Eastern Europe</a></li>
+  </ul>
+
+  <h5>Cybercrime Reports and Analysis</h5>
+  <ul>
+    <li><a href="https://cert.europa.eu/publications/threat-intelligence/2023"
+      target="_blank" rel="noopener">CERT-EU</a></li>
+    <li><a href="https://www.coe.int/en/web/cybercrime/dark-web">Council of Europe Report</a></li>
+    <li><a href="https://www.emcdda.europa.eu/publications/search_en">EMCDDA Reports on Dark Web</a></li>
+    <li><a href="https://cepol.europa.eu/publications" target="_blank" rel="noopener">CEPOL - Publications</a></li>
+    <li><a href="https://www.interpol.int/en/Crimes-Consequences/">Interpol Cybercrime Reports</a></li>
+    <li><a href="https://academic.oup.com/cybersecurity">Journal of Cybersecurity</a></li>
+    <li><a href="https://europol.europa.eu/publications-events/publications?q=sirius"
+      target="_blank" rel="noopener">SIRIUS Project Publications</a></li>
+    <li><a href="https://osce.org/" target="_blank" rel="noopener">Organisation for Security and Co-operation in Europe (OSCE)</a></li>
+    <li><a href="https://www.enisa.europa.eu/publications">ENISA Reports</a></li>
+    <li><a href="https://www.europol.europa.eu/activities-services/main-reports/cybercrime-reports">Europol Cybercrime Reports and Publications</a></li>
+    <li><a href="https://www.europol.europa.eu/activities-services/main-reports/internet-organised-crime-threat-assessment-iocta">Europol IOCTA Reports</a></li>
+    <li><a href="https://www.europol.europa.eu/activities-services/main-reports/annual-reports">Europol Annual Reports</a></li>
+    <li><a href="https://www.europol.europa.eu/newsroom/news">Europol Press Releases</a></li>
+    <li><a href="https://www.ic3.gov/Media/PDF/AnnualReport/IC3Report2022.pdf">IC3 Annual Reports</a></li>
+    <li><a href="https://www.ic3.gov/Default.aspx">IC3 Resources and Alerts</a></li>
+    <li><a href="https://www.fbi.gov/investigate/cyber">FBI Cyber Crime</a></li>
+    <li><a href="https://www.fbi.gov/news/press-releases">FBI Press Releases</a></li>
+    <li><a href="https://www.nist.gov/news-events/news/2020/09/nist-releases-new-report-dark-web-privacy">NIST Dark Web Resources</a></li>
+    <li><a href="https://www.rand.org/pubs/research_briefs/RB9999.html">RAND Corporation Report on Dark Web</a></li>
+  </ul>
+
+  <h5>Dark Web and Deep Web Links</h5>
+  <ul>
+    <li><a href="https://dark.fail" target="_blank" rel="noopener noreferrer">https://dark.fail</a></li>
+    <li><a href="https://darknetlive.link" target="_blank" rel="noopener noreferrer">https://darknetlive.link</a></li>
+    <li><a href="https://github.com/UncensoredHiddenWiki/onion-links" target="_blank"
+      rel="noopener noreferrer">https://github.com/UncensoredHiddenWiki/onion-links</a></li>
+    <li><a href="https://github.com/ahmia/ahmia-site" target="_blank" rel="noopener noreferrer">https://github.com/ahmia/ahmia-site</a></li>
+    <li><a href="https://github.com/01Kevin01/OnionLinksV3" target="_blank"
+      rel="noopener noreferrer">https://github.com/01Kevin01/OnionLinksV3</a></li>
+    <li><a href="https://github.com/OnionLinker/onion-links" target="_blank"
+      rel="noopener noreferrer">https://github.com/OnionLinker/onion-links</a></li>
+    <li><a href="https://github.com/alecmuffett/real-world-onion-sites" target="_blank"
+      rel="noopener noreferrer">https://github.com/alecmuffett/real-world-onion-sites</a></li>
+    <li><a href="https://github.com/DarkNetEye/tor-links" target="_blank" rel="noopener noreferrer">https://github.com/DarkNetEye/tor-links</a></li>
+    <li><a href="https://github.com/gt0day/DarkWeb" target="_blank" rel="noopener noreferrer">https://github.com/gt0day/DarkWeb</a></li>
+    <li><a href="https://github.com/praveenjalasutram/Darkweb-Onion-Links"
+      target="_blank" rel="noopener noreferrer">https://github.com/praveenjalasutram/Darkweb-Onion-Links</a></li>
+    <li><a href="https://github.com/5ky1ar/Awesome-Onion-Links" target="_blank"
+      rel="noopener noreferrer">https://github.com/5ky1ar/Awesome-Onion-Links</a></li>
+    <li><a href="https://github.com/alecmuffett/eotk" target="_blank" rel="noopener noreferrer">https://github.com/alecmuffett/eotk</a></li>
+    <li><a href="https://youtube.com/@mentalOutlaw" target="_blank" rel="noopener noreferrer">https://youtube.com/@mentalOutlaw</a></li>
+    <li><a href="https://youtube.com/@Seytonic" target="_blank" rel="noopener noreferrer">https://youtube.com/@Seytonic</a></li>
+  </ul>
+
+  <h5>Scraping and Inspecting Deep Web Links</h5>
+  <ul>
+    <li><a href="https://github.com/RetroPackets/GRIME" target="_blank" rel="noopener noreferrer">https://github.com/RetroPackets/GRIME</a></li>
+    <li><a href="https://github.com/k4m4/onioff" target="_blank" rel="noopener noreferrer">https://github.com/k4m4/onioff</a></li>
+    <li><a href="https://github.com/k4m4/onion-regex" target="_blank" rel="noopener noreferrer">https://github.com/k4m4/onion-regex</a></li>
+    <li><a href="https://github.com/s-rah/onionscan" target="_blank" rel="noopener noreferrer">https://github.com/s-rah/onionscan</a></li>
+    <li><a href="https://github.com/milesrichardson/docker-onion-nmap" target="_blank"
+      rel="noopener noreferrer">https://github.com/milesrichardson/docker-onion-nmap</a></li>
+    <li><a href="https://github.com/DanWin/onion-link-list" target="_blank"
+      rel="noopener noreferrer">https://github.com/DanWin/onion-link-list</a></li>
+    <li><a href="https://github.com/DedSecInside/TorBot" target="_blank" rel="noopener noreferrer">https://github.com/DedSecInside/TorBot</a></li>
+    <li><a href="http://www.torscan.io" target="_blank" rel="noopener noreferrer">http://www.torscan.io</a></li>
+    <li><a href="https://darkweb.hunch.ly" target="_blank" rel="noopener noreferrer">https://darkweb.hunch.ly</a></li>
+    <li><a href="https://oint.ctrlbox.com" target="_blank" rel="noopener noreferrer">https://oint.ctrlbox.com</a></li>
+    <li><a href="https://iaca-darkweb-tools.com" target="_blank" rel="noopener noreferrer">https://iaca-darkweb-tools.com</a></li>
+  </ul>
+
+  <h5>Miscellaneous</h5>
+  <ul>
+    <li><a href="https://darknetlive.com" target="_blank" rel="noopener noreferrer">https://darknetlive.com</a></li>
+    <li><a href="https://pastebin.com" target="_blank" rel="noopener noreferrer">https://pastebin.com</a></li>
+    <li><a href="https://oniondotindex.com" target="_blank" rel="noopener noreferrer">https://oniondotindex.com</a></li>
+    <li><a href="https://kycnot.me" target="_blank" rel="noopener noreferrer">https://kycnot.me</a></li>
+    <li><a href="https://godnotaba.io" target="_blank" rel="noopener noreferrer">https://godnotaba.io</a></li>
+    <li><a href="https://kleinfinger.org" target="_blank" rel="noopener noreferrer">https://kleinfinger.org</a></li>
+    <li><a href="https://vice.com" target="_blank" rel="noopener noreferrer">https://vice.com</a></li>
+    <li><a href="https://hidden-wiki.cc" target="_blank" rel="noopener noreferrer">https://hidden-wiki.cc</a></li>
+    <li><a href="https://raddle.me/wiki/onion_index" target="_blank" rel="noopener noreferrer">https://raddle.me/wiki/onion_index</a></li>
+    <li><a href="https://reddit.com/r/darknet" target="_blank" rel="noopener noreferrer">r/darknet</a></li>
+    <li><a href="https://reddit.com/r/onions" target="_blank" rel="noopener noreferrer">r/onions</a></li>
+    <li><a href="https://reddit.com/r/onion" target="_blank" rel="noopener noreferrer">r/onion</a></li>
+    <li><a href="https://reddit.com/r/TOR" target="_blank" rel="noopener noreferrer">r/TOR</a></li>
+    <li><a href="https://reddit.com/r/HiddenWeb" target="_blank" rel="noopener noreferrer">r/HiddenWeb</a></li>
+    <li><a href="https://reddit.com/r/tails" target="_blank" rel="noopener noreferrer">r/tails</a></li>
+    <li><a href="https://reddit.com/r/Scams" target="_blank" rel="noopener noreferrer">r/Scams</a></li>
+    <li><a href="https://reddit.com/r/BitcoinMixer" target="_blank" rel="noopener noreferrer">r/BitcoinMixer</a></li>
+  </ul>
+
+  <br>
+
+  <!--################################### -->
+
+  <div id="footer">
+
+    <p align="right"><a href="https://github.com/RENANZG/My-Onion-Links?tab=readme-ov-file#">Back to Top ⬆</a></p>
+
+    <br>
+    <br>
+    <br>
+
+    <p align="center"><img src="" /></p>
+
+  </div>
+
+  <!--################################### -->
 
 </body>
+
 </html>
