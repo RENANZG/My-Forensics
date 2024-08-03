@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-
+<!--
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +41,7 @@
     text-decoration: underline; /* Underline on hover */
   }
 </style>
-
+-->
 </head>
 <body>
 
@@ -97,13 +97,43 @@
 
 <br>
 
-<h4>The criminal investigation must be protected from leaks by following a logical sequence:</h4>
+<h4>Steps to Protect a Criminal Investigation from Leaks:</h4>
 
 <ol>
-<li>Exhaust the data collection in open sources (OSINT) or closed sources (CSINT);</li>
-<li>Hidden monitoring and tracking measures (SIGINT, HUMINT...);</li>
-<li>With concrete evidence of the practices investigated and exhaustion of remote possibilities, launch the operation itself with the publication of the investigation. At this stage, search and seizure warrants, temporary or preventive arrest and statements will be taken.</li>
+  <li>Data Collection</li>
+  <ul>
+    <li>
+      Exhaust data collection from open sources (OSINT) and closed sources
+      (CSINT) with strict access controls and logging to track who accesses the
+      information.
+    </li>
+  </ul>
+  <li>Covert Monitoring and Tracking</li>
+  <ul>
+    <li>
+      Implement covert monitoring and tracking measures (SIGINT, HUMINT, etc.)
+      with secure communication protocols and encrypted data storage.
+    </li>
+  </ul>
+  <li>Public Operation Launch:</li>
+  <ul>
+    <li>
+      Once concrete evidence is gathered and remote options are exhausted, plan
+      the public operation with OpSec measures in place. This includes:
+    </li>
+    <ul>
+      <li>
+        Executing warrants and arrests**: Ensure only involved personnel are
+        briefed, and the operation is kept confidential until execution.
+      </li>
+      <li>
+        Taking statements**: Secure environments for taking statements and
+        protect the identities of witnesses and informants.
+      </li>
+    </ul>
+  </ul>
 </ol>
+
 
 <!-- ################################## -->
 <br>
@@ -111,81 +141,91 @@
 
 <h3>FORENSIC SUITES</h3>
 
-<table style="width: 100%" cellspacing="0" cellpadding="0">
-<thead>
-  <tr>
-  </tr>
-</thead>
-<tbody> 
-<tr>
-<td align="center" valign="top" style="width: 50%"><b>FLOSS</b><br>Free/Libre and Open Source Software</td>
-<td align="center" valign="top" style="width: 50%"><b>PROPRIETARY</b><br>Cyber-surveillance Industry</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="width: 50%">
-• Kali Linux<br><a href="https://kali.org">https://kali.org</a><br>
-• Drive Badger<br><a href="https://drivebadger.com">https://drivebadger.com</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a><br>
-• SIFT Workstation<br><a href="https://sans.org/tools/sift-workstation" target="_blank" rel="noopener noreferrer">https://sans.org/tools/sift-workstation</a><br>
-• Parrot Security<br><a href="https://parrotsec.org">https://parrotsec.org</a><br>
-• CAINE<br><a href="https://caine-live.net">https://caine-live.net</a><br>
-• CSI Linux<br><a href="https://csilinux.com">https://csilinux.com</a><br>
-• Avilla Forensics<br><a href="https://github.com/AvillaDaniel/AvillaForensics">https://github.com/AvillaDaniel/AvillaForensics</a><br>
-• IPED<br><a href="https://github.com/sepinf-inc/IPED">https://github.com/sepinf-inc/IPED</a><br>
-• Debian Forensics Package<br><a href="https://packages.debian.org/unstable/forensics-all">https://packages.debian.org/unstable/forensics-all</a><br>
-• Mobile Verification Toolkit (MVT)<br><a href="https://docs.mvt.re/en/latest">https://docs.mvt.re/en/latest</a><br>
-• Tsurugi Linux<a href="https://tsurugi-linux.org/"><br>https://tsurugi-linux.org/</a><br>
-• REMnux<a href="https://remnux.org/"><br>https://remnux.org</a><br>
-• Bitscout<a href="https://github.com/vitaly-kamluk/bitscout"><br>https://github.com/vitaly-kamluk/bitscout</a><br>
-• Eric Zimmerman's tools (Freeware)<br><a href="https://ericzimmerman.github.io/#!index.md">https://ericzimmerman.github.io/#!index.md</a><br>
-• Paladin® (Freeware)<br><a href="https://sumuri.com/product/paladin-lts/">https://sumuri.com/software/paladin/</a><br>
-• Forensic Toolkit (FTK)® - Lite (Freeware) <br><a href="https://exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite" target="_blank" rel="noopener noreferrer">https://exterro.com/forensic-toolkit</a><br>
-• Magnet Forensic® - Mobile Extractor (Freeware)<br><a href="https://magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://magnetforensics.com</a><br>
-• Windows® Forensic Environment WinFE (Freeware)<br><a href="https://winfe.net/home" target="_blank" rel="noopener noreferrer">https://winfe.net</a><br>
-• NirSoft® (Freeware)<br><a href="https://nirsoft.net/computer_forensic_software.html">https://nirsoft.net</a><br>
-• MiTeC® (Freeware)<br><a href="https://mitec.cz">https://mitec.cz</a><br>
-• Medusa Box® (Easy J-TAG)<br> <a href="https://medusabox.com/">https://medusabox.com</a><br> ╰┈➤<a href="https://medusabox.com/eng/features/features">Models Features</a><br> ╰┈➤<a href="https://aliexpress.com/w/wholesale-medusa-box.html">Aliexpress</a><br>
-• Octoplus Box® (Easy J-TAG)<br><a href="https://octoplusbox.com">https://octoplusbox.com</a><br> ╰┈➤<a href="https://octoplusbox.com/en/features/models/">Models Features</a><br> ╰┈➤<a href="https://aliexpress.com/w/wholesale-octoplus-box.html">Aliexpress</a><br>
-</td>
-<td align="left" valign="top" style="width: 50%;">
-• Cellebrite®<br><a href="https://cellebrite.com/" target="_blank" rel="noopener noreferrer">https://cellebrite.com</a><br>
-• NSO Group®<br><a href="https://nsogroup.com/" target="_blank" rel="noopener noreferrer">https://nsogroup.com</a><br>
-• Cognyte®<br><a href="https://cognyte.com/" target="_blank" rel="noopener noreferrer">https://cognyte.com</a><br>
-• Check Point®<br><a href="https://checkpoint.com" target="_blank" rel="noopener noreferrer">https://checkpoint.com</a><br>
-• Team Cymru®<br><a href="https://team-cymru.com" target="_blank" rel="noopener noreferrer">https://team-cymru.com</a><br>
-• BriefCam®<br><a href="https://briefcam.com/" target="_blank" rel="noopener noreferrer">https://briefcam.com/</a><br>
-• Forensic Toolkit (FTK)® <br><a href="https://exterro.com/forensic-toolkit" target="_blank" rel="noopener noreferrer">https://exterro.com/forensic-toolkit</a><br>
-• Magnet Forensic®<br><a href="https://magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://magnetforensics.com</a><br>
-• Variston®<br><a href="https://variston.net" target="_blank" rel="noopener noreferrer">https://variston.net</a><br>
-• Intellexa®<br><a href=no refer" target="_blank" rel="noopener noreferrer">no refer</a><br>
-• Cytrox®<br><a href="no refer" target="_blank" rel="noopener noreferrer">no refer</a><br>
-• Cy4Gate®<br><a href="https://cy4gate.com/" target="_blank" rel="noopener noreferrer">https://cy4gate.com/</a><br>
-• PARS Defense®<br><a href="https://parsdefense.com" target="_blank" rel="noopener noreferrer">https://parsdefense.com</a><br>
-• Candiru®<br><a href="https://saito.tech" target="_blank" rel="noopener noreferrer">https://saito.tech/</a><br>
-• Harpia Tech®<br><a href="https://harpia.tech/english.html" target="_blank" rel="noopener noreferrer">https://harpia.tech</a><br>
-• Visual Cortex®<br><a href="https://visualcortex.com/" target="_blank" rel="noopener noreferrer">https://visualcortex.com</a><br>
-• Oxygen Forensic®<br><a href="https://oxygen-forensic.wedatasolution.com/" target="_blank" rel="noopener noreferrer">https://oxygen-forensic.wedatasolution.com</a><br>
-• MSAB®<br><a href="https://msab.com/" target="_blank" rel="noopener noreferrer">https://msab.com</a><br>
-• GMDSOFT®<br><a href="https://gmdsoft.com/" target="_blank" rel="noopener noreferrer">https://gmdsoft.com</a><br>
-• Verint Systems®<br><a href="https://verint.com/" target="_blank" rel="noopener noreferrer">https://verint.com</a><br>
-• Cyber Arm®<br><a href="https://cyber-arm.com/services" target="_blank" rel="noopener noreferrer">https://cyber-arm.com/services</a><br>
-• Cobalt Strike®<br><a href="https://cobaltstrike.com" target="_blank" rel="noopener noreferrer">https://cobaltstrike.com</a><br>
-• Lumi Networks®<br><a href="https://lumi.network" target="_blank" rel="noopener noreferrer">https://lumi.network</a><br>
-• Clear View AI®<br><a href="https://clearview.ai" target="_blank" rel="noopener noreferrer">https://clearview.ai</a><br>
-• Lockheed Martin®<br><a href="https://lockheedmartin.com" target="_blank" rel="noopener noreferrer">https://lockheedmartin.com/</a><br>
-• MOBILedit®<br><a href="https://mobiledit.com/mobiledit-forensic" target="_blank" rel="noopener noreferrer">https://mobiledit.com</a><br>
-• Crowd Strike®<br><a href="https://crowdstrike.com" target="_blank" rel="noopener noreferrer">https://crowdstrike.com</a><br>
-• Binalyze®<br><a href="https://binalyze.com" target="_blank" rel="noopener noreferrer">https://binalyze.com</a><br>
-• LexisNexis®<br><a href="https://risk.lexisnexis.com" target="_blank" rel="noopener noreferrer">https://risk.lexisnexis.com</a><br>
-• NetQuest®<br><a href="https://netquestcorp.com" target="_blank" rel="noopener noreferrer">https://netquestcorp.com</a><br>
-• Gamma®<br><a href="https://gamma.co.uk" target="_blank" rel="noopener noreferrer">https://gamma.co.uk</a><br>
-• Memento Labs®<br><a href="https://mem3nt0.com" target="_blank" rel="noopener noreferrer">https://mem3nt0.com</a><br>
-• CYSource®<br><a href="https://cysrc.com" target="_blank" rel="noopener noreferrer">https://cysrc.com</a><br>
-• Maltego®<br><a href="https://maltego.com" target="_blank" rel="noopener noreferrer">https://maltego.com</a><br>
-• Thorn's Safer®<br><a href="https://thorn.org/" target="_blank" rel="noopener noreferrer">https://thorn.org</a><br>
-</td>
-</tr>
-</tbody>
+<table style="width: 100%;" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th style="text-align: center; width: 50%;"><small><b>FLOSS</b><br>Free/Libre and Open Source Software</small></th>
+      <th style="text-align: center; width: 50%;"><small><b>PROPRIETARY</b><br>Cyber-surveillance Industry</small></th>
+    </tr>
+  </thead>
+  <tbody> 
+    <tr>
+      <td align="left" valign="top" style="width: 50%;">
+        <small>
+          • Kali Linux - Penetration Testing and Ethical Hacking Distribution<br><a href="https://kali.org">https://kali.org</a><br>
+          • Drive Badger - Data Extraction Tool for Forensics<br><a href="https://drivebadger.com">https://drivebadger.com</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a><br>
+          • SIFT Workstation - Forensic and Incident Response Toolkit<br><a href="https://sans.org/tools/sift-workstation" target="_blank" rel="noopener noreferrer">https://sans.org/tools/sift-workstation</a><br>
+          • Parrot Security - Security-Oriented Operating System<br><a href="https://parrotsec.org">https://parrotsec.org</a><br>
+          • CAINE - Computer Aided INvestigative Environment<br><a href="https://caine-live.net">https://caine-live.net</a><br>
+          • CSI Linux - Cyber Forensics Operating System<br><a href="https://csilinux.com">https://csilinux.com</a><br>
+          • Avilla Forensics - Open Source Forensic Tools<br><a href="https://github.com/AvillaDaniel/AvillaForensics">https://github.com/AvillaDaniel/AvillaForensics</a><br>
+          • IPED - Indexador e Processador de Evidências Digitais (Digital Evidence Indexer and Processor)<br><a href="https://github.com/sepinf-inc/IPED">https://github.com/sepinf-inc/IPED</a><br>
+          • Debian Forensics Package - Forensic Tools for Debian Systems<br><a href="https://packages.debian.org/unstable/forensics-all">https://packages.debian.org/unstable/forensics-all</a><br>
+          • Mobile Verification Toolkit (MVT) - Mobile Analysis Toolkit<br><a href="https://docs.mvt.re/en/latest">https://docs.mvt.re/en/latest</a><br>
+          • Tsurugi Linux - Forensics and Pentesting Distro<br><a href="https://tsurugi-linux.org/">https://tsurugi-linux.org</a><br>
+          • REMnux - Linux Toolkit for Malware Analysis<br><a href="https://remnux.org/">https://remnux.org</a><br>
+          • Bitscout - Remote Digital Forensics Tool<br><a href="https://github.com/vitaly-kamluk/bitscout">https://github.com/vitaly-kamluk/bitscout</a><br>
+          • Didier Stevens's tools - Security and Forensic Utilities<br><a href="https://blog.didierstevens.com">https://blog.didierstevens.com</a><br>
+          • Eric Zimmerman's tools (Freeware) - Forensic Tools Collection<br><a href="https://ericzimmerman.github.io/#!index.md">https://ericzimmerman.github.io/#!index.md</a><br>
+          • Paladin® (Freeware) - Forensic Suite Based on Ubuntu<br><a href="https://sumuri.com/product/paladin-lts/">https://sumuri.com/software/paladin/</a><br>
+          • MISP® - Malware Information Sharing Platform & Threat Sharing<br><a href="https://misp-project.org/">https://misp-project.org/</a><br>
+          • OSForensics® - Digital Investigation and Forensics Software<br><a href="https://osforensics.com/">https://osforensics.com/</a><br>
+          • CyberChef® - Cyber Operations Toolkit<br><a href="https://gchq.github.io/CyberChef/">https://gchq.github.io/CyberChef/</a><br>
+          • GRR Rapid Response® - Incident Response Framework<br><a href="https://grr.dev/">https://grr.dev/</a><br>
+          • Brim® - Network Forensics and Security Tool<br><a href="https://brimsecurity.com/">https://brimsecurity.com/</a><br>
+          • Viper® - Binary Analysis and Management Framework<br><a href="https://viper-toolkit.readthedocs.io/">https://viper-toolkit.readthedocs.io/</a><br>
+          • Forensic Toolkit (FTK)® - Lite (Freeware) - Digital Investigations Suite<br><a href="https://exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite" target="_blank" rel="noopener noreferrer">https://exterro.com/forensic-toolkit</a><br>
+          • Magnet Forensic® - Mobile Extractor (Freeware) - Mobile Data Recovery<br><a href="https://magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://magnetforensics.com</a><br>
+          • Windows® Forensic Environment WinFE (Freeware) - Bootable Forensic Environment<br><a href="https://winfe.net/home" target="_blank" rel="noopener noreferrer">https://winfe.net</a><br>
+          • NirSoft® (Freeware) - Collection of Network and System Utilities<br><a href="https://nirsoft.net/computer_forensic_software.html">https://nirsoft.net</a><br>
+          • MiTeC® (Freeware) - Advanced System Information Tools<br><a href="https://mitec.cz">https://mitec.cz</a><br>
+          • Medusa Box® (Easy J-TAG) - Mobile Device Servicing Tool<br><a href="https://medusabox.com/">https://medusabox.com</a><br> ╰┈➤<a href="https://medusabox.com/eng/features/features">Models Features</a><br> ╰┈➤<a href="https://aliexpress.com/w/wholesale-medusa-box.html">Aliexpress</a><br>
+          • Octoplus Box® (Easy J-TAG) - Mobile Device Repair Tool<br><a href="https://octoplusbox.com">https://octoplusbox.com</a><br> ╰┈➤<a href="https://octoplusbox.com/en/features/models/">Models Features</a><br> ╰┈➤<a href="https://aliexpress.com/w/wholesale-octoplus-box.html">Aliexpress</a><br>
+        </small>
+      </td>
+      <td align="left" valign="top" style="width: 50%;">
+        <small>
+          • Cellebrite® - Digital Intelligence and Investigative Solutions<br><a href="https://cellebrite.com/" target="_blank" rel="noopener noreferrer">https://cellebrite.com</a><br>
+          • NSO Group® - Cyber Intelligence and Surveillance Tools<br><a href="https://nsogroup.com/" target="_blank" rel="noopener noreferrer">https://nsogroup.com</a><br>
+          • Cognyte® - Security Analytics Software<br><a href="https://cognyte.com/" target="_blank" rel="noopener noreferrer">https://cognyte.com</a><br>
+          • Check Point® - Cyber Security Solutions<br><a href="https://checkpoint.com" target="_blank" rel="noopener noreferrer">https://checkpoint.com</a><br>
+          • Team Cymru® - Internet Security Research and Threat Intelligence<br><a href="https://team-cymru.com" target="_blank" rel="noopener noreferrer">https://team-cymru.com</a><br>
+          • BriefCam® - Video Content Analysis Software<br><a href="https://briefcam.com/" target="_blank" rel="noopener noreferrer">https://briefcam.com</a><br>
+          • Forensic Toolkit (FTK)® - Digital Investigations Suite<br><a href="https://exterro.com/forensic-toolkit" target="_blank" rel="noopener noreferrer">https://exterro.com/forensic-toolkit</a><br>
+          • Magnet Forensic® - Digital Forensics and Incident Response Solutions<br><a href="https://magnetforensics.com/" target="_blank" rel="noopener noreferrer">https://magnetforensics.com</a><br>
+          • Variston® - Cybersecurity and Cyber Intelligence Solutions<br><a href="https://variston.net" target="_blank" rel="noopener noreferrer">https://variston.net</a><br>
+          • Intellexa® - Cyber Intelligence Solutions<br><a href="no refer" target="_blank" rel="noopener noreferrer">no refer</a><br>
+          • Cytrox® - Cyber Intelligence and Security Solutions<br><a href="no refer" target="_blank" rel="noopener noreferrer">no refer</a><br>
+          • Cy4Gate® - Cyber Intelligence and Cyber Security Solutions<br><a href="https://cy4gate.com/" target="_blank" rel="noopener noreferrer">https://cy4gate.com</a><br>
+          • PARS Defense® - Cyber Defense and Intelligence Solutions<br><a href="https://parsdefense.com" target="_blank" rel="noopener noreferrer">https://parsdefense.com</a><br>
+          • Candiru® - Cyber Intelligence Solutions<br><a href="https://saito.tech" target="_blank" rel="noopener noreferrer">https://saito.tech</a><br>
+          • Harpia Tech® - Advanced Surveillance Technologies<br><a href="https://harpia.tech/english.html" target="_blank" rel="noopener noreferrer">https://harpia.tech/english.html</a><br>
+          • Visual Cortex® - Video Analytics and Intelligence Platform<br><a href="https://visualcortex.com/" target="_blank" rel="noopener noreferrer">https://visualcortex.com/</a><br>
+          • Oxygen Forensic® - Mobile Forensics and Data Extraction Tools<br><a href="https://oxygen-forensic.wedatasolution.com/" target="_blank" rel="noopener noreferrer">https://oxygen-forensic.wedatasolution.com</a><br>
+          • MSAB® - Mobile Device Forensics<br><a href="https://msab.com/" target="_blank" rel="noopener noreferrer">https://msab.com</a><br>
+          • GMDSOFT® - Cyber Intelligence and Surveillance Solutions<br><a href="https://gmdsoft.com/" target="_blank" rel="noopener noreferrer">https://gmdsoft.com</a><br>
+          • Verint Systems® - Actionable Intelligence Solutions<br><a href="https://verint.com/" target="_blank" rel="noopener noreferrer">https://verint.com</a><br>
+          • Cyber Arm® - Cybersecurity and Intelligence Solutions<br><a href="https://cyber-arm.com/services" target="_blank" rel="noopener noreferrer">https://cyber-arm.com/services</a><br>
+          • Cobalt Strike® - Adversary Simulation Software<br><a href="https://cobaltstrike.com" target="_blank" rel="noopener noreferrer">https://cobaltstrike.com</a><br>
+          • Lumi Networks® - Network Surveillance Solutions<br><a href="https://lumi.network" target="_blank" rel="noopener noreferrer">https://lumi.network</a><br>
+          • Clear View AI® - Facial Recognition Technology<br><a href="https://clearview.ai" target="_blank" rel="noopener noreferrer">https://clearview.ai</a><br>
+          • Lockheed Martin® - Global Security and Aerospace Company<br><a href="https://lockheedmartin.com" target="_blank" rel="noopener noreferrer">https://lockheedmartin.com/</a><br>
+          • MOBILedit® - Mobile Device Management and Forensics<br><a href="https://mobiledit.com/mobiledit-forensic" target="_blank" rel="noopener noreferrer">https://mobiledit.com</a><br>
+          • Crowd Strike® - Endpoint Security and Cyber Threat Intelligence<br><a href="https://crowdstrike.com" target="_blank" rel="noopener noreferrer">https://crowdstrike.com</a><br>
+          • Binalyze® - Digital Forensics and Incident Response Platform<br><a href="https://binalyze.com" target="_blank" rel="noopener noreferrer">https://binalyze.com</a><br>
+          • LexisNexis® - Risk Management and Data Analytics<br><a href="https://risk.lexisnexis.com" target="_blank" rel="noopener noreferrer">https://risk.lexisnexis.com</a><br>
+          • NetQuest® - Network Intelligence and Analytics Solutions<br><a href="https://netquestcorp.com" target="_blank" rel="noopener noreferrer">https://netquestcorp.com</a><br>
+          • Gamma® - Cyber Security and Intelligence Solutions<br><a href="https://gamma.co.uk" target="_blank" rel="noopener noreferrer">https://gamma.co.uk</a><br>
+          • Memento Labs® - Cyber Intelligence and Security Solutions<br><a href="https://mem3nt0.com" target="_blank" rel="noopener noreferrer">https://mem3nt0.com</a><br>
+          • CYSource® - Cybersecurity Services and Solutions<br><a href="https://cysrc.com" target="_blank" rel="noopener noreferrer">https://cysrc.com</a><br>
+          • Maltego® - Data Mining and Link Analysis Tool<br><a href="https://maltego.com" target="_blank" rel="noopener noreferrer">https://maltego.com</a><br>
+          • Thorn's Safer® - Technology Solutions for Child Protection<br><a href="https://thorn.org/" target="_blank" rel="noopener noreferrer">https://thorn.org</a><br>
+        </small>
+      </td>
+    </tr>
+  </tbody>
 </table>
+
 <sub>Browse: https://dimse.info</sub>
 
 <!-- ################################## -->
@@ -447,11 +487,11 @@ ${\color{Blue}\textbf{1.PASSIVE FORENSICS}}$
 
 <h5>Subcommittee E30.12 on Digital and Multimedia Evidence</h5>
 
-<h6>Visit: https://www.astm.org/get-involved/technical-committees/committee-e30/subcommittee-e30/jurisdiction-e3012</h6>
+<h6>Visit: https://astm.org/get-involved/technical-committees/committee-e30/subcommittee-e30/jurisdiction-e3012</h6>
 
 <h4>The PCI Security Standards Council (PCI SSC)</h4>
 
-<h6>Visit: https://www.pcisecuritystandards.org</h6>
+<h6>Visit: https://pcisecuritystandards.org</h6>
 
 <p><b>ISO/IEC — International Electrotechnical Commission</b></p>
 
@@ -714,6 +754,7 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
     <li><a href="https://applipedia.paloaltonetworks.com">Palo Alto Applipedia</a></li>
     <li><a href="https://ultimatewindowssecurity.com/securitylog/encyclopedia">Windows Security Logs</a></li>
     <li><a href="https://nvd.nist.gov">National Vulnerability Database (NVD)</a></li>
+    <li><a href="https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator"> NIST CVE Calculator</a></li>
 </ul>
 <h5>Archiving Tools</h5>
 <ul>
@@ -742,7 +783,7 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
     <li><a href="https://ipapi.com">Ipapi</a></li>
     <li><a href="https://zmap.io">The ZMap Project</a></li>
     <li><a href="https://wigle.net">WiGLE</a></li>
-    <li><a href="https://www.shodan.io">Shodan</a></li>
+    <li><a href="https://shodan.io">Shodan</a></li>
     <li><a href="https://censys.io">Censys</a></li>
 </ul>
 <h5>URL and Virus Scanning</h5>
@@ -803,7 +844,7 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 <h5>Translation and Markdown Tools</h5>
 <ul>
     <li><a href="https://deepl.com/translator">DeepL</a></li>
-    <li><a href="https://www.markdowntoolbox.com">Markdown Toolbox</a></li>
+    <li><a href="https://markdowntoolbox.com">Markdown Toolbox</a></li>
     <li><a href="https://mermaid.live">Mermaid</a></li>
     <li><a href="https://kutt.it">Kutt your links shorter</a></li>
     <li><a href="https://grammarly.com">Grammarly</a></li>
@@ -864,6 +905,7 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 <li>Exploit a flaw in the encryption software.</li>
 <li>Access plaintext while the device is in use.</li>
 <li>Locate another plaintext copy.</li>
+<li>Using legal processes to compel suspects to provide encryption keys or passwords.</li>
 </ol>
 
 <h4>Extraction Methods</h4>
@@ -941,7 +983,7 @@ https://volatilityfoundation.org/releases<br>
 • Linux Memory Extractor (LiME)<br>
 https://github.com/504ensicsLabs/LiME<br>
 • Memory Analysis<br
-https://www.memoryanalysis.net/amf<br>
+https://memoryanalysis.net/amf<br>
 • Cobalt Strike in memory<br>
 https://andreafortuna.org/2020/11/22/how-to-detect-cobalt-strike-activity-in-memory-forensics/<br>
 
@@ -1055,224 +1097,322 @@ https://metasploit.com<br>
 <details>
 <summary>2.02 Law Enforcement Agency (LEA)</summary>
 
-<h4>• Rule of Law Benchmarks</h4>
+    <h4>• Rule of Law Benchmarks</h4>
 
-<img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/law_in_books_22.png" title="Always remember that the law in books is different from the law in action." style="width:100%">
+    <img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/law_in_books_22.png" 
+         alt="Always remember that the law in books is different from the law in action." 
+         title="Always remember that the law in books is different from the law in action.">
 
-<p>*First of all, consult court cases to see how laws are (mis)applied.</p>
+    <p>*First of all, consult court cases to see how laws are (mis)applied.</p>
 
-GE Constitution &#127465 <br>
-https://gesetze-im-internet.de/englisch_gg/index.html<br>
+<section>
+    <h5>DE and US Legislation Comparison</h5>
 
-US Constitution &#127482 <br>
-https://constitution.congress.gov<br>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Aspect</th>
+                <th>Germany (GE)</th>
+                <th>United States (US)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Constitution</td>
+                <td>
+                    German Constitution (Grundgesetz — GG)<br>
+                    <a href="https://gesetze-im-internet.de/englisch_gg/index.html" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    United States Constitution<br>
+                    <a href="https://constitution.congress.gov" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Criminal Code</td>
+                <td>
+                    German Criminal Code (Strafgesetzbuch — StGB)<br>
+                    <a href="https://gesetze-im-internet.de/englisch_stgb" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    United States Code Title 18 - Crimes and Criminal Procedure<br>
+                    <a href="https://law.cornell.edu/uscode/text/18" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Criminal Procedure Code</td>
+                <td>
+                    German Code of Criminal Procedure (Strafprozeßordnung — StPO)<br>
+                    <a href="https://gesetze-im-internet.de/englisch_stpo/index.html" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    Federal Rules of Criminal Procedure<br>
+                    <a href="https://law.cornell.edu/rules/frcrmp" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Telecommunications Surveillance</td>
+                <td>
+                    German Code of Criminal Procedure - StPO, Section 100a - Telecommunications Surveillance<br>
+                    <a href="https://gesetze-im-internet.de/englisch_stpo/englisch_stpo.html#p0572" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    Title III of the Omnibus Crime Control and Safe Streets Act of 1968 (Federal Wiretap Act)<br>
+                    <a href="https://law.cornell.edu/uscode/text/18/part-I/chapter-119" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Covert Intervention in IT Systems</td>
+                <td>
+                    Law on the Federal Criminal Police Office and Cooperation Between the Federal and State Governments in Criminal Police Matters (Federal Criminal Police Office Act - BKAG) - § 49 Covert Intervention in Information Technology Systems<br>
+                    <a href="https://gesetze-im-internet.de/bkag_2018/__49.html" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    Computer Fraud and Abuse Act (CFAA)<br>
+                    <a href="https://law.cornell.edu/uscode/text/18/1030" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Constitutional Court Home Page</td>
+                <td>
+                    Federal Constitutional Court (Bundesverfassungsgericht)<br>
+                    <a href="https://bundesverfassungsgericht.de/EN/Home/home_node.html" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    Supreme Court of the United States (SCOTUS)<br>
+                    <a href="https://supremecourt.gov" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Constitutional Court Jurisprudence Search</td>
+                <td>
+                    Federal Constitutional Court Decisions Search<br>
+                    <a href="https://bundesverfassungsgericht.de/EN/Entscheidungen/entscheidungen_node.html" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    Supreme Court of the United States Opinions Search<br>
+                    <a href="https://supremecourt.gov/opinions/opinions.aspx" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Federal Court Home Page</td>
+                <td>
+                    Federal Court of Justice (Bundesgerichtshof)<br>
+                    <a href="https://bundesgerichtshof.de/DE/Home/home_node.html" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    U.S. Courts - Federal Judiciary<br>
+                    <a href="https://uscourts.gov" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Federal Court Jurisprudence Search</td>
+                <td>
+                    Federal Court of Justice Decisions Search<br>
+                    <a href="https://bundesgerichtshof.de/DE/Entscheidungen/entscheidungen_node.html" target="_blank" rel="noopener">Link</a>
+                </td>
+                <td>
+                    PACER - Federal Case Search<br>
+                    <a href="https://pacer.uscourts.gov" target="_blank" rel="noopener">Link</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
 
-<h4>• Difference between legal regimes or multi-level chains of statutory
-references</h4>
+    <h4>• Difference between Legal Regimes or Multi-Level Chains of Statutory References</h4>
 
-We are still reflecting on this point.<br>
+    <p>We are still reflecting on this point.</p>
 
-<table>
-<thead>
-  <tr>
-    <th>Security Bodies<br>
-    (Judiciary Police)</th>
-    <th>Administration of Justice<br>
-    (Criminal Procedural Law)</th>
-    <th>Intelligence Services</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>
-    • Conducts criminal investigations, carries out whatever steps it deems appropriate to elucidate the facts, with a view to discovering evidence of the existence of the crime and signs of its authorship.<br>
-    • Criminal police bodies act as a precautionary measure, such as in the case of preserving evidence or in the case of a flagrant crime.<br>
-    • Has an obligation to preserve the confidentiality of the<br>investigation, therefore the right to adversarial proceedings is limited.<br>
-    • In general, the investigation is already a procedural phase.<br>
-    </td>
-    <td>
-    • <br>
-    • In general, the criminal investigation can be directly initiated by other institutions, such as the Public Prosecutor's Office.<br>
-    • Full exercise of the right to adversarial proceedings<br>
-    • Follow due legal process, the criminal procedural law.</td>
-    <td>
-    • Production of knowledge, with production of intelligence reports, to support decision making.<br>
-    • Their main objectives are to collect information and provide analyses, as well as anticipate and counteract external threats.<br>
-    • Compartmentalization princpiple: the production of information is separate from decision making, it ensures no single spy knows everything, meaning if they're captured, spies won’t know enough to compromise a mission.<br>
-    • In general, intelligence activity does not follow due legal process, intelligence agencies do not conduct criminal proceedings, although they can combat terrorism.<br>
-    • Related to military activities of national defense and conquest against foreign enemies.<br>
-    </td>
-  </tr>
-</tbody>
-</table>
+    <table>
+        <thead>
+            <tr>
+                <th>Security Bodies (Judiciary Police)</th>
+                <th>Administration of Justice (Criminal Procedural Law)</th>
+                <th>Intelligence Services</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    • Conducts criminal investigations, carries out whatever steps it deems appropriate to elucidate the facts, with a view to discovering evidence of the existence of the crime and signs of its authorship.<br>
+                    • Criminal police bodies act as a precautionary measure, such as in the case of preserving evidence or in the case of a flagrant crime.<br>
+                    • Has an obligation to preserve the confidentiality of the investigation, therefore the right to adversarial proceedings is limited.<br>
+                    • In general, the investigation is already a procedural phase.<br>
+                </td>
+                <td>
+                    • In general, the criminal investigation can be directly initiated by other institutions, such as the Public Prosecutor's Office.<br>
+                    • Full exercise of the right to adversarial proceedings.<br>
+                    • Follow due legal process, the criminal procedural law.
+                </td>
+                <td>
+                    • Production of knowledge, with production of intelligence reports, to support decision making.<br>
+                    • Their main objectives are to collect information and provide analyses, as well as anticipate and counteract external threats.<br>
+                    • Compartmentalization principle: the production of information is separate from decision making, it ensures no single spy knows everything, meaning if they're captured, spies won’t know enough to compromise a mission.<br>
+                    • In general, intelligence activity does not follow due legal process; intelligence agencies do not conduct criminal proceedings, although they can combat terrorism.<br>
+                    • Related to military activities of national defense and conquest against foreign enemies.<br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-<p>*Informational separation of powers: in Germany, where the Gestapo of National Socialism existed, the separation between intelligence (knowledge) and police (power) was one of the denazification measures imposed by the allies in 1949.</p>
+    <p>*Informational separation of powers: in Germany, where the Gestapo of National Socialism existed, the separation between intelligence (knowledge) and police (power) was one of the denazification measures imposed by the allies in 1949.</p>
 
-<p>*There is some controversy as to whether intelligence can be considered security.</p>
+    <p>*There is some controversy as to whether intelligence can be considered security.</p>
 
-<h4>• International Law</h4>
+    <h4>• International Law</h4>
 
-∙ UN — Library of Resources<br>
-https://unodc.org/e4j/en/resdb/index.html<br>
+    <ul>
+        <li><a href="https://unodc.org/e4j/en/resdb/index.html" target="_blank" rel="noopener">UN — Library of Resources</a></li>
+        <li><a href="https://unodc.org/elearning/en/courses/course-catalogue.html" target="_blank" rel="noopener">UN — Course Catalogue</a></li>
+        <li><a href="https://icrc.org/en/war-and-law/conduct-hostilities/cyber-warfare" target="_blank" rel="noopener">ICRC - Cyber operations during armed conflicts</a></li>
+        <li><a href="https://icrc.org/en/war-and-law/weapons/ihl-and-new-technologies" target="_blank" rel="noopener">ICRC - New technologies and IHL</a></li>
+        <li><a href="https://cyberlaw.ccdcoe.org/wiki/Main_Page" target="_blank" rel="noopener">The Cyber Law Toolkit - The intersection of international law and cyber operations</a></li>
+        <li><a href="https://coe.int/en/web/cybercrime/the-budapest-convention" target="_blank" rel="noopener">Budapest Convention (Cybercrime)</a></li>
+        <li><a href="https://coe.int/en/web/cybercrime/octopus-project" target="_blank" rel="noopener">Octopus Project</a></li>
+    </ul>
 
-∙ UN — Course Catalogue<br>
-https://unodc.org/elearning/en/courses/course-catalogue.html<br>
+    <h5>Public International Law</h5>
 
-∙ ICRC - Cyber operations during armed conflicts<br>
-https://icrc.org/en/war-and-law/conduct-hostilities/cyber-warfare<br>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">PUBLIC INTERNATIONAL LAW</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">LAWS OF WAR</td>
+                <td colspan="2">LAWS OF PEACE</td>
+            </tr>
+            <tr>
+                <td>"Jus ad bellum"</td>
+                <td>"Jus in bello"</td>
+                <td>Occupation and "Jus Post Bellum"</td>
+                <td>Human Rights Law</td>
+            </tr>
+            <tr>
+                <td>The international rules pertaining to which extent the use of military force against another state is allowed.</td>
+                <td>The international rules pertaining to how armed conflict must be conducted.</td>
+                <td>The Justice at the end of the war, helps move from conflict to peace. Reasonable peace treaties, civilian population should be protected, leaders who broke Hague/Geneva laws must face prosecution, cities must be reconstructed.</td>
+                <td>International Bill on Human Rights. Treaties and Conventions. Covenants and Declarations.</td>
+            </tr>
+        </tbody>
+    </table>
 
-∙ ICRC - New technologies and IHL<br>
-https://icrc.org/en/war-and-law/weapons/ihl-and-new-technologies<br>
+    <h4>Jus ad Bellum</h4>
 
-∙ The Cyber Law Toolkit -  The intersection of international law and cyber operations<br>
-https://cyberlaw.ccdcoe.org/wiki/Main_Page<br>
+    <p>Charter of the United Nations. Chapter VII — Action with respect to Threats to the Peace, Breaches of the Peace, and Acts of Aggression - Article 51</p>
 
-∙ Budapest Convention (Cybercrime)<br>
-https://coe.int/en/web/cybercrime/the-budapest-convention<br>
+    <blockquote>“Nothing in the present Charter shall impair the inherent right of individual or collective self-defence if an armed attack occurs against a Member of the United Nations, until the Security Council has taken measures necessary to maintain international peace and security. Measures taken by Members in the exercise of this right of self-defence shall be immediately reported to the Security Council and shall not in any way affect the authority and responsibility of the Security Council under the present Charter to take at any time such action as it deems necessary in order to maintain or restore international peace and security.”</blockquote>
 
-∙ Octopus Project<br>
-https://coe.int/en/web/cybercrime/octopus-project<br>
+    <h4>Jus in Bello</h4>
 
-<h5>Public International Law</h5>
+    <p>Protocol Additional to the Geneva Conventions of 12 August 1949, and relating to the Protection of Victims of International Armed Conflicts (Protocol I)</p>
 
-<table>
-<thead align="center">
-  <tr>
-    <th colspan="4">PUBLIC INTERNATIONAL LAW</th>
-  </tr>
-</thead>
-<tbody align="center">
-  <tr>
-    <td colspan="2">LAWS OF WAR</td>
-    <td colspan="2">LAWS OF PEACE</td>
-  </tr>
-  <tr>
-    <td>"Jus ad bellum"</td>
-    <td>"Jus in bello"</td>
-    <td>Occupation and "Jus Post Bellum"</td>
-    <td>Human Rights Law</td>
-  </tr>
-  <tr>
-    <td>The international rules pertaining to which extent the use of military force against another state is allowed.</td>
-    <td>The international rules pertaining to how armed conflict must be conducted.</td>
-    <td>The Justice at the end of the war, helps move from conflict to peace.Reasonable peace treaties, civilian population should be protected,<br>leaders who broke Hague/Geneva laws must face prosecution, cities must be reconstructed.</td>
-    <td>International Bill on Human Rights. Treaties and Conventions. Covenats and Declarations.</td>
-  </tr>
-</tbody>
-</table>
-
-<h4>Jus ad bellum</h4>
-
-<p>Charter of the United Nations. Chapter VII — Action with respect to Threats to the Peace, Breaches of the Peace, and Acts of Aggression - Article 51</p>
-
-<blockquote>“Nothing in the present Charter shall impair the inherent right of individual or collective self-defence if an armed attack occurs against a Member of the United Nations, until the Security Council has taken measures necessary to maintain international peace and security. Measures taken by Members in the exercise of this right of self-defence shall be immediately reported to the Security Council and shall not in any way affect the authority and responsibility of the Security Council under the present Charter to take at any time such action as it deems necessary in order to maintain or restore international peace and security.”</blockquote>
-
-<h4>Jus in Bello</h4>
-
-<p>Protocol Additional to the Geneva Conventions of 12 August 1949, and relating to the Protection of Victims of International Armed Conflicts (Protocol I)</p>
-
-<blockquote>“Article 3 of the Geneva Conventions and Article 44 Additional Protocol I <br>
-In order to promote the protection of the civilian population from the effects of hostilities, combatants are obliged to distinguish themselves from the civilian population while they are engaged in an attack or in a military operation preparatory to an attack. Recognizing, however, that there are situations in armed conflicts where, owing to the nature of the hostilities an armed combatant cannot so distinguish himself, he shall retain his status as a combatant, provided that, in such situations, he carries his arms openly:
-
+    <blockquote>“Article 3 of the Geneva Conventions and Article 44 Additional Protocol I <br>
+    In order to promote the protection of the civilian population from the effects of hostilities, combatants are obliged to distinguish themselves from the civilian population while they are engaged in an attack or in a military operation preparatory to an attack. Recognizing, however, that there are situations in armed conflicts where, owing to the nature of the hostilities an armed combatant cannot so distinguish himself, he shall retain his status as a combatant, provided that, in such situations, he carries his arms openly:
 (a) During each military engagement, and
-
 (b) During such time as he is visible to the adversary while he is engaged in a military deployment preceding the launching of an attack in which he is to participate.
-
-(c) Acts which comply with the requirements of this paragraph shall not be considered as perfidious within the meaning of Article 37, paragraph 1."</blockquote>
-
-References:<br>
-UN - https://legal.un.org/repertory/art1.shtml<br>
-ICRC - https://icrc.org/en/document/what-are-jus-ad-bellum-and-jus-bello-0<br>
-ICRC - https://ihl-databases.icrc.org/en/ihl-treaties/api-1977?activeTab=undefined<br>
-ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilities<br>
-
-<!-- ########## -->
+(c) Acts which comply with the requirements of this paragraph shall not be considered as perfidious within the meaning of Article 37, paragraph 1.”</blockquote>
 
 <h4>• Council of Europe — Cybercrime</h4>
 
-∙ Cybercrime — https://coe.int/cybercrime<br>
-∙ GLACY+ — https://coe.int/en/web/cybercrime/glacyplus<br>
-∙ iPROCEEDS-2 — https://coe.int/en/web/cybercrime/iproceeds-2<br>
-∙ Octopus Project — https://coe.int/en/web/cybercrime/octopus-project<br>
-∙ CyberSouth — https://coe.int/en/web/cybercrime/cybersouth<br>
-∙ CyberEast — https://coe.int/en/web/cybercrime/cybereast<br>
+<ul>
+    <li><a href="https://coe.int/cybercrime" target="_blank" rel="noopener">Cybercrime — Overview</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/glacyplus" target="_blank" rel="noopener">GLACY+ — Global Action on Cybercrime</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/iproceeds-2" target="_blank" rel="noopener">iPROCEEDS-2 — Combatting Cybercrime in South-East Europe</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/octopus-project" target="_blank" rel="noopener">Octopus Project — Cybercrime and Cybersecurity</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/cybersouth" target="_blank" rel="noopener">CyberSouth — Enhancing Cybercrime Capacity in Southern Mediterranean</a></li>
+    <li><a href="https://coe.int/en/web/cybercrime/cybereast" target="_blank" rel="noopener">CyberEast — Cybercrime Capacity Building in Eastern Europe</a></li>
+</ul>
 
 <h4>• Publications</h4>
 
 <ul>
-<li><a href="https://coe.int/en/web/cybercrime/cyber-digests-and-updates" target="_blank" rel="noopener">Council of Europe – Cybercrime Digest and </a><a href="https://coe.int/en/web/cybercrime/cyber-digests-and-updates" target="_blank" rel="noopener">Cybercrime@CoE Update</a>: a bi-weekly selection of news relevant to the current areas of interest to the Cybercrime Programme Office of CoE (C-PROC) and&nbsp;a quarterly review of the work carried out by the Cybercrime Convention Committee (T-CY).</li>
-<li><a href="https://b96de5da.sibforms.com/serve/MUIEACLiNKgT7-T6ofXDkIGbYxDLmxvtQd9xqKxFPG247oA-YVJ9-zDJ8qkYykiBK8nVIqzbvEglSSAjqBq9QJXVV7OP586AqR8-Q7kR8OYULBlmUfx6Qx5PpLyqDiVdydk9Kjgb4HDoP9qUr0VzwZOxKsi7oOG2tspyXc6wqOaMH7vd-OgQo8rNXLrLMEgtyn0-tg1DNs7jLuEG" target="_blank" rel="noopener">Council of Europe – Cybercrime Newsletter</a>: subscribe to receive the latest updates on the topic.</li>
-<li><a href="https://cert.europa.eu/publications/threat-intelligence/2023" target="_blank" rel="noopener">CERT-EU</a>: access quarterly Threat Landscape Reports and monthly Cyber Security Briefs from the Computer Emergency Response Team for the EU institutions, bodies and agencies.</li>
-<li><a href="https://cepol.europa.eu/publications" target="_blank" rel="noopener">CEPOL – Publications</a>: find the latest documents on trainings for law enforcement officials including the <a href="https://cepol.europa.eu/scientific-knowledge-and-research/european-law-enforcement-research-bulletin" target="_blank" rel="noopener">European Law Enforcement Research Bulletin.</a></li>
-<li><a href="https://enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Newsroom</a>: follow the most recent news on cybersecurity.</li>
-<li><a href="https://enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Publications</a>: sort the latest publications on cybersecurity by topic (and download copies).</li>
-<li><a href="https://ec.europa.eu/newsroom/eurojust/user-subscriptions/2146/create" target="_blank" rel="noopener">EUROJUST Newsletter</a>: news from the European Union Agency for Criminal Justice Cooperation.</li>
-<li><a href="https://ec.europa.eu/newsroom/home/user-subscriptions/2668/create" target="_blank" rel="noopener">European Commission’s DG HOME Newsletter</a>: spotlight on Schengen and borders, internal security and relevant European funds.</li>
-<li><a href="https://europol.europa.eu/newsletter/subscriptions" target="_blank" rel="noopener">Europol – Email alerts</a>: ranging from news to upcoming publications and vacancies, choose what alerts to receive.</li>
-<li><a href="https://osce.org/subscriptions/signup" target="_blank" rel="noopener">Organisation for Security and Co-operation in Europe (OSCE) Newsletter</a>: hand-picked updates and in-depth information bundles on OSCE activities, with possibility to choose countries of interest.</li>
-<li><a href="https://europol.europa.eu/publications-events/publications?q=sirius" target="_blank" rel="noopener">SIRIUS project publications</a>: co-implemented by Europol and&nbsp;<a href="https://eurojust.europa.eu/">Eurojust</a>, in close partnership with the&nbsp;<a href="https://ejn-crimjust.europa.eu/ejn2021/Home/EN">European Judicial Network</a>, the SIRIUS project is a central reference point in the EU for knowledge sharing on cross-border access to electronic evidence and allows to download, among other publications, the yearly EU Digital Evidence Situation Report.</li>
+    <li><a href="https://coe.int/en/web/cybercrime/cyber-digests-and-updates" target="_blank" rel="noopener">Council of Europe – Cybercrime Digest and Cybercrime@CoE Update</a>: A bi-weekly selection of news relevant to the Cybercrime Programme Office of CoE (C-PROC) and a quarterly review of the work carried out by the Cybercrime Convention Committee (T-CY).</li>
+    <li><a href="https://b96de5da.sibforms.com/serve/MUIEACLiNKgT7-T6ofXDkIGbYxDLmxvtQd9xqKxFPG247oA-YVJ9-zDJ8qkYykiBK8nVIqzbvEglSSAjqBq9QJXVV7OP586AqR8-Q7kR8OYULBlmUfx6Qx5PpLyqDiVdydk9Kjgb4HDoP9qUr0VzwZOxKsi7oOG2tspyXc6wqOaMH7vd-OgQo8rNXLrLMEgtyn0-tg1DNs7jLuEG" target="_blank" rel="noopener">Council of Europe – Cybercrime Newsletter</a>: Subscribe to receive the latest updates on the topic.</li>
+    <li><a href="https://cert.europa.eu/publications/threat-intelligence/2023" target="_blank" rel="noopener">CERT-EU</a>: Access quarterly Threat Landscape Reports and monthly Cyber Security Briefs from the Computer Emergency Response Team for the EU institutions, bodies, and agencies.</li>
+    <li><a href="https://cepol.europa.eu/publications" target="_blank" rel="noopener">CEPOL – Publications</a>: Find the latest documents on trainings for law enforcement officials including the <a href="https://cepol.europa.eu/scientific-knowledge-and-research/european-law-enforcement-research-bulletin" target="_blank" rel="noopener">European Law Enforcement Research Bulletin.</a></li>
+    <li><a href="https://enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Newsroom</a>: Follow the most recent news on cybersecurity.</li>
+    <li><a href="https://enisa.europa.eu/news/newsletter-subscription" target="_blank" rel="noopener">ENISA Publications</a>: Sort the latest publications on cybersecurity by topic (and download copies).</li>
+    <li><a href="https://ec.europa.eu/newsroom/eurojust/user-subscriptions/2146/create" target="_blank" rel="noopener">EUROJUST Newsletter</a>: News from the European Union Agency for Criminal Justice Cooperation.</li>
+    <li><a href="https://ec.europa.eu/newsroom/home/user-subscriptions/2668/create" target="_blank" rel="noopener">European Commission’s DG HOME Newsletter</a>: Spotlight on Schengen and borders, internal security, and relevant European funds.</li>
+    <li><a href="https://europol.europa.eu/newsletter/subscriptions" target="_blank" rel="noopener">Europol – Email Alerts</a>: Ranging from news to upcoming publications and vacancies, choose what alerts to receive.</li>
+    <li><a href="https://osce.org/subscriptions/signup" target="_blank" rel="noopener">Organisation for Security and Co-operation in Europe (OSCE) Newsletter</a>: Hand-picked updates and in-depth information bundles on OSCE activities, with the possibility to choose countries of interest.</li>
+    <li><a href="https://europol.europa.eu/publications-events/publications?q=sirius" target="_blank" rel="noopener">SIRIUS Project Publications</a>: Co-implemented by Europol and <a href="https://eurojust.europa.eu/" target="_blank" rel="noopener">Eurojust</a>, in close partnership with the <a href="https://ejn-crimjust.europa.eu/ejn2021/Home/EN" target="_blank" rel="noopener">European Judicial Network</a>, the SIRIUS project is a central reference point in the EU for knowledge sharing on cross-border access to electronic evidence and allows downloading, among other publications, the yearly EU Digital Evidence Situation Report.</li>
 </ul>
-
-<!-- ########## -->
 
 <h4>• Investigatory Powers — Criminal Law</h4>
 
 <h6>Americas</h6> 
 
-∙ US — Federal Rules — Criminal Procedure — Overview — <a href="https://law.cornell.edu/wex/criminal_procedure" target="_blank">Link</a><br>
-∙ US — Federal Rules — Criminal Procedure — Rule 41 — Search and Seizure — <a href="https://law.cornell.edu/rules/frcrmp/rule_41" target="_blank">Link</a><br>
+<ul>
+    <li><a href="https://law.cornell.edu/wex/criminal_procedure" target="_blank" rel="noopener">US — Federal Rules — Criminal Procedure — Overview</a></li>
+    <li><a href="https://law.cornell.edu/rules/frcrmp/rule_41" target="_blank" rel="noopener">US — Federal Rules — Criminal Procedure — Rule 41 — Search and Seizure</a></li>
+    <li><a href="https://justice.gov/usao/justice-101" target="_blank" rel="noopener">US - Justice 101</a></li>
+</ul>
 
 <table>
+<thead>
+  <tr>
+    <th>On a Network<br>in a Single<br>District</th>
+    <th>On a Network in Multiple Districts</th>
+    <th>On a Network with Data Stored Internationally</th>
+    <th>Unknown Where the Data is Stored (Cloud)</th>
+  </tr>
+</thead>
 <tbody>
-<tr>
-<td>On a Network<br>in a Single<br>District</td>
-<td>On a Network in Multiple Districts</td>
-<td>On a Network with Data Stored Internationally</td>
-<td>Unknown Where the Data is Stored (Cloud)</td>
-</tr>
-<tr>
-<td>Search under Rule 41; consider noting in affidavit the possibility of other locations</td>
-<td>Multiple search warrants for each district with data or §2703 Warrant served on service provider</td>
-<td>Use legal process required in country hosting the data, or consider accessing data remotely with a search warrant under Rule 41</td>
-<td>Search under Rule 41 for subject computers, and concurrently search under §2703 served on service provider</td>
-</tr>
+  <tr>
+    <td>Search under Rule 41; consider noting in affidavit the possibility of other locations</td>
+    <td>Multiple search warrants for each district with data or §2703 Warrant served on service provider</td>
+    <td>Use legal process required in country hosting the data, or consider accessing data remotely with a search warrant under Rule 41</td>
+    <td>Search under Rule 41 for subject computers, and concurrently search under §2703 served on service provider</td>
+  </tr>
 </tbody>
 </table>
 
-<h6>Union European</h6>
+<h6>European Union</h6>
 
-∙ UE — Criminal procedural laws across the European Union – A comparative analysis — <a href="https://europarl.europa.eu/RegData/etudes/STUD/2018/604977/IPOL_STU(2018)604977(ANN01)_EN.pdf" target="_blank">Link</a><br>
-∙ NL - National Coordinator for Security and Counterterrorism - https://english.nctv.nl<br>
-∙ GE — German Criminal Code (Strafgesetzbuch — StGB) — <a href="https://gesetze-im-internet.de/englisch_stgb" target="_blank">Link</a><br>
-∙ GE — German Code of Criminal Procedure (Strafprozeßordnung — StPO) — <a href="https://gesetze-im-internet.de/englisch_stpo/index.html" target="_blank">Link</a><br>
-∙ GE — German Code of Criminal Procedure - StPO, Section 100a - Telecommunications surveillance — <a href="https://gesetze-im-internet.de/englisch_stpo/englisch_stpo.html#p0572" target="_blank">Link</a><br>
-∙ GE — Law on the Federal Criminal Police Office and cooperation between the federal and state governments in criminal police matters (Federal Criminal Police Office Act - BKAG) - § 49 Covert intervention in information technology systems — <a href="https://gesetze-im-internet.de/bkag_2018/__49.html" target="_blank">Link</a><br>
-
-∙ UK — Crime, justice and law — Law and practice — <a href="https://gov.uk/guidance/rules-and-practice-directions-2020" target="_blank">Link</a><br>
-∙ UK — Public General Acts — Investigatory Powers Act 2016 — <a href="https://legislation.gov.uk/ukpga/2016/25/contents" target="_blank">Link</a><br>
+<ul>
+    <li>UE — Criminal Procedural Laws Across the European Union: A Comparative Analysis — <a href="https://europarl.europa.eu/RegData/etudes/STUD/2018/604977/IPOL_STU(2018)604977(ANN01)_EN.pdf" target="_blank" rel="noopener">Link</a></li>
+    <li>NL — National Coordinator for Security and Counterterrorism — <a href="https://english.nctv.nl" target="_blank" rel="noopener">Link</a></li>
+    <li>GE — German Criminal Code (Strafgesetzbuch — StGB) — <a href="https://gesetze-im-internet.de/englisch_stgb" target="_blank" rel="noopener">Link</a></li>
+    <li>GE — German Code of Criminal Procedure (Strafprozeßordnung — StPO) — <a href="https://gesetze-im-internet.de/englisch_stpo/index.html" target="_blank" rel="noopener">Link</a></li>
+    <li>GE — German Code of Criminal Procedure - StPO, Section 100a - Telecommunications Surveillance — <a href="https://gesetze-im-internet.de/englisch_stpo/englisch_stpo.html#p0572" target="_blank" rel="noopener">Link</a></li>
+    <li>GE — Law on the Federal Criminal Police Office and Cooperation Between the Federal and State Governments in Criminal Police Matters (Federal Criminal Police Office Act - BKAG) - § 49 Covert Intervention in Information Technology Systems — <a href="https://gesetze-im-internet.de/bkag_2018/__49.html" target="_blank" rel="noopener">Link</a></li>
+    <li>UK — Crime, Justice, and Law — Law and Practice — <a href="https://gov.uk/guidance/rules-and-practice-directions-2020" target="_blank" rel="noopener">Link</a></li>
+    <li>UK — Public General Acts — Investigatory Powers Act 2016 — <a href="https://legislation.gov.uk/ukpga/2016/25/contents" target="_blank" rel="noopener">Link</a></li>
+</ul>
 
 <h4>Court Cases</h4>
 
-∙ UNODC — Case Law Database — https://sherloc.unodc.org/cld/v3/sherloc/cldb/index.html?lng=en<br>
-
-∙ UNODC — Cyber Organized Crime — https://unodc.org/e4j/en/cybercrime/module-13/additional-teaching-tools.html<br>
+<ul>
+    <li>UNODC — Case Law Database — <a href="https://sherloc.unodc.org/cld/v3/sherloc/cldb/index.html?lng=en" target="_blank" rel="noopener">Link</a></li>
+    <li>UNODC — Cyber Organized Crime — <a href="https://unodc.org/e4j/en/cybercrime/module-13/additional-teaching-tools.html" target="_blank" rel="noopener">Link</a></li>
+</ul>
 
 <h6>Americas</h6>
 
-∙ US Cases — https://courtlistener.com/opinion<br>
-∙ US Federal Cases — https://pacer.uscourts.gov/find-case<br>
-∙ US Dod - Computer Crime and Intellectual Property Section (CCIPS) - https://justice.gov/criminal/criminal-ccips<br>
-∙ US FBI - Internet Crime Complaint Center (IC3) - https://ic3.gov<br>
-∙ Computer Crime Research Center - https://crime-research.org<br>
+<ul>
+    <li>US Cases — <a href="https://courtlistener.com/opinion" target="_blank" rel="noopener">Link</a></li>
+    <li>US Federal Cases — <a href="https://pacer.uscourts.gov/find-case" target="_blank" rel="noopener">Link</a></li>
+    <li>US DOJ - Computer Crime and Intellectual Property Section (CCIPS) — <a href="https://justice.gov/criminal/criminal-ccips" target="_blank" rel="noopener">Link</a></li>
+    <li>US FBI - Internet Crime Complaint Center (IC3) — <a href="https://ic3.gov" target="_blank" rel="noopener">Link</a></li>
+    <li>Computer Crime Research Center — <a href="https://crime-research.org" target="_blank" rel="noopener">Link</a></li>
+</ul>
 
-<h6>Union European</h6>
+<h6>European Union</h6>
 
-∙ EUR-Lex https://eur-lex.europa.eu/homepage.html<br>
-∙ European Court of Justice https://curia.europa.eu<br>
-∙ EU Common Portal of Case Law — https://network-presidents.eu/cpcl<br>
-∙ Casetext (Thomson Reuters) - https://casetext.com<br>
-∙ Council of Europe - COE Cybercrime - https://coe.int/en/web/cybercrime<br>
-∙ Council of Europe - Octopus Cybercrime Community - Materials - https://coe.int/en/web/octopus/training<br>
+<ul>
+    <li>EUR-Lex — <a href="https://eur-lex.europa.eu/homepage.html" target="_blank" rel="noopener">Link</a></li>
+    <li>European Court of Justice — <a href="https://curia.europa.eu" target="_blank" rel="noopener">Link</a></li>
+    <li>EU Common Portal of Case Law — <a href="https://network-presidents.eu/cpcl" target="_blank" rel="noopener">Link</a></li>
+    <li>Casetext (Thomson Reuters) — <a href="https://casetext.com" target="_blank" rel="noopener">Link</a></li>
+    <li>Council of Europe - COE Cybercrime — <a href="https://coe.int/en/web/cybercrime" target="_blank" rel="noopener">Link</a></li>
+    <li>Council of Europe - Octopus Cybercrime Community - Materials — <a href="https://coe.int/en/web/octopus/training" target="_blank" rel="noopener">Link</a></li>
+</ul>
+
 
 ![architecture](https://github.com/RENANZG/My-Forensics/assets/53377291/f92b0055-29fe-40de-9a45-da845d0f3f4b)
 
@@ -1515,9 +1655,11 @@ https://torrentfreak.com/feed<br>
 
 <h4>Supply Chain Attack</h4>
 
+• https://owasp.org/www-project-dependency-check<br>
 • https://reproducible-builds.org<br>
 • https://github.com/SAP/risk-explorer-for-software-supply-chains<br>
 • https://github.com/ossillate-inc/packj<br>
+• https://eclypsium.com<br>
 
 <br>
 </details>
@@ -1646,7 +1788,7 @@ https://github.com/SigPloiter/SigPloit<br>
 https://github.com/SigPloiter/HLR-Lookups<br>
 
 <a href="https://youtube.com/watch?v=VonHAsY4-VA">
-  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVonHAsY4-VA" alt="Phone Surveillance Exposed" title="Phone Surveillance Exposed"/>
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DVonHAsY4-VA" alt="Phone Surveillance Exposed" title="Phone Surveillance Exposed"/>
 </a>
 
 <table>
@@ -1869,15 +2011,15 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <hr>
 
 <details>
-<summary><b>Forensic Publications</b></summary>
+<summary><b>Forensic Resources</b></summary>
 <br>
+
+<h4>Forensic Publications</h4>
 
 <h4>Make a Google Scholar search on an interesting subject you want to follow up on.</h4>
 <p>Search parameters example:</p>
 <pre>police hacking intext:illegal intext:abusive intext:law</pre>
 <p>You could set keyword alerts: <a href="https://scholar.google.com/scholar_alerts?view_op=list_alerts">Google Scholar Alerts</a></p>
-
-<hr>
 
 <h4>Open Access Journals</h4>
 <ul>
@@ -1886,28 +2028,94 @@ $ sudo grgsm_livemon     # Live radio scanning.
     <li><a href="https://en.wikipedia.org/wiki/List_of_open-access_journals">List of Open-Access Journals - Wikipedia</a></li>
 </ul>
 
-<h4>Non-Profit Research Initiatives</h4>
-<ul>
-    <li><a href="https://pkp.sfu.ca">The Public Knowledge Project</a></li>
-</ul>
-
-<hr>
-
 <h4>Forensic Science Journals and Publications</h4>
 <ul>
     <li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">Science Direct — Forensic Science International: Digital Investigation</a></li>
     <li><a href="https://forensicscijournal.com">Forensic Science — Application of Science to Criminal and Civil Laws</a></li>
     <li><a href="https://journals.sas.ac.uk/deeslr/">University of London - SAS Open Journals - Digital Evidence and Electronic Signature Law Review</a></li>
+    <li><a href="ieee.org"> Institute of Electrical and Electronics Engineers</a></li>
     <li><a href="https://ieee-isi.org">IEEE Intelligence and Security Informatics (IEEE-ISI)</a></li>
     <li><a href="https://usenix.org/conferences">USENIX Conferences</a></li>
+    <li><a href="https://acm.org/conferences">Advancing Technology, Research and Collaboration</a></li>
     <li><a href="https://tandfonline.com/journals/ujic20">International Journal of Intelligence and CounterIntelligence</a></li>
     <li><a href="https://tandfonline.com/journals/tajf20">Australian Journal of Forensic Sciences</a></li>
-    <li><a href="https://acm.org/conferences">Advancing Technology, Research and Collaboration</a></li>
     <li><a href="https://springer.com/series/7899">Communications in Computer and Information Science — Springer</a></li>
-    <li><a href="">IEEE Open Journal of Circuits and Systems</a></li>
-    <li><a href="">IEEE Open Journal of the Communications Society</a></li>
-    <li><a href="">IEEE Open Journal of the Computer Society</a></li>
-    <li><a href="">IEEE Open Journal of Signal Processing</a></li>
+    <li><a href="https://commons.erau.edu/jdfsl">https://commons.erau.edu/jdfsl</a></li>
+    <li><a href="iacis.com">International Association of Computer Investigative Specialists</a></li>
+    <li><a href="htcia.org">High Technology Crime Investigation Association</a></li>
+    <li><a href="isfce.com"> International Society of Forensic Computer Examiners</a></li>
+    <li><a href="aes.org"> Audio Engineering Society</a></li>
+    <li><a href="theiai.org">International Association of Identification</a></li>
+    <li><a href="leva.org">Law Enforcement &amp; Emergency Services Video Association</a></li>
+</ul>
+
+<h4>Training and Certification</h4>
+<ul>
+    <li><a href="https://issworldtraining.com">ISS World Training</a></li>
+    <li><a href="https://isc2.org/Certifications/CISSP">ISC2 CISSP Certification</a></li>
+    <li><a href="https://github.com/MISP/misp-training">MISP Training  (GitHub)</a></li>
+    <li><a href="https://github.com/ail-project/ail-training">AIL Training (GitHub)</a></li>
+    <li><a href="https://github.com/connectans/awesome-CISSP-CCSP">Awesome CISSP & CCSP Resources (GitHub)</a></li>
+    <li><a href="https://github.com/jefferywmoore/CISSP-Study-Resources">CISSP Study Resources (GitHub)</a></li>
+</ul>
+
+<h4>Digital Forensics and Investigation Resources</h4>
+<ul>
+    <li><a href="https://dfrws.org/presentation">DFRWS Presentations</a></li>
+    <li><a href="https://drivebadger.com">DriveBadger</a></li>
+    <li><a href="https://forensicfocus.com">Forensic Focus</a></li>
+    <li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">Forensic Science International: Digital Investigation</a></li>
+    <li><a href="https://ecrimeresearch.org">eCrime Research</a></li>
+    <li><a href="https://cellebritelearningcenter.com">Cellebrite Learning Center</a></li>
+    <li><a href="https://public.cyber.mil">US Public Cyber</a></li>
+</ul>
+
+<h4>Forensics and Incident Response</h4>
+<ul>
+    <li><a href="https://forensicfocus.com">Forensic Focus</a></li>
+    <li><a href="https://magnetforensics.com">Magnet Forensics</a></li>
+    <li><a href="https://osforensics.com">OSForensics</a></li>
+    <li><a href="https://exterro.com">Exterro</a></li>
+
+</ul>
+
+<h4>Forensics and Anti-Forensics Guides</h4>
+<ul>
+    <li><a href="https://github.com/Cugu/awesome-forensics">Awesome Forensics (GitHub)</a></li>
+    <li><a href="https://github.com/shadawck/awesome-anti-forensic">Awesome Anti-Forensic (GitHub)</a></li>
+    <li><a href="https://github.com/asiamina/A-Course-on-Digital-Forensics">A Course on Digital Forensics (GitHub)</a></li>
+    <li><a href="https://github.com/mikeroyal/Digital-Forensics-Guide">Digital Forensics Guide (GitHub)</a></li>
+    <li><a href="https://github.com/forensicswiki/wiki">Forensics Wiki (GitHub)</a></li>
+    <li><a href="https://github.com/504ensicsLabs">504ensics Labs (GitHub)</a></li>
+    <li><a href="https://github.com/Digital-Forensics-Discord-Server/LawEnforcementResources">Law Enforcement Resources (GitHub)</a></li>
+    <li><a href="https://github.com/Digital-Forensics-Discord-Server/TheHitchhikersGuidetoDFIRExperiencesFromBeginnersandExperts">Hitchhiker's Guide to DFIR (GitHub)</a></li>
+</ul>
+
+<h4>Digital Forensics and Investigation Resources</h4>
+<ul>
+    <li><a href="https://dfrws.org/presentation">DFRWS Presentations</a></li>
+    <li><a href="https://forensicfocus.com">Forensic Focus</a></li>
+    <li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">Forensic Science International: Digital Investigation</a></li>
+    <li><a href="https://ecrimeresearch.org">eCrime Research</a></li>
+    <li><a href="https://drivebadger.com">DriveBadger</a></li>
+    <li><a href="https://cellebritelearningcenter.com">Cellebrite Learning Center</a></li>
+    <li><a href="https://public.cyber.mil">Public Cyber</a></li>
+</ul>
+
+<h4>Cybersecurity and Hacking Resources</h4>
+<ul>
+    <li><a href="https://anarsec.guide">https://anarsec.guide</a></li>
+    <li><a href="https://book.hacktricks.xyz">https://book.hacktricks.xyz</a></li>
+    <li><a href="https://notrace.how">https://notrace.how</a></li>
+    <li><a href="https://0x00sec.org">https://0x00sec.org</a></li>
+    <li><a href="https://darkreading.com">https://darkreading.com</a></li>
+    <li><a href="https://github.com/Syslifters/OffSec-Reporting">OffSec Reporting (GitHub)</a></li>
+    <li><a href="https://github.com/enaqx/awesome-pentest">Awesome Pentest (GitHub)</a></li>
+    <li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">Awesome Hacking (GitHub)</a></li>
+    <li><a href="https://github.com/onlurking/awesome-infosec">Awesome Infosec (GitHub)</a></li>
+    <li><a href="https://hackread.com">HackRead</a></li>
+    <li><a href="https://hackthebox.com">Hack The Box</a></li>
+    <li><a href="https://hackerone.com">HackerOne</a></li>
 </ul>
 
 <br>
@@ -1916,68 +2124,81 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <!-- ################################# -->
 
 <details>
-<summary><b>Sites of Interest</b></summary>
+<summary><b>References of Interest</b></summary>
 <br>
 
+<h4>Vulnerability Databases</h4>
 <ul>
-<li><a href="https://civicert.org" target="_blank">https://civicert.org</a></li>
-<li><a href="https://cve.org">https://cve.org</a></li>
-<li><a href="https://cvedetails.com">https://cvedetails.com</a></li>
-<li><a href="https://openwall.com">https://openwall.com</a></li>
-<li><a href="https://lkrg.org">https://lkrg.org</a></li>
-<li><a href="https://attack.mitre.org">https://attack.mitre.org</a></li>
-<li><a href="https://socradar.io</a>SOCRadar</li>
-<li><a href="https://exterro.com">https://exterro.com</a></li>
-<li><a href="https://eforensicsmag.com" target="_blank">https://eforensicsmag.com</a></li>
-<li><a href="https://csrc.nist.gov/projects" target="_blank">https://csrc.nist.gov/projects</a></li>
-<li><a href="https://nvd.nist.gov" target="_blank">https://nvd.nist.gov</a></li>
-<li><a href="https://cisa.gov/news-events/cybersecurity-advisories" target="_blank">https://cisa.gov/news-events/cybersecurity-advisories</a></li>
-<li><a href="https://nsa.gov/Press-Room/Press-Releases-Statements" target="_blank">https://nsa.gov/Press-Room/Press-Releases-Statements</a></li>
-<li><a href="https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml" target="_blank">https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml</a></li>
-<li><a href="https://malware.lu" target="_blank">https://malware.lu</a></li>
-<li><a href="https://securelist.com" target="_blank">https://securelist.com</a></li>
-<li><a href="https://eucybernet.eu" target="_blank">https://eucybernet.eu</a></li>
-<li><a href="https://oval.mitre.org" target="_blank">https://oval.mitre.org</a></li>
-<li><a href="https://w3.org/Security/Faq/www-security-faq.html" target="_blank">https://w3.org/Security/Faq/www-security-faq.html</a></li>
-<li><a href="https://nowsecure.com" target="_blank">https://nowsecure.com</a></li>
-<li><a href="https://htcia.org" target="_blank">https://htcia.org</a></li>
-<li><a href="https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports" target="_blank">https://digitalcitizensalliance.org/get-informed/digital-citizens-investigative-reports</a></li>
-<li><a href="https://reddit.com/r/InfoSecNews" target="_blank">https://reddit.com/r/InfoSecNews</a></li>
-<li><a href="https://reddit.com/r/digitalforensics" target="_blank">https://reddit.com/r/digitalforensics</a></li>
-<li><a href="https://reddit.com/r/computerforensics" target="_blank">https://reddit.com/r/computerforensics</a></li>
-<li><a href="https://reddit.com/r/antiforensics" target="_blank">https://reddit.com/r/antiforensics</a></li>
-<li><a href="https://reddit.com/r/Smartphoneforensics" target="_blank">https://reddit.com/r/Smartphoneforensics</a></li>
-<li><a href="https://reddit.com/r/privacy" target="_blank">https://reddit.com/r/privacy</a></li>
-<li><a href="https://reddit.com/r/restorethefourth" target="_blank">https://reddit.com/r/restorethefourth</a></li>
-<li><a href="https://www.reddit.com/r/blueteamsec/" target="_blank">BlueTeamSec</a></li>
-<li><a href="https://www.reddit.com/r/computerforensics/" target="_blank">Computer Forensics</a></li>
-<li><a href="https://www.reddit.com/r/cybersecurity/" target="_blank">CyberSecurity</a></li>
-<li><a href="https://www.reddit.com/r/netsec/" target="_blank">NetSec</a></li>
-<li><a href="https://www.reddit.com/r/netsecstudents/" target="_blank">NetSec Students</a></li>
-<li><a href="https://www.reddit.com/r/NetworkSecurity/" target="_blank">Network Security News &amp; Information</a></li>
-<li><a href="https://www.reddit.com/r/ReverseEngineering/" target="_blank">Reverse Engineering</a></li>
-<li><a href="https://www.reddit.com/r/pwned/" target="_blank">pwned</a></li>
-<li><a href="https://github.com/yeahhub/Hacking-Security-Ebooks" target="_blank">https://github.com/yeahhub/Hacking-Security-Ebooks</a></li>
-<li><a href="https://github.com/InfoSecIITR/reading-material" target="_blank">https://github.com/InfoSecIITR/reading-material</a></li>
-<li><a href="https://forensicfocus.com">https://forensicfocus.com</a></li>
-<li><a href="https://forensicscijournal.com">https://forensicscijournal.com</a></li>
-<li><a href="https://www.swgde.org/documents/published-complete-listing">https://www.swgde.org/documents/published-complete-listing</a></li>
-<li><a href="https://book.hacktricks.xyz">https://book.hacktricks.xyz</a></li>
-<li><a href="https://hackthebox.com">https://hackthebox.com</a></li>
-<li><a href="https://hackerone">https://hackerone</a></li>
-<li><a href="https://hackread.com">https://hackread.com</a></li>
-<li><a href="https://htcia.org">https://htcia.org</a></li>
-<li><a href="https://osforensics.com">https://osforensics.com</a></li>
-<li><a href="https://magnetforensics.com">https://magnetforensics.com</a></li>
-<li><a href="https://exterro.com/ftk-product-downloads/how-to-run-ftk-imager-from-a-flash-drive-imager-lite">FTK Lite</a><br>
-<li><a href="https://icann.org/en/ssac/publications">SSAC Publications</a></li>
-<li><a href="https://cert.org/archive/pdf/Botnets.pdf">Botnets as a Vehicle for Online Crime</a> — CERT </li>
-<li><a href="https://security-audit.com/">Security Audit</a></li>
-<li><a href="https://sans.org/">SANS Institute</a></li>
-<li><a href="https://isc.sans.org/">Internet Storm Center</a> — SANS Institute</li>
-<li><a href="https://cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
-<li><a href="https://www.dfir.training">DFIR Training</a> — </li>
-<li><a href="https://evasions.checkpoint.com">https://evasions.checkpoint.com</a> — </li>
+    <li><a href="https://cve.org">CVE</a></li>
+    <li><a href="https://cvedetails.com">CVEDetails</a></li>
+    <li><a href="https://nvd.nist.gov" target="_blank">NIST National Vulnerability Database</a></li>
+    <li><a href="https://oval.mitre.org" target="_blank">MITRE OVAL</a></li>
+</ul>
+
+<h4>Threat Intelligence and Security Advisories</h4>
+<ul>
+    <li><a href="https://attack.mitre.org">MITRE ATT&CK</a></li>
+    <li><a href="https://cisa.gov/news-events/cybersecurity-advisories" target="_blank">CISA Cybersecurity Advisories</a></li>
+    <li><a href="https://securelist.com" target="_blank">Securelist</a></li>
+    <li><a href="https://socradar.io">SOCRadar</a></li>
+</ul>
+
+
+
+<h4>Cybersecurity Education and Resources</h4>
+<ul>
+    <li><a href="https://github.com/yeahhub/Hacking-Security-Ebooks" target="_blank">Hacking Security Ebooks (GitHub)</a></li>
+    <li><a href="https://github.com/InfoSecIITR/reading-material" target="_blank">InfoSec IITR Reading Material (GitHub)</a></li>
+    <li><a href="https://w3.org/Security/Faq/www-security-faq.html" target="_blank">W3 Security FAQ</a></li>
+</ul>
+
+<h4>Security Tools and Resources</h4>
+<ul>
+    <li><a href="https://lkrg.org">LKRG</a></li>
+    <li><a href="https://openwall.com">Openwall</a></li>
+    <li><a href="https://eucybernet.eu" target="_blank">EU Cybernet</a></li>
+    <li><a href="https://malware.lu" target="_blank">Malware.Lu</a></li>
+    <li><a href="https://civicert.org" target="_blank">Civicert</a></li>
+</ul>
+
+<h4>Security Organizations and Publications</h4>
+<ul>
+    <li><a href="https://csrc.nist.gov/projects" target="_blank">NIST CSRC Projects</a></li>
+    <li><a href="https://nsa.gov/Press-Room/Press-Releases-Statements" target="_blank">NSA Press Releases and Statements</a></li>
+    <li><a href="https://nsa.gov/ia/mitigation_guidance/security_configuration_guides/index.shtml" target="_blank">NSA Security Configuration Guides</a></li>
+    <li><a href="https://icann.org/en/ssac/publications">SSAC Publications</a></li>
+    <li><a href="https://cert.org/archive/pdf/Botnets.pdf">Botnets as a Vehicle for Online Crime</a> — CERT</li>
+    <li><a href="https://security-audit.com/">Security Audit</a></li>
+    <li><a href="https://sans.org/">SANS Institute</a></li>
+    <li><a href="https://isc.sans.org/">Internet Storm Center</a> — SANS Institute</li>
+    <li><a href="https://cerias.purdue.edu">COAST Hotlist: Computer Security, Law and Privacy</a> — CERIAS, Purdue University</li>
+</ul>
+
+<h4>Other Resources</h4>
+<ul>
+    <li><a href="https://eucybernet.eu" target="_blank">EU Cybernet</a></li>
+    <li><a href="https://evasions.checkpoint.com">Evasions by Checkpoint</a></li>
+    <li><a href="https://book.hacktricks.xyz">HackTricks</a></li>
+    <li><a href="https://swgde.org/documents/published-complete-listing">SWGDE Complete Listing</a></li>
+    <li><a href="https://ed.ac.uk/">University of Edinburgh</a> (Scotland - 1583)</li>
+</ul>
+
+<h4>Reddit Communities</h4>
+<ul>
+    <li><a href="https://reddit.com/r/InfoSecNews" target="_blank">InfoSec News (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/digitalforensics" target="_blank">Digital Forensics (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/computerforensics" target="_blank">Computer Forensics (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/antiforensics" target="_blank">Anti-Forensics (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/Smartphoneforensics" target="_blank">Smartphone Forensics (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/privacy" target="_blank">Privacy (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/restorethefourth" target="_blank">Restore The Fourth (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/blueteamsec/" target="_blank">BlueTeamSec (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/cybersecurity/" target="_blank">CyberSecurity (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/netsec/" target="_blank">NetSec (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/netsecstudents/" target="_blank">NetSec Students (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/NetworkSecurity/" target="_blank">Network Security News & Information (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/ReverseEngineering/" target="_blank">Reverse Engineering (Reddit)</a></li>
+    <li><a href="https://reddit.com/r/pwned/" target="_blank">Pwned (Reddit)</a></li>
 </ul>
 
 <br>
@@ -1990,7 +2211,6 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <br>
 
 <h4>German Law Research</h4>
-
 <ul>
     <li><a href="https://guides.ll.georgetown.edu/germanlegalresearch">German Legal Research Guide - Georgetown Law</a></li>
     <li><a href="https://guides.library.harvard.edu/GermanLaw">German Law Research - Harvard Law School Library Research Services</a></li>
@@ -2010,18 +2230,21 @@ $ sudo grgsm_livemon     # Live radio scanning.
     <li><a href="https://sciencedirect.com/journal/computer-law-and-security-review">Science Direct — Computer Law & Security Review</a></li>
     <li><a href="https://journals.sas.ac.uk/deeslr/issue/view/596">The Digital Evidence and Electronic Signature Law Review (DEESLR) (Open Access)</a></li>
     <li><a href="https://dltr.law.duke.edu">The Duke Law & Technology Review (DLTR)</a></li>
+    <li><a href="https://law.ox.ac.uk/computers-and-law-research-group/computers-and-law-research-group">Oxford - Computers and Law Research Group</a></li>
 </ul>
 
 <h5>Research Centers and Institutes</h5>
 <ul>
-    <li><a href="https://carnegieendowment.org/publications/interactive/cybernorms">Carnegie Endowment for International Peace</a></li>
-    <li><a href="https://cyberlaw.stanford.edu">CIS - Stanford Center for Internet and Society</a></li>
-    <li><a href="https://cyber.harvard.edu">The Berkman Klein Center for Internet & Society at Harvard University</a></li>
     <li><a href="https://cset.georgetown.edu">The Center for Security and Emerging Technology (CSET) - Georgetown University's Walsh School of Foreign Service</a></li>
+    <li><a href="https://cyber.harvard.edu">The Berkman Klein Center for Internet & Society at Harvard University</a></li>
+    <li><a href="https://cyberlaw.stanford.edu">CIS - Stanford Center for Internet and Society</a></li>
+    <li><a href="https://carnegieendowment.org/publications/interactive/cybernorms">Carnegie Endowment for International Peace</a></li>
 </ul>
 
 <h5>Organizations and Resources</h5>
 <ul>
+    <li><a href="https://intgovforum.org">UN Internet Governance Forum</a></li>
+    <li><a href="https://ssrn.com/index.cfm/en/tilburg-leg/tilburg-tilt/">Tilburg: TILT Law & Technology Working Paper Series</a></li>
     <li><a href="https://badinternetbills.com">Bad Internet Bills</a></li>
     <li><a href="https://crime-research.org">Computer Crime Research Center</a></li>
     <li><a href="https://etsi.org/committees">ETSI - European Telecommunications Standards Institute</a></li>
@@ -2030,8 +2253,6 @@ $ sudo grgsm_livemon     # Live radio scanning.
     <li><a href="https://softwarefreedom.org">Software Freedom Law Center</a></li>
     <li><a href="https://techdirt.com">Techdirt</a></li>
     <li><a href="https://ecrimeresearch.org">The APWG Symposium on Electronic Crime Research (APWG eCrime)</a></li>
-    <li><a href="https://intgovforum.org">UN Internet Governance Forum</a></li>
-    <li><a href="https://www.ssrn.com/index.cfm/en/tilburg-leg/tilburg-tilt/">Tilburg: TILT Law & Technology Working Paper Series</a></li>
 </ul>
 
 <h4>Others</h4>
@@ -2050,13 +2271,75 @@ $ sudo grgsm_livemon     # Live radio scanning.
 
 <h5>Security and Cybercrime Resources</h5>
 <ul>
-    <li><a href="https://digitalcommons.usf.edu/mca/">Digital Commons @ USF</a></li>
     <li><a href="https://csrc.nist.gov">NIST Computer Security Resource Center</a></li>
     <li><a href="https://sherloc.unodc.org">SHERLOC UNODC</a></li>
     <li><a href="https://justice.gov/criminal/cybercrime">U.S. Department of Justice - Cybercrime</a></li>
     <li><a href="https://coe.int/en/web/cybercrime">Council of Europe - Cybercrime</a></li>
     <li><a href="https://enisa.europa.eu">European Union Agency for Cybersecurity (ENISA)</a></li>
     <li><a href="https://fbi.gov">FBI</a></li>
+    <li><a href="https://digitalcommons.usf.edu/mca/">Digital Commons @ USF</a></li>
+</ul>
+
+<br>
+</details>
+
+
+
+<!-- ################################ -->
+
+<details>
+<summary><b>Activism, Nonprofit Initiatives and Private Initiatives</b></summary>
+<br>
+
+<h4>Activism and Advocacy Groups</h4>
+<ul>
+  <li><a href="https://accessnow.org" target="_blank">Access Now</a></li>
+  <li><a href="https://citizenlab.ca" target="_blank">Citizen Lab</a></li>
+  <li><a href="https://privacyinternational.org" target="_blank">Privacy International</a></li>
+  <li><a href="https://eff.org" target="_blank">Electronic Frontier Foundation (EFF)</a></li>
+  <li><a href="https://epic.org/issues/surveillance-oversight" target="_blank">Electronic Privacy Information Center (EPIC)</a></li>
+  <li><a href="https://bigbrotherwatch.org.uk" target="_blank">Big Brother Watch (BBW)</a></li>
+  <li><a href="https://buggedplanet.info" target="_blank">Bugged Planet</a></li>
+  <li><a href="https://copsincyberspace.wordpress.com" target="_blank">Cops in Cyberspace</a></li>
+  <li><a href="https://eyeonsurveillance.org" target="_blank">Eye on Surveillance</a></li>
+  <li><a href="https://thebureauinvestigates.com" target="_blank">The Bureau of Investigative Journalism</a></li>
+  <li><a href="https://blog.torproject.org" target="_blank">The Tor Project</a></li>
+  <li><a href="https://necessaryandproportionate.org" target="_blank">Necessary and Proportionate</a></li>
+  <li><a href="https://dimse.info">DIMSE</a></li>
+  <li><a href="https://guardint.org" target="_blank">GUARDINT</a></li>
+  <li><a href="https://intelligence-oversight.org" target="_blank">Intelligence Oversight</a></li>
+  <li><a href="https://aboutintel.eu" target="_blank">about:intel</a></li>
+  <li><a href="https://investigate.afsc.org" target="_blank">AFSC and Economic Activism</a></li>
+  <li><a href="https://stiftung-nv.de/en/about-us" target="_blank">Stiftung Neue Verantwortung (SNV)</a></li>
+</ul>
+
+<h4>Research and Publications</h4>
+<ul>
+  <li><a href="https://hrw.org/topic/free-speech/internet-freedom" target="_blank">Human Rights Watch (HRW) Internet Freedom</a></li>
+  <li><a href="https://ojs.library.queensu.ca/index.php/surveillance-and-society/index" target="_blank">Surveillance & Society (S&S)</a></li>
+  <li><a href="https://surveillance-studies.org" target="_blank">Surveillance Studies Network</a></li>
+  <li><a href="https://biometricupdate.com" target="_blank">Biometric Update</a></li>
+  <li><a href="https://digitalfreedomfund.org" target="_blank">Digital Freedom Fund</a></li>
+  <li><a href="https://privacytools.io" target="_blank">PrivacyTools</a></li>
+  <li><a href="https://panopticlick.eff.org" target="_blank">Panopticlick by EFF</a></li>
+  <li><a href="https://privacy.org" target="_blank">Privacy.org</a></li>
+  <li><a href="https://reclaimthenet.org" target="_blank">Reclaim The Net</a></li>
+  <li><a href="https://data.guardint.org/en/" target="_blank">Surveillance Oversight Database</a></li>
+  <li><a href="https://dataethics.eu" target="_blank">DataEthics.eu</a></li>
+</ul>
+
+<h4>News and Media</h4>
+<ul>
+  <li><a href="https://politico.com/section/cybersecurity" target="_blank">Politico Cybersecurity</a></li>
+  <li><a href="https://cnet.com/topics/privacy" target="_blank">CNET Privacy</a></li>
+  <li><a href="https://fightforthefuture.org" target="_blank">Fight for the Future</a></li>
+  <li><a href="https://techdirt.com" target="_blank">Techdirt</a></li>
+</ul>
+
+<h4>Events and Conferences</h4>
+<ul>
+  <li><a href="https://rightscon.org" target="_blank">RightsCon</a></li>
+  <li><a href="https://pkp.sfu.ca" target="_blank">The Public Knowledge Project</a></li>
 </ul>
 
 <br>
@@ -2069,27 +2352,31 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <br>
 
 <h3>Libraries</h3>
+
 <ul>
-<li><A HREF="https://archive.org">Internet Archive<BR><PRE> https://archive.org</PRE></A></li>
-<li><A HREF="https://annas-archive.org">Anna's Archive<BR><PRE> https://annas-archive.org</PRE></A></li>
-<li><A HREF="https://t.me/zlibrary_official">Z-Library Official (Telegram)<BR><PRE> https://t.me/zlibrary_official</PRE></A></li>
-<li><A HREF="https://go-to-zlibrary.se/#desktop_app_tab"> Z-Library (APP)<BR><PRE> https://go-to-zlibrary.se/#desktop_app_tab</PRE></A></li>
-<li><A HREF="https://singlelogin.se">Z-Library (WEB)<BR><PRE> https://singlelogin.se</PRE></A></li>
-<li><A HREF="http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion"> Z-Library (ONION)<BR><PRE> http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion</PRE></A></li>
-<li><A HREF="https://libgen.rs">Library Genesis (.rs alias domain)<BR><PRE> https://libgen.rs</PRE></A></li>
-<li><A HREF="https://libgen.is">Library Genesis (.is alias domain)<BR><PRE> https://libgen.is</PRE></A></li>
-<li><A HREF="https://libgen.st">Library Genesis (.st alias domain)<BR><PRE> https://libgen.st</PRE></A></li>
-<li><A HREF="https://wiki.mhut.org/software:libgen_desktop">Library Genesis (APP)<BR><PRE> https://wiki.mhut.org/software:libgen_desktop</PRE></A></li>
-<li><A HREF="http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion">Library Genesis (ONION)<BR><PRE> http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion</PRE></A></li>
-<li><A HREF="http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion">Imperial Library (ONION)<BR><PRE> http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion</PRE></A></li>
-<li><A HREF="http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion">Just Another Library (ONION)<BR><PRE> http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion</PRE></A></li>
-<li><A HREF="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion">InfoCon (ONION)<BR><PRE> http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion</PRE></A></li>
+  <li><a href="https://openlibrary.org">https://openlibrary.org</a></li>
+  <li><a href="https://archive.org">Internet Archiveh</a> </li>
+  <li><a href="https://gutenberg.org">https://gutenberg.org</a></li>
+  <li><a href="https://sanet.st/books">https://sanet.st/books</a></li>
+</ul>
+  
+<ul>
+  <li><a href="https://annas-archive.org">Anna's Archive</a> </li>
+  <li><a href="https://t.me/zlibrary_official">Z-Library Official (Telegram)</a> </li>
+  <li><a href="https://go-to-zlibrary.se/#desktop_app_tab">Z-Library (APP)</a> </li>
+  <li><a href="https://singlelogin.se">Z-Library (WEB)</a> </li>
+  <li><a href="http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion">Z-Library (ONION)</a> </li>
+  <li><a href="https://libgen.rs">Library Genesis (.rs alias domain)</a> </li>
+  <li><a href="https://libgen.is">Library Genesis (.is alias domain)</a> </li>
+  <li><a href="https://libgen.st">Library Genesis (.st alias domain)</a> </li>
+  <li><a href="https://wiki.mhut.org/software:libgen_desktop">Library Genesis (APP)</a> </li>
+  <li><a href="http://libgenfrialc7tguyjywa36vtrdcplwpxaw43h6o63dmmwhvavo5rqqd.onion">Library Genesis (ONION)</a> </li>
+  <li><a href="http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion">Imperial Library (ONION)</a> </li>
+  <li><a href="http://libraryfyuybp7oyidyya3ah5xvwgyx6weauoini7zyz555litmmumad.onion">Just Another Library (ONION)</a> </li>
+  <li><a href="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion">InfoCon (ONION)</a> </li>
 </ul>
 
 <ul>
-<li><a href="https://www.gutenberg.org">https://www.gutenberg.org</a></li>
-<li><a href="https://openlibrary.org">https://openlibrary.org</a></li>
-<li><a href="https://sanet.st/books">https://sanet.st/books</a></li>
 <li><a href="https://freecomputerbooks.com">https://freecomputerbooks.com</a></li>
 <li><a href="https://freetechbooks.com">https://freetechbooks.com</a></li>
 <li><a href="https://programmer-books.com">https://programmer-books.com</a></li>
@@ -2105,173 +2392,42 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <!-- ################################ -->
 
 <details>
-<summary><b>Activism, Nonprofit Initiatives and Private Initiatives</b></summary>
-<br>
-
-<ul>
-<li><a href="https://investigate.afsc.org" target="_blank">AFSC and Economic Activism</a></li>
-<li><a href="https://bigbrotherwatch.org.uk" target="_blank">BBW</a></li>
-<li><a href="http://buggedplanet.info" target="_blank">Bugged Planet</a></li>
-<li><a href="https://citizenlab.ca" target="_blank">Citizenlab</a></li>
-<li><a href="https://copsincyberspace.wordpress.com" target="_blank">Cops in Cyberspace</a></li>
-<li><a href="https://eff.org" target="_blank">EFF</a></li>
-<li><a href="https://epic.org/issues/surveillance-oversight" target="_blank">EPIC</a></li>
-<li><a href="https://eyeonsurveillance.org" target="_blank">Eye on Surveillance</a></li>
-<li><a href="https://necessaryandproportionate.org" target="_blank">Necessary and Proportionate</a></li>
-<li><a href="https://investigate.afsc.org" target="_blank">No Tech For Apartheid</a></li>
-<li><a href="https://privacyinternational.org" target="_blank">Privacy International</a></li>
-<li><a href="https://ojs.library.queensu.ca/index.php/surveillance-and-society/index" target="_blank">S&S</a></li>
-<li><a href="https://thebureauinvestigates.com" target="_blank">The Bureau of Investigative Journalism</a></li>
-<li><a href="https://www.stiftung-nv.de/en/about-us" target="_blank">Stiftung Neue Verantwortung (SNV)</a></li>
-<li><a href="https://blog.torproject.org" target="_blank">The Tor Project</a></li>
-<li><a href="https://guardint.org " target="_blank">GUARDINT</a></li>
-<li><a href="https://data.guardint.org/en/" target="_blank">Surveillance Oversight Database</a></li>
-<li><a href="https://www.intelligence-oversight.org" target="_blank">Intelligence Oversight</a></li>
-<li><a href="https://aboutintel.eu" target="_blank">about:intel</a></li>
-</ul>
-
-<br>
-</details>
-
-<!-- ################################ -->
-
-<details>
 <summary><b>Intelligence, Conflict and Warfare Publications</b></summary>
 <br>
 
 <h4>Intelligence, Conflict, and Warfare Publications</h4>
 
-    <ul>
-        <li>
-            <a href="https://ccdcoe.org" target="_blank">
-            The NATO Cooperative Cyber Defence Centre of Excellence
-            </a>
-        </li>
-        <li>
-            <a href="https://www.cfr.org" target="_blank">
-            Council on Foreign Relations (CFR)
-            </a>
-        </li>
-        <li>
-            <a href="https://www.isanet.org/ISA/Sections/ISS" target="_blank">
-            International Security Studies Section (ISSS)
-            </a>
-        </li>
-        <li>
-            <a href="https://tandfonline.com/action/showOpenAccess?journalCode=fint20" target="_blank">
-                Taylor & Francis - Intelligence and National Security
-            </a> - Open access articles
-        </li>
-        <li>
-            <a href="https://journals.lib.sfu.ca/index.php/jicw/issue/archive" target="_blank">
-                The Journal of Intelligence, Conflict, and Warfare
-            </a> - Archive of past issues
-        </li>
-        <li>
-            <a href="https://dcaf.ch/resources?type=publications" target="_blank">
-                DCAF - Geneva Centre for Security Sector Governance
-            </a> - Publications on security sector governance
-        </li>
-        <li>
-            <a href="https://e-ir.info/publications" target="_blank">
-                E-International Relations
-            </a> - Open access scholarly books
-        </li>
-        <li>
-            <a href="https://cia.gov/resources/csi/studies-in-intelligence" target="_blank">
-                CIA.gov - Center for the Study of Intelligence
-            </a> - Studies in Intelligence
-        </li>
-        <li>
-            <a href="https://www.tandfonline.com/toc/fjss20/current" target="_blank">
-                Journal of Strategic Studies
-            </a> - Scholarly articles on strategic studies, intelligence, and military affairs
-        </li>
-        <li>
-            <a href="https://www.tandfonline.com/toc/ujic20/current" target="_blank">
-                International Journal of Intelligence and CounterIntelligence
-            </a> - Articles on intelligence operations, security, and counterintelligence
-        </li>
-        <li>
-            <a href="https://www.rand.org/pubs.html" target="_blank">
-                RAND Corporation
-            </a> - Research and analysis on security, defense, and intelligence
-        </li>
-        <li>
-            <a href="https://www.chathamhouse.org/our-research/topics/international-security" target="_blank">
-                Chatham House - International Security Programme
-            </a> - Publications on international security and conflict
-        </li>
-        <li>
-            <a href="https://www.brookings.edu/topic/foreign-policy/" target="_blank">
-                Brookings Institution - Foreign Policy
-            </a> - Articles and research on global security and intelligence
-        </li>
-        <li>
-            <a href="https://www.foreignaffairs.com/" target="_blank">
-                Foreign Affairs
-            </a> - Articles and analyses on international affairs, security, and intelligence
-        </li>
-        <li>
-            <a href="https://smallwarsjournal.com/jrnl" target="_blank">
-                Small Wars Journal
-            </a> - Discussions on military strategy, defense policy, and irregular warfare
-        </li>
-        <li>
-            <a href="https://www.tandfonline.com/toc/usip20/current" target="_blank">
-                The International Journal of Intelligence, Security, and Public Affairs
-            </a> - Research on intelligence, security, and public affairs
-        </li>
-    </ul>
+<ul>
+  <li><a href="https://ccdcoe.org" target="_blank">The NATO Cooperative Cyber Defence Centre of Excellence </a></li>
+  <li><a href="https://cfr.org" target="_blank">Council on Foreign Relations (CFR)</a></li>
+  <li><a href="https://isanet.org/ISA/Sections/ISS" target="_blank"> International Security Studies Section (ISSS)</a></li>
+  <li><a href="https://tandfonline.com/action/showOpenAccess?journalCode=fint20" target="_blank"> Taylor & Francis - Intelligence and National Security </a> - Open access articles</li>
+  <li><a href="https://journals.lib.sfu.ca/index.php/jicw/issue/archive" target="_blank"> The Journal of Intelligence, Conflict, and Warfare </a> - Archive of past issues</li>
+  <li><a href="https://dcaf.ch/resources?type=publications" target="_blank"> DCAF - Geneva Centre for Security Sector Governance </a> - Publications on security sector governance </li>
+  <li><a href="https://e-ir.info/publications" target="_blank"> E-International Relations</a> - Open access scholarly books</li>
+  <li><a href="https://cia.gov/resources/csi/studies-in-intelligence" target="_blank"> CIA.gov - Center for the Study of Intelligence</a> - Studies in Intelligence</li>
+  <li><a href="https://tandfonline.com/toc/fjss20/current" target="_blank"> Journal of Strategic Studies</a> - Scholarly articles on strategic studies, intelligence, and military affairs </li>
+  <li><a href="https://tandfonline.com/toc/ujic20/current" target="_blank"> International Journal of Intelligence and CounterIntelligence </a> - Articles on intelligence operations, security, and counterintelligence </li>
+  <li><a href="https://rand.org/pubs.html" target="_blank"> RAND Corporation</a> - Research and analysis on security, defense, and intelligence </li>
+  <li><a href="https://chathamhouse.org/our-research/topics/international-security" target="_blank"> Chatham House - International Security Programme </a> - Publications on international security and conflict </li>
+  <li><a href="https://brookings.edu/topic/foreign-policy/" target="_blank"> Brookings Institution - Foreign Policy</a> - Articles and research on global security and intelligence </li>
+  <li><a href="https://foreignaffairs.com/" target="_blank"> Foreign Affairs</a> - Articles and analyses on international affairs, security, and intelligence </li>
+  <li><a href="https://smallwarsjournal.com/jrnl" target="_blank"> Small Wars Journal</a> - Discussions on military strategy, defense policy, and irregular warfare </li>
+  <li><a href="https://tandfonline.com/toc/usip20/current" target="_blank"> The International Journal of Intelligence, Security, and Public Affairs </a> - Research on intelligence, security, and public affairs </li>
+</ul>
 
-    <h2>English-Language Materials from Specific Countries</h2>
-    <ul>
-        <li>
-            <a href="https://www.unibw.de/metis-en/publikationen" target="_blank">
-                Bundeswehr University Munich - Metis Institute for Strategy and Foresight
-            </a> - Research on strategy, security, and military affairs
-        </li>
-        <li>
-            <a href="https://www.realinstitutoelcano.org/en/publications/" target="_blank">
-                Real Instituto Elcano - Elcano Royal Institute
-            </a> - Publications on international and strategic studies
-        </li>
-        <li>
-            <a href="https://indsr.org.tw/en/publish" target="_blank">
-                Institute for National Defense and Security Research (INDSR)
-            </a> - Research and analysis on security and defense
-        </li>
-        <li>
-            <a href="http://www.css.ir/en/" target="_blank">
-                Strategic Research Center - Expediency Discernment Council
-            </a> - Research papers and publications on strategic issues (limited English content)
-        </li>
-        <li>
-            <a href="https://invesp.org.ve/en/publications/" target="_blank">
-                Venezuelan Institute for Social and Political Studies (INVESP)
-            </a> - Publications on political and social issues (limited English content)
-        </li>
-        <li>
-            <a href="https://russiancouncil.ru/en/" target="_blank">
-                Russian International Affairs Council (RIAC)
-            </a> - Articles and analysis on international relations and security
-        </li>
-        <li>
-            <a href="https://www.csis.or.id/publications" target="_blank">
-                Centre for Strategic and International Studies (CSIS) Indonesia
-            </a> - Research and publications on security and international affairs
-        </li>
-        <li>
-            <a href="https://www.cicp.org.kh/" target="_blank">
-                Cambodian Institute for Cooperation and Peace (CICP)
-            </a> - Publications on peace, security, and cooperation
-        </li>
-        <li>
-            <a href="https://iseas.vass.gov.vn/en/" target="_blank">
-                Institute for Southeast Asian Studies (ISEAS) - Vietnam Academy of Social Sciences
-            </a> - Research on regional security and international relations
-        </li>
-    </ul>
+<h2>English-Language Materials from Specific Countries</h2>
+<ul>
+  <li><a href="https://unibw.de/metis-en/publikationen" target="_blank"> Bundeswehr University Munich - Metis Institute for Strategy and Foresight </a> - Research on strategy, security, and military affairs </li>
+  <li><a href="https://realinstitutoelcano.org/en/publications/" target="_blank"> Real Instituto Elcano - Elcano Royal Institute</a> - Publications on international and strategic studies </li>
+  <li><a href="https://indsr.org.tw/en/publish" target="_blank"> Institute for National Defense and Security Research (INDSR) </a> - Research and analysis on security and defense </li>
+  <li><a href="http://css.ir/en/" target="_blank"> Strategic Research Center - Expediency Discernment Council </a> - Research papers and publications on strategic issues (limited English content) </li>
+  <li><a href="https://invesp.org.ve/en/publications/" target="_blank"> Venezuelan Institute for Social and Political Studies (INVESP) </a> - Publications on political and social issues (limited English content) </li>
+  <li><a href="https://russiancouncil.ru/en/" target="_blank"> Russian International Affairs Council (RIAC)</a> - Articles and analysis on international relations and security </li>
+  <li><a href="https://csis.or.id/publications" target="_blank"> Centre for Strategic and International Studies (CSIS) Indonesia </a> - Research and publications on security and international affairs </li>
+  <li><a href="https://cicp.org.kh/" target="_blank"> Cambodian Institute for Cooperation and Peace (CICP) </a> - Publications on peace, security, and cooperation </li>
+  <li><a href="https://iseas.vass.gov.vn/en/" target="_blank"> Institute for Southeast Asian Studies (ISEAS) - Vietnam Academy of Social Sciences </a> - Research on regional security and international relations </li>
+</ul>
 
 <br>
 </details>
@@ -2323,59 +2479,6 @@ $ sudo grgsm_livemon     # Live radio scanning.
 
 <br>
 </details>
-
-<!-- ################################ -->
-
-<h6>REFERENCES</h6>
-
-<small>
-<table style="width:100%" cellspacing="0" cellpadding="0">
-<thead>
-  <tr>
-  </tr>
-</thead>
-<tbody> 
-<tr>
-<td valign="top" style="width:50%">
-<ul>
-<li><a href="https://dfrws.org/presentation">https://dfrws.org/presentation</a></li>
-<li><a href="https://issworldtraining.com">https://issworldtraining.com</a></li>
-<li><a href="https://sciencedirect.com/journal/forensic-science-international-digital-investigation">https://sciencedirect.com/journal/forensic-science-international-digital-investigation</a></li>
-<li><a href="https://sciencedirect.com/journal/computer-law-and-security-review">https://sciencedirect.com/journal/computer-law-and-security-review</a></li>
-<li><a href="https://github.com/MISP/misp-training">https://github.com/MISP/misp-training</a></li>
-<li><a href="https://github.com/ail-project/ail-training">https://github.com/ail-project/ail-training</a></li>
-<li><a href="https://isc2.org/Certifications/CISSP">https://isc2.org/Certifications/CISSP</a></li>
-<li><a href="https://github.com/connectans/awesome-CISSP-CCSP">https://github.com/connectans/awesome-CISSP-CCSP</a></li>
-<li><a href="https://github.com/jefferywmoore/CISSP-Study-Resources">https://github.com/jefferywmoore/CISSP-Study-Resources</a></li>
-<li><a href="https://github.com/Syslifters/OffSec-Reporting">https://github.com/Syslifters/OffSec-Reporting</a></li>
-<li><a href="https://attack.mitre.org">https://attack.mitre.org</a></li>
-<li><a href="https://forensicfocus.com">https://forensicfocus.com</a></li>
-<li><a href="https://ecrimeresearch.org">https://ecrimeresearch.org</a></li>
-<li><a href="https://drivebadger.com">https://drivebadger.com</a></li>
-<li><a href="https://cellebritelearningcenter.com">https://cellebritelearningcenter.com</a></li>
-<li><a href="https://public.cyber.mil">https://public.cyber.mil</a></li>
-</ul>
-</td>
-<td valign="top" style="width:50%">
-<ul>
-<li><a href="https://github.com/Cugu/awesome-forensics">https://github.com/Cugu/awesome-forensics</a></li>
-<li><a href="https://github.com/shadawck/awesome-anti-forensic">https://github.com/shadawck/awesome-anti-forensic</a></li>
-<li><a href="https://github.com/Ignitetechnologies/Mindmap">https://github.com/Ignitetechnologies/Mindmap</a></li>
-<li><a href="https://github.com/asiamina/A-Course-on-Digital-Forensics">https://github.com/asiamina/A-Course-on-Digital-Forensics</a></li>
-<li><a href="https://github.com/mikeroyal/Digital-Forensics-Guide">https://github.com/mikeroyal/Digital-Forensics-Guide</a></li>
-<li><a href="https://github.com/forensicswiki/wiki">https://github.com/forensicswiki/wiki</a></li>
-<li><a href="https://github.com/Digital-Forensics-Discord-Server/LawEnforcementResources">https://github.com/Digital-Forensics-Discord-Server/LawEnforcementResources</a></li>
-<li><a href="https://github.com/Digital-Forensics-Discord-Server/TheHitchhikersGuidetoDFIRExperiencesFromBeginnersandExperts">https://github.com/Digital-Forensics-Discord-Server/TheHitchhikersGuidetoDFIRExperiencesFromBeginnersandExperts</a></li>
-<li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">https://github.com/Hack-with-Github/Awesome-Hacking</a></li>
-<li><a href="https://github.com/enaqx/awesome-pentest">https://github.com/enaqx/awesome-pentest</a></li>
-<li><a href="https://github.com/onlurking/awesome-infosec">https://github.com/onlurking/awesome-infosec</a></li>
-<li><a href="https://github.com/504ensicsLabs">https://github.com/504ensicsLabs</a></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-</small>
 
 <!--################################### -->
 <br>
