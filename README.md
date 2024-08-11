@@ -12,30 +12,25 @@
     margin: 2;
     padding: 2;
   }
-
   body {
     font-family: Arial, sans-serif;
     background-color: rgb(22, 22, 24); /* Dark gray background */
     color: #fff; /* White text color */
     margin: 40px; /* Margin for better readability */
   }
-
   /* Titles */
   h1, h2, h3, h4, h5, h6 {
     color: #fff; /* White text color */
   }
-
   /* Elements with yellow details */
   hr, blockquote, table, thead, tbody, tfoot, tr, td, th {
     border-color: rgb(226, 181, 25); /* Yellowish color for borders */
   }
-
   /* Links within content */
   a {
     color: rgb(226, 26, 65); /* Reddish color for links */
     text-decoration: none; /* Remove underline by default */
   }
-
   a:hover {
     text-decoration: underline; /* Underline on hover */
   }
