@@ -1,0 +1,1868 @@
+{
+  "type": "bundle",
+  "spec_version": "2.1",
+  "id": "bundle--0148dab7-75d4-434f-bec3-6723faee1867",
+  "created": "2021-08-03T09:31:14.726Z",
+  "modified": "2021-08-03T09:31:14.726Z",
+  "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+  ],
+  "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+  "objects": [
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716",
+      "created": "2021-08-03T09:31:14.719Z",
+      "modified": "2021-08-03T09:31:14.719Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "name": "Devil Bait",
+      "description": "Devil Bait is a malicious macro-enabled Microsoft Word document targeting Korean speakers, which downloads and runs a second-stage VBScript. Both stages use ‘live off the land’ binaries (‘LOLbins’) to achieve execution, system enumeration, registry modification and persistence. Interaction with the Command and Control (C2) server is via HTTP. The document name translates to ‘Deferred Payment Confirmation - Kim Bo-ra.doc’, Kim Bo-ra is a South Korean Actress.",
+      "malware_types": [
+        "downloader"
+      ],
+      "is_family": false,
+      "capabilities": [
+        "communicates-with-c2",
+        "exfiltrates-data"
+      ],
+      "x_operating_systems": [
+        "windows"
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--4115704c-bc31-4d8c-bd6b-eff463707e44",
+      "created": "2021-08-03T09:31:14.719Z",
+      "modified": "2021-08-03T09:31:14.719Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "name": "Command and Scripting Interpreter as used by Devil Bait",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ],
+      "description": "Devil Bait uses the WScript shell from within other scripts to spawn cmd.exe instances to collect system information."
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d2621fe1-33d7-4e15-a679-d85d4265edf8",
+      "created": "2021-08-03T09:31:14.719Z",
+      "modified": "2021-08-03T09:31:14.719Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "attack-pattern--4115704c-bc31-4d8c-bd6b-eff463707e44",
+      "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--37c63a90-fa2a-4354-a9a0-4b2e5f1a1ac0",
+      "created": "2021-08-03T09:31:14.719Z",
+      "modified": "2021-08-03T09:31:14.719Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "uses",
+      "source_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716",
+      "target_ref": "attack-pattern--4115704c-bc31-4d8c-bd6b-eff463707e44"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--e685ba99-e241-4807-b433-bbc3b5c0fbed",
+      "created": "2021-08-03T09:31:14.720Z",
+      "modified": "2021-08-03T09:31:14.720Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "name": "Scheduled Task/Job: Scheduled Task as used by Devil Bait",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "persistence"
+        }
+      ],
+      "description": "Devil Bait creates a Scheduled Task to beacon every 10 minutes."
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7d770c36-823b-4bb9-adf8-3e7a08253cf5",
+      "created": "2021-08-03T09:31:14.720Z",
+      "modified": "2021-08-03T09:31:14.720Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "attack-pattern--e685ba99-e241-4807-b433-bbc3b5c0fbed",
+      "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--96ad320b-f501-4bb2-9e62-b74b08293b2c",
+      "created": "2021-08-03T09:31:14.720Z",
+      "modified": "2021-08-03T09:31:14.720Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "uses",
+      "source_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716",
+      "target_ref": "attack-pattern--e685ba99-e241-4807-b433-bbc3b5c0fbed"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--5ba8949d-c81a-408f-8c1a-deff9dd3a2b9",
+      "created": "2021-08-03T09:31:14.721Z",
+      "modified": "2021-08-03T09:31:14.721Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "name": "Application Layer Protocol: Web Protocols as used by Devil Bait",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "description": "Devil Bait Command and Control is achieved over HTTP using the scripting object ServerXMLHTTP."
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e1c14941-7fb5-470c-8471-76e1ffdfcb69",
+      "created": "2021-08-03T09:31:14.721Z",
+      "modified": "2021-08-03T09:31:14.721Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "attack-pattern--5ba8949d-c81a-408f-8c1a-deff9dd3a2b9",
+      "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a424ce14-64af-4367-a567-921262ea8ab2",
+      "created": "2021-08-03T09:31:14.721Z",
+      "modified": "2021-08-03T09:31:14.721Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "uses",
+      "source_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716",
+      "target_ref": "attack-pattern--5ba8949d-c81a-408f-8c1a-deff9dd3a2b9"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--b63b67a4-0bd9-4eb7-8e38-39696d083afa",
+      "created": "2021-08-03T09:31:14.721Z",
+      "modified": "2021-08-03T09:31:14.721Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "name": "Masquerading: Match Legitimate Name or Location as used by Devil Bait",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "defense-evasion"
+        }
+      ],
+      "description": "Devil Bait masquerades as AhnLab, a legitimate security product, in its persistence mechanism.  "
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6d4b9aea-70f8-4683-a8fe-7abaca1e3bfb",
+      "created": "2021-08-03T09:31:14.721Z",
+      "modified": "2021-08-03T09:31:14.721Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "attack-pattern--b63b67a4-0bd9-4eb7-8e38-39696d083afa",
+      "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--219ccdc8-d5f7-4c4f-9d3e-777711c3a59f",
+      "created": "2021-08-03T09:31:14.721Z",
+      "modified": "2021-08-03T09:31:14.721Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "uses",
+      "source_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716",
+      "target_ref": "attack-pattern--b63b67a4-0bd9-4eb7-8e38-39696d083afa"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--50ad5f9f-848f-40ac-8ff4-b41b28354dbe",
+      "created": "2021-08-03T09:31:14.722Z",
+      "modified": "2021-08-03T09:31:14.722Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "rule DevilBait_vbscript_2 {\r\n    meta:\r\n        author = \"NCSC\"\r\n        description = \"These strings appear in second stage VBScript used by Devil Bait.\"    \r\n\r\n    strings:\r\n       $ = \"WScript.Shell\" nocase\r\n       $ = \"Scripting.FileSystemObject\" nocase\r\n       $ = \"MSXML2.ServerXMLHTTP.6.0\" nocase\r\n       $ = \"FolderExists\" nocase\r\n       $ = \"certutil\" nocase\r\n       $ = \"vbCrLf\" nocase\r\n       $ = \"expandenvironmentstrings\" nocase\r\n       $ = \"%appdata%\" nocase\r\n    condition:\r\n\t    filesize < 20KB and all of them  \r\n}\r\n",
+      "description": "These strings appear in second stage VBScript used by Devil Bait.",
+      "valid_from": "2021-08-03T09:31:14.722Z",
+      "name": "YARA: DevilBait_vbscript_2 ",
+      "pattern_type": "yara"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--77bef118-3ebb-48a7-996f-b53098f789b0",
+      "created": "2021-08-03T09:31:14.722Z",
+      "modified": "2021-08-03T09:31:14.722Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--50ad5f9f-848f-40ac-8ff4-b41b28354dbe",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b06be67d-0231-4df5-a534-41bd605ef808",
+      "created": "2021-08-03T09:31:14.722Z",
+      "modified": "2021-08-03T09:31:14.722Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "rule DevilBait_Maldoc {\r\n    meta:\r\n        author = \"NCSC\"\r\n        description = \"These strings appear in the Devil Bait malicious document.\"\r\n\r\n    strings:\r\n\t   $word = \"MSWordDoc\"\r\n\t   $ms_xml = \"MSXML2.ServerXMLHTTP.6.0\"\r\n\t   $ = {53 65 6E 64 3A 45 78 65 63 75 74 65 28 [1-6] 2E 72 65 73 70 6F 6E 73 65 54 65 78 74 29}// Send:Execute(<variable>.responseText)\r\n\t   $ = \"wscript.exe //e:vbscript\"\r\n    condition:\r\n\t    all of them\r\n}\r\n",
+      "description": "These strings appear in the Devil Bait malicious document.",
+      "valid_from": "2021-08-03T09:31:14.722Z",
+      "name": "YARA: DevilBait_Maldoc ",
+      "pattern_type": "yara"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--bf2db648-ac4d-41ac-a66a-4ebb030a7bfb",
+      "created": "2021-08-03T09:31:14.722Z",
+      "modified": "2021-08-03T09:31:14.722Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b06be67d-0231-4df5-a534-41bd605ef808",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8e86f4ff-943e-474b-afec-8c6e0087c0ac",
+      "created": "2021-08-03T09:31:14.722Z",
+      "modified": "2021-08-03T09:31:14.722Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "rule DevilBait_C2 {\r\n    meta:\r\n        author = \"NCSC\"\r\n        description = \"C2 and IoC strings found in Devil Bait second stage vbscript.\"\r\n    strings:\r\n       $file_1 = \"sr011.xml\"\r\n      \r\n       $must_func = \"Roller\"\r\n       $must_C2 = \".co.kr\"\r\n      \r\n       $c2_1 = \"cross.php\"\r\n       $c2_2 = \"report.php\"\r\n       $c2_3 = \"list.php\"\r\n       $c2_4 = \"show.php\"\r\n    condition:\r\n        $file_1 and any of ($must_*) and any of ($c2_*)\r\n}",
+      "description": "C2 and IoC strings found in Devil Bait second stage vbscript.",
+      "valid_from": "2021-08-03T09:31:14.722Z",
+      "name": "YARA: DevilBait_C2 ",
+      "pattern_type": "yara"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4a162cc4-c3e5-442f-83f3-ec58bef2e7e2",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8e86f4ff-943e-474b-afec-8c6e0087c0ac",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3c695645-cb8f-4f08-a787-ffde35c5c5a2",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "rule DevilBait_vbscript_1 {\r\n    meta:\r\n        author = \"NCSC\"\r\n        description = \"This rule identifies the first stage vbscript written to disk e.g. version.xml.\"\r\n    strings:\r\n        $must_1 = \"On Error Resume Next:Set\"\r\n        $must_2 = \"CreateObject(\\\"MSXML2.ServerXMLHTTP.6.0\\\"):\"\r\n        $must_3 = \".Send:Execute(\"\r\n        $must_4 = \"http\"\r\n        $get = \"GET\"\r\n        $post = \"POST\"\r\n    condition:\r\n\t    filesize < 10KB and all of ($must*) and ($get or $post)   \r\n}   ",
+      "description": "This rule identifies the first stage vbscript written to disk e.g. version.xml.",
+      "valid_from": "2021-08-03T09:31:14.723Z",
+      "name": "YARA: DevilBait_vbscript_1",
+      "pattern_type": "yara"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--50453fe5-2f05-4952-b444-5ddca8eaf975",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--3c695645-cb8f-4f08-a787-ffde35c5c5a2",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--55e2e4b7-8cd9-4a65-a38b-861dcc49e364",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "title: DevilBait_Scheduled_Task\ndescription: Malicious macro doc observed creating a Scheduled Task reliant on mshta. \nstatus: stable\ndate: 20/09/2021  \nauthor: NCSC\nversion: 1.1\npurpose: malware\ntlp: white\nlogsource:\n    category: process_creation\n    product: windows\ndetection:\n    selection1:\n        ParentImage|endswith: '\\wscript.exe'\n    selection2:\n        Image|endswith: '\\cmd.exe'\n    selection3:\n        CommandLine|contains|all:\n            - 'schtasks'\n            - 'mshta'\n            - 'Update'\n            - 'Create'\n            - 'http'\n    condition: selection1 and selection2 and selection3        \nlevel: medium\n",
+      "description": "Malicious macro doc observed creating a Scheduled Task reliant on mshta.",
+      "valid_from": "2021-08-03T09:31:14.723Z",
+      "name": "SIGMA: DevilBait_Scheduled_Task",
+      "pattern_type": "sigma"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1f0801e8-00a5-4409-b3e8-12500c623a2e",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--55e2e4b7-8cd9-4a65-a38b-861dcc49e364",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b737a874-a0ec-4adc-a897-0129cd800d3f",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "title: DevilBait_System_Enumeration\ndescription: Devil Bait will enumerate the system and output this to an xml file.\nstatus: stable\ndate: 20/09/2021\nauthor: NCSC\nversion: 1.1\npurpose: malware\ntlp: white\nlogsource:\n    category: process_creation\n    product: windows\ndetection:\n    selection1:\n        ParentImage|endswith: '\\wscript.exe'\n    selection2:\n        Image|endswith: '\\cmd.exe'\n    selection3:\n        CommandLine|contains|all:\n            - '>>%APPDATA%\\Microsoft\\'\n            - '.xml'\n    selection4:\n        CommandLine|contains:\n            - 'ipconfig'\n            - 'tasklist'\n            - 'dir'\n            - 'systeminfo'\n    condition: selection1 and selection2 and selection3 and selection4      \nlevel: medium\n",
+      "description": "Devil Bait will enumerate the system and output this to an xml file.",
+      "valid_from": "2021-08-03T09:31:14.723Z",
+      "name": "SIGMA: DevilBait_System_Enumeration",
+      "pattern_type": "sigma"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d98e9ce9-840f-421b-b05e-08abdf445852",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b737a874-a0ec-4adc-a897-0129cd800d3f",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3e1ee904-6066-4b00-b58d-d41a77d628dc",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "title: DevilBait_vbscript_Reg\ndescription: Devil Bait will modify the registry to enable macros in Microsoft Office by default.\nstatus: stable\ndate: 20/09/2021\nauthor: NCSC\nversion: 1.1\npurpose: malware\ntlp: white\nlogsource:\n    category: process_creation\n    product: windows\ndetection:\n    selection1:\n        ParentImage|endswith: '\\wscript.exe'\n    selection2:\n        Image|endswith: '\\cmd.exe'\n    selection3:\n        CommandLine|contains|all:\n            - 'reg add HKCU\\Software\\Microsoft\\Office\\'\n            - 'VBAWarnings'\n    condition: selection1 and selection2 and selection3        \nlevel: medium\n",
+      "description": "Devil Bait will modify the registry to enable macros in Microsoft Office by default.",
+      "valid_from": "2021-08-03T09:31:14.723Z",
+      "name": "SIGMA: DevilBait_vbscript_Reg",
+      "pattern_type": "sigma"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--28751733-a505-473b-8243-c31312b6f03c",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--3e1ee904-6066-4b00-b58d-d41a77d628dc",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e2335443-30e9-46f1-808b-0bc178538c16",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--e3e84259-9321-4746-855a-343b143746cb",
+      "target_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1cb96605-c42d-4898-b5ff-fd05adbb351a",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--e3e84259-9321-4746-855a-343b143746cb",
+      "target_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f998d417-f2f6-4f4c-bad8-b29665d93978",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--e3e84259-9321-4746-855a-343b143746cb",
+      "target_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--21f9a155-db76-4f94-8f65-d630a0e99e63",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb",
+      "target_ref": "indicator--e3e84259-9321-4746-855a-343b143746cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--86249248-caa7-4bf5-bd45-bcb785502070",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb",
+      "target_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--b9220554-02ab-4b97-a0bb-5b190eaa406e",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb",
+      "target_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9019f8f2-837d-4ab4-a0e1-74271bba7c2e",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18",
+      "target_ref": "indicator--e3e84259-9321-4746-855a-343b143746cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d331db95-7bfc-40e0-a8d6-2504cacc3b99",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18",
+      "target_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9cef6ef3-e0f1-4f11-bd57-d5ba4de7f2d0",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18",
+      "target_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1e0f865e-fafb-4403-ae08-a34f5d66e2f4",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475",
+      "target_ref": "indicator--e3e84259-9321-4746-855a-343b143746cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--97a4fb7e-6cd4-4e8b-9901-7258fc089296",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475",
+      "target_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ed2940a6-7ba7-4b49-b133-1cfc01174628",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475",
+      "target_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e1c6d29d-8de7-4e16-837a-edb5ebfee494",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--a6aef177-4654-49ec-ab3e-1303a8693626",
+      "target_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c44d28f3-e15c-4ae1-9f08-833467da5b32",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--a6aef177-4654-49ec-ab3e-1303a8693626",
+      "target_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--2b653433-9ca7-4e97-ac86-99509a7eca12",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--a6aef177-4654-49ec-ab3e-1303a8693626",
+      "target_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--da68d323-b6fc-4ebb-8d77-3aee5f341c11",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7",
+      "target_ref": "indicator--a6aef177-4654-49ec-ab3e-1303a8693626"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6b9a1d31-e969-47bc-b58c-3a816bb68a8b",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7",
+      "target_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c070fefa-10fb-479e-93ef-3bb88d90f91a",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7",
+      "target_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a1d1959b-55be-4fce-a01a-b54aaf7486e8",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d",
+      "target_ref": "indicator--a6aef177-4654-49ec-ab3e-1303a8693626"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7e08bb60-9321-4a11-be38-822f0f99a943",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d",
+      "target_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a15ed13f-c33c-4e03-b74a-1c2d3ed70294",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d",
+      "target_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--feac6ae5-6774-4594-b76a-2f859dc5d5b0",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616",
+      "target_ref": "indicator--a6aef177-4654-49ec-ab3e-1303a8693626"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eb18bdbd-2e34-46db-8ce8-d33eab27f87c",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616",
+      "target_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d255ca1f-fa6c-402a-a547-03393b9378c5",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "related-to",
+      "source_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616",
+      "target_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e3e84259-9321-4746-855a-343b143746cb",
+      "created": "2021-08-03T09:31:14.723Z",
+      "modified": "2021-08-03T09:31:14.723Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[file:name = '체불확인원-김보라.doc']",
+      "description": "Malicious macro-enabled Microsoft Word document.  ",
+      "valid_from": "2021-08-03T09:31:14.723Z",
+      "name": "Devil Bait sample (Filename: 체불확인원-김보라.doc )",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--489c5191-4d24-4251-8770-fcbcb2344fb7",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e3e84259-9321-4746-855a-343b143746cb",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[file:hashes.'MD5' = '631ec884e194a04ac89ae7db34ee2cdc']",
+      "description": "Malicious macro-enabled Microsoft Word document.  ",
+      "valid_from": "2021-08-03T09:31:14.724Z",
+      "name": "Devil Bait sample (MD5: 631ec884e194a04ac89ae7db34ee2cdc)",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--3fd0ae7e-41ea-48db-ac8f-5c366a458946",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[file:hashes.'SHA-1' = '0d686dae87f79713d7382c4976ed796caed5ca2b']",
+      "description": "Malicious macro-enabled Microsoft Word document.  ",
+      "valid_from": "2021-08-03T09:31:14.724Z",
+      "name": "Devil Bait sample (SHA-1: 0d686dae87f79713d7382c4976ed796caed5ca2b)",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0540ee3c-0c29-4dfd-994e-235abcdce4af",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[file:hashes.'SHA-256' = 'fa71eee906a7849ba3f4bab74edb577bd1f1f8397ca428591b4a9872ce1f1e9b']",
+      "description": "Malicious macro-enabled Microsoft Word document.  ",
+      "valid_from": "2021-08-03T09:31:14.724Z",
+      "name": "Devil Bait sample (SHA-256: fa71eee906a7849ba3f4bab74edb577bd1f1f8397ca428591b4a9872ce1f1e9b)",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--55412bb3-fe38-4b9f-9de8-14857dab63d3",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a6aef177-4654-49ec-ab3e-1303a8693626",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[file:name = 'data.txt']",
+      "description": "Malicious VBScript, retrieved from C2 by VirusTotal sandbox. ",
+      "valid_from": "2021-08-03T09:31:14.724Z",
+      "name": "Devil Bait sample (Filename: data.txt)",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0e85fcbe-79d7-4d04-93ee-5a31c2975c01",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--a6aef177-4654-49ec-ab3e-1303a8693626",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[file:hashes.'MD5' = '26c27d19dfc1a3af9b856b1b2299cc5f']",
+      "description": "Malicious VBScript, retrieved from C2 by VirusTotal sandbox. ",
+      "valid_from": "2021-08-03T09:31:14.724Z",
+      "name": "Devil Bait sample (MD5: 26c27d19dfc1a3af9b856b1b2299cc5f)",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--cf02f01f-dbb1-4311-90a4-f33c9101303c",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[file:hashes.'SHA-1' = 'f4c03d8d372e29a2409411271ead45742069b70e']",
+      "description": "Malicious VBScript, retrieved from C2 by VirusTotal sandbox. ",
+      "valid_from": "2021-08-03T09:31:14.724Z",
+      "name": "Devil Bait sample (SHA-1: f4c03d8d372e29a2409411271ead45742069b70e)",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--161ef90a-7b2a-4daf-a28f-6f85c5b01df5",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--370c9c94-057b-4e08-ac92-250577d8e616",
+      "created": "2021-08-03T09:31:14.724Z",
+      "modified": "2021-08-03T09:31:14.724Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[file:hashes.'SHA-256' = 'a6f9043627f8be2452153b5dbf6278e9b91763c3b5c2aea537a859e0c8c6b504']",
+      "description": "Malicious VBScript, retrieved from C2 by VirusTotal sandbox. ",
+      "valid_from": "2021-08-03T09:31:14.724Z",
+      "name": "Devil Bait sample (SHA-256: a6f9043627f8be2452153b5dbf6278e9b91763c3b5c2aea537a859e0c8c6b504)",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0710a55f-be73-4ce5-b72b-a843ca47bd79",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[domain-name:value = 'www.hahae.co.kr']",
+      "description": "C2 Domain",
+      "valid_from": "2021-08-03T09:31:14.725Z",
+      "name": "Domain Name: www.hahae.co.kr",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--04f96aed-87c3-49cd-bf8a-c4c006c30bad",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--68004e96-2b8e-4774-a441-68ceb77d31ac",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+      "target_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--65ce5940-ec43-4eda-a5f5-4c912ba7a244",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+      "target_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--156218c7-9300-4cae-bdd7-100765747ef9",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+      "target_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--bc772358-2514-4de5-b92d-8c293ea380f2",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+      "target_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6b60375f-1ae6-439e-8ad3-2ab83fec961b",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+      "target_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--3573fb4d-6543-47e3-b173-47b0e38c8b04",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+      "target_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1b308483-56ac-4c93-b9e2-6e1639825d54",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[domain-name:value = 'xeoskin.co.kr']",
+      "description": "Embedded Domain",
+      "valid_from": "2021-08-03T09:31:14.725Z",
+      "name": "Domain Name: xeoskin.co.kr",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--57a54c91-cefb-45aa-a11d-818e48320b6a",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--1b308483-56ac-4c93-b9e2-6e1639825d54",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--376845e1-7c0e-4727-8da2-63fce0c3a02b",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--1b308483-56ac-4c93-b9e2-6e1639825d54",
+      "target_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f7860d2a-f50a-4f80-aa04-8914ef8313d6",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--1b308483-56ac-4c93-b9e2-6e1639825d54",
+      "target_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c293cc0b-f17d-4424-a30c-763091091215",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--1b308483-56ac-4c93-b9e2-6e1639825d54",
+      "target_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4f26d280-7f5e-43c9-9708-f801c51d646b",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[url:value = 'http://www.hahae.co.kr/new3/ISAF/Libs/php/cross.php?op=1&dt=1214&uid=01']",
+      "description": "C2 URL for downloading second stage",
+      "valid_from": "2021-08-03T09:31:14.725Z",
+      "name": "URL: http://www.hahae.co.kr/new3/ISAF/Libs/php/cross.php?op=1&dt=1214&uid=01",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--dd3cdb59-3c67-47c9-8524-44868746de3a",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4f26d280-7f5e-43c9-9708-f801c51d646b",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--494b92ee-a6b6-4a4b-9833-c3261b10813e",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--4f26d280-7f5e-43c9-9708-f801c51d646b",
+      "target_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--25fc77b3-6d32-429a-b97e-65e31361cebf",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--4f26d280-7f5e-43c9-9708-f801c51d646b",
+      "target_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9ff8598f-db5b-41ae-8457-29c9d894f89d",
+      "created": "2021-08-03T09:31:14.725Z",
+      "modified": "2021-08-03T09:31:14.725Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--4f26d280-7f5e-43c9-9708-f801c51d646b",
+      "target_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f620eef7-52ec-4967-9438-db55d37a2157",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[url:value = 'http://www.hahae.co.kr/new3/ISAF/Libs/php/report.php']",
+      "description": "C2 URL for Exfil",
+      "valid_from": "2021-08-03T09:31:14.726Z",
+      "name": "URL: http://www.hahae.co.kr/new3/ISAF/Libs/php/report.php",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0247375e-d20d-4e2b-96ba-f06717693646",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f620eef7-52ec-4967-9438-db55d37a2157",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6e951f3a-b2ed-458a-a643-db13747c7167",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--f620eef7-52ec-4967-9438-db55d37a2157",
+      "target_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a989dc4b-ad4b-45b3-9106-2d2434a1c217",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--f620eef7-52ec-4967-9438-db55d37a2157",
+      "target_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--bdbce311-d80d-4567-abb2-446dc55bb161",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--f620eef7-52ec-4967-9438-db55d37a2157",
+      "target_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--10c7eb0d-1062-4708-8014-68c0b78ce326",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[url:value = 'http://www.hahae.co.kr/new3/ISAF/Libs/php/suf.hta']",
+      "description": "C2 URL for beaconing",
+      "valid_from": "2021-08-03T09:31:14.726Z",
+      "name": "URL: http://www.hahae.co.kr/new3/ISAF/Libs/php/suf.hta",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--effdbdc1-b466-492b-a3e8-d3276f0709b0",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--10c7eb0d-1062-4708-8014-68c0b78ce326",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d1bb0990-aec3-4d32-967a-c9f5bae94de6",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--10c7eb0d-1062-4708-8014-68c0b78ce326",
+      "target_ref": "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a37c855e-381f-4758-8db3-12c838855bb0",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--10c7eb0d-1062-4708-8014-68c0b78ce326",
+      "target_ref": "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--80148f42-33fe-46d6-8865-3a718dc35ce4",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--10c7eb0d-1062-4708-8014-68c0b78ce326",
+      "target_ref": "indicator--370c9c94-057b-4e08-ac92-250577d8e616"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ce0be20b-4059-4afe-98d0-23ff1b8e1d29",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "pattern": "[url:value = 'http://xeoskin.co.kr/wp/wp-includes/SimplePie/Net/cross.php']",
+      "description": "Embedded URL",
+      "valid_from": "2021-08-03T09:31:14.726Z",
+      "name": "URL: http://xeoskin.co.kr/wp/wp-includes/SimplePie/Net/cross.php",
+      "pattern_type": "stix"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--2eec89f8-46d4-4c53-a022-3df5a97b5109",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--ce0be20b-4059-4afe-98d0-23ff1b8e1d29",
+      "target_ref": "malware--ffefa66e-217a-4ac4-9c98-39dd89475716"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--58b938ae-0674-4a36-8c5d-73b1c71914ce",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--ce0be20b-4059-4afe-98d0-23ff1b8e1d29",
+      "target_ref": "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c56d7957-0753-4f33-b20d-e4ecbe94412a",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--ce0be20b-4059-4afe-98d0-23ff1b8e1d29",
+      "target_ref": "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--5527da96-a1ba-438a-85a2-917731f15086",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "relationship_type": "derived-from",
+      "source_ref": "indicator--ce0be20b-4059-4afe-98d0-23ff1b8e1d29",
+      "target_ref": "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475"
+    },
+    {
+      "type": "marking-definition", 
+      "spec_version": "2.1", 
+      "id": "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487", 
+      "created": "2022-10-01T00:00:00.000Z",
+      "modified": "2022-10-01T00:00:00.000Z", 
+      "name": "TLP:CLEAR",
+      "extensions": {
+      "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+         "extension_type": "property-extension",
+         "tlp_2_0" : "clear"
+         }
+      }
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "created": "2021-05-20T12:00:00.000Z",
+      "modified": "2021-05-20T12:00:00.000Z",
+      "name": "NCSC",
+      "contact_information": "https://ncsc.gov.uk/section/about-this-website/contact-us"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+      "created": "2017-05-31T21:30:49.546Z",
+      "modified": "2021-04-27T19:21:06.164Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ],
+      "revoked": false,
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059",
+          "url": "https://attack.mitre.org/techniques/T1059"
+        }
+      ],
+      "description": "Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. These interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms. Most systems come with some built-in command-line interface and scripting capabilities, for example, macOS and Linux distributions include some flavor of [Unix Shell](https://attack.mitre.org/techniques/T1059/004) while Windows installations include the [Windows Command Shell](https://attack.mitre.org/techniques/T1059/003) and [PowerShell](https://attack.mitre.org/techniques/T1059/001).\n\nThere are also cross-platform interpreters such as [Python](https://attack.mitre.org/techniques/T1059/006), as well as those commonly associated with client applications such as [JavaScript](https://attack.mitre.org/techniques/T1059/007) and [Visual Basic](https://attack.mitre.org/techniques/T1059/005).\n\nAdversaries may abuse these technologies in various ways as a means of executing arbitrary commands. Commands and scripts can be embedded in [Initial Access](https://attack.mitre.org/tactics/TA0001) payloads delivered to victims as lure documents or as secondary payloads downloaded from an existing C2. Adversaries may also execute commands through interactive terminals/shells.",
+      "name": "Command and Scripting Interpreter",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_version": "2.1",
+      "x_mitre_data_sources": [
+        "Command: Command Execution",
+        "Process: Process Creation",
+        "Module: Module Load",
+        "Script: Script Execution"
+      ],
+      "x_mitre_detection": "Command-line and scripting activities can be captured through proper logging of process execution with command-line arguments. This information can be useful in gaining additional insight to adversaries' actions through how they use native processes or custom tools. Also monitor for loading of modules associated with specific languages.\n\nIf scripting is restricted for normal users, then any attempt to enable scripts running on a system would be considered suspicious. If scripts are not commonly used on a system, but enabled, scripts running out of cycle from patching or other administrator functions are suspicious. Scripts should be captured from the file system when possible to determine their actions and intent.\n\nScripts are likely to perform actions with various effects on a system that may generate events, depending on the types of monitoring used. Monitor processes and command-line arguments for script execution and subsequent behavior. Actions may be related to network and system information discovery, collection, or other scriptable post-compromise behaviors and could be used as indicators of detection leading back to the source script.",
+      "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network"
+      ],
+      "x_mitre_permissions_required": [
+        "User"
+      ],
+      "x_mitre_remote_support": false,
+      "x_mitre_is_subtechnique": false,
+      "x_killchain": "mitre-attack"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+      "created": "2019-11-27T14:58:00.429Z",
+      "modified": "2020-12-30T14:26:44.730Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "persistence"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "privilege-escalation"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1053.005",
+          "url": "https://attack.mitre.org/techniques/T1053/005"
+        },
+        {
+          "url": "https://twitter.com/leoloobeek/status/939248813465853953",
+          "description": "Loobeek, L. (2017, December 8). leoloobeek Status. Retrieved December 12, 2017.",
+          "source_name": "Twitter Leoloobeek Scheduled Task"
+        },
+        {
+          "url": "https://social.technet.microsoft.com/Forums/en-US/e5bca729-52e7-4fcb-ba12-3225c564674c/scheduled-tasks-history-retention-settings?forum=winserver8gen",
+          "description": "Satyajit321. (2015, November 3). Scheduled Tasks History Retention settings. Retrieved December 12, 2017.",
+          "source_name": "TechNet Forum Scheduled Task Operational Setting"
+        },
+        {
+          "url": "https://technet.microsoft.com/library/dd315590.aspx",
+          "description": "Microsoft. (n.d.). General Task Registration. Retrieved December 12, 2017.",
+          "source_name": "TechNet Scheduled Task Events"
+        },
+        {
+          "source_name": "Microsoft Scheduled Task Events Win10",
+          "url": "https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/audit-other-object-access-events",
+          "description": "Microsoft. (2017, May 28). Audit Other Object Access Events. Retrieved June 27, 2019."
+        },
+        {
+          "url": "https://technet.microsoft.com/en-us/sysinternals/bb963902",
+          "description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.",
+          "source_name": "TechNet Autoruns"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "name": "Scheduled Task",
+      "description": "Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. There are multiple ways to access the Task Scheduler in Windows. The <code>schtasks</code> can be run directly on the command line, or the Task Scheduler can be opened through the GUI within the Administrator Tools section of the Control Panel. In some cases, adversaries have used a .NET wrapper for the Windows Task Scheduler, and alternatively, adversaries have used the Windows netapi32 library to create a scheduled task.\n\nThe deprecated [at](https://attack.mitre.org/software/S0110) utility could also be abused by adversaries (ex: [At (Windows)](https://attack.mitre.org/techniques/T1053/002)), though <code>at.exe</code> can not access tasks created with <code>schtasks</code> or the Control Panel.\n\nAn adversary may use Windows Task Scheduler to execute programs at system startup or on a scheduled basis for persistence. The Windows Task Scheduler can also be abused to conduct remote Execution as part of Lateral Movement and or to run a process under the context of a specified account (such as SYSTEM).",
+      "x_mitre_version": "1.0",
+      "x_mitre_is_subtechnique": true,
+      "x_mitre_remote_support": true,
+      "x_mitre_permissions_required": [
+        "Administrator"
+      ],
+      "x_mitre_detection": "Monitor process execution from the <code>svchost.exe</code> in Windows 10 and the Windows Task Scheduler <code>taskeng.exe</code> for older versions of Windows. (Citation: Twitter Leoloobeek Scheduled Task) If scheduled tasks are not used for persistence, then the adversary is likely to remove the task when the action is complete. Monitor Windows Task Scheduler stores in %systemroot%\\System32\\Tasks for change entries related to scheduled tasks that do not correlate with known software, patch cycles, etc.\n\nConfigure event logging for scheduled task creation and changes by enabling the \"Microsoft-Windows-TaskScheduler/Operational\" setting within the event logging service. (Citation: TechNet Forum Scheduled Task Operational Setting) Several events will then be logged on scheduled task activity, including: (Citation: TechNet Scheduled Task Events)(Citation: Microsoft Scheduled Task Events Win10)\n\n* Event ID 106 on Windows 7, Server 2008 R2 - Scheduled task registered\n* Event ID 140 on Windows 7, Server 2008 R2 / 4702 on Windows 10, Server 2016 - Scheduled task updated\n* Event ID 141 on Windows 7, Server 2008 R2 / 4699 on Windows 10, Server 2016 - Scheduled task deleted\n* Event ID 4698 on Windows 10, Server 2016 - Scheduled task created\n* Event ID 4700 on Windows 10, Server 2016 - Scheduled task enabled\n* Event ID 4701 on Windows 10, Server 2016 - Scheduled task disabled\n\nTools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing current scheduled tasks. (Citation: TechNet Autoruns)\n\nRemote access tools with built-in features may interact directly with the Windows API to perform these functions outside of typical system utilities. Tasks may also be created through Windows system management tools such as Windows Management Instrumentation and PowerShell, so additional logging may need to be configured to gather the appropriate data.",
+      "x_mitre_data_sources": [
+        "Scheduled Job: Scheduled Job Creation",
+        "Command: Command Execution",
+        "File: File Modification",
+        "Process: Process Creation"
+      ],
+      "x_mitre_platforms": [
+        "Windows"
+      ],
+      "x_killchain": "mitre-attack"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+      "created": "2020-03-15T16:13:46.151Z",
+      "modified": "2020-03-26T20:15:35.821Z",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1071.001",
+          "url": "https://attack.mitre.org/techniques/T1071/001"
+        },
+        {
+          "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+          "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+          "source_name": "University of Birmingham C2"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "name": "Web Protocols",
+      "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as HTTP and HTTPS that carry web traffic may be very common in environments. HTTP/S packets have many fields and headers in which data can be concealed. An adversary may abuse these protocols to communicate with systems under their control within a victim network while also mimicking normal, expected traffic. ",
+      "x_mitre_version": "1.0",
+      "x_mitre_is_subtechnique": true,
+      "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect application layer protocols that do not follow the expected protocol standards regarding syntax, structure, or any other variable adversaries could leverage to conceal data.(Citation: University of Birmingham C2)\n\nMonitor for web traffic to/from known-bad or suspicious domains. ",
+      "x_mitre_data_sources": [
+        "Network Traffic: Network Traffic Flow",
+        "Network Traffic: Network Traffic Content"
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "x_killchain": "mitre-attack"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+      "created": "2020-02-10T20:43:10.239Z",
+      "modified": "2021-04-20T19:23:37.762Z",
+      "description": "Adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. This is done for the sake of evading defenses and observation. This may be done by placing an executable in a commonly trusted directory (ex: under System32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). In containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. Alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.\n\nAdversaries may also use the same icon of the file they are trying to mimic.",
+      "name": "Match Legitimate Name or Location",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005"
+        },
+        {
+          "external_id": "CAPEC-177",
+          "source_name": "capec",
+          "url": "https://capec.mitre.org/data/definitions/177.html"
+        },
+        {
+          "source_name": "Elastic Masquerade Ball",
+          "description": "Ewing, P. (2016, October 31). How to Hunt: The Masquerade Ball. Retrieved October 31, 2016.",
+          "url": "http://pages.endgame.com/rs/627-YBU-612/images/EndgameJournal_The%20Masquerade%20Ball_Pages_R2.pdf"
+        },
+        {
+          "source_name": "Twitter ItsReallyNick Masquerading Update",
+          "url": "https://twitter.com/ItsReallyNick/status/1055321652777619457",
+          "description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved April 22, 2019."
+        },
+        {
+          "source_name": "Docker Images",
+          "url": "https://docs.docker.com/engine/reference/commandline/images/",
+          "description": "Docker. (n.d.). Docker Images. Retrieved April 6, 2021."
+        }
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "defense-evasion"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Containers"
+      ],
+      "x_mitre_data_sources": [
+        "Image: Image Metadata",
+        "File: File Metadata",
+        "Process: Process Metadata"
+      ],
+      "x_mitre_detection": "Collect file hashes; file names that do not match their expected hash are suspect. Perform file monitoring; files with known names but in unusual locations are suspect. Likewise, files that are modified outside of an update or patch are suspect.\n\nIf file names are mismatched between the file name on disk and that of the binary's PE metadata, this is a likely indicator that a binary was renamed after it was compiled. Collecting and comparing disk and resource filenames for binaries by looking to see if the InternalName, OriginalFilename, and/or ProductName match what is expected could provide useful leads, but may not always be indicative of malicious activity. (Citation: Elastic Masquerade Ball) Do not focus on the possible names a file could have, but instead on the command-line arguments that are known to be used and are distinct because it will have a better rate of detection.(Citation: Twitter ItsReallyNick Masquerading Update)\n\nIn containerized environments, use image IDs and layer hashes to compare images instead of relying only on their names.(Citation: Docker Images) Monitor for the unexpected creation of new resources within your cluster in Kubernetes, especially those created by atypical users.",
+      "x_mitre_defense_bypassed": [
+        "Application control by file name or path"
+      ],
+      "x_mitre_is_subtechnique": true,
+      "x_mitre_version": "1.1",
+      "x_mitre_contributors": [
+        "Yossi Weizman, Azure Defender Research Team",
+        "Vishwas Manral, McAfee"
+      ],
+      "x_killchain": "mitre-attack"
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--7b3dcd34-2136-4f6e-8645-667d8a4895e2",
+      "created": "2021-08-03T09:31:14.726Z",
+      "modified": "2021-08-03T09:31:14.726Z",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "created_by_ref": "identity--a2c0f893-512d-4dff-bd00-4e7c6f78fda4",
+      "name": "Malware Analysis Report: Devil Bait",
+      "description": "Devil Bait is a malicious macro-enabled Microsoft Word document targeting Korean speakers, which downloads and runs a second-stage VBScript. Both stages use ‘live off the land’ binaries (‘LOLbins’) to achieve execution, system enumeration, registry modification and persistence. Interaction with the Command and Control (C2) server is via HTTP. The document name translates to ‘Deferred Payment Confirmation - Kim Bo-ra.doc’, Kim Bo-ra is a South Korean Actress.",
+      "published": "2021-08-03T09:31:14.726Z",
+      "external_references": [
+        {
+          "source_name": "NCSC",
+          "external_id": "NCSC/MAR/Devil-Bait"
+        }
+      ],
+      "report_types": [
+        "malware"
+      ],
+      "object_refs": [
+        "malware--ffefa66e-217a-4ac4-9c98-39dd89475716",
+        "attack-pattern--4115704c-bc31-4d8c-bd6b-eff463707e44",
+        "relationship--d2621fe1-33d7-4e15-a679-d85d4265edf8",
+        "relationship--37c63a90-fa2a-4354-a9a0-4b2e5f1a1ac0",
+        "attack-pattern--e685ba99-e241-4807-b433-bbc3b5c0fbed",
+        "relationship--7d770c36-823b-4bb9-adf8-3e7a08253cf5",
+        "relationship--96ad320b-f501-4bb2-9e62-b74b08293b2c",
+        "attack-pattern--5ba8949d-c81a-408f-8c1a-deff9dd3a2b9",
+        "relationship--e1c14941-7fb5-470c-8471-76e1ffdfcb69",
+        "relationship--a424ce14-64af-4367-a567-921262ea8ab2",
+        "attack-pattern--b63b67a4-0bd9-4eb7-8e38-39696d083afa",
+        "relationship--6d4b9aea-70f8-4683-a8fe-7abaca1e3bfb",
+        "relationship--219ccdc8-d5f7-4c4f-9d3e-777711c3a59f",
+        "indicator--50ad5f9f-848f-40ac-8ff4-b41b28354dbe",
+        "relationship--77bef118-3ebb-48a7-996f-b53098f789b0",
+        "indicator--b06be67d-0231-4df5-a534-41bd605ef808",
+        "relationship--bf2db648-ac4d-41ac-a66a-4ebb030a7bfb",
+        "indicator--8e86f4ff-943e-474b-afec-8c6e0087c0ac",
+        "relationship--4a162cc4-c3e5-442f-83f3-ec58bef2e7e2",
+        "indicator--3c695645-cb8f-4f08-a787-ffde35c5c5a2",
+        "relationship--50453fe5-2f05-4952-b444-5ddca8eaf975",
+        "indicator--55e2e4b7-8cd9-4a65-a38b-861dcc49e364",
+        "relationship--1f0801e8-00a5-4409-b3e8-12500c623a2e",
+        "indicator--b737a874-a0ec-4adc-a897-0129cd800d3f",
+        "relationship--d98e9ce9-840f-421b-b05e-08abdf445852",
+        "indicator--3e1ee904-6066-4b00-b58d-d41a77d628dc",
+        "relationship--28751733-a505-473b-8243-c31312b6f03c",
+        "relationship--e2335443-30e9-46f1-808b-0bc178538c16",
+        "relationship--1cb96605-c42d-4898-b5ff-fd05adbb351a",
+        "relationship--f998d417-f2f6-4f4c-bad8-b29665d93978",
+        "relationship--21f9a155-db76-4f94-8f65-d630a0e99e63",
+        "relationship--86249248-caa7-4bf5-bd45-bcb785502070",
+        "relationship--b9220554-02ab-4b97-a0bb-5b190eaa406e",
+        "relationship--9019f8f2-837d-4ab4-a0e1-74271bba7c2e",
+        "relationship--d331db95-7bfc-40e0-a8d6-2504cacc3b99",
+        "relationship--9cef6ef3-e0f1-4f11-bd57-d5ba4de7f2d0",
+        "relationship--1e0f865e-fafb-4403-ae08-a34f5d66e2f4",
+        "relationship--97a4fb7e-6cd4-4e8b-9901-7258fc089296",
+        "relationship--ed2940a6-7ba7-4b49-b133-1cfc01174628",
+        "relationship--e1c6d29d-8de7-4e16-837a-edb5ebfee494",
+        "relationship--c44d28f3-e15c-4ae1-9f08-833467da5b32",
+        "relationship--2b653433-9ca7-4e97-ac86-99509a7eca12",
+        "relationship--da68d323-b6fc-4ebb-8d77-3aee5f341c11",
+        "relationship--6b9a1d31-e969-47bc-b58c-3a816bb68a8b",
+        "relationship--c070fefa-10fb-479e-93ef-3bb88d90f91a",
+        "relationship--a1d1959b-55be-4fce-a01a-b54aaf7486e8",
+        "relationship--7e08bb60-9321-4a11-be38-822f0f99a943",
+        "relationship--a15ed13f-c33c-4e03-b74a-1c2d3ed70294",
+        "relationship--feac6ae5-6774-4594-b76a-2f859dc5d5b0",
+        "relationship--eb18bdbd-2e34-46db-8ce8-d33eab27f87c",
+        "relationship--d255ca1f-fa6c-402a-a547-03393b9378c5",
+        "indicator--e3e84259-9321-4746-855a-343b143746cb",
+        "relationship--489c5191-4d24-4251-8770-fcbcb2344fb7",
+        "indicator--a7a5c7e1-6e3a-4c01-ade1-73084a0550cb",
+        "relationship--3fd0ae7e-41ea-48db-ac8f-5c366a458946",
+        "indicator--c929dbf2-5a2f-478c-aff1-34d502525d18",
+        "relationship--0540ee3c-0c29-4dfd-994e-235abcdce4af",
+        "indicator--b2030d8b-6452-450f-aed3-cc38bdec6475",
+        "relationship--55412bb3-fe38-4b9f-9de8-14857dab63d3",
+        "indicator--a6aef177-4654-49ec-ab3e-1303a8693626",
+        "relationship--0e85fcbe-79d7-4d04-93ee-5a31c2975c01",
+        "indicator--90886f6d-0668-407d-a899-d04cb2bf44a7",
+        "relationship--cf02f01f-dbb1-4311-90a4-f33c9101303c",
+        "indicator--b07b0d1b-03d8-4fb2-9bbf-89a24e5b6e0d",
+        "relationship--161ef90a-7b2a-4daf-a28f-6f85c5b01df5",
+        "indicator--370c9c94-057b-4e08-ac92-250577d8e616",
+        "relationship--0710a55f-be73-4ce5-b72b-a843ca47bd79",
+        "indicator--2f6e0e21-d9a5-4638-bf42-180a9ca386f8",
+        "relationship--04f96aed-87c3-49cd-bf8a-c4c006c30bad",
+        "relationship--68004e96-2b8e-4774-a441-68ceb77d31ac",
+        "relationship--65ce5940-ec43-4eda-a5f5-4c912ba7a244",
+        "relationship--156218c7-9300-4cae-bdd7-100765747ef9",
+        "relationship--bc772358-2514-4de5-b92d-8c293ea380f2",
+        "relationship--6b60375f-1ae6-439e-8ad3-2ab83fec961b",
+        "relationship--3573fb4d-6543-47e3-b173-47b0e38c8b04",
+        "indicator--1b308483-56ac-4c93-b9e2-6e1639825d54",
+        "relationship--57a54c91-cefb-45aa-a11d-818e48320b6a",
+        "relationship--376845e1-7c0e-4727-8da2-63fce0c3a02b",
+        "relationship--f7860d2a-f50a-4f80-aa04-8914ef8313d6",
+        "relationship--c293cc0b-f17d-4424-a30c-763091091215",
+        "indicator--4f26d280-7f5e-43c9-9708-f801c51d646b",
+        "relationship--dd3cdb59-3c67-47c9-8524-44868746de3a",
+        "relationship--494b92ee-a6b6-4a4b-9833-c3261b10813e",
+        "relationship--25fc77b3-6d32-429a-b97e-65e31361cebf",
+        "relationship--9ff8598f-db5b-41ae-8457-29c9d894f89d",
+        "indicator--f620eef7-52ec-4967-9438-db55d37a2157",
+        "relationship--0247375e-d20d-4e2b-96ba-f06717693646",
+        "relationship--6e951f3a-b2ed-458a-a643-db13747c7167",
+        "relationship--a989dc4b-ad4b-45b3-9106-2d2434a1c217",
+        "relationship--bdbce311-d80d-4567-abb2-446dc55bb161",
+        "indicator--10c7eb0d-1062-4708-8014-68c0b78ce326",
+        "relationship--effdbdc1-b466-492b-a3e8-d3276f0709b0",
+        "relationship--d1bb0990-aec3-4d32-967a-c9f5bae94de6",
+        "relationship--a37c855e-381f-4758-8db3-12c838855bb0",
+        "relationship--80148f42-33fe-46d6-8865-3a718dc35ce4",
+        "indicator--ce0be20b-4059-4afe-98d0-23ff1b8e1d29",
+        "relationship--2eec89f8-46d4-4c53-a022-3df5a97b5109",
+        "relationship--58b938ae-0674-4a36-8c5d-73b1c71914ce",
+        "relationship--c56d7957-0753-4f33-b20d-e4ecbe94412a",
+        "relationship--5527da96-a1ba-438a-85a2-917731f15086"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--
 <title>FORENSICS</title>
 <style>
   /* CSS Crime Scene Style*/
@@ -35,19 +35,15 @@
     text-decoration: underline; /* Underline on hover */
   }
 </style>
--->
 </head>
+-->
 <body>
-
-<div id="header">
 
 <h1>DIGITAL FORENSICS AND INCIDENT RESPONSE (DFIR)</h1>
 
 <blockquote><h3>"These programs were never about terrorism: they're about economic spying, social control and diplomatic manipulation. They're about power." (Edward Snowden)</h3></blockquote>
 
 <p align="center"><img src="https://github.com/RENANZG/My-Forensics/assets/53377291/a4ef4137-7b20-4df0-8678-1f48be665386" title="The Treachery of Images (1929) - René Magritte"/></p>
-
-</div>
 
 <!-- ################################## -->
 
