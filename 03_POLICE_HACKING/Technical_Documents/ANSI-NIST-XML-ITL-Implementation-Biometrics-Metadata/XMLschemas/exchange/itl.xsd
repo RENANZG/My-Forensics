@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:itl="http://biometrics.nist.gov/standard/2011"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:s="http://niem.gov/niem/structures/2.0"
+	xmlns:biom="http://niem.gov/niem/biometrics/1.0" 
+	xmlns:i="http://niem.gov/niem/appinfo/2.0"
+	xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+	xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0"
+	xmlns:fbi="http://niem.gov/niem/fbi/2.0"
+	targetNamespace="http://biometrics.nist.gov/standard/2011" version="2015">
+	<xsd:annotation>
+		<xsd:documentation>ANSI/NIST-ITL 2011 Biometric Information Exchange
+			Package</xsd:documentation>
+		<xsd:appinfo>
+			<i:ConformantIndicator>true</i:ConformantIndicator>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://niem.gov/niem/appinfo/2.0"
+		schemaLocation="../subset/niem/appinfo/2.0/appinfo.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/biometrics/1.0"
+		schemaLocation="../subset/niem/domains/biometrics/1.0/biometrics.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/fbi/2.0" schemaLocation="../subset/niem/fbi/2.0/fbi.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/niem-core/2.0"
+		schemaLocation="../subset/niem/niem-core/2.0/niem-core.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/proxy/xsd/2.0"
+		schemaLocation="../subset/niem/proxy/xsd/2.0/xsd.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/structures/2.0"
+		schemaLocation="../subset/niem/structures/2.0/structures.xsd"/>
+	<xsd:element name="NISTBiometricInformationExchangePackage"
+		type="itl:NISTBiometricInformationExchangePackageType">
+		<xsd:annotation>
+			<xsd:documentation>A biometric information exchange package representing one biometric
+				transaction</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="NISTBiometricInformationExchangePackageType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a biometric information exchange package representing
+				one biometric transaction</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="itl:PackageInformationRecord"/>
+					<xsd:element ref="itl:PackageDescriptiveTextRecord" minOccurs="0"
+						maxOccurs="unbounded"/>
+					<xsd:element ref="itl:PackageDataRecord" minOccurs="0" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageInformationRecord" type="itl:PackageInformationRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A Type-1 transactional information record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageInformationRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a Type-1 transactional information
+				record</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="biom:RecordCategoryCode"/>
+					<xsd:element ref="biom:Transaction"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageDescriptiveTextRecord" type="itl:PackageDescriptiveTextRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A Type-2 descriptive record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageDescriptiveTextRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a Type-2 descriptive record</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="itl:UserDefinedDescriptiveDetail" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageDataRecord" abstract="true">
+		<xsd:annotation>
+			<xsd:documentation>A data concept for a biometric record; base element for record types
+				4 through 99</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a biometric record; base type for record types 4, 7,
+				8 and 98</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="biom:RecordCategoryCode"/>
+					<xsd:element ref="biom:ImageReferenceIdentification"/>
+					<xsd:element ref="itl:UserDefinedFields" minOccurs="0" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="CrossReferencePackageDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a biometric record including Type 2 cross
+				reference.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:Type2CrossReferenceIdentification" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="MultipleCrossReferencePackageDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a biometric record including Type 2, 10 and 22 cross
+				references</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:Type2CrossReferenceIdentification" minOccurs="0"/>
+					<xsd:element ref="biom:Type10CrossReferenceIdentification" minOccurs="0"
+						maxOccurs="99"/>
+					<xsd:element ref="biom:Type22CrossReferenceIdentification" minOccurs="0"
+						maxOccurs="99"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="ExtendedPackageDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an extended biometric record; base type for record
+				types 9,13-17,19,20,21, and 99</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:ProcessAnnotation" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="biom:AssociatedContext" minOccurs="0" maxOccurs="255"/>
+					<xsd:element ref="biom:ImageHashValue" minOccurs="0"/>
+					<xsd:element ref="biom:SourceRepresentation" minOccurs="0" maxOccurs="255"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="CrossReferenceExtendedPackageDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an extended biometric record including Type 2 cross
+				reference; base type for record types 10, 18 and 22</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:CrossReferencePackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:ProcessAnnotation" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="biom:AssociatedContext" minOccurs="0" maxOccurs="255"/>
+					<xsd:element ref="biom:ImageHashValue" minOccurs="0"/>
+					<xsd:element ref="biom:SourceRepresentation" minOccurs="0" maxOccurs="255"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="ExtendedAudioPackageDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an extended biometric record for base type for record
+				type 11</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:ProcessAnnotation" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="biom:AssociatedContext" minOccurs="0" maxOccurs="255"/>
+					<xsd:element ref="biom:DigitalAudioRecordHashValue" minOccurs="0"/>
+					<xsd:element ref="biom:SourceRepresentation" minOccurs="0" maxOccurs="255"/>
+					<xsd:element ref="nc:BinaryBase64Object" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="MultipleCrossReferenceExtendedPackageDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an extended biometric record including Type 2, 10 and
+				22 cross reference; base type for record type 12</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:MultipleCrossReferencePackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:ProcessAnnotation" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="biom:AssociatedContext" minOccurs="0" maxOccurs="255"/>
+					<xsd:element ref="biom:ImageHashValue" minOccurs="0"/>
+					<xsd:element ref="nc:BinaryBase64Object" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageHighResolutionGrayscaleImageRecord"
+		type="itl:PackageFingerprintImageRecordType" substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-4 high-resolution grayscale fingerprint image
+				record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageFingerprintImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a fingerprint image record
+				(Type-4)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:FingerprintImage"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageUserDefinedImageRecord" type="itl:PackageUserDefinedImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-7 user-defined image record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageUserDefinedImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a user-defined image record
+				(Type-7)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:BiometricImage" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageSignatureImageRecord" type="itl:PackageSignatureImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-8 signature image record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageSignatureImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a signature image record (Type-8)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:SignatureImage"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageMinutiaeRecord" type="itl:PackageMinutiaeRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-9 minutiae data record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageMinutiaeRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a minutiae data record (Type-9)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:MinutiaeImpressionCaptureCategory"/>
+					<xsd:element ref="biom:MinutiaeFormatNISTStandardIndicator"/>
+					<xsd:element ref="biom:MinutiaeUniversalLatentWorkstationAnnotationText" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="biom:BiometricCaptureDetail" minOccurs="0"/>
+					<xsd:element ref="biom:RecordMinutiae" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageFacialAndSMTImageRecord" type="itl:PackageFacialAndSMTImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-10 facial or SMT image record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageFacialAndSMTImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a facial or SMT image record
+				(Type-10)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:CrossReferenceExtendedPackageDataRecordType">
+				<xsd:choice>
+					<xsd:element ref="biom:FaceImage"/>
+					<xsd:element ref="biom:PhysicalFeatureImage"/>
+				</xsd:choice>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:simpleType name="SMTCodeType">
+		<xsd:annotation>
+			<xsd:documentation>A union to add new SMT values to the fbi codes</xsd:documentation>
+		</xsd:annotation>
+		<xsd:union memberTypes="itl:SMTDescriptionCodeExtensionSimpleType fbi:SMTCodeSimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SMTDescriptionCodeExtensionSimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code list of new SMT codes</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="UTAT ABDM">
+				<xsd:annotation>
+					<xsd:documentation>Abdomen</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LANKL">
+				<xsd:annotation>
+					<xsd:documentation>Ankle, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT ANKL">
+				<xsd:annotation>
+					<xsd:documentation>Ankle, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RANKL">
+				<xsd:annotation>
+					<xsd:documentation>Ankle, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT L ARM">
+				<xsd:annotation>
+					<xsd:documentation>Arm, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT ULAR">
+				<xsd:annotation>
+					<xsd:documentation>Arm, left upper</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT ARM">
+				<xsd:annotation>
+					<xsd:documentation>Arm, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT R ARM">
+				<xsd:annotation>
+					<xsd:documentation>Arm, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT URARM">
+				<xsd:annotation>
+					<xsd:documentation>Arm, right upper</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT BACK">
+				<xsd:annotation>
+					<xsd:documentation>Back</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LBRST">
+				<xsd:annotation>
+					<xsd:documentation>Breast, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT BRST">
+				<xsd:annotation>
+					<xsd:documentation>Breast, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RBRST">
+				<xsd:annotation>
+					<xsd:documentation>Breast, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LBUTK">
+				<xsd:annotation>
+					<xsd:documentation>Buttock, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RBUTK">
+				<xsd:annotation>
+					<xsd:documentation>Buttock, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT BUTTK">
+				<xsd:annotation>
+					<xsd:documentation>Buttocks, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LCALF">
+				<xsd:annotation>
+					<xsd:documentation>Calf, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT CALF">
+				<xsd:annotation>
+					<xsd:documentation>Calf, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RCALF">
+				<xsd:annotation>
+					<xsd:documentation>Calf, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT L CHK">
+				<xsd:annotation>
+					<xsd:documentation>Cheek (face), left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT CHEEK">
+				<xsd:annotation>
+					<xsd:documentation>Cheek (face), nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT R CHK">
+				<xsd:annotation>
+					<xsd:documentation>Cheek (face), right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT CHEST">
+				<xsd:annotation>
+					<xsd:documentation>Chest</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT CHIN">
+				<xsd:annotation>
+					<xsd:documentation>Chin</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT L EAR">
+				<xsd:annotation>
+					<xsd:documentation>Ear, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT EAR">
+				<xsd:annotation>
+					<xsd:documentation>Ear, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT R EAR">
+				<xsd:annotation>
+					<xsd:documentation>Ear, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT L ELB">
+				<xsd:annotation>
+					<xsd:documentation>Elbow, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT ELBOW">
+				<xsd:annotation>
+					<xsd:documentation>Elbow, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT R ELB">
+				<xsd:annotation>
+					<xsd:documentation>Elbow, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT FACE">
+				<xsd:annotation>
+					<xsd:documentation>Face, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT L FGR">
+				<xsd:annotation>
+					<xsd:documentation>Finger(s), left hand</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT FNGR">
+				<xsd:annotation>
+					<xsd:documentation>Finger, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT R FGR">
+				<xsd:annotation>
+					<xsd:documentation>Finger(s), right hand</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LFOOT">
+				<xsd:annotation>
+					<xsd:documentation>Foot, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT FOOT">
+				<xsd:annotation>
+					<xsd:documentation>Foot, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RFOOT">
+				<xsd:annotation>
+					<xsd:documentation>Foot, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LFARM">
+				<xsd:annotation>
+					<xsd:documentation>Forearm, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT FARM">
+				<xsd:annotation>
+					<xsd:documentation>Forearm, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RFARM">
+				<xsd:annotation>
+					<xsd:documentation>Forearm, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT FHD">
+				<xsd:annotation>
+					<xsd:documentation>Forehead</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT FLBOD">
+				<xsd:annotation>
+					<xsd:documentation>Full body</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT GROIN">
+				<xsd:annotation>
+					<xsd:documentation>Groin area</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT L HND">
+				<xsd:annotation>
+					<xsd:documentation>Hand, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT HAND">
+				<xsd:annotation>
+					<xsd:documentation>Hand, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT R HND">
+				<xsd:annotation>
+					<xsd:documentation>Hand, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT HEAD">
+				<xsd:annotation>
+					<xsd:documentation>Head, nonspecific (use the MIS Field to further describe
+						location)</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT L HIP">
+				<xsd:annotation>
+					<xsd:documentation>Hip, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT HIP">
+				<xsd:annotation>
+					<xsd:documentation>Hip, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT R HIP">
+				<xsd:annotation>
+					<xsd:documentation>Hip, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LKNEE">
+				<xsd:annotation>
+					<xsd:documentation>Knee, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT KNEE">
+				<xsd:annotation>
+					<xsd:documentation>Knee, nonspecific </xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RKNEE">
+				<xsd:annotation>
+					<xsd:documentation>Knee, right </xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT L LEG">
+				<xsd:annotation>
+					<xsd:documentation>Leg, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LEG">
+				<xsd:annotation>
+					<xsd:documentation>Leg, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT R LEG">
+				<xsd:annotation>
+					<xsd:documentation>Leg, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LWLIP">
+				<xsd:annotation>
+					<xsd:documentation>Lip, lower</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LIP">
+				<xsd:annotation>
+					<xsd:documentation>Lip, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT UPLIP">
+				<xsd:annotation>
+					<xsd:documentation>Lip, upper</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT NECK">
+				<xsd:annotation>
+					<xsd:documentation>Neck</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT NOSE">
+				<xsd:annotation>
+					<xsd:documentation>Nose</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT PENIS">
+				<xsd:annotation>
+					<xsd:documentation>Penis</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LSHLD">
+				<xsd:annotation>
+					<xsd:documentation>Shoulder, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT SHLD">
+				<xsd:annotation>
+					<xsd:documentation>Shoulder, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RSHLD">
+				<xsd:annotation>
+					<xsd:documentation>Shoulder, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LTHGH">
+				<xsd:annotation>
+					<xsd:documentation>Thigh, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT THGH">
+				<xsd:annotation>
+					<xsd:documentation>Thigh, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT RTHGH">
+				<xsd:annotation>
+					<xsd:documentation>Thigh, right</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UTAT LWRS">
+				<xsd:annotation>
+					<xsd:documentation>Wrist, left</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="HERMAPHR">
+				<xsd:annotation>
+					<xsd:documentation>Hermaphrodite</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PRCD CHIN">
+				<xsd:annotation>
+					<xsd:documentation>Pierced Chin</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PRCD FACE">
+				<xsd:annotation>
+					<xsd:documentation>Pierced face, nonspecific</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:element name="PackageVoiceDataRecord" type="itl:PackageVoiceDataRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-11 Forensic and investigatory voice
+				record.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageVoiceDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a forensic and investigatory voice record
+				(Type-11)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedAudioPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:ForensicInvestigatoryVoiceDetail"/>
+					<xsd:choice minOccurs="0">
+						<xsd:element ref="biom:SourceExternalFileReferenceText"/>
+						<xsd:element ref="biom:SourceExternalAnalogFileReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalAudioReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalVideoReferenceText"/>
+					</xsd:choice>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageForensicDentalDataRecord"
+		type="itl:PackageForensicDentalDataRecordType" substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Forensic dental and oral record.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageForensicDentalDataRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a forensic dental and oral record
+				(Type-12)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:MultipleCrossReferenceExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:ForensicDentalOralDetail"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageLatentImageRecord" type="itl:PackageLatentImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-13 variable-resolution latent image record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageLatentImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a variable-resolution latent image record
+				(Type-13)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:choice>
+					<xsd:element ref="biom:FingerImpressionImage">
+						<xsd:annotation>
+							<xsd:appinfo>
+								<i:Deprecated i:value="true"/>
+							</xsd:appinfo>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="biom:PalmprintImage">
+						<xsd:annotation>
+							<xsd:appinfo>
+								<i:Deprecated i:value="true"/>
+							</xsd:appinfo>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="biom:PlantarImage">
+						<xsd:annotation>
+							<xsd:appinfo>
+								<i:Deprecated i:value="true"/>
+							</xsd:appinfo>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="biom:FrictionRidgeImage"/>
+				</xsd:choice>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageFingerprintImageRecord"
+		type="itl:PackageFingerImpressionImageRecordType" substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-14 variable-resolution fingerprint image
+				record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageFingerImpressionImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a fingerprint image record
+				(Type-14)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:FingerImpressionImage"/>
+					<xsd:element ref="biom:SubjectExistentialDetails" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackagePalmprintImageRecord" type="itl:PackagePalmprintImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-15 variable-resolution palmprint image
+				record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackagePalmprintImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a Type-15 variable-resolution palmprint image record
+				(Type-15)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:PalmprintImage"/>
+					<xsd:element ref="biom:FrictionRidgeImageSegmentPositionSquare" minOccurs="0" maxOccurs="17"/>
+					<xsd:element ref="biom:SubjectExistentialDetails" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageUserDefinedTestingImageRecord" type="itl:PackageTestImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-16 user-defined variable-resolution testing image
+				record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageTestImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a user-defined variable-resolution testing image
+				record (Type-16)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:TestImage"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageIrisImageRecord" type="itl:PackageIrisImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-17 iris image record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageIrisImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an iris image record (Type-17)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:IrisImage"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageDNARecord" type="itl:PackageDNARecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-18 DNA record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageDNARecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a DNA record (Type-18)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:CrossReferenceExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:DNASample"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackagePlantarImageRecord" type="itl:PackagePlantarImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-19 plantar image record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackagePlantarImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a plantar image record (Type-19)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:PlantarImage"/>
+					<xsd:element ref="biom:FrictionRidgeImageSegmentPositionSquare" minOccurs="0" maxOccurs="17"/>
+					<xsd:element ref="biom:SubjectExistentialDetails" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageSourceRepresentationRecord"
+		type="itl:PackageSourceRepresentationRecordType" substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-20 source representation data record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageSourceRepresentationRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a source representation data record
+				(Type-20)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:SourceRecordCardinalityCode"/>
+					<xsd:element ref="biom:SourceAcquisition" maxOccurs="9"/>
+					<xsd:element ref="biom:SourceFileFormat"/>
+					<xsd:element ref="biom:SourceCommentText" minOccurs="0"/>
+					<xsd:element ref="biom:SourceIdentification"/>
+					<xsd:choice minOccurs="0">
+						<xsd:element ref="biom:SourceExternalFileReferenceText"/>
+						<xsd:element ref="biom:SourceExternalAnalogFileReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalImageReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalAudioReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalVideoReferenceText"/>
+					</xsd:choice>
+					<xsd:choice>
+						<xsd:element ref="biom:SourceImage"/>
+						<xsd:element ref="biom:SourceAudio"/>
+						<xsd:element ref="biom:SourceVideo"/>
+					</xsd:choice>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageAssociatedContextRecord" type="itl:PackageAssociatedContextRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-21 associated context data record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageAssociatedContextRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an associated context data record
+				(Type-21)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:ContextFileFormat"/>
+					<xsd:element ref="biom:ContextCommentText" minOccurs="0"/>
+					<xsd:element ref="biom:ContextIdentification"/>
+					<xsd:choice minOccurs="0">
+						<xsd:element ref="biom:ContextExternalFileReferenceText"/>
+						<xsd:element ref="biom:SourceExternalAnalogFileReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalImageReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalAudioReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalVideoReferenceText"/>
+					</xsd:choice>
+					<xsd:choice>
+						<xsd:element ref="biom:ContextImage"/>
+						<xsd:element ref="biom:ContextAudio"/>
+						<xsd:element ref="biom:ContextVideo"/>
+					</xsd:choice>
+					<xsd:element ref="biom:MedicalDeviceInformation" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="biom:SubjectExistentialDetails" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageNonPhotographicImageryRecord"
+		type="itl:PackageNonPhotographicImageryRecordType" substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-22 Non-photographic imagery data record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageNonPhotographicImageryRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a Non-photographic imagery data record
+				(Type-22)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:CrossReferenceExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:NonPhotographicImageryDetail"/>
+					<xsd:choice>
+						<xsd:element ref="nc:BinaryBase64Object"/>
+						<xsd:element ref="biom:SourceExternalAnalogFileReferenceText"/>
+						<xsd:element ref="biom:SourceExternalDigitalImageReferenceText"/>
+					</xsd:choice>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageInformationAssuranceRecord"
+		type="itl:PackageInformationAssuranceRecordType" substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-98 information assurance data record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageInformationAssuranceRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an information assurance data record
+				(Type-98)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:PackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:AssuranceFormatOwnerIdentification"/>
+					<xsd:element ref="biom:AssuranceOrganization"/>
+					<xsd:element ref="biom:AssuranceFormatIdentification"/>
+					<xsd:element ref="biom:AssuranceDateTime"/>
+					<xsd:element ref="biom:AssuranceLogEntry" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="biom:AssuranceAuditRevisionIdentification" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="PackageCBEFFBiometricDataRecord" type="itl:PackageCBEFFImageRecordType"
+		substitutionGroup="itl:PackageDataRecord">
+		<xsd:annotation>
+			<xsd:documentation>A Type-99 CBEFF Biometric data record</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="PackageCBEFFImageRecordType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a CBEFF Biometric data record
+				(Type-99)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="itl:ExtendedPackageDataRecordType">
+				<xsd:sequence>
+					<xsd:element ref="biom:CBEFFImage"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="UserDefinedDescriptiveDetailType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for a set of domain-defined descriptive information to be
+				included in a Type-2 descriptive record; intended to be substituted by a
+				domain-defined extension element</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="itl:DomainDefinedDescriptiveDetail"/>
+					<xsd:element ref="itl:OtherDescriptiveDetail" minOccurs="0"
+						maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="DomainDefinedDescriptiveDetail" abstract="true">
+		<xsd:annotation>
+			<xsd:documentation>A data concept for a set of domain-defined descriptive information to
+				be included in a Type-2 descriptive record; intended to be substituted by a
+				domain-defined extension element</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OtherDescriptiveDetail" abstract="true">
+		<xsd:annotation>
+			<xsd:documentation>A data concept for a set of domain-defined descriptive information to
+				be included in a Type-2 descriptive record; intended to be substituted by a
+				domain-defined extension element</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="UserDefinedDescriptiveDetail" type="itl:UserDefinedDescriptiveDetailType">
+		<xsd:annotation>
+			<xsd:documentation>A set of user-defined descriptive information about the
+				transaction</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="UserDefinedFields" abstract="true">
+		<xsd:annotation>
+			<xsd:documentation>A data concept for a set of user-defined fields; intended to be
+				substituted by a domain-defined extension element</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="UserDefinedImage" abstract="true" substitutionGroup="biom:BiometricImage">
+		<xsd:annotation>
+			<xsd:documentation>A data concept for a user-defined image; intended to be substituted
+				by a domain-defined extension element</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CaptureSourceDescriptionText" type="nc:TextType"
+		substitutionGroup="biom:CaptureSourceDescriptionText">
+		<xsd:annotation>
+			<xsd:documentation>A description of a vendor-specified source of an image. Deprecated in
+				favor of biom:CaptureSourceDescriptionText.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FaceImage" type="biom:FaceImageType" substitutionGroup="biom:FaceImage">
+		<xsd:annotation>
+			<xsd:documentation>An image of a face. Deprecated in favor of
+				biom:FaceImage.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FaceImageAcquisitionSource" type="biom:ImageAcquisitionSourceType"
+		substitutionGroup="biom:FaceImageAcquisitionSource">
+		<xsd:annotation>
+			<xsd:documentation>A source of an image. Deprecated in favor of
+				biom:FaceImageAcquisitionSource.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FingerMissingCode" type="biom:FrictionRidgeImageMissingAreaReasonCodeType"
+		substitutionGroup="biom:FingerMissingCode">
+		<xsd:annotation>
+			<xsd:documentation>A reason for a missing finger from a fingerprint image. Deprecated in
+				favor of biom:FingerMissingCode.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FingerprintImage" type="biom:FingerImpressionImageType"
+		substitutionGroup="biom:FingerImpressionImage">
+		<xsd:annotation>
+			<xsd:documentation>An image of a fingerprint. Deprecated in favor of
+				biom:FingerImpressionImage.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FingerprintImageSegmentPositionSquare"
+		type="biom:FrictionRidgeImageSegmentPositionSquareType"
+		substitutionGroup="biom:FingerprintImageSegmentPositionSquare">
+		<xsd:annotation>
+			<xsd:documentation>A square segment position for a particular fingerprint. Deprecated in
+				favor of biom:FingerprintImageSegmentPositionSquare.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FingerprintImageSegmentPositionPolygon"
+		type="biom:FingerprintImageSegmentPositionPolygonType"
+		substitutionGroup="biom:FingerprintImageSegmentPositionPolygon">
+		<xsd:annotation>
+			<xsd:documentation>A polygon segment position for a particular fingerprint. Deprecated
+				in favor of biom:FingerprintImageSegmentPositionPolygon.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FingerprintImageFingerMissing" type="biom:FingerprintImageFingerMissingType"
+		substitutionGroup="biom:FingerprintImageFingerMissing">
+		<xsd:annotation>
+			<xsd:documentation>A missing finger in a fingerprint image. Deprecated in favor of
+				biom:FingerprintImageFingerMissing.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FingerprintImageQuality" type="biom:FingerprintImageQualityType"
+		substitutionGroup="biom:FingerprintImageQuality">
+		<xsd:annotation>
+			<xsd:documentation>A quality measure of a fingerprint. Deprecated in favor of
+				biom:FingerprintImageQuality.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="IrisDiameterPixelQuantity" type="niem-xsd:nonNegativeInteger"
+		substitutionGroup="biom:IrisDiameterPixelQuantity">
+		<xsd:annotation>
+			<xsd:documentation>A number of pixels in the diameter of an iris. Deprecated in favor of
+				biom:IrisDiameterPixelQuantity.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="IrisImage" type="biom:IrisImageType" substitutionGroup="biom:IrisImage">
+		<xsd:annotation>
+			<xsd:documentation>An image of an iris. Deprecated in favor of
+				biom:IrisImage.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Minutiae" type="itl:MinutiaeType" substitutionGroup="biom:RecordMinutiae">
+		<xsd:annotation>
+			<xsd:documentation>An outdated NIST standard minutiae record element. Deprecated in
+				favor of biom:ExtendedFeatureSetMinutiae, biom:INCITSMinutiae or a user-defined
+				substitute.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="MinutiaeType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an outdated NIST standard minutiae record element.
+				Deprecated in favor of biom:ExtendedFeatureSetMinutiaeType, biom:INCITSMinutiaeType
+				or a user-defined substitute.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="itl:MinutiaeNISTStandard"/>
+					<xsd:element ref="biom:MinutiaeFingerCorePosition" minOccurs="0"
+						maxOccurs="unbounded"/>
+					<xsd:element ref="biom:MinutiaeFingerDeltaPosition" minOccurs="0"
+						maxOccurs="unbounded"/>
+					<xsd:element ref="itl:MinutiaeFingerPatternDetail" minOccurs="0"
+						maxOccurs="unbounded"/>
+					<xsd:element ref="biom:MinutiaeFingerPositionCode" minOccurs="0"
+						maxOccurs="unbounded"/>
+					<xsd:element ref="biom:MinutiaePalmPositionCode" minOccurs="0"
+						maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="MinutiaeNISTStandard" type="itl:MinutiaeNISTStandardType">
+		<xsd:annotation>
+			<xsd:documentation>An outdated NIST standard minutiae element.
+				Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="MinutiaeNISTStandardType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an outdated NIST standard minutiae element.
+				Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="itl:MinutiaDetail" maxOccurs="unbounded"/>
+					<xsd:element ref="biom:MinutiaeQuantity"/>
+					<xsd:element ref="biom:MinutiaeReadingSystem" minOccurs="0"/>
+					<xsd:element ref="biom:MinutiaeRidgeCountIndicator"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="MinutiaDetail" type="itl:MinutiaType">
+		<xsd:annotation>
+			<xsd:documentation>An outdated NIST standard minutia element.
+				Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="MinutiaType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an outdated NIST standard minutia element.
+				Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="biom:PositionHorizontalCoordinateValue"/>
+					<xsd:element ref="biom:PositionVerticalCoordinateValue"/>
+					<xsd:element ref="biom:MinutiaIdentification"/>
+					<xsd:element ref="biom:PositionThetaAngleMeasure"/>
+					<xsd:element ref="biom:MinutiaQualityValue" minOccurs="0"/>
+					<xsd:element ref="biom:MinutiaCategoryCode" minOccurs="0"/>
+					<xsd:element ref="biom:MinutiaRidgeCount" minOccurs="0" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="MinutiaeFingerPatternDetail" type="itl:MinutiaeFingerPatternType">
+		<xsd:annotation>
+			<xsd:documentation>An outdated NIST standard minutia finger pattern.
+				Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="MinutiaeFingerPatternType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an outdated NIST standard minutia finger pattern.
+				Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="itl:FingerPatternCodeSourceCode"/>
+					<xsd:element ref="biom:FingerPattern" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="FingerPatternCodeSourceCode" type="itl:PCSCodeType">
+		<xsd:annotation>
+			<xsd:documentation>An outdated NIST standard minutia finger pattern code.
+				Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:simpleType name="PCSCodeSimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an outdated NIST standard minutia finger pattern
+				code. Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+				<i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="T">
+				<xsd:annotation>
+					<xsd:documentation>Pattern codes from Table 16 of ANSI-NIST/ITL
+						2007</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="U">
+				<xsd:annotation>
+					<xsd:documentation>User-defined pattern codes</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="PCSCodeType">
+		<xsd:annotation>
+			<xsd:documentation>A data type for an outdated NIST standard minutia finger pattern
+				code. Deprecated.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+				<i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="itl:PCSCodeSimpleType">
+				<xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:element name="PalmprintImage" type="biom:PalmprintImageType"
+		substitutionGroup="biom:PalmprintImage">
+		<xsd:annotation>
+			<xsd:documentation>An image of a palmprint. Deprecated in favor of
+				biom:PalmprintImage.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PalmprintImageQuality" type="biom:PalmprintImageQualityType"
+		substitutionGroup="biom:PalmprintImageQuality">
+		<xsd:annotation>
+			<xsd:documentation>A quality measure of a palmprint. Deprecated in favor of
+				biom:PalmprintImageQuality.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PositionPolygonVertex" type="biom:VertexType"
+		substitutionGroup="biom:PositionPolygonVertex">
+		<xsd:annotation>
+			<xsd:documentation>A vertex in a position polygon. Deprecated in favor of
+				biom:PositionPolygonVertex.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PositionPolygonVertexQuantity" type="niem-xsd:nonNegativeInteger"
+		substitutionGroup="biom:PositionPolygonVertexQuantity">
+		<xsd:annotation>
+			<xsd:documentation>A number of vertices in a position polygon. Deprecated in favor of
+				biom:PositionPolygonVertexQuantity.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TestImage" type="biom:ImageType" substitutionGroup="biom:TestImage">
+		<xsd:annotation>
+			<xsd:documentation>An image of a test. Deprecated in favor of
+				biom:TestImage.</xsd:documentation>
+			<xsd:appinfo>
+				<i:Deprecated i:value="true"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+</xsd:schema>

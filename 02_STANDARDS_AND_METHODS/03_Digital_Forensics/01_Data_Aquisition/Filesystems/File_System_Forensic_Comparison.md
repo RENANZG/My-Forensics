@@ -126,19 +126,6 @@
   </tbody>
 </table>
 
-<div class="references">
-  <h4>References</h4>
-  <ul>
-    <li>¹ <a href="https://docs.microsoft.com/en-us/windows/win32/fileio/ntfs-technical-reference">NTFS Technical Reference - Microsoft Docs</a></li>
-    <li>² <a href="https://learn.microsoft.com/en-us/windows/win32/fileio/fat32">FAT32 File System - Microsoft Docs</a></li>
-    <li>³ <a href="https://learn.microsoft.com/en-us/windows/win32/fileio/exfat-file-system">exFAT File System - Microsoft Docs</a></li>
-    <li>⁴ <a href="https://man7.org/linux/man-pages/man5/ext4.5.html">ext4 File System - Linux Manual Pages</a></li>
-    <li>⁵ <a href="https://man7.org/linux/man-pages/man5/xfs.5.html">XFS File System - Linux Manual Pages</a></li>
-    <li>⁶ <a href="https://btrfs.readthedocs.io/en/latest/">Btrfs Documentation - Btrfs Wiki</a></li>
-    <li>⁷ <a href="https://openzfs.github.io/openzfs-docs/Documentation/Features.html">ZFS Features - OpenZFS Documentation</a></li>
-  </ul>
-</div>
-
 <div>
   <h4>Glossary:</h4>
   <ul>
@@ -150,6 +137,19 @@
     <li><strong>File Carving:</strong> Ability to recover files based on file signatures rather than file system metadata.</li>
     <li><strong>Physical Data Recovery:</strong> Recovery of data from damaged or corrupted physical media.</li>
     <li><strong>Tools (Examples):</strong> Commonly used forensic tools for each file system.</li>
+  </ul>
+</div>
+
+<div class="references">
+  <h4>References</h4>
+  <ul>
+    <li>¹ <a href="https://docs.microsoft.com/en-us/windows/win32/fileio/ntfs-technical-reference">NTFS Technical Reference - Microsoft Docs</a></li>
+    <li>² <a href="https://learn.microsoft.com/en-us/windows/win32/fileio/fat32">FAT32 File System - Microsoft Docs</a></li>
+    <li>³ <a href="https://learn.microsoft.com/en-us/windows/win32/fileio/exfat-file-system">exFAT File System - Microsoft Docs</a></li>
+    <li>⁴ <a href="https://man7.org/linux/man-pages/man5/ext4.5.html">ext4 File System - Linux Manual Pages</a></li>
+    <li>⁵ <a href="https://man7.org/linux/man-pages/man5/xfs.5.html">XFS File System - Linux Manual Pages</a></li>
+    <li>⁶ <a href="https://btrfs.readthedocs.io/en/latest/">Btrfs Documentation - Btrfs Wiki</a></li>
+    <li>⁷ <a href="https://openzfs.github.io/openzfs-docs/Documentation/Features.html">ZFS Features - OpenZFS Documentation</a></li>
   </ul>
 </div>
 

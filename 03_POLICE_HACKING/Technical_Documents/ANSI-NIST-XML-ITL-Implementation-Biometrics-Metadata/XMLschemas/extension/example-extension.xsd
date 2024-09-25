@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:itl="http://biometrics.nist.gov/standard/2011"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:s="http://niem.gov/niem/structures/2.0"
+            xmlns:ext="http://example.org/extension"
+            xmlns:biom="http://niem.gov/niem/biometrics/1.0"
+            xmlns:i="http://niem.gov/niem/appinfo/2.0"
+            xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+            xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0"
+            targetNamespace="http://example.org/extension"
+            version="1">
+   <xsd:annotation>
+      <xsd:documentation>ANSI/NIST-ITL 2011 Biometric Information Exchange Package</xsd:documentation>
+      <xsd:appinfo>
+         <i:ConformantIndicator>true</i:ConformantIndicator>
+      </xsd:appinfo>
+   </xsd:annotation>
+   <xsd:import schemaLocation="../exchange/itl.xsd" 
+               namespace="http://biometrics.nist.gov/standard/2011"/>
+   <xsd:import schemaLocation="../subset/niem/domains/biometrics/1.0/biometrics.xsd" 
+               namespace="http://niem.gov/niem/biometrics/1.0"/>
+   <xsd:import schemaLocation="../subset/niem/appinfo/2.0/appinfo.xsd"
+               namespace="http://niem.gov/niem/appinfo/2.0"/>
+   <xsd:import schemaLocation="../subset/niem/structures/2.0/structures.xsd"
+               namespace="http://niem.gov/niem/structures/2.0"/>
+   <xsd:complexType name="ExampleType">
+      <xsd:annotation>
+         <xsd:documentation>A data type for a generic element that allows any content; used only in the extension examples</xsd:documentation>
+      </xsd:annotation>
+      <xsd:complexContent>
+         <xsd:extension base="s:ComplexObjectType">
+            <xsd:sequence>
+               <xsd:any minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+         </xsd:extension>
+      </xsd:complexContent>
+   </xsd:complexType>
+   <xsd:element name="ExampleDomainDefinedDescriptiveDetail"
+                substitutionGroup="itl:DomainDefinedDescriptiveDetail"
+                type="ext:ExampleType">
+      <xsd:annotation>
+         <xsd:documentation>An example of a Domain Defined Descriptive Detail extension</xsd:documentation>
+      </xsd:annotation>
+   </xsd:element>
+   <xsd:element name="ExampleOtherDescriptiveDetail"
+                substitutionGroup="itl:OtherDescriptiveDetail"
+                type="ext:ExampleType">
+      <xsd:annotation>
+         <xsd:documentation>An example of an Other Descriptive Detail extension</xsd:documentation>
+      </xsd:annotation>
+   </xsd:element>
+   <xsd:element name="ExampleRecordImage" substitutionGroup="itl:UserDefinedImage"
+                type="ext:ExampleType">
+      <xsd:annotation>
+         <xsd:documentation>An image of a Type-7 user defined image extension, to be used as an example</xsd:documentation>
+      </xsd:annotation>
+   </xsd:element>
+   <xsd:element name="ExampleRecordMinutiae" substitutionGroup="biom:RecordMinutiae"
+                type="ext:ExampleType">
+      <xsd:annotation>
+         <xsd:documentation>An example of a Record Minutiae extension</xsd:documentation>
+      </xsd:annotation>
+   </xsd:element>
+   <xsd:element name="ExampleUserDefinedFields" substitutionGroup="itl:UserDefinedFields"
+                type="ext:ExampleType">
+      <xsd:annotation>
+         <xsd:documentation>An example of a User Defined Fields extension</xsd:documentation>
+      </xsd:annotation>
+   </xsd:element>
+   <xsd:element name="ExampleDNAProfile" substitutionGroup="biom:DNAUserDefinedProfile"
+                type="ext:ExampleType">
+      <xsd:annotation>
+         <xsd:documentation>An example of a DNA Profile extension</xsd:documentation>
+      </xsd:annotation>
+   </xsd:element>
+</xsd:schema>

@@ -114,6 +114,16 @@
 </tbody>
 </table>
 
+<div>
+  <h4>Glossary:</h4>
+  <ul>
+  <li><strong>Resize Capabilities:</strong> Ability of the file system to dynamically adjust the size of allocated storage.</li>
+  <li><strong>RAID Solution Provided:</strong> Availability of built-in support for RAID (Redundant Array of Independent Disks) configurations.</li>
+  <li><strong>Volume Manager:</strong> Capability to manage disk volumes, including features like dynamic resizing, snapshotting, and RAID-like functionalities.</li>
+  <li><strong>RBD support:</strong> Support for RADOS Block Device, which is a feature of Ceph storage systems, allowing block storage functionality.</li>
+  </ul>
+</div>
+
 <div class="references">
   <h4>References</h4>
   <ul>
@@ -127,14 +137,5 @@
   </ul>
 </div>
 
-<div>
-  <h4>Glossary:</h4>
-  <ul>
-  <li><strong>Resize Capabilities:</strong> Ability of the file system to dynamically adjust the size of allocated storage.</li>
-  <li><strong>RAID Solution Provided:</strong> Availability of built-in support for RAID (Redundant Array of Independent Disks) configurations.</li>
-  <li><strong>Volume Manager:</strong> Capability to manage disk volumes, including features like dynamic resizing, snapshotting, and RAID-like functionalities.</li>
-  <li><strong>RBD support:</strong> Support for RADOS Block Device, which is a feature of Ceph storage systems, allowing block storage functionality.</li>
-  </ul>
-  </div>
 </body>
 </html>

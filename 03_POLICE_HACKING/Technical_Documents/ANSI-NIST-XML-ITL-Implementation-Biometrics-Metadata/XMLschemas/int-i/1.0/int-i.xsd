@@ -1,0 +1,1064 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:int-i="http://interpol.gov/int-i/1.0"
+            xmlns:s="http://niem.gov/niem/structures/2.0"
+            xmlns:itl="http://biometrics.nist.gov/standard/2011"
+            xmlns:biom="http://niem.gov/niem/biometrics/1.0"
+            xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+            xmlns:i="http://niem.gov/niem/appinfo/2.0"
+            xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:iso3166="http://niem.gov/niem/iso_3166/2.0"
+            targetNamespace="http://interpol.gov/int-i/1.0" version="2.0">
+    <xsd:import namespace="http://niem.gov/niem/structures/2.0"
+                schemaLocation="../../../XMLschemas/subset/niem/structures/2.0/structures.xsd">
+        <xsd:annotation>
+            <xsd:documentation>NIEM Defined structures for creating types</xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:import namespace="http://niem.gov/niem/appinfo/2.0"
+                schemaLocation="../../../XMLschemas/subset/niem/appinfo/2.0/appinfo.xsd">
+        <xsd:annotation>
+            <xsd:documentation>NIEM Base Application Information for creating types</xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:import namespace="http://niem.gov/niem/biometrics/1.0"
+                schemaLocation="../../../XMLschemas/subset/niem/domains/biometrics/1.0/biometrics.xsd">
+        <xsd:annotation>
+            <xsd:documentation>ANSI/NIST Biometrics Domain Schema</xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:import namespace="http://niem.gov/niem/niem-core/2.0"
+                schemaLocation="../../../XMLschemas/subset/niem/niem-core/2.0/niem-core.xsd">
+        <xsd:annotation>
+            <xsd:documentation>NIEM Core Data Model</xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:import namespace="http://niem.gov/niem/proxy/xsd/2.0"
+                schemaLocation="../../../XMLschemas/subset/niem/proxy/xsd/2.0/xsd.xsd">
+        <xsd:annotation>
+            <xsd:documentation>NIEM XML Proxy types</xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:import namespace="http://niem.gov/niem/iso_3166/2.0"
+                schemaLocation="../../../XMLschemas/subset/niem/iso_3166/2.0/iso_3166.xsd">
+        <xsd:annotation>
+            <xsd:documentation>ISO 3166 Country Codes</xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:import namespace="http://biometrics.nist.gov/standard/2011"
+                schemaLocation="../../../XMLschemas/exchange/itl.xsd">
+        <xsd:annotation>
+            <xsd:documentation>ANSI/NIST-ITL 2011 Biometric Information Exchange Package</xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:complexType name="NationalIdentifierType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:LocationCountryISO3166Alpha3Code" minOccurs="1"/>
+                    <xsd:element ref="nc:IdentificationID" minOccurs="1"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="ContactInformationType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="nc:ContactTelephoneNumber" minOccurs="0"/>
+                    <xsd:element ref="nc:OrganizationName" minOccurs="0"/>
+                    <xsd:element ref="nc:PersonFullName" minOccurs="0"/>
+                    <xsd:element ref="int-i:AdditionalContactInformationText" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="CaptureOrganizationType">
+        <xsd:complexContent>
+            <xsd:extension base="nc:OrganizationType">
+                <xsd:sequence>
+                    <xsd:element ref="nc:LocationAddress" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="CustomDefinedDescriptiveDetailType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+            </xsd:appinfo>
+            <xsd:documentation>Custom defined fields, which are not part of INTERPOL implementation</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="DomainDefinedDescriptiveDetailType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:RecordActivity" minOccurs="0"/>
+                    <xsd:element ref="int-i:RecordSubject" minOccurs="0"/>
+                    <xsd:element ref="int-i:RecordOffence" minOccurs="0"/>
+                    <xsd:element ref="int-i:RecordCivil" minOccurs="0"/>
+                    <xsd:element ref="int-i:RecordMetadata" minOccurs="0"/>
+                    <xsd:element ref="int-i:TransactionResponseData" minOccurs="0"/>
+                    <xsd:element ref="int-i:TransactionMetadata" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="ErrorMessageType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:ErrorCode" minOccurs="0"/>
+                    <xsd:element ref="int-i:ErrorFieldMnemonicCode" minOccurs="0"/>
+                    <xsd:element ref="int-i:ErrorMessageText" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="PersonNameType">
+        <xsd:complexContent>
+            <xsd:extension base="nc:PersonNameType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:PersonExtendedName" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="PersonAliasesType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:PersonName" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="MiscellaneousIdentificationIDXType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:MiscIDType" minOccurs="0"/>
+                    <xsd:element ref="nc:IdentificationID" minOccurs="1"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="MiscellaneousIdentificationType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:InterpolReferenceNumber" minOccurs="0"/>
+                    <xsd:element ref="int-i:NationalPersonIdentifier" minOccurs="0"/>
+                    <xsd:element ref="int-i:NationalPersonInquiryIdentifier" minOccurs="0"/>
+                    <xsd:element ref="int-i:NationalCaseIdentifier" minOccurs="0"/>
+                    <xsd:element ref="int-i:LatentCaseEvidenceIdentifier" minOccurs="0"/>
+                    <xsd:element ref="int-i:LatentIdentifier" minOccurs="0"/>
+                    <xsd:element ref="int-i:LatentUniqueIdentifier" minOccurs="0"/>
+                    <xsd:element ref="int-i:NationalBusinessReference" minOccurs="0"/>
+                    <xsd:element ref="int-i:MiscellaneousIdentificationID1" minOccurs="0"/>
+                    <xsd:element ref="int-i:MiscellaneousIdentificationID2" minOccurs="0"/>
+                    <xsd:element ref="int-i:MiscellaneousIdentificationID3" minOccurs="0"/>
+                    <xsd:element ref="int-i:MiscellaneousIdentificationID4" minOccurs="0"/>
+                    <xsd:element ref="int-i:MiscellaneousIdentificationID5" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="RecordActivityType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="biom:RecordCreationDate" minOccurs="0"/>
+                    <xsd:element ref="int-i:CaptureOrganization" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="RecordMetadataType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:MiscellaneousIdentification" minOccurs="0"/>
+                    <xsd:element ref="int-i:ContactInformation" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="nc:ExpirationDate" minOccurs="0"/>
+                    <xsd:element ref="int-i:RecordCreationDate" minOccurs="0"/>
+                    <xsd:element ref="int-i:RecordLastUpdateDate" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="RecordSubjectType">
+        <xsd:complexContent>
+            <xsd:extension base="nc:PersonType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:PersonAliases" minOccurs="0"/>
+                    <xsd:element ref="int-i:PersonBirthDateRange" minOccurs="0"/>
+                    <xsd:element ref="int-i:PersonSexCode" minOccurs="0"/>
+                    <xsd:element ref="int-i:PersonFather" minOccurs="0"/>
+                    <xsd:element ref="int-i:PersonMother" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="RecordOffenceType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:OffenceDescriptionCode" minOccurs="0"/>
+                    <xsd:element ref="int-i:OffenceDescriptionText" minOccurs="0"/>
+                    <xsd:element ref="int-i:ArrestLocation" minOccurs="0"/>
+                    <xsd:choice>
+                        <xsd:element ref="int-i:OffenceDateTime" minOccurs="0"/>
+                        <xsd:element ref="int-i:OffenceDateTimeRange" minOccurs="0"/>
+                    </xsd:choice>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="RecordCivilType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:CivilDescriptionCode" minOccurs="0"/>
+                    <xsd:element ref="int-i:CivilDescriptionText" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="RespondentsListType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:TransactionCandidate"/>
+                    <xsd:element ref="int-i:TransactionCandidatesTotalQuantity"/>
+                    <xsd:element ref="int-i:TransactionCategoryCode"/>
+                    <xsd:element ref="int-i:TransactionSearchResultsCode"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="TransactionCandidateType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:CandidateSequenceID"/>
+                    <xsd:element ref="int-i:TransactionCandidateManualVerificationIndicator"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="TransactionMetadataType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:ResultDeterminationMode" minOccurs="0" maxOccurs="1"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="TransactionResponseDataType">
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:ErrorMessage" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="int-i:RespondentsList" minOccurs="0"/>
+                    <xsd:element ref="int-i:LatentMatchingPosition" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="TransactionCategoryCodeType">
+        <xsd:annotation>
+            <xsd:documentation>A data type for an extension of the biom:TransactionType to add the type of transaction
+                defined by receiving agency.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:simpleContent>
+            <xsd:extension base="int-i:TransactionCategoryCodeSimpleType">
+                <xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="AbstractTransactionOrganizationType" abstract="true">
+        <xsd:annotation>
+            <xsd:documentation>A data type for a restriction of nc:OrganizationType to allow to
+                make the OrganizationName mandatory.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:restriction base="nc:OrganizationType">
+                <xsd:sequence>
+                    <xsd:element ref="nc:OrganizationIdentification" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element ref="nc:OrganizationName" minOccurs="1" maxOccurs="1"/>
+                </xsd:sequence>
+            </xsd:restriction>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="TransactionOrganizationType">
+        <xsd:annotation>
+            <xsd:documentation>A data type for an extension of int:AbstractTransactionOrganisation to allow to
+                specify the 3-letter country code of the agency.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="int-i:AbstractTransactionOrganizationType">
+                    <xsd:sequence>
+                        <xsd:element ref="int-i:LocationCountryISO3166Alpha3Code" minOccurs="1" maxOccurs="1"/>
+                    </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="LatentMatchingPositionType">
+        <xsd:annotation>
+            <xsd:documentation></xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="int-i:LatentMatchingPositionSearch" minOccurs="1" maxOccurs="1"/>
+                    <xsd:element ref="int-i:LatentMatchingPositionCandidate" minOccurs="1" maxOccurs="1"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <!--****************************************-->
+    <!--****************************************-->
+    <!--****************************************-->
+    <!-- Int-I Element Declarations-->
+    <!--****************************************-->
+    <!--****************************************-->
+    <!--****************************************-->
+    <!-- Type 1 elements -->
+    <xsd:element name="TransactionCategoryCode" type="int-i:TransactionCategoryCodeType"
+                 substitutionGroup="biom:TransactionCategory"/>
+    <xsd:element name="TransactionDestinationOrganization" type="int-i:TransactionOrganizationType"
+                 substitutionGroup="biom:TransactionDestinationOrganization"/>
+    <xsd:element name="TransactionOriginatingOrganization" type="int-i:TransactionOrganizationType"
+                 substitutionGroup="biom:TransactionOriginatingOrganization"/>
+    <xsd:element name="LocationCountryISO3166Alpha3Code" type="int-i:ISO3166Alpha3CodeType"/>
+    <!-- Type 2 elements -->
+    <xsd:element name="AdditionalContactInformationText" type="nc:TextType"/>
+    <xsd:element name="ArrestLocation" type="nc:LocationType"/>
+    <xsd:element name="CountryCaseReference" type="nc:TextType"/>
+    <xsd:element name="CaptureOrganization" type="int-i:CaptureOrganizationType"/>
+    <xsd:element name="CandidateSequenceID" type="nc:IdentificationType"/>
+    <xsd:element name="CivilDescriptionCode" type="int-i:CivilDescriptionCodeType"/>
+    <xsd:element name="CivilDescriptionText" type="nc:TextType"/>
+    <xsd:element name="ContactInformation" type="int-i:ContactInformationType"/>
+    <xsd:element name="CountrySearchedIndicator" type="niem-xsd:boolean"/>
+    <xsd:element name="CustomDefinedDescriptiveDetail" type="int-i:CustomDefinedDescriptiveDetailType"
+                 substitutionGroup="itl:OtherDescriptiveDetail"/>
+    <xsd:element name="DomainDefinedDescriptiveDetail" type="int-i:DomainDefinedDescriptiveDetailType"
+                 substitutionGroup="itl:DomainDefinedDescriptiveDetail"/>
+    <xsd:element name="ErrorCode" type="int-i:ErrorCodeType"/>
+    <xsd:element name="ErrorFieldMnemonicCode" type="nc:TextType"/>
+    <xsd:element name="ErrorMessage" type="int-i:ErrorMessageType"/>
+    <xsd:element name="ErrorMessageText" type="nc:TextType"/>
+    <xsd:element name="InterpolReferenceNumber" type="nc:TextType"/>
+    <xsd:element name="NationalBusinessReference" type="int-i:NationalIdentifierType"/>
+    <xsd:element name="NationalPersonIdentifier" type="int-i:NationalIdentifierType"/>
+    <xsd:element name="NationalPersonInquiryIdentifier" type="int-i:NationalIdentifierType"/>
+    <xsd:element name="NationalCaseIdentifier" type="int-i:NationalIdentifierType"/>
+    <xsd:element name="LatentMatchingPosition" type="int-i:LatentMatchingPositionType"/>
+    <xsd:element name="LatentMatchingPositionSearch" type="int-i:LatentMatchingPositionSimpleType"/>
+    <xsd:element name="LatentMatchingPositionCandidate" type="int-i:LatentMatchingPositionSimpleType"/>
+    <xsd:element name="LatentCaseEvidenceIdentifier" type="nc:TextType"/>
+    <xsd:element name="LatentIdentifier" type="nc:TextType"/>
+    <xsd:element name="LatentUniqueIdentifier" type="nc:TextType"/>
+    <xsd:element name="MiscellaneousIdentificationID1" type="int-i:MiscellaneousIdentificationIDXType"/>
+    <xsd:element name="MiscellaneousIdentificationID2" type="int-i:MiscellaneousIdentificationIDXType"/>
+    <xsd:element name="MiscellaneousIdentificationID3" type="int-i:MiscellaneousIdentificationIDXType"/>
+    <xsd:element name="MiscellaneousIdentificationID4" type="int-i:MiscellaneousIdentificationIDXType"/>
+    <xsd:element name="MiscellaneousIdentificationID5" type="int-i:MiscellaneousIdentificationIDXType"/>
+    <xsd:element name="MiscIDType" type="nc:TextType"/>
+    <xsd:element name="OffenceDescriptionText" type="nc:TextType"/>
+    <xsd:element name="OffenceDateTime" type="nc:DateType"/>
+    <xsd:element name="OffenceDateTimeRange" type="nc:DateRangeType"/>
+    <xsd:element name="PersonBirthDateRange" type="nc:DateRangeType"/>
+    <xsd:element name="PersonPlaceOfBirth" type="nc:LocationType"/>
+    <xsd:element name="PersonExtendedName" type="nc:TextType" nillable="true">
+        <xsd:annotation>
+            <xsd:documentation>A name of a person for cultures that do not follow the First,Middle,Last naming
+                convention.
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="PersonSexCode" type="int-i:PersonSexCodeType"/>
+    <xsd:element name="PersonFather" type="int-i:PersonNameType"/>
+    <xsd:element name="PersonAliases" type="int-i:PersonAliasesType"/>
+    <xsd:element name="PersonMother" type="int-i:PersonNameType"/>
+    <xsd:element name="PersonName" type="int-i:PersonNameType" substitutionGroup="nc:PersonName"/>
+    <xsd:element name="MiscellaneousIdentification" type="int-i:MiscellaneousIdentificationType"/>
+    <xsd:element name="OffenceDescriptionCode" type="int-i:OffenceDescriptionCodeType"/>
+    <xsd:element name="RecordActivity" type="int-i:RecordActivityType"/>
+    <xsd:element name="RecordCreationDate" type="nc:DateType"/>
+    <xsd:element name="RecordLastUpdateDate" type="nc:DateType"/>
+    <xsd:element name="RecordMetadata" type="int-i:RecordMetadataType"/>
+    <xsd:element name="RecordOffence" type="int-i:RecordOffenceType"/>
+    <xsd:element name="RecordCivil" type="int-i:RecordCivilType"/>
+    <xsd:element name="RecordSubject" type="int-i:RecordSubjectType"/>
+    <xsd:element name="RespondentsList" type="int-i:RespondentsListType"/>
+    <xsd:element name="ResultDeterminationMode" type="int-i:ResultDeterminationModeSimpleType"/>
+    <xsd:element name="TransactionCandidate" type="int-i:TransactionCandidateType"/>
+    <xsd:element name="TransactionCandidateManualVerificationIndicator" type="niem-xsd:boolean"/>
+    <xsd:element name="TransactionCandidatesTotalQuantity" type="niem-xsd:nonNegativeInteger"/>
+    <xsd:element name="TransactionMetadata" type="int-i:TransactionMetadataType"/>
+    <xsd:element name="TransactionResponseData" type="int-i:TransactionResponseDataType"/>
+    <xsd:element name="TransactionSearchResultsCode" type="int-i:TransactionSearchResultsCodeType"/>
+    <!-- ====== Simple Types =============== -->
+    <xsd:simpleType name="ErrorCodeType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="001">
+                <xsd:annotation>
+                    <xsd:documentation>ERROR RECORD NOT FOUND</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="002">
+                <xsd:annotation>
+                    <xsd:documentation>ERROR RECORD ALREADY EXISTS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="003">
+                <xsd:annotation>
+                    <xsd:documentation>ERROR UNAUTHORISED ACCESS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="101">
+                <xsd:annotation>
+                    <xsd:documentation>MANDATORY FIELD MISSING</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="102">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID RECORD TYPE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="103">
+                <xsd:annotation>
+                    <xsd:documentation>UNDEFINED FIELD</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="104">
+                <xsd:annotation>
+                    <xsd:documentation>EXCEED THE MAXIMUM OCCURRENCE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="105">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID NUMBER OF SUBFIELDS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="106">
+                <xsd:annotation>
+                    <xsd:documentation>FIELD LENGTH TOO SHORT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="107">
+                <xsd:annotation>
+                    <xsd:documentation>FIELD LENGTH TOO LONG</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="108">
+                <xsd:annotation>
+                    <xsd:documentation>FIELD IS NOT A NUMBER AS EXPECTED</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="109">
+                <xsd:annotation>
+                    <xsd:documentation>FIELD NUMBER VALUE TOO SMALL</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="110">
+                <xsd:annotation>
+                    <xsd:documentation>FIELD NUMBER VALUE TOO BIG</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="111">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID CHARACTER</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="112">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID DATE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="113">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID TIME</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="114">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID DATE OR TIME</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="115">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID ITEM VALUE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="116">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID TYPE OF TRANSACTION</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="117">
+                <xsd:annotation>
+                    <xsd:documentation>INVALID RECORD DATA</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="201">
+                <xsd:annotation>
+                    <xsd:documentation>ERROR INVALID TCN</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="501">
+                <xsd:annotation>
+                    <xsd:documentation>ERROR INSUFFICIENT FINGERPRINT QUALITY</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="502">
+                <xsd:annotation>
+                    <xsd:documentation>ERROR MISSING FINGERPRINTS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="503">
+                <xsd:annotation>
+                    <xsd:documentation>ERROR FINGERPRINT SEQUENCE CHECK FAILED</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="999">
+                <xsd:annotation>
+                    <xsd:documentation>ERROR ANY OTHER ERROR. FOR FURTHER DETAILS CALL DESTINATION AGENCY
+                    </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="CivilDescriptionCodeType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="AMN">
+                <xsd:annotation>
+                    <xsd:documentation>AMNESIA</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="CIT">
+                <xsd:annotation>
+                    <xsd:documentation>CITIZENSHIP</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="DEC">
+                <xsd:annotation>
+                    <xsd:documentation>DECEASED</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IMM">
+                <xsd:annotation>
+                    <xsd:documentation>MISSING PERSON</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IU">
+                <xsd:annotation>
+                    <xsd:documentation>Unidentified Bodies</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="OTH">
+                <xsd:annotation>
+                    <xsd:documentation>NOT LISTED REASON</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="VIS">
+                <xsd:annotation>
+                    <xsd:documentation>VISA</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="OffenceDescriptionCodeType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="ICM">
+                <xsd:annotation>
+                    <xsd:documentation>CRIMES AGAINST CHILDREN</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IFA">
+                <xsd:annotation>
+                    <xsd:documentation>AIDING A CRIMINAL</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IFE">
+                <xsd:annotation>
+                    <xsd:documentation>ESCAPED</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IFL">
+                <xsd:annotation>
+                    <xsd:documentation>AT LARGE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IHG">
+                <xsd:annotation>
+                    <xsd:documentation>GENOCIDE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IHH">
+                <xsd:annotation>
+                    <xsd:documentation>CRIMES AGAINST HUMANITY   </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IHW">
+                <xsd:annotation>
+                    <xsd:documentation>WAR CRIME </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="III">
+                <xsd:annotation>
+                    <xsd:documentation>ILLEGAL IMMIGRATION</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IIO">
+                <xsd:annotation>
+                    <xsd:documentation>ILLEGAL IMMIGRATION ORGANIZER</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IIP">
+                <xsd:annotation>
+                    <xsd:documentation>TRAFFIC IN HUMAN BEINGS ORGANIZER</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IIT">
+                <xsd:annotation>
+                    <xsd:documentation>TRAFFIC IN HUMAN BEINGS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IKA">
+                <xsd:annotation>
+                    <xsd:documentation>CRIME AGAINST FAMILY/ABDUCTION</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IKK">
+                <xsd:annotation>
+                    <xsd:documentation>KIDNAPPING/ILLEGAL IMPRISONMENT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IKP">
+                <xsd:annotation>
+                    <xsd:documentation>MARITIME PIRACY/ROBBERY ON THE HIGH SEAS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ILA">
+                <xsd:annotation>
+                    <xsd:documentation>ASSAULT/MALTREATMENT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ILB">
+                <xsd:annotation>
+                    <xsd:documentation>TORTURE/BARBAROUS ACT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ILG">
+                <xsd:annotation>
+                    <xsd:documentation>DESECRATION OF BURIAL PLACE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ILM">
+                <xsd:annotation>
+                    <xsd:documentation>INJURY CAUSING DEATH/MANSLAUGHTER/MURDER</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ILO">
+                <xsd:annotation>
+                    <xsd:documentation>ORGANS (HORMONES to be considered)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ILT">
+                <xsd:annotation>
+                    <xsd:documentation>THREATS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IOO">
+                <xsd:annotation>
+                    <xsd:documentation>CRIMINAL ORGANIZATION/ASSOCIATION/GROUP</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="IRO">
+                <xsd:annotation>
+                    <xsd:documentation>ROAD TRAFFIC RELATED OFFENCE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ISE">
+                <xsd:annotation>
+                    <xsd:documentation>SEXUAL EXPLOITATION/PROSTITUTION</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ISP">
+                <xsd:annotation>
+                    <xsd:documentation>PRODUCTION/DISTRIBUTION OF PORNOGRAPHY</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ISR">
+                <xsd:annotation>
+                    <xsd:documentation>RAPE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ISS">
+                <xsd:annotation>
+                    <xsd:documentation>SEXUAL OFFENCES</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ITA">
+                <xsd:annotation>
+                    <xsd:documentation>TERRORISM LOGISTIC SUPPORT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ITB">
+                <xsd:annotation>
+                    <xsd:documentation>BIOLOGICAL TERRORISM</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ITC">
+                <xsd:annotation>
+                    <xsd:documentation>CHEMICAL TERRORISM</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ITF">
+                <xsd:annotation>
+                    <xsd:documentation>TERRORISM FINANCING</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ITM">
+                <xsd:annotation>
+                    <xsd:documentation>TERRORIST GROUP MEMBER</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ITR">
+                <xsd:annotation>
+                    <xsd:documentation>RADIOLOGICAL/NUCLEAR TERRORISM</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ITT">
+                <xsd:annotation>
+                    <xsd:documentation>TERRORISM RELATED CRIME</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ITZ">
+                <xsd:annotation>
+                    <xsd:documentation>TERRORISM ACTS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="NLC">
+                <xsd:annotation>
+                    <xsd:documentation>NOT LISTED CRIME</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PAA">
+                <xsd:annotation>
+                    <xsd:documentation>WORK OF ART</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PCF">
+                <xsd:annotation>
+                    <xsd:documentation>FORGERY</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PCM">
+                <xsd:annotation>
+                    <xsd:documentation>COUNTERFEIT CURRENCY</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PCO">
+                <xsd:annotation>
+                    <xsd:documentation>PHARMACEUTICAL CRIME</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PCP">
+                <xsd:annotation>
+                    <xsd:documentation>INTELLECTUAL PROPERTY CRIME </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PCT">
+                <xsd:annotation>
+                    <xsd:documentation>FORGERY OF TRAVEL DOCUMENTS</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PDA">
+                <xsd:annotation>
+                    <xsd:documentation>DOPING AGENTS AND ANABOLICS </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PDC">
+                <xsd:annotation>
+                    <xsd:documentation>CANNABIS </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PDD">
+                <xsd:annotation>
+                    <xsd:documentation>DRUG(S)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PDH">
+                <xsd:annotation>
+                    <xsd:documentation>HEROIN/MORPHINE/OPIUM </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PDO">
+                <xsd:annotation>
+                    <xsd:documentation>COCAINE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PDP">
+                <xsd:annotation>
+                    <xsd:documentation>PSYCHOTROPICS </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PEB">
+                <xsd:annotation>
+                    <xsd:documentation>BACTERIOLOGICAL/BIOLOGICAL/NUCLEAR</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PEC">
+                <xsd:annotation>
+                    <xsd:documentation>CHEMICAL SUBSTANCES</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PEE">
+                <xsd:annotation>
+                    <xsd:documentation>ENVIRONMENTAL CRIME</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PEW">
+                <xsd:annotation>
+                    <xsd:documentation>WILDLIFE CRIME</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PFB">
+                <xsd:annotation>
+                    <xsd:documentation>BANKING/FINANCIAL FRAUD</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PFC">
+                <xsd:annotation>
+                    <xsd:documentation>BRIBERY/CORRUPTION </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PFF">
+                <xsd:annotation>
+                    <xsd:documentation>FRAUD</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PFG">
+                <xsd:annotation>
+                    <xsd:documentation>FRAUD AGAINST GOVERNMENT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PFM">
+                <xsd:annotation>
+                    <xsd:documentation>COMMERCIAL FRAUD</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PFV">
+                <xsd:annotation>
+                    <xsd:documentation>CURRENCY CONTROL VIOLATION</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PHH">
+                <xsd:annotation>
+                    <xsd:documentation>HIJACKING OF MEANS OF TRANSPORT (PLANE, SHIP, BUS, CAR...)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PIH">
+                <xsd:annotation>
+                    <xsd:documentation>HIGH TECH CRIME</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PMM">
+                <xsd:annotation>
+                    <xsd:documentation>MONEY LAUNDERING</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PTA">
+                <xsd:annotation>
+                    <xsd:documentation>AGGRAVATED THEFT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PTB">
+                <xsd:annotation>
+                    <xsd:documentation>BURGLARY</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PTE">
+                <xsd:annotation>
+                    <xsd:documentation>EXTORTION</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PTR">
+                <xsd:annotation>
+                    <xsd:documentation>RECEIVING STOLEN PROPERTY</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PTS">
+                <xsd:annotation>
+                    <xsd:documentation>THEFT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PTW">
+                <xsd:annotation>
+                    <xsd:documentation>ARMED ROBBERY</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PTY">
+                <xsd:annotation>
+                    <xsd:documentation>ROBBERY</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PVV">
+                <xsd:annotation>
+                    <xsd:documentation>VANDALISM/DAMAGE/LOOTING/HOOLIGANISM</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PWA">
+                <xsd:annotation>
+                    <xsd:documentation>ARSON</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PWC">
+                <xsd:annotation>
+                    <xsd:documentation>AMMUNITION/COMPONENTS/FIREARMS/WEAPONS/EXPLOSIVES </xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="PWE">
+                <xsd:annotation>
+                    <xsd:documentation>USE OF AN EXPLOSIVE DEVICE (BOMBING)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ResultDeterminationModeSimpleType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="AC">
+                <xsd:annotation>
+                    <xsd:documentation>AUTO CONFIRMED</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="UC">
+                <xsd:annotation>
+                    <xsd:documentation>UNCONFIRMED</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="QS">
+                <xsd:annotation>
+                    <xsd:documentation>QUICK SEARCH</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="CO">
+                <xsd:annotation>
+                    <xsd:documentation>CONFIRMED</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="SL">
+                <xsd:annotation>
+                    <xsd:documentation>SILENT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="TransactionCategoryCodeSimpleType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="CPS"/>
+            <xsd:enumeration value="NPS"/>
+            <xsd:enumeration value="MPS"/>
+            <xsd:enumeration value="SRE"/>
+            <xsd:enumeration value="ATP"/>
+            <xsd:enumeration value="ERR"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="PersonSexCodeType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="M">
+                <xsd:annotation>
+                    <xsd:documentation>MALE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="F">
+                <xsd:annotation>
+                    <xsd:documentation>FEMALE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="U">
+                <xsd:annotation>
+                    <xsd:documentation>NOT CERTAIN</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="X">
+                <xsd:annotation>
+                    <xsd:documentation></xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="TransactionSearchResultsCodeType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="I">
+                <xsd:annotation>
+                    <xsd:documentation>HIT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="N">
+                <xsd:annotation>
+                    <xsd:documentation>NO HIT</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ISO3166Alpha3CodeType_extension">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="ZZZ">
+                <xsd:annotation>
+                    <xsd:documentation>All the member countries</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="XPO">
+                <xsd:annotation>
+                    <xsd:documentation>INTERPOL</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="EPO">
+                <xsd:annotation>
+                    <xsd:documentation>EUROPOL</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="UNO">
+                <xsd:annotation>
+                    <xsd:documentation>United Nations</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="ICC">
+                <xsd:annotation>
+                    <xsd:documentation>International Criminal Court</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ISO3166Alpha3CodeType">
+        <xsd:annotation>
+            <xsd:documentation>Extension of the ISO3166Alpha3 code with the INTERPOL specific extra codes
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:union memberTypes="int-i:ISO3166Alpha3CodeType_extension iso3166:CountryAlpha3CodeSimpleType"/>
+    </xsd:simpleType>
+    <xsd:simpleType name="LatentMatchingPositionSimpleType">
+        <xsd:annotation>
+            <xsd:documentation></xsd:documentation>
+        </xsd:annotation>
+        <xsd:union memberTypes="biom:FingerPositionCodeSimpleType biom:PalmPositionCodeSimpleType"/>
+    </xsd:simpleType>
+</xsd:schema>

@@ -56,7 +56,7 @@
   <tr>
   </tr>
 </thead>
-<tbody> 
+<tbody>
 <tr>
   <td align="center" valign="top"><b>Crime Triangle</b></td>
   <td align="center" valign="top"><b>Basic Investigative Metodology</b></td>
@@ -67,7 +67,7 @@
   </td>
   <td align="left" valign="top">
     <p>
-    <b>• 5W:</b> Who, What, When, Where and Why<br> 
+    <b>• 5W:</b> Who, What, When, Where and Why<br>
     <b>• PDCA Cycle:</b> Plan, Do, Check and Act<br>
     <b>• Root Cause Analysis (RCA):</b><br>
     <ol>
@@ -106,7 +106,7 @@
   <tr>
   </tr>
 </thead>
-<tbody> 
+<tbody>
 <tr>
 <td align="center" valign="top" style="width: 50%"><b>FLOSS</b><br>Free/Libre and Open Source Software</td>
 <td align="center" valign="top" style="width: 50%"><b>PROPRIETARY</b><br>Cyber-surveillance Industry</td>
@@ -232,7 +232,7 @@
 
 <h3>INTERCEPTION PLATFORMS</h3>
 
-<p>Comparison between <a href="https://drivebadger.com">Drive Badger</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a> with other lawful interception platforms. Visit: <a href="https://docs.google.com/spreadsheets/d/1Ux0WeL-K4NOZTEQgJXuRzHPcG_ewKmcMNADuFhamytg/edit#gid=1460165261" target="_blank" rel="noopener noreferrer">Official sheet</a> or the <a href="https://github.com/RENANZG/My-Forensics/blob/main/03_DOCUMENTS/Workrounds/Drive_Bagder_-_Comparison_Of_Lawful_Interception_Platforms.pdf" target="_blank" rel="noopener noreferrer">PDF</a> version in our repo. <sub>Credits for the panel: <a href="https://github.com/tomaszklim">Tomasz Klim</a>.</sub></p> 
+<p>Comparison between <a href="https://drivebadger.com">Drive Badger</a> <a href="https://github.com/drivebadger/drivebadger">(GitHub)</a> with other lawful interception platforms. Visit: <a href="https://docs.google.com/spreadsheets/d/1Ux0WeL-K4NOZTEQgJXuRzHPcG_ewKmcMNADuFhamytg/edit#gid=1460165261" target="_blank" rel="noopener noreferrer">Official sheet</a> or the <a href="https://github.com/RENANZG/My-Forensics/blob/main/03_DOCUMENTS/Workrounds/Drive_Bagder_-_Comparison_Of_Lawful_Interception_Platforms.pdf" target="_blank" rel="noopener noreferrer">PDF</a> version in our repo. <sub>Credits for the panel: <a href="https://github.com/tomaszklim">Tomasz Klim</a>.</sub></p>
 
 <img src="https://github.com/RENANZG/My-Forensics/blob/main/.data/Drive_Bagder1_-_Comparison_Of_Lawful_Interception_Platforms-1.png?raw=true" title="Drive Bagder 1 - Comparison Of Lawful Interception Platforms" style="width:100%">
 
@@ -373,7 +373,7 @@ NSO Group (Pegasus)
   <tr>
   </tr>
 </thead>
-<tbody> 
+<tbody>
 <tr>
 <td valign="top" style="width:25%">
 <a href="https://cisa.gov/">US — CISA</a><br>
@@ -1207,7 +1207,7 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 
 <h4>• Investigatory Powers — Criminal Law</h4>
 
-<h6>Americas</h6> 
+<h6>Americas</h6>
 
 ∙ US — Federal Rules — Criminal Procedure — Overview — <a href="https://law.cornell.edu/wex/criminal_procedure" target="_blank">Link</a><br>
 ∙ US — Federal Rules — Criminal Procedure — Rule 41 — Search and Seizure — <a href="https://law.cornell.edu/rules/frcrmp/rule_41" target="_blank">Link</a><br>
@@ -1229,9 +1229,9 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 </tbody>
 </table>
 
-<h6>Union European</h6>
+<h6>European Union</h6>
 
-∙ UE — Criminal procedural laws across the European Union – A comparative analysis — <a href="https://europarl.europa.eu/RegData/etudes/STUD/2018/604977/IPOL_STU(2018)604977(ANN01)_EN.pdf" target="_blank">Link</a><br>
+∙ EU — Criminal procedural laws across the European Union – A comparative analysis — <a href="https://europarl.europa.eu/RegData/etudes/STUD/2018/604977/IPOL_STU(2018)604977(ANN01)_EN.pdf" target="_blank">Link</a><br>
 ∙ NL - National Coordinator for Security and Counterterrorism - https://english.nctv.nl<br>
 ∙ GE — German Criminal Code (Strafgesetzbuch — StGB) — <a href="https://gesetze-im-internet.de/englisch_stgb" target="_blank">Link</a><br>
 ∙ GE — German Code of Criminal Procedure (Strafprozeßordnung — StPO) — <a href="https://gesetze-im-internet.de/englisch_stpo/index.html" target="_blank">Link</a><br>
@@ -1255,7 +1255,7 @@ ICRC - https://casebook.icrc.org/a_to_z/glossary/direct-participation-hostilitie
 ∙ US FBI - Internet Crime Complaint Center (IC3) - https://ic3.gov<br>
 ∙ Computer Crime Research Center - https://crime-research.org<br>
 
-<h6>Union European</h6>
+<h6>European Union</h6>
 
 ∙ EUR-Lex https://eur-lex.europa.eu/homepage.html<br>
 ∙ European Court of Justice https://curia.europa.eu<br>
@@ -1910,12 +1910,12 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <br>
 
 <ul>
-<li><a href="https://civicert.org" target="_blank">https://civicert.org</a></li>
 <li><a href="https://cve.org">https://cve.org</a></li>
 <li><a href="https://cvedetails.com">https://cvedetails.com</a></li>
+<li><a href="https://attack.mitre.org">https://attack.mitre.org</a></li>
+<li><a href="https://civicert.org" target="_blank">https://civicert.org</a></li>
 <li><a href="https://openwall.com">https://openwall.com</a></li>
 <li><a href="https://lkrg.org">https://lkrg.org</a></li>
-<li><a href="https://attack.mitre.org">https://attack.mitre.org</a></li>
 <li><a href="https://socradar.io</a>SOCRadar</li>
 <li><a href="https://exterro.com">https://exterro.com</a></li>
 <li><a href="https://eforensicsmag.com" target="_blank">https://eforensicsmag.com</a></li>
@@ -2119,6 +2119,7 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <li><a href="https://data.guardint.org/en/" target="_blank">Surveillance Oversight Database</a></li>
 <li><a href="https://www.intelligence-oversight.org" target="_blank">Intelligence Oversight</a></li>
 <li><a href="https://aboutintel.eu" target="_blank">about:intel</a></li>
+<li><a href="https://safeandfree.io" target="_blank">Safe and Free</a></li>
 </ul>
 
 <br>
@@ -2132,137 +2133,38 @@ $ sudo grgsm_livemon     # Live radio scanning.
 
 <h4>Intelligence, Conflict, and Warfare Publications</h4>
 
-    <ul>
-        <li>
-            <a href="https://ccdcoe.org" target="_blank">
-            The NATO Cooperative Cyber Defence Centre of Excellence
-            </a>
-        </li>
-        <li>
-            <a href="https://www.cfr.org" target="_blank">
-            Council on Foreign Relations (CFR)
-            </a>
-        </li>
-        <li>
-            <a href="https://www.isanet.org/ISA/Sections/ISS" target="_blank">
-            International Security Studies Section (ISSS)
-            </a>
-        </li>
-        <li>
-            <a href="https://tandfonline.com/action/showOpenAccess?journalCode=fint20" target="_blank">
-                Taylor & Francis - Intelligence and National Security
-            </a> - Open access articles
-        </li>
-        <li>
-            <a href="https://journals.lib.sfu.ca/index.php/jicw/issue/archive" target="_blank">
-                The Journal of Intelligence, Conflict, and Warfare
-            </a> - Archive of past issues
-        </li>
-        <li>
-            <a href="https://dcaf.ch/resources?type=publications" target="_blank">
-                DCAF - Geneva Centre for Security Sector Governance
-            </a> - Publications on security sector governance
-        </li>
-        <li>
-            <a href="https://e-ir.info/publications" target="_blank">
-                E-International Relations
-            </a> - Open access scholarly books
-        </li>
-        <li>
-            <a href="https://cia.gov/resources/csi/studies-in-intelligence" target="_blank">
-                CIA.gov - Center for the Study of Intelligence
-            </a> - Studies in Intelligence
-        </li>
-        <li>
-            <a href="https://www.tandfonline.com/toc/fjss20/current" target="_blank">
-                Journal of Strategic Studies
-            </a> - Scholarly articles on strategic studies, intelligence, and military affairs
-        </li>
-        <li>
-            <a href="https://www.tandfonline.com/toc/ujic20/current" target="_blank">
-                International Journal of Intelligence and CounterIntelligence
-            </a> - Articles on intelligence operations, security, and counterintelligence
-        </li>
-        <li>
-            <a href="https://www.rand.org/pubs.html" target="_blank">
-                RAND Corporation
-            </a> - Research and analysis on security, defense, and intelligence
-        </li>
-        <li>
-            <a href="https://www.chathamhouse.org/our-research/topics/international-security" target="_blank">
-                Chatham House - International Security Programme
-            </a> - Publications on international security and conflict
-        </li>
-        <li>
-            <a href="https://www.brookings.edu/topic/foreign-policy/" target="_blank">
-                Brookings Institution - Foreign Policy
-            </a> - Articles and research on global security and intelligence
-        </li>
-        <li>
-            <a href="https://www.foreignaffairs.com/" target="_blank">
-                Foreign Affairs
-            </a> - Articles and analyses on international affairs, security, and intelligence
-        </li>
-        <li>
-            <a href="https://smallwarsjournal.com/jrnl" target="_blank">
-                Small Wars Journal
-            </a> - Discussions on military strategy, defense policy, and irregular warfare
-        </li>
-        <li>
-            <a href="https://www.tandfonline.com/toc/usip20/current" target="_blank">
-                The International Journal of Intelligence, Security, and Public Affairs
-            </a> - Research on intelligence, security, and public affairs
-        </li>
-    </ul>
+<ul>
+  <li><a href="https://ccdcoe.org" target="_blank">The NATO Cooperative Cyber Defence Centre of Excellence</a></li>
+  <li><a href="https://www.cfr.org" target="_blank">Council on Foreign Relations (CFR)</a></li>
+  <li><a href="https://www.isanet.org/ISA/Sections/ISS" target="_blank">International Security Studies Section (ISSS)</a></li>
+  <li><a href="https://tandfonline.com/action/showOpenAccess?journalCode=fint20" target="_blank">Taylor & Francis - Intelligence and National Security</a> - Open access articles</li>
+  <li><a href="https://journals.lib.sfu.ca/index.php/jicw/issue/archive" target="_blank">The Journal of Intelligence, Conflict, and Warfare</a> - Archive of past issues</li>
+  <li><a href="https://dcaf.ch/resources?type=publications" target="_blank">DCAF - Geneva Centre for Security Sector Governance</a> - Publications on security sector governance</li>
+  <li><a href="https://e-ir.info/publications" target="_blank">E-International Relations</a> - Open access scholarly books</li>
+  <li><a href="https://cia.gov/resources/csi/studies-in-intelligence" target="_blank">CIA.gov - Center for the Study of Intelligence</a> - Studies in Intelligence</li>
+  <li><a href="https://www.tandfonline.com/toc/fjss20/current" target="_blank">Journal of Strategic Studies</a> - Scholarly articles on strategic studies, intelligence, and military affairs</li>
+  <li><a href="https://www.tandfonline.com/toc/ujic20/current" target="_blank">International Journal of Intelligence and CounterIntelligence</a> - Articles on intelligence operations, security, and counterintelligence</li>
+  <li><a href="https://www.rand.org/pubs.html" target="_blank">RAND Corporation</a> - Research and analysis on security, defense, and intelligence</li>
+  <li><a href="https://www.chathamhouse.org/our-research/topics/international-security" target="_blank">Chatham House - International Security Programme</a> - Publications on international security and conflict</li>
+  <li><a href="https://www.brookings.edu/topic/foreign-policy/" target="_blank">Brookings Institution - Foreign Policy</a> - Articles and research on global security and intelligence</li>
+  <li><a href="https://www.foreignaffairs.com/" target="_blank">Foreign Affairs</a> - Articles and analyses on international affairs, security, and intelligence</li>
+  <li><a href="https://smallwarsjournal.com/jrnl" target="_blank">Small Wars Journal</a> - Discussions on military strategy, defense policy, and irregular warfare</li>
+  <li><a href="https://www.tandfonline.com/toc/usip20/current" target="_blank">The International Journal of Intelligence, Security, and Public Affairs</a> - Research on intelligence, security, and public affairs</li>
+  <li><a href="https://irregularwarfare.org" target="_blank">Irregular Warfare</a><li>
+</ul>
 
-    <h2>English-Language Materials from Specific Countries</h2>
-    <ul>
-        <li>
-            <a href="https://www.unibw.de/metis-en/publikationen" target="_blank">
-                Bundeswehr University Munich - Metis Institute for Strategy and Foresight
-            </a> - Research on strategy, security, and military affairs
-        </li>
-        <li>
-            <a href="https://www.realinstitutoelcano.org/en/publications/" target="_blank">
-                Real Instituto Elcano - Elcano Royal Institute
-            </a> - Publications on international and strategic studies
-        </li>
-        <li>
-            <a href="https://indsr.org.tw/en/publish" target="_blank">
-                Institute for National Defense and Security Research (INDSR)
-            </a> - Research and analysis on security and defense
-        </li>
-        <li>
-            <a href="http://www.css.ir/en/" target="_blank">
-                Strategic Research Center - Expediency Discernment Council
-            </a> - Research papers and publications on strategic issues (limited English content)
-        </li>
-        <li>
-            <a href="https://invesp.org.ve/en/publications/" target="_blank">
-                Venezuelan Institute for Social and Political Studies (INVESP)
-            </a> - Publications on political and social issues (limited English content)
-        </li>
-        <li>
-            <a href="https://russiancouncil.ru/en/" target="_blank">
-                Russian International Affairs Council (RIAC)
-            </a> - Articles and analysis on international relations and security
-        </li>
-        <li>
-            <a href="https://www.csis.or.id/publications" target="_blank">
-                Centre for Strategic and International Studies (CSIS) Indonesia
-            </a> - Research and publications on security and international affairs
-        </li>
-        <li>
-            <a href="https://www.cicp.org.kh/" target="_blank">
-                Cambodian Institute for Cooperation and Peace (CICP)
-            </a> - Publications on peace, security, and cooperation
-        </li>
-        <li>
-            <a href="https://iseas.vass.gov.vn/en/" target="_blank">
-                Institute for Southeast Asian Studies (ISEAS) - Vietnam Academy of Social Sciences
-            </a> - Research on regional security and international relations
-        </li>
-    </ul>
+<h2>English-Language Materials from Specific Countries</h2>
+<ul>
+  <li><a href="https://www.unibw.de/metis-en/publikationen" target="_blank">Bundeswehr University Munich - Metis Institute for Strategy and Foresight</a> - Research on strategy, security, and military affairs</li>
+  <li><a href="https://www.realinstitutoelcano.org/en/publications/" target="_blank">Real Instituto Elcano - Elcano Royal Institute</a> - Publications on international and strategic studies</li>
+  <li><a href="https://indsr.org.tw/en/publish" target="_blank">Institute for National Defense and Security Research (INDSR)</a> - Research and analysis on security and defense</li>
+  <li><a href="http://www.css.ir/en/" target="_blank">Strategic Research Center - Expediency Discernment Council</a> - Research papers and publications on strategic issues (limited English content)</li>
+  <li><a href="https://invesp.org.ve/en/publications/" target="_blank">Venezuelan Institute for Social and Political Studies (INVESP)</a> - Publications on political and social issues (limited English content)</li>
+  <li><a href="https://russiancouncil.ru/en/" target="_blank">Russian International Affairs Council (RIAC)</a> - Articles and analysis on international relations and security</li>
+  <li><a href="https://www.csis.or.id/publications" target="_blank">Centre for Strategic and International Studies (CSIS) Indonesia</a> - Research and publications on security and international affairs</li>
+  <li><a href="https://www.cicp.org.kh/" target="_blank">Cambodian Institute for Cooperation and Peace (CICP)</a> - Publications on peace, security, and cooperation</li>
+  <li><a href="https://iseas.vass.gov.vn/en/" target="_blank">Institute for Southeast Asian Studies (ISEAS) - Vietnam Academy of Social Sciences</a> - Research on regional security and international relations</li>
+</ul>
 
 <br>
 </details>
@@ -2317,7 +2219,7 @@ $ sudo grgsm_livemon     # Live radio scanning.
 
 <!-- ################################ -->
 
-<h6>REFERENCES</h6>
+<h5>References</h5>
 
 <small>
 <table style="width:100%" cellspacing="0" cellpadding="0">
@@ -2325,7 +2227,7 @@ $ sudo grgsm_livemon     # Live radio scanning.
   <tr>
   </tr>
 </thead>
-<tbody> 
+<tbody>
 <tr>
 <td valign="top" style="width:50%">
 <ul>
