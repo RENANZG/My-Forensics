@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itl:NISTBiometricInformationExchangePackage
+        xmlns:int-i="http://interpol.gov/int-i/1.0"
+        xmlns:itl="http://biometrics.nist.gov/standard/2011"
+        xmlns:biom="http://niem.gov/niem/biometrics/1.0"
+        xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://interpol.gov/int-i/1.0
+../XMLschemas/int-i/1.0/int-i.xsd">
+
+
+    <!--******************************************************************-->
+    <!--Type-1 Record (Header Record)-->
+    <!--******************************************************************-->
+    <itl:PackageInformationRecord>
+        <biom:RecordCategoryCode>1</biom:RecordCategoryCode>
+        <biom:Transaction>
+            <!-- ========== -->
+            <!-- 1.005 DAT-->
+            <!-- ========== -->
+            <biom:TransactionDate>
+                <nc:Date>2016-04-11</nc:Date>
+            </biom:TransactionDate>
+            <!-- ========== -->
+            <!-- 1.007 DAI-->
+            <!-- ========== -->
+            <int-i:TransactionDestinationOrganization>
+                <!-- nc:OrganizationIdentification is optional and kept for consistence with ANSI/NIST -->
+                <nc:OrganizationIdentification>
+                    <nc:IdentificationID>INT</nc:IdentificationID>
+                </nc:OrganizationIdentification>
+                <nc:OrganizationName>INTERPOL</nc:OrganizationName>
+                <int-i:LocationCountryISO3166Alpha3Code>XPO</int-i:LocationCountryISO3166Alpha3Code>
+            </int-i:TransactionDestinationOrganization>
+            <!-- ========== -->
+            <!-- 1.008 ORI-->
+            <!-- ========== -->
+            <int-i:TransactionOriginatingOrganization>
+                <!-- nc:OrganizationIdentification is optional and kept for consistence with ANSI/NIST -->
+                <nc:OrganizationIdentification>
+                    <nc:IdentificationID>BKA</nc:IdentificationID>
+                </nc:OrganizationIdentification>
+                <nc:OrganizationName>Bundeskriminalamt</nc:OrganizationName>
+                <int-i:LocationCountryISO3166Alpha3Code>DEU</int-i:LocationCountryISO3166Alpha3Code>
+            </int-i:TransactionOriginatingOrganization>
+            <!-- ========== -->
+            <!-- 1.014 GMT-->
+            <!-- ========== -->
+            <biom:TransactionUTCDate>
+                <nc:DateTime>2016-04-10T10:46:32-05:00</nc:DateTime>
+            </biom:TransactionUTCDate>
+            <!-- ========== -->
+            <!-- 1.009 TCN-->
+            <!-- ========== -->
+            <biom:TransactionControlIdentification>
+                <nc:IdentificationID>19125458357684J</nc:IdentificationID>
+            </biom:TransactionControlIdentification>
+            <!-- ========== -->
+            <!-- 1.010 TCR-->
+            <!-- ========== -->
+            <biom:TransactionControlReferenceIdentification>
+                <nc:IdentificationID>19125458357683H</nc:IdentificationID>
+            </biom:TransactionControlReferenceIdentification>
+            <!-- ========== -->
+            <!-- 1.013 DOM-->
+            <!-- ========== -->
+            <biom:TransactionDomain>
+                <biom:DomainVersionNumberIdentification>
+                    <nc:IdentificationID>06.00</nc:IdentificationID>
+                </biom:DomainVersionNumberIdentification>
+
+                <biom:TransactionDomainName>INT-I</biom:TransactionDomainName>
+            </biom:TransactionDomain>
+            <!-- ========== -->
+            <!-- 1.011 NSR-->
+            <!-- 1.012 NTR-->
+            <!-- ========== -->
+            <biom:TransactionImageResolutionDetails>
+                <biom:NativeScanningResolutionValue>00.00</biom:NativeScanningResolutionValue>
+                <biom:NominalTransmittingResolutionValue>00.00</biom:NominalTransmittingResolutionValue>
+            </biom:TransactionImageResolutionDetails>
+            <!-- ========== -->
+            <!-- 1.002 VER-->
+            <!-- ========== -->
+            <biom:TransactionMajorVersionValue>05</biom:TransactionMajorVersionValue>
+            <biom:TransactionMinorVersionValue>02</biom:TransactionMinorVersionValue>
+            <!-- ========== -->
+            <!-- 1.006 PRY-->
+            <!-- ========== -->
+            <biom:TransactionPriorityValue>2</biom:TransactionPriorityValue>
+
+            <!-- ========== -->
+            <!-- 1.004 TOT-->
+            <!-- ========== -->
+            <int-i:TransactionCategoryCode>ERR</int-i:TransactionCategoryCode>
+
+            <!-- ========== -->
+            <!-- 1.003 CNT-->
+            <!-- ========== -->
+            <biom:TransactionContentSummary>
+                <biom:ContentFirstRecordCategoryCode>1</biom:ContentFirstRecordCategoryCode>
+                <biom:ContentRecordQuantity>1</biom:ContentRecordQuantity>
+                <biom:ContentRecordSummary>
+                    <biom:ImageReferenceIdentification>
+                        <nc:IdentificationID>0</nc:IdentificationID>
+                    </biom:ImageReferenceIdentification>
+                    <biom:RecordCategoryCode>2</biom:RecordCategoryCode>
+                </biom:ContentRecordSummary>
+            </biom:TransactionContentSummary>
+        </biom:Transaction>
+    </itl:PackageInformationRecord>
+    <!--******************************************************************-->
+    <!--Type 2 Record (User Defined Descriptive Text Record)-->
+    <!--******************************************************************-->
+    <itl:PackageDescriptiveTextRecord>
+        <!--RCC-->
+        <biom:RecordCategoryCode>02</biom:RecordCategoryCode>
+        <!-- ========== -->
+        <!-- 2.002 IDC-->
+        <!-- ========== -->
+        <biom:ImageReferenceIdentification>
+            <nc:IdentificationID>0</nc:IdentificationID>
+        </biom:ImageReferenceIdentification>
+        <!-- User Defined Fields 2.003 999 -->
+        <itl:UserDefinedDescriptiveDetail>
+            <int-i:DomainDefinedDescriptiveDetail>
+                <!-- ========== Transaction Response Data ===========================-->
+                <int-i:TransactionResponseData>
+                    <int-i:ErrorMessage>
+                        <int-i:ErrorCode>112</int-i:ErrorCode>
+                        <int-i:ErrorFieldMnemonicCode>DOB</int-i:ErrorFieldMnemonicCode>
+                        <int-i:ErrorMessageText>ERROR: INVALID DATE</int-i:ErrorMessageText>
+                    </int-i:ErrorMessage>
+                </int-i:TransactionResponseData>
+            </int-i:DomainDefinedDescriptiveDetail>
+        </itl:UserDefinedDescriptiveDetail>
+    </itl:PackageDescriptiveTextRecord>
+</itl:NISTBiometricInformationExchangePackage>
