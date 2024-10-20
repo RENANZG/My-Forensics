@@ -90,7 +90,7 @@
 <h4>The criminal investigation must be protected from leaks by following a logical sequence:</h4>
 
 <ol>
-<li>Exhaust the data collection in open sources (OSINT) or closed sources (CSINT);</li>
+<li>Exhaust the data collection in open sources (OSINT) or closed sources (CSINT, AML Intelligence);</li>
 <li>Hidden monitoring and tracking measures (SIGINT, HUMINT...);</li>
 <li>With concrete evidence of the practices investigated and exhaustion of remote possibilities, launch the operation itself with the publication of the investigation. At this stage, search and seizure warrants, temporary or preventive arrest and statements will be taken.</li>
 </ol>
