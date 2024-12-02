@@ -672,19 +672,26 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
 <summary>1.03 Online tools</summary>
 <br>
 
-<h5>Message Header Analysis</h5>
-<ul>
+  <h4>Utilities</h4>
+  
+  <h5>Message Header Analysis</h5>
+  
+  <ul>
     <li><a href="https://mha.azurewebsites.net">Message Header Analyzer (Azure)</a></li>
     <li><a href="https://github.com/microsoft/MHA">Message Header Analyzer (GitHub)</a></li>
-</ul>
-<h5>Phishing and Email Reputation</h5>
-<ul>
+  </ul>
+  
+  <h5>Phishing and Email Reputation</h5>
+  
+  <ul>
     <li><a href="https://phishtank.org">PhishTank</a></li>
     <li><a href="https://emailrep.io">Simple Email Reputation</a></li>
     <li><a href="https://mxtoolbox.com/blacklists.aspx">Email Blacklist Check</a></li>
-</ul>
-<h5>Whois and DNS Lookup</h5>
-<ul>
+  </ul>
+  
+  <h5>Whois and DNS Lookup</h5>
+  
+  <ul>
     <li><a href="https://iana.org/whois">Whois</a></li>
     <li><a href="https://viewdns.info">ViewDNS</a></li>
     <li><a href="https://whoismydns.com">WhoisMyDNS</a></li>
@@ -692,29 +699,35 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
     <li><a href="https://my-addr.com">My-Addr</a></li>
     <li><a href="https://mxtoolbox.com">MXToolbox</a></li>
     <li><a href="https://dnsstuff.com">DNSstuff</a></li>
-</ul>
-<h5>Malware and Vulnerability Databases</h5>
-<ul>
+  </ul>
+  
+  <h5>Malware and Vulnerability Databases</h5>
+  
+  <ul>
     <li><a href="https://malpedia.caad.fkie.fraunhofer.de">Malpedia</a></li>
-    <li><a href="https://cvedetails.com">CVE Details</a></li>
     <li><a href="https://exploit-db.com">Exploit Database</a></li>
+    <li><a href="https://cvedetails.com">CVE Details</a></li>
     <li><a href="https://fileinfo.co">FileInfo</a></li>
     <li><a href="https://strontic.github.io/xcyclopedia">xCyclopedia</a></li>
     <li><a href="https://winbindex.m417z.com">The Windows Binary Index</a></li>
     <li><a href="https://applipedia.paloaltonetworks.com">Palo Alto Applipedia</a></li>
     <li><a href="https://ultimatewindowssecurity.com/securitylog/encyclopedia">Windows Security Logs</a></li>
     <li><a href="https://nvd.nist.gov">National Vulnerability Database (NVD)</a></li>
-</ul>
-<h5>Archiving Tools</h5>
-<ul>
+  </ul>
+  
+  <h5>Archiving Tools</h5>
+  
+  <ul>
     <li><a href="https://web.archive.org">Internet Archive (WayBackMachine)</a></li>
     <li><a href="https://archive.ph">Archive Web Content</a></li>
     <li><a href="https://archive.org">Internet Archive</a></li>
     <li><a href="https://httrack.com">HTTrack</a></li>
     <li><a href="https://perma.cc">Perma.cc</a></li>
-</ul>
-<h5>IP and MAC Address Tools</h5>
-<ul>
+  </ul>
+  
+  <h5>IP and MAC Address Tools</h5>
+  
+  <ul>
     <li><a href="https://ipvoid.com">IPVOID</a></li>
     <li><a href="https://abuseipdb.com">AbuseIPDB</a></li>
     <li><a href="https://grabify.link/">Grabify IP Logger</a></li>
@@ -732,11 +745,13 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
     <li><a href="https://ipapi.com">Ipapi</a></li>
     <li><a href="https://zmap.io">The ZMap Project</a></li>
     <li><a href="https://wigle.net">WiGLE</a></li>
-    <li><a href="https://www.shodan.io">Shodan</a></li>
+    <li><a href="https://shodan.io">Shodan</a></li>
     <li><a href="https://censys.io">Censys</a></li>
-</ul>
-<h5>URL and Virus Scanning</h5>
-<ul>
+  </ul>
+  
+  <h5>URL and Virus Scanning</h5>
+  
+  <ul>
     <li><a href="https://urlscan.io">urlscan.io</a></li>
     <li><a href="https://virustotal.com">Virus Total</a></li>
     <li><a href="https://hybrid-analysis.com">Hybrid Analysis</a></li>
@@ -755,9 +770,11 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
     <li><a href="https://any.run">ANY.RUN</a></li>
     <li><a href="https://binvis.io">Binvis</a></li>
     <li><a href="https://joesandbox.com">JoeSandbox</a></li>
-</ul>
-<h5>File Analysis and Reverse Engineering</h5>
-<ul>
+  </ul>
+  
+  <h5>File Analysis and Reverse Engineering</h5>
+  
+  <ul>
     <li><a href="https://verexif.com/en/">Verexif</a></li>
     <li><a href="https://revshells.com">Reverse Shell Generator</a></li>
     <li><a href="https://hashes.com/en/decrypt/hash">Rainbow Tables (Hashes)</a></li>
@@ -767,37 +784,52 @@ Security Payload (ESP) and Authentication Header (AH)</a></li>
     <li><a href="https://explainshell.com">explainshell</a></li>
     <li><a href="https://virusshare.com">VirusShare</a></li>
     <li><a href="https://reverse.it">Reverse.IT</a></li>
-</ul>
-<h5>Utilities and Development Tools</h5>
-<ul>
-    <li><a href="https://epochconverter.com">Epoch Converter</a></li>
-    <li><a href="https://regex-generator.olafneumann.org">Regex Generator</a></li>
+  </ul>
+  
+  <h5>Utilities and Development Tools</h5>
+  
+  <ul>
+    <li><a href="https://ctool.dev">Commonly Used Software Development Tools</a></li>
     <li><a href="https://dehashed.com">DeHashed</a></li>
     <li><a href="https://dencode.com">Dencode</a></li>
-    <li><a href="https://ctool.dev">Commonly Used Software Development Tools</a></li>
     <li><a href="https://textfixer.com">Text Fixer</a></li>
-    <li><a href="https://ss64.com">SS64 Syntax Utils</a></li
+    <li><a href="https://ss64.com">SS64 Syntax Utils</a>
+    <li><a href="https://cryptii.com">Cryptii</a>
+    <li><a href="https://md5hashing.net">MD5Hashing</a></li>
     <li><a href="https://tools4noobs.com">Tools4noobs</a></li>
-    <li><a href="https://patorjk.com/software/taag">Text to ASCII Art Generator</a></li>
+    <li><a href="https://regexr.com">RegExr</a></li>
+    <li><a href="https://regex-generator.olafneumann.org">Regex Generator</a></li>
+    <li><a href="https://www.regular-expressions.info"></a></li>
     <li><a href="https://regex101.com">Regex101</a></li>
     <li><a href="https://crontab.guru">Cron Expression Generator</a></li>
-</ul>
-<h5>OSINT and Breach Checking</h5>
-<ul>
+    <li><a href="https://epochconverter.com">Epoch Converter</a></li>
+    <li><a href="https://patorjk.com/software/taag">Text to ASCII Art Generator</a></li>
+  </ul>
+  
+  <h5>OSINT and Breach Checking</h5>
+  
+  <ul>
     <li><a href="https://haveibeenpwned.com">Have I Been Pwned</a></li>
     <li><a href="https://namechk.com">Name OSINT</a></li>
     <li><a href="https://breachdirectory.org">Breach Directory</a></li>
     <li><a href="https://hunter.io">Hunter.io</a></li>
     <li><a href="https://inteltechniques.com">Intel Techniques</a></li>
-</ul>
-<h5>Translation and Markdown Tools</h5>
-<ul>
+  </ul>
+  
+  <h5>Translation and Others Tools</h5>
+  
+  <ul>
     <li><a href="https://deepl.com/translator">DeepL</a></li>
-    <li><a href="https://www.markdowntoolbox.com">Markdown Toolbox</a></li>
+    <li><a href="https://markdowntoolbox.com">Markdown Toolbox</a></li>
+    <li><a href="https://latexeditor.lagrida.com">Online LaTeX Equation Editor</a></li>
     <li><a href="https://mermaid.live">Mermaid</a></li>
+    <li><a href="https://tableconvert.com">Table Convert</a></li>
+    <li><a href="https://truben.no/table/">Table Editor 2</a></li>
+    <li><a href="https://divtable.com">Div Table</a></li>
+    <li><a href="https://evanhahn.github.io/ffmpeg-buddy/">ffmpeg buddy</a></li>
     <li><a href="https://kutt.it">Kutt your links shorter</a></li>
     <li><a href="https://grammarly.com">Grammarly</a></li>
-</ul>
+  </ul>
 
 <p>For OSINT tools visit our repository: <a href="https://github.com/RENANZG/My-OSINT">My-OSINT</a></p>
 
@@ -1993,6 +2025,7 @@ $ sudo grgsm_livemon     # Live radio scanning.
 
 <h5>Journals and Publications</h5>
 <ul>
+    <li><a href="https://jolt.law.harvard.edu/">Harvard Journal of Law and Technology </a></li>
     <li><a href="https://btlj.org">Berkeley Law Technology Journal</a></li>
     <li><a href="https://ejlt.org/index.php/ejlt">European Journal of Law and Technology</a></li>
     <li><a href="https://tandfonline.com/journals/cirl20">International Review of Law, Computers & Technology (Open Access)</a></li>
