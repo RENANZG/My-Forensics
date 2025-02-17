@@ -1,0 +1,4470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://niem.gov/niem/fbi/2.0" version="1" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fbi="http://niem.gov/niem/fbi/2.0" xmlns:i="http://niem.gov/niem/appinfo/2.0">
+  <xsd:annotation>
+    <xsd:documentation>FBI code lists for National Crime and Information Center (NCIC-2000), National Incident-Based Reporting System (NIBRS), and National Law Enforcement Data Exchange (N-DEx).</xsd:documentation>
+    <xsd:appinfo>
+      <i:ConformantIndicator>true</i:ConformantIndicator>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import schemaLocation="../../structures/2.0/structures.xsd" namespace="http://niem.gov/niem/structures/2.0"/>
+  <xsd:import schemaLocation="../../appinfo/2.0/appinfo.xsd" namespace="http://niem.gov/niem/appinfo/2.0"/>
+  <xsd:simpleType name="EYECodeSimpleType">
+    <xsd:annotation>
+      <xsd:documentation>A data type for Eye Color.</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:token">
+      <xsd:enumeration value="GRN">
+        <xsd:annotation>
+          <xsd:documentation>GREEN</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRO">
+        <xsd:annotation>
+          <xsd:documentation>BROWN</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MUL">
+        <xsd:annotation>
+          <xsd:documentation>MULTICOLORED</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MAR">
+        <xsd:annotation>
+          <xsd:documentation>MAROON</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BLU">
+        <xsd:annotation>
+          <xsd:documentation>BLUE</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BLK">
+        <xsd:annotation>
+          <xsd:documentation>BLACK</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HAZ">
+        <xsd:annotation>
+          <xsd:documentation>HAZEL</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="GRY">
+        <xsd:annotation>
+          <xsd:documentation>GRAY</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="XXX">
+        <xsd:annotation>
+          <xsd:documentation>UNKNOWN</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PNK">
+        <xsd:annotation>
+          <xsd:documentation>PINK</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="EYECodeType">
+    <xsd:annotation>
+      <xsd:documentation>A data type for Eye Color.</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="fbi:EYECodeSimpleType">
+        <xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:simpleType name="HAICodeSimpleType">
+    <xsd:annotation>
+      <xsd:documentation>A data type for Hair Color.</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:token">
+      <xsd:enumeration value="BLK">
+        <xsd:annotation>
+          <xsd:documentation>Black</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BLN">
+        <xsd:annotation>
+          <xsd:documentation>Blond or Strawberry</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BLU">
+        <xsd:annotation>
+          <xsd:documentation>Blue</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRO">
+        <xsd:annotation>
+          <xsd:documentation>Brown</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="GRY">
+        <xsd:annotation>
+          <xsd:documentation>Gray or Partially Gray</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="GRN">
+        <xsd:annotation>
+          <xsd:documentation>Green</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="WHI">
+        <xsd:annotation>
+          <xsd:documentation>White</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="XXX">
+        <xsd:annotation>
+          <xsd:documentation>UNKNOWN OR COMPLETELY BALD</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ONG">
+        <xsd:annotation>
+          <xsd:documentation>Orange</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PLE">
+        <xsd:annotation>
+          <xsd:documentation>Purple</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PNK">
+        <xsd:annotation>
+          <xsd:documentation>Pink</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RED">
+        <xsd:annotation>
+          <xsd:documentation>Red or Auburn</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SDY">
+        <xsd:annotation>
+          <xsd:documentation>Sandy</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="SEXCodeSimpleType">
+    <xsd:annotation>
+      <xsd:documentation>A data type for Sex.</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:token">
+      <xsd:enumeration value="F">
+        <xsd:annotation>
+          <xsd:documentation>FEMALE</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="M">
+        <xsd:annotation>
+          <xsd:documentation>MALE</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="U">
+        <xsd:annotation>
+          <xsd:documentation>UNKNOWN - FOR UNIDENTIFIED ONLY</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="SEXCodeType">
+    <xsd:annotation>
+      <xsd:documentation>A data type for Sex.</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="fbi:SEXCodeSimpleType">
+        <xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:simpleType name="SMTCodeSimpleType">
+    <xsd:annotation>
+      <xsd:documentation>A data type for Scars/Marks/Tattoos.</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:token">
+      <xsd:enumeration value="PRCD R NIP">
+        <xsd:annotation>
+          <xsd:documentation>Pierced nipple, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LCLAVI">
+        <xsd:annotation>
+          <xsd:documentation>Clavicle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Right Ankle, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LWRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LR LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, lower right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR UL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, upper left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Crippled arm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRAC LEG">
+        <xsd:annotation>
+          <xsd:documentation>Brace, one leg, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC RSHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA PAINT">
+        <xsd:annotation>
+          <xsd:documentation>Paint (includes thinner)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CAUL R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Cauliflower ear, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT FLBODY">
+        <xsd:annotation>
+          <xsd:documentation>Full Body(Use only when the entire body - arms, legs, chest, and back are covered with tattoos.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L ELB">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="COLOST APP">
+        <xsd:annotation>
+          <xsd:documentation>Colostomy appliances</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L ELB">
+        <xsd:annotation>
+          <xsd:documentation>Left Elbow, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Left Leg, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE CHEST">
+        <xsd:annotation>
+          <xsd:documentation>Chest</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RWRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD BACK">
+        <xsd:annotation>
+          <xsd:documentation>Pierced back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC FHD">
+        <xsd:annotation>
+          <xsd:documentation>Forehead</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD HYPNOTI">
+        <xsd:annotation>
+          <xsd:documentation>Hypnotics (sleeping aides -includes:  Barbiturates,Chloral Hydrate, Glutethemide,etc.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L ANK">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BLIND">
+        <xsd:annotation>
+          <xsd:documentation>Blind, both eyes</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT FARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, nonspecific, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LLLEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE LBRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Right Arm, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC NERVOUS">
+        <xsd:annotation>
+          <xsd:documentation>Nervous conditions including:seizures, stroke, senility, andmental retardation</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE RBRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD BRNCHDL">
+        <xsd:annotation>
+          <xsd:documentation>Bronchial Dilators(Includes inhalers)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT HEAD">
+        <xsd:annotation>
+          <xsd:documentation>Head, nonspecific (Use the MIS fieldo further describe location)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Left Arm, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DENT LOW">
+        <xsd:annotation>
+          <xsd:documentation>Denture, lower only</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RANKL">
+        <xsd:annotation>
+          <xsd:documentation>Angle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC RCLAVI">
+        <xsd:annotation>
+          <xsd:documentation>Clavicle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT PENIS">
+        <xsd:annotation>
+          <xsd:documentation>Penis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR RPELVI">
+        <xsd:annotation>
+          <xsd:documentation>Pelvis bone, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS PENIS">
+        <xsd:annotation>
+          <xsd:documentation>Missing Penis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R ELB">
+        <xsd:annotation>
+          <xsd:documentation>Right Elbow, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC FACE">
+        <xsd:annotation>
+          <xsd:documentation>Face, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA NARCOTI">
+        <xsd:annotation>
+          <xsd:documentation>Narcotics (includes Heroin,Morphine, Dilaudid, Methadone,etc.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC FHD">
+        <xsd:annotation>
+          <xsd:documentation>Forehead</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, right, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R ANK">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Extra finger(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), right foot</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DEAF MUTE">
+        <xsd:annotation>
+          <xsd:documentation>Deaf-mute</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC UL JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, upper left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L SHD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR R NIP">
+        <xsd:annotation>
+          <xsd:documentation>Extra nipple, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE BACK">
+        <xsd:annotation>
+          <xsd:documentation>Back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE LF ARM">
+        <xsd:annotation>
+          <xsd:documentation>Left forearm, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR CBRST">
+        <xsd:annotation>
+          <xsd:documentation>Extra breast, center</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD EARS">
+        <xsd:annotation>
+          <xsd:documentation>Pierced ears</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC OTHER">
+        <xsd:annotation>
+          <xsd:documentation>Other medical disorders/conditionsnot listed above, identify in theMiscellaneous (MIS) Field</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART LARYNX">
+        <xsd:annotation>
+          <xsd:documentation>Artificial larynx</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L FJT">
+        <xsd:annotation>
+          <xsd:documentation>Finger joint(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, right (Use the MIS field tourther describe location)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LTHGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC CANCER">
+        <xsd:annotation>
+          <xsd:documentation>Cancer</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT NECK">
+        <xsd:annotation>
+          <xsd:documentation>Neck</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR SKULL">
+        <xsd:annotation>
+          <xsd:documentation>Skull</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC GROIN">
+        <xsd:annotation>
+          <xsd:documentation>Groin area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific, crippled</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD ANTBTCS">
+        <xsd:annotation>
+          <xsd:documentation>Antibiotics</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, right, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CLEFT CHIN">
+        <xsd:annotation>
+          <xsd:documentation>Cleft chin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific, crippled</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS OVARY">
+        <xsd:annotation>
+          <xsd:documentation>Ovary, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT HEAD">
+        <xsd:annotation>
+          <xsd:documentation>Head, nonspecific(use MIS field to further describelocation)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRAC R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Brace, right leg</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC UP LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD OTHER">
+        <xsd:annotation>
+          <xsd:documentation>Other therapeutic medicationsnot listed above, identify inthe MIS Field.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, lower right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Artificial shoulder joint</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC PELVIS">
+        <xsd:annotation>
+          <xsd:documentation>Pelvis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS APPNX">
+        <xsd:annotation>
+          <xsd:documentation>Appendix</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR NIP">
+        <xsd:annotation>
+          <xsd:documentation>Extra nipple, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD TRANQUI">
+        <xsd:annotation>
+          <xsd:documentation>Tranquilizers (includes:Valium, Thorazine, Stellazine,etc.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R KNE">
+        <xsd:annotation>
+          <xsd:documentation>Right Knee, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, nonspecific, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC CHEST">
+        <xsd:annotation>
+          <xsd:documentation>Chest</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT GROIN">
+        <xsd:annotation>
+          <xsd:documentation>Groin Area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Right Toe, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR L VRT">
+        <xsd:annotation>
+          <xsd:documentation>Extra vertebrae, lumbar</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CANE">
+        <xsd:annotation>
+          <xsd:documentation>Cane</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS VRT">
+        <xsd:annotation>
+          <xsd:documentation>Missing Vertebra(e),nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LFOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT LELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR RCLAVI">
+        <xsd:annotation>
+          <xsd:documentation>Clavicle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, nonspecific, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R BUT">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Left Toe, scar</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC BEHAVIO">
+        <xsd:annotation>
+          <xsd:documentation>Behavior Disorder(includes Autism, Depression,Schizophrenia, Suicidal Tendencies(past and present)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC CHEST">
+        <xsd:annotation>
+          <xsd:documentation>Chest</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC LKNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA COCAINE">
+        <xsd:annotation>
+          <xsd:documentation>Cocaine (includes crack)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC SPINE">
+        <xsd:annotation>
+          <xsd:documentation>Spine</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PROT L JAW">
+        <xsd:annotation>
+          <xsd:documentation>Protruding lower jaw</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LKNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRACE BACK">
+        <xsd:annotation>
+          <xsd:documentation>Brace, back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EAR TUBES">
+        <xsd:annotation>
+          <xsd:documentation>Tubes in ears, left and right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Left Hip, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TRANSVST">
+        <xsd:annotation>
+          <xsd:documentation>Transvestite</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), left foot</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="STUTTERS">
+        <xsd:annotation>
+          <xsd:documentation>Stutters</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Pierced right ear</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L RIB">
+        <xsd:annotation>
+          <xsd:documentation>Rib(s), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, scar</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="GLASSES">
+        <xsd:annotation>
+          <xsd:documentation>Glasses (prescription)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SHRT LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific, short</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC EATDIS">
+        <xsd:annotation>
+          <xsd:documentation>Eating Disorders(Includes Anorexia Nervosa andBulimia)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA HALLUCI">
+        <xsd:annotation>
+          <xsd:documentation>Hallucinogens</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC LOW LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, lower</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR UR JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, upper right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R RIB">
+        <xsd:annotation>
+          <xsd:documentation>Rib(s), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R CALF">
+        <xsd:annotation>
+          <xsd:documentation>Right Calf, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RFARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ORTH PLATE">
+        <xsd:annotation>
+          <xsd:documentation>Orthopedic plate</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Extra toe(s), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eyebrow, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS TONSL">
+        <xsd:annotation>
+          <xsd:documentation>Tonsils</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE F ARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, nonspecific, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="GOLD TOOTH">
+        <xsd:annotation>
+          <xsd:documentation>Gold tooth</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS FJT">
+        <xsd:annotation>
+          <xsd:documentation>Finger Joint, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, nonspecific, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR VRT">
+        <xsd:annotation>
+          <xsd:documentation>Extra vertebrae, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM LR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Lower Right Arm, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R SHD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, nonspecific, tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Left Toe, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR UL LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, upper left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT FNGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD ADEPRES">
+        <xsd:annotation>
+          <xsd:documentation>Antidepressants (mood-lifters -(Mood lifters - includes: Amitriptylene, Elavil, Norpramine, Prozac,T</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, right, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC KIDNEY">
+        <xsd:annotation>
+          <xsd:documentation>Kidney Conditions or Diseases</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="POCKMARKS">
+        <xsd:annotation>
+          <xsd:documentation>Pockmarks</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), right foot</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RBUTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Right Shoulder, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD ULIP">
+        <xsd:annotation>
+          <xsd:documentation>Pierced lip, upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC ALZHMRS">
+        <xsd:annotation>
+          <xsd:documentation>Alzheimer&apos;s Disease</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Left Arm, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R RIB">
+        <xsd:annotation>
+          <xsd:documentation>Rib(s), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eyebrow, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR C NIP">
+        <xsd:annotation>
+          <xsd:documentation>Extra nipple, center</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC LTHGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC FACE">
+        <xsd:annotation>
+          <xsd:documentation>Face, nonspecific(use MIS field to further describelocation)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Left Toe, tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CAUL EAR">
+        <xsd:annotation>
+          <xsd:documentation>Cauliflower Ear</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS RBRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, left, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT UL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DIMP FACE">
+        <xsd:annotation>
+          <xsd:documentation>Face, dimple</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS SPLEN">
+        <xsd:annotation>
+          <xsd:documentation>Spleen</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA RITALIN">
+        <xsd:annotation>
+          <xsd:documentation>Ritalin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R KNE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Artificial knee joint</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Left Ankle, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC ACNE">
+        <xsd:annotation>
+          <xsd:documentation>Acne</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Crippled leg, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LBUTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SLVR TOOTH">
+        <xsd:annotation>
+          <xsd:documentation>Silver tooth</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS GALL">
+        <xsd:annotation>
+          <xsd:documentation>Gallbladder</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L ELB">
+        <xsd:annotation>
+          <xsd:documentation>Left Elbow, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT FARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, nonspecific, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific, crippled</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L TES">
+        <xsd:annotation>
+          <xsd:documentation>Testis, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC BACK">
+        <xsd:annotation>
+          <xsd:documentation>Back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS C VRT">
+        <xsd:annotation>
+          <xsd:documentation>Missing Cervical Vertebra(e)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC PREGNAN">
+        <xsd:annotation>
+          <xsd:documentation>Pregnancy - Present</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LUNG">
+        <xsd:annotation>
+          <xsd:documentation>Lung, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RSHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR BACK">
+        <xsd:annotation>
+          <xsd:documentation>Back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR PELVIS">
+        <xsd:annotation>
+          <xsd:documentation>Pelvis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L KNE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L THIGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, lower</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, nonspecific, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT BACK">
+        <xsd:annotation>
+          <xsd:documentation>Back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD LIP">
+        <xsd:annotation>
+          <xsd:documentation>Pierced lip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, lower right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRAC ARM">
+        <xsd:annotation>
+          <xsd:documentation>Brace, one arm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Right Eye, remove tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC PASTPRE">
+        <xsd:annotation>
+          <xsd:documentation>Pregnancy - Past</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, crippled</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RFOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Right Arm, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PROT U JAW">
+        <xsd:annotation>
+          <xsd:documentation>Protruding upper jaw</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, nonspecific, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, nonspecific, remove tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Crippled finger(s), right hand(includes webbed fingers)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CATA L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Cataract, left eye</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT RF ARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, lower</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, right, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS RLUNG">
+        <xsd:annotation>
+          <xsd:documentation>Lung, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM UL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Upper Left Arm, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC ABDOM">
+        <xsd:annotation>
+          <xsd:documentation>Abdomen</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R ELB">
+        <xsd:annotation>
+          <xsd:documentation>Right Elbow, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM THIGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS INTES">
+        <xsd:annotation>
+          <xsd:documentation>Intestines</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HAIR IMPL">
+        <xsd:annotation>
+          <xsd:documentation>Hair implants</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD NIPPL">
+        <xsd:annotation>
+          <xsd:documentation>Pierced nipple, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast implant, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L KID">
+        <xsd:annotation>
+          <xsd:documentation>Kidney, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRAC L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Brace, left leg</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC ALCOHOL">
+        <xsd:annotation>
+          <xsd:documentation>Alcoholism</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, nonspecific, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, nonspecific, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LRLEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, lower right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC UR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Upper Right Arm, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC LF ARM">
+        <xsd:annotation>
+          <xsd:documentation>Left Forearm, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R BUTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DEAF">
+        <xsd:annotation>
+          <xsd:documentation>Deaf, left and right ears</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HUMPBACKED">
+        <xsd:annotation>
+          <xsd:documentation>Humpbacked</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eyebrow, right/right eye area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LL LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L ELB">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA AMPHETA">
+        <xsd:annotation>
+          <xsd:documentation>Amphetamines (includes stimulants,speed, etc.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LOVAR">
+        <xsd:annotation>
+          <xsd:documentation>Ovary, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Pierced left eyebrow</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT CHEST">
+        <xsd:annotation>
+          <xsd:documentation>Chest</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, left, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC UR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, upper right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L WRST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT ULARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR RBRST">
+        <xsd:annotation>
+          <xsd:documentation>Extra breast, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L CALF">
+        <xsd:annotation>
+          <xsd:documentation>Left Calf, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DENT UP LO">
+        <xsd:annotation>
+          <xsd:documentation>Denture, upper and lower</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L VRT">
+        <xsd:annotation>
+          <xsd:documentation>Missing Lumbar Vertebra(e)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L ELB">
+        <xsd:annotation>
+          <xsd:documentation>Left Elbow, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE PENIS">
+        <xsd:annotation>
+          <xsd:documentation>Penis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L BRS">
+        <xsd:annotation>
+          <xsd:documentation>Breast, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS TES">
+        <xsd:annotation>
+          <xsd:documentation>Testical, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SHRT R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Shorter right leg</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC DIABTIC">
+        <xsd:annotation>
+          <xsd:documentation>Diabetic</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR STERN">
+        <xsd:annotation>
+          <xsd:documentation>Sternum</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TUBE L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Tube in left ear</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DIMP R CHK">
+        <xsd:annotation>
+          <xsd:documentation>Dimples, right cheek (face)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT URARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Right Eye, tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R ELB">
+        <xsd:annotation>
+          <xsd:documentation>Right Elbow, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC THYROID">
+        <xsd:annotation>
+          <xsd:documentation>Thyroid Conditions or Diseases</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR TTH">
+        <xsd:annotation>
+          <xsd:documentation>Tooth/Teeth, nonspecific, extra</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRA LR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Brace, left and right arms</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE NECK">
+        <xsd:annotation>
+          <xsd:documentation>Neck</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LR LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, lower right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="INTRA ROD">
+        <xsd:annotation>
+          <xsd:documentation>Intramedullary rod</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right (Use the MIS field tofurther describe location)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LL JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP L FT">
+        <xsd:annotation>
+          <xsd:documentation>Crippled foot, left(includes clubfoot)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="VASC PROTH">
+        <xsd:annotation>
+          <xsd:documentation>Vascular prosthesis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L CALF">
+        <xsd:annotation>
+          <xsd:documentation>Left Calf, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC SKIN">
+        <xsd:annotation>
+          <xsd:documentation>Skin Disorders(includes psoriasis and eczema)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT BACK">
+        <xsd:annotation>
+          <xsd:documentation>Back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT NECK">
+        <xsd:annotation>
+          <xsd:documentation>Neck</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC DRUGAB">
+        <xsd:annotation>
+          <xsd:documentation>Drug Abuse</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SHUNT CERB">
+        <xsd:annotation>
+          <xsd:documentation>Shunt, cerebral ventricule</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, nonspecific, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Crippled leg, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R FJT">
+        <xsd:annotation>
+          <xsd:documentation>Finger joint(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="WIRE SUTUR">
+        <xsd:annotation>
+          <xsd:documentation>Wire sutures</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DIMP CHEEK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek, nonspecific, dimple</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRUTCHES">
+        <xsd:annotation>
+          <xsd:documentation>Crutches</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE UL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Upper Left Arm, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD GNTLS">
+        <xsd:annotation>
+          <xsd:documentation>Pierced genitalia</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BLND L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Blind, left eye</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT CHEEK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LPELVI">
+        <xsd:annotation>
+          <xsd:documentation>Pelvis bone, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT LW LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, lower</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BALD">
+        <xsd:annotation>
+          <xsd:documentation>Bald/Balding</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT FACE">
+        <xsd:annotation>
+          <xsd:documentation>Face, nonspecific(use MIS field to further describelocation)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC RIBS">
+        <xsd:annotation>
+          <xsd:documentation>Rib(s), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CON LENSES">
+        <xsd:annotation>
+          <xsd:documentation>Contact lenses</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS PANCR">
+        <xsd:annotation>
+          <xsd:documentation>Pancreas</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD ANTINFL">
+        <xsd:annotation>
+          <xsd:documentation>Anti-Inflammatory Medication</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA MARIJUA">
+        <xsd:annotation>
+          <xsd:documentation>Marijuana</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CLEFT PAL">
+        <xsd:annotation>
+          <xsd:documentation>Cleft palate</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DENT UP">
+        <xsd:annotation>
+          <xsd:documentation>Denture, upper only</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR L NIP">
+        <xsd:annotation>
+          <xsd:documentation>Extra nipple, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R CALF">
+        <xsd:annotation>
+          <xsd:documentation>Right Calf, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC NECK">
+        <xsd:annotation>
+          <xsd:documentation>Neck</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD ABDMN">
+        <xsd:annotation>
+          <xsd:documentation>Pierced abdomen</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC F ARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, nonspecific, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC GROIN">
+        <xsd:annotation>
+          <xsd:documentation>Groin, nonspecific, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), nonspecific, extra</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART BRSTS">
+        <xsd:annotation>
+          <xsd:documentation>Breast implant, left and right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR UL JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, upper left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Crippled finger(s), left hand(includes webbed fingers)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Left Hip, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC RTHGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC UR LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, upper right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Right Toe, remove tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R ELB">
+        <xsd:annotation>
+          <xsd:documentation>Right Elbow, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC PENIS">
+        <xsd:annotation>
+          <xsd:documentation>Penis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRAC R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Brace, right arm</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT FHD">
+        <xsd:annotation>
+          <xsd:documentation>Forehead</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC NRLGCAL">
+        <xsd:annotation>
+          <xsd:documentation>Neurological Conditions or Diseases(includes Cerebral Palsy, Epilepsy, Multiple Sclerosis, Parkinson</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R ELB">
+        <xsd:annotation>
+          <xsd:documentation>Right Elbow, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS PROST">
+        <xsd:annotation>
+          <xsd:documentation>Prostate Gland</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC RKNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR NECK">
+        <xsd:annotation>
+          <xsd:documentation>Neck</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CL LIP">
+        <xsd:annotation>
+          <xsd:documentation>Cleft Lip</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRAC TEETH">
+        <xsd:annotation>
+          <xsd:documentation>Brace, teeth</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC STERN">
+        <xsd:annotation>
+          <xsd:documentation>Sternum</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA BARBITU">
+        <xsd:annotation>
+          <xsd:documentation>Barbiturates</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS ADND">
+        <xsd:annotation>
+          <xsd:documentation>Adenoids</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR LBRST">
+        <xsd:annotation>
+          <xsd:documentation>Extra breast, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT CHEEK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, remove tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Right Leg, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R WRST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE GROIN">
+        <xsd:annotation>
+          <xsd:documentation>Groin area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), nonspecific, crippled</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L WRST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA OTHER">
+        <xsd:annotation>
+          <xsd:documentation>Other drugs of abuse not listedabove, identify in themiscellaneous (MIS) field</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD INSULIN">
+        <xsd:annotation>
+          <xsd:documentation>Insulin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE RF ARM">
+        <xsd:annotation>
+          <xsd:documentation>Right forearm, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LR JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eyebrow, right/right eye area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Extra finger(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD ANALGES">
+        <xsd:annotation>
+          <xsd:documentation>Analgesics (pain relievers -includes:  Darvon, Acetominophen,Aspirin, etc.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC BLOOD">
+        <xsd:annotation>
+          <xsd:documentation>Hematological Diseases (disease ofthe blood - includes: anemia,hemophilia, leukemia, and sicklecell</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR SPINE">
+        <xsd:annotation>
+          <xsd:documentation>Spine</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC PARPLGC">
+        <xsd:annotation>
+          <xsd:documentation>Paraplegic</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific, crippled</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DEAF R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Deaf, right ear</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, left, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L RIB">
+        <xsd:annotation>
+          <xsd:documentation>Rib(s), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, nonspecific, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR C VRT">
+        <xsd:annotation>
+          <xsd:documentation>Extra vertebrae, cervical</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC UL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, upper left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L THG">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS OVARS">
+        <xsd:annotation>
+          <xsd:documentation>Ovaries</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC BACK">
+        <xsd:annotation>
+          <xsd:documentation>Back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LWLIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, lower</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD EAR">
+        <xsd:annotation>
+          <xsd:documentation>Pierced ear, one nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC CHIN">
+        <xsd:annotation>
+          <xsd:documentation>Chin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT ABDOM">
+        <xsd:annotation>
+          <xsd:documentation>Abdomen</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP R FT">
+        <xsd:annotation>
+          <xsd:documentation>Crippled foot, right(includes clubfoot)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC UR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC ARTHRTS">
+        <xsd:annotation>
+          <xsd:documentation>Arthritis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Pierced nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Right Hip, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PROT JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, nonspecific, protruding</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE ABDOM">
+        <xsd:annotation>
+          <xsd:documentation>Abdomen</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE FHD">
+        <xsd:annotation>
+          <xsd:documentation>Forehead</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Right Leg, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC NECK">
+        <xsd:annotation>
+          <xsd:documentation>Neck</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CATARACT">
+        <xsd:annotation>
+          <xsd:documentation>Cataract, (nonspecified)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM LL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Lower Left Arm, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TRANSSXL">
+        <xsd:annotation>
+          <xsd:documentation>Transsexual(Miscellaneous field should indicate what the individual was at birth and what they are a</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LSHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT UR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, right upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Right Toe, tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT CHIN">
+        <xsd:annotation>
+          <xsd:documentation>Chin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R BUT">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC ALLERGY">
+        <xsd:annotation>
+          <xsd:documentation>Allergies including asthma</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R CALF">
+        <xsd:annotation>
+          <xsd:documentation>Right Calf, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR L TTH">
+        <xsd:annotation>
+          <xsd:documentation>EXTRA TOOTH/TEETH (LOWER JAW)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS KID">
+        <xsd:annotation>
+          <xsd:documentation>Kidney, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CARD PACEM">
+        <xsd:annotation>
+          <xsd:documentation>Cardiac pacemaker</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM GROIN">
+        <xsd:annotation>
+          <xsd:documentation>Groin, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DEAF L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Deaf, left ear</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC SKULL">
+        <xsd:annotation>
+          <xsd:documentation>Skull</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC CHIN">
+        <xsd:annotation>
+          <xsd:documentation>Chin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC U LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD RITALIN">
+        <xsd:annotation>
+          <xsd:documentation>Ritalin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ORTH SCREW">
+        <xsd:annotation>
+          <xsd:documentation>Orthopedic screw</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R THG">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC UL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC HEAD">
+        <xsd:annotation>
+          <xsd:documentation>Head</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="GLAUCOMA">
+        <xsd:annotation>
+          <xsd:documentation>Glaucoma</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC CHEEK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RBRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT LF ARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT FLBOD">
+        <xsd:annotation>
+          <xsd:documentation>Full body</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R THIGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD ACONVUL">
+        <xsd:annotation>
+          <xsd:documentation>Anticonvulsants (seizuremedicines - includes: DilantinMysoline, Phenobarbital, etc.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC LIVER">
+        <xsd:annotation>
+          <xsd:documentation>Liver Disease(Including cirrhosis andhepatitis)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR RIBS">
+        <xsd:annotation>
+          <xsd:documentation>Rib(s), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toes(s), right foot</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC LSHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC PENIS">
+        <xsd:annotation>
+          <xsd:documentation>Penis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC BUTTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttocks, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CAUL L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Cauliflower ear, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM PENIS">
+        <xsd:annotation>
+          <xsd:documentation>Penis, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR BRST">
+        <xsd:annotation>
+          <xsd:documentation>Extra breast, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eyebrow, left/left eye area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC BREAST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast implant, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR UR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, upper right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Left Eye, remove tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L ELB">
+        <xsd:annotation>
+          <xsd:documentation>Left Elbow, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Pierced right eyebrow</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR U TTH">
+        <xsd:annotation>
+          <xsd:documentation>EXTRA TOOTH/TEETH (UPPER JAW)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD TONGU">
+        <xsd:annotation>
+          <xsd:documentation>Pierced tongue</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC RPELVI">
+        <xsd:annotation>
+          <xsd:documentation>Pelvis bone, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, nonspecific, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R WRST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC F ARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RCALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ORTH NAIL">
+        <xsd:annotation>
+          <xsd:documentation>Orthopedic nail or pin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RTHGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC THGH">
+        <xsd:annotation>
+          <xsd:documentation>Thigh, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRECKLES">
+        <xsd:annotation>
+          <xsd:documentation>Freckles</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SHRT L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Shorter left leg</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC HEART">
+        <xsd:annotation>
+          <xsd:documentation>Heart or circulatory diseasesincluding:  high blood pressure,heart failure, heart attack,hardening o</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Left Leg, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRACE NECK">
+        <xsd:annotation>
+          <xsd:documentation>Brace, neck</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS UTRUS">
+        <xsd:annotation>
+          <xsd:documentation>Uterus</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE FACE">
+        <xsd:annotation>
+          <xsd:documentation>Face, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA GLUE">
+        <xsd:annotation>
+          <xsd:documentation>Glue</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE HEAD">
+        <xsd:annotation>
+          <xsd:documentation>Head, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR UR LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, upper right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L ANK">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LCLAVI">
+        <xsd:annotation>
+          <xsd:documentation>Clavicle, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP R HND">
+        <xsd:annotation>
+          <xsd:documentation>Crippled hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R ELB">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Right Toe, scar</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC QUADPLG">
+        <xsd:annotation>
+          <xsd:documentation>Quadriplegic</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Left Shoulder, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR CLAVIC">
+        <xsd:annotation>
+          <xsd:documentation>Clavicle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R ELB">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="IMPL PENIS">
+        <xsd:annotation>
+          <xsd:documentation>Penile implant</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC L KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LBRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R BRS">
+        <xsd:annotation>
+          <xsd:documentation>Breast, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA ROHYPNL">
+        <xsd:annotation>
+          <xsd:documentation>Rohypnol(Brand name for Flunitrazepam.Also referred to as &quot;rophies&quot;,&quot;roofies&quot;, &quot;ruffies&quot;, and &quot;roche</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Right Hip, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="IUD">
+        <xsd:annotation>
+          <xsd:documentation>Intrauterine device</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MUTE">
+        <xsd:annotation>
+          <xsd:documentation>Mute  (To be used if person is mutebut not deaf.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRA LR LEG">
+        <xsd:annotation>
+          <xsd:documentation>Brace, left and right legs</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Right Toe, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT UP LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, left, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DIMP L CHK">
+        <xsd:annotation>
+          <xsd:documentation>Dimples, left cheek (face)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toes(s), left foot</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP R ARM">
+        <xsd:annotation>
+          <xsd:documentation>Crippled arm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R TES">
+        <xsd:annotation>
+          <xsd:documentation>Testis, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT RELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS BRSTS">
+        <xsd:annotation>
+          <xsd:documentation>Breasts</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM UR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Upper Right Arm, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LCALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L ELB">
+        <xsd:annotation>
+          <xsd:documentation>Left Elbow, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART HIP">
+        <xsd:annotation>
+          <xsd:documentation>Artificial hip joint</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="STAPLES">
+        <xsd:annotation>
+          <xsd:documentation>Staples</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC RF ARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC CLAVIC">
+        <xsd:annotation>
+          <xsd:documentation>Clavicle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HEAR AID">
+        <xsd:annotation>
+          <xsd:documentation>Hearing Aid</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC ADD">
+        <xsd:annotation>
+          <xsd:documentation>Attention Deficit Disorder</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Right Hip, fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LRYNX">
+        <xsd:annotation>
+          <xsd:documentation>Larynx</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BRAC L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Brace, left arm</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DEAF EAR">
+        <xsd:annotation>
+          <xsd:documentation>Deaf, one ear (nonspecific)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R BRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC UL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Upper Left Arm, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT RKNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT LFARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS STOMA">
+        <xsd:annotation>
+          <xsd:documentation>Stomach</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD LLIP">
+        <xsd:annotation>
+          <xsd:documentation>Pierced lip, lower</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Left Hip, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT FACE">
+        <xsd:annotation>
+          <xsd:documentation>Face, nonspecific (Use the MIS fieldo further describe location)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT BREAST">
+        <xsd:annotation>
+          <xsd:documentation>Breast</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD L NIP">
+        <xsd:annotation>
+          <xsd:documentation>Pierced nipple, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Left Toe, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Crippled toe(s), right(includes webbed toes)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eye, nonspecific, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR R ELB">
+        <xsd:annotation>
+          <xsd:documentation>Right Elbow, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CATA R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Cataract, right eye</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eyebrow, right/right eye area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT ABDM">
+        <xsd:annotation>
+          <xsd:documentation>Abdomen</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Left Toe, remove tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC PLMNARY">
+        <xsd:annotation>
+          <xsd:documentation>Pulmonary (Lung) Diseases(includes Emphesyma, CysticFibrosis)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R KID">
+        <xsd:annotation>
+          <xsd:documentation>Kidney, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R KNE">
+        <xsd:annotation>
+          <xsd:documentation>Right Knee, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS ROVAR">
+        <xsd:annotation>
+          <xsd:documentation>Ovary, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS L LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Extra toe(s), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Elbow, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE U LIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC ABDOM">
+        <xsd:annotation>
+          <xsd:documentation>Abdomen</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT L ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L BUTK">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Right Hip, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L WRIST">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP L HND">
+        <xsd:annotation>
+          <xsd:documentation>Crippled hand, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DEV SEPTUM">
+        <xsd:annotation>
+          <xsd:documentation>Deviated septum</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L CALF">
+        <xsd:annotation>
+          <xsd:documentation>Left Calf, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DA ALCOHOL">
+        <xsd:annotation>
+          <xsd:documentation>Alcohol</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L BUT">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC HEAD">
+        <xsd:annotation>
+          <xsd:documentation>Head, nonspecific(use MIS field to further describelocation)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD L EAR">
+        <xsd:annotation>
+          <xsd:documentation>Pierced left ear</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, nonspecific, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LBRST">
+        <xsd:annotation>
+          <xsd:documentation>Breast, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS THYRD">
+        <xsd:annotation>
+          <xsd:documentation>Thyroid</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R ANK">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SHUNT ART">
+        <xsd:annotation>
+          <xsd:documentation>Shunt, arterial vascular</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LL LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TUBE R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Tube in right ear</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC UL LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, upper left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT CALF">
+        <xsd:annotation>
+          <xsd:documentation>Calf, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT CHIN">
+        <xsd:annotation>
+          <xsd:documentation>Chin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC LEG">
+        <xsd:annotation>
+          <xsd:documentation>Leg, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L FOOT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT R CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R KNEE">
+        <xsd:annotation>
+          <xsd:documentation>Knee, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L KNE">
+        <xsd:annotation>
+          <xsd:documentation>Left Knee, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT WRS">
+        <xsd:annotation>
+          <xsd:documentation>Wrist, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC RF ARM">
+        <xsd:annotation>
+          <xsd:documentation>Right Forearm, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC NECK">
+        <xsd:annotation>
+          <xsd:documentation>Neck</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LL JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT GROIN">
+        <xsd:annotation>
+          <xsd:documentation>Groin area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R FT">
+        <xsd:annotation>
+          <xsd:documentation>Foot, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LRARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, lower right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L BUT">
+        <xsd:annotation>
+          <xsd:documentation>Buttock, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Left Shoulder, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC TB">
+        <xsd:annotation>
+          <xsd:documentation>Tuberculosis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), left foot</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART R SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Right Shoulder, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R HIP">
+        <xsd:annotation>
+          <xsd:documentation>Hip, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BLND EYE">
+        <xsd:annotation>
+          <xsd:documentation>Blind, one eye, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC BACK">
+        <xsd:annotation>
+          <xsd:documentation>Back</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Left Toe, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eyebrow, left/left eye area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CROSSEYED">
+        <xsd:annotation>
+          <xsd:documentation>Crosseyed</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT CHEST">
+        <xsd:annotation>
+          <xsd:documentation>Chest</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="PRCD EYE">
+        <xsd:annotation>
+          <xsd:documentation>Pierced eyebrow, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM L HIP">
+        <xsd:annotation>
+          <xsd:documentation>Left Hip, needle mark</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Left Eye, tattoo</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT PENIS">
+        <xsd:annotation>
+          <xsd:documentation>Penis</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R TOE">
+        <xsd:annotation>
+          <xsd:documentation>Right Toe, discolored</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT FHD">
+        <xsd:annotation>
+          <xsd:documentation>Forehead</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC DOWNSYN">
+        <xsd:annotation>
+          <xsd:documentation>Down&apos;s Syndrome</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT UPLIP">
+        <xsd:annotation>
+          <xsd:documentation>Lip, upper</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE UR ARM">
+        <xsd:annotation>
+          <xsd:documentation>Upper Right Arm, mole</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE CHIN">
+        <xsd:annotation>
+          <xsd:documentation>Chin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="RTAT NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE R HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC LF ARM">
+        <xsd:annotation>
+          <xsd:documentation>Forearm, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NM R FGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger(s), right hand</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LR JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CRIP L TOE">
+        <xsd:annotation>
+          <xsd:documentation>Crippled toe(s), left(includes webbed toes)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXTR TOE">
+        <xsd:annotation>
+          <xsd:documentation>Toe(s), nonspecific, extra</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC HAND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC R HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC LPELVI">
+        <xsd:annotation>
+          <xsd:documentation>Pelvis bone, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC L EYE">
+        <xsd:annotation>
+          <xsd:documentation>Eyebrow, left/left eye area</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R ANKL">
+        <xsd:annotation>
+          <xsd:documentation>Ankle, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT L CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="BLND R EYE">
+        <xsd:annotation>
+          <xsd:documentation>Blind, right eye</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LLUNG">
+        <xsd:annotation>
+          <xsd:documentation>Lung, left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT FNGR">
+        <xsd:annotation>
+          <xsd:documentation>Finger, nonspecific</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TD CARDIAC">
+        <xsd:annotation>
+          <xsd:documentation>Cardiac (heart medications -includes:  Digitalis,Digoxin, etc.)</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R EAR">
+        <xsd:annotation>
+          <xsd:documentation>Ear, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART L KNE">
+        <xsd:annotation>
+          <xsd:documentation>Left Knee, artificial</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS LLARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MC TOURETE">
+        <xsd:annotation>
+          <xsd:documentation>Tourette&apos;s Syndrome</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DIMP CHIN">
+        <xsd:annotation>
+          <xsd:documentation>Dimples, chin</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR LL ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, lower left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="WHEELCHAIR">
+        <xsd:annotation>
+          <xsd:documentation>Wheelchair</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="TAT R HND">
+        <xsd:annotation>
+          <xsd:documentation>Hand, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="FRC UR JAW">
+        <xsd:annotation>
+          <xsd:documentation>Jaw, upper right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HFR L ELB">
+        <xsd:annotation>
+          <xsd:documentation>Left Elbow, healed fractured</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS ARM">
+        <xsd:annotation>
+          <xsd:documentation>Arm, nonspecific, missing</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="ART ELBOW">
+        <xsd:annotation>
+          <xsd:documentation>Artificial elbow joint</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MISS TONG">
+        <xsd:annotation>
+          <xsd:documentation>Tongue</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="DISC L CHK">
+        <xsd:annotation>
+          <xsd:documentation>Cheek (face), left</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SC R SHLD">
+        <xsd:annotation>
+          <xsd:documentation>Shoulder, right</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="MOLE NOSE">
+        <xsd:annotation>
+          <xsd:documentation>Nose</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="SKL PLATE">
+        <xsd:annotation>
+          <xsd:documentation>Skull plate</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="SMTCodeType">
+    <xsd:annotation>
+      <xsd:documentation>A data type for Scars/Marks/Tattoos.</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="fbi:SMTCodeSimpleType">
+        <xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+</xsd:schema>

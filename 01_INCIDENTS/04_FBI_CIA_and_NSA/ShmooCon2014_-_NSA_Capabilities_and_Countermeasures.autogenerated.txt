@@ -1,0 +1,827 @@
+Welcome to this talk.
+This is Bruce Schneier telling us about the NSA, their capabilities, and countermeasures
+that we can have against them.
+Thank you very much.
+Hey, good afternoon.
+Thanks for coming.
+Thanks for listening to this.
+To me, the coolest thing about all the NSA disclosures in the past six months have been
+the code names.
+I think code names are pretty neat.
+There actually are not enough code names in our lives, and I think we need to sort of
+learn how to use code names better.
+I'm going to list a few of the code names.
+First code name I'm going to talk about is muscular.
+Muscular is the code name for the NSA top secret program to collect Google and user
+data by eavesdropping on the trunk lines between their data centers.
+This is probably done with the help of level three communications.
+Level three was Google's provider.
+We know level three's NSA code name is little.
+I think it's a general rule that if your data supplier has an NSA code name, you're probably
+pretty screwed.
+This is actually different from the NSA's program to collect Google and Yahoo user data
+by eavesdropping on the links between the browser and the web server.
+We don't know the code name for that.
+But that was probably done with the help of AT&T and other telecom companies.
+We know AT&T's code name for at least some of this is PRISM.
+There's a lot of code names associated with the telcos.
+Storm Brew is one.
+There's a bunch there.
+This is different from PRISM.
+PRISM is the code name for the top secret NSA program to collect Google and Yahoo user
+data by asking the companies directly.
+That's one set.
+Another really important code name which people here should learn about is quantum.
+All those other code names have to do with passive eavesdropping.
+Quantum is the NSA program to actively inject packets into the backbone.
+So there are these massive computers.
+They have code names like tumult and turbulence and turmoil.
+Well, tumult also allows data to go back in as opposed to just being extracted.
+There's a lot of different code names associated with quantum.
+This quantum insert, which is their packet injection attack tool, we're pretty sure this
+includes 302 redirect injection and DNS packet injection, possibly also TCP rejects.
+There's quantum cookie which allows the NSA to inject a packet in a stream going back
+to a user that forces them to divulge its cookies and uses that to identify users.
+So you might be browsing anonymously, someone pokes at you and suddenly you're divulging
+your Facebook cookie.
+The NSA keeps a database of cookies so they know who people are.
+Also something called quantum hand.
+We saw that in the presentation about the anonymity service, TOR, the presentation on
+TOR.
+We don't know what quantum hand does.
+Nicholas Weaver speculates that it's a command and control system for NSA malware, which
+I actually think about as pretty cool use of an injection system.
+There's a bunch of other quantum programs.
+I think one of the things we can do usefully is think about what a system like this would
+look like, how it would work, what sorts of things it could do, and that will help us
+figure out how to design around it or design against it.
+It's probably true that it does the things we think it does.
+Another code name which is related is FoxAcid.
+FoxAcid I think is actually one of the coolest code names they've got.
+FoxAcid is what they call an exploit orchestrator.
+Think of metasploit with a budget.
+These are computers that sit on the network.
+When something like quantum forces you to redirect to that computer, it knows who you
+are because it's been told offline, and it sends you different malware.
+The malware has all sorts of code names, validator, united rake.
+I vote for NSA's stupidest code name, egotistical giraffe.
+Actually did not make that up.
+The particular exploit that you are served is determined by a program that is code named
+ferret cannon.
+Validator happens to be the default exploit that's run against you.
+I assume it's a Windows.
+After you're owned, there are various implants.
+We've seen a bunch of these.
+We saw some of these from that book of Tao implants.
+We saw some from a Le Monde document that was released a couple months ago.
+There are a lot of really cool implants, black hot, mineralized, vagrant, high lens.
+Some of them are designed to jump air gaps.
+Some of them are designed to pull what's on the screen.
+Some are designed to pull passwords or find other things.
+There are exploits designed to exploit printers.
+Lots of surveillance tools, co-traveler.
+Evil Olive is an IP location database.
+Lots of analysis tools.
+We've seen Marina, we've seen Pin Whale, we've seen Mainway.
+Bull Run, Bull Run is the code name for the NSA program to basically subvert Internet
+products and services.
+There's a lot here.
+I don't think anyone's done the full code name glossary, probably worth doing.
+There are certainly hundreds out by now.
+The documents are just littered with code names.
+Some of them we don't even know what they mean.
+We just see them in passing.
+Some of the pages from that Tao implant catalog are just full of code names we don't really
+guess about.
+The metamoral here, the meta story, the individual stories keep coming.
+Just last week we learned about the text message database and the collection of text messages
+that's going on.
+I'm just blanking on the code name for that one.
+The meta story is the NSA has turned the Internet into a giant surveillance platform.
+What's important is that it's robust.
+It's robust politically, it's robust technically, it's robust legally.
+I started this presentation by naming three different programs to collect Google and Yahoo
+email user data.
+These are three different technical accesses relying on agreements or at least cooperation
+with three different companies and relying on three different legal justifications.
+That same thing is true, I think, for cell phone data, for Internet data, for everything
+else.
+There's a lot of redundancy in the system.
+When we think about solutions, it's important to realize that point solutions are hard because
+these aren't point problems.
+The NSA continues to lie about its capabilities.
+We're sort of learning the NSA codebook for lying.
+We're sort of learning their tortured interpretations of words like collect or incidentally or target
+or directed.
+They say things like, we don't collect data.
+What they mean is, we collect it, but we don't count it as collecting until we actually look
+at it or a person looks at it.
+All that computer stuff isn't collecting.
+They say, we don't directly target Americans.
+It means we get them, but not on purpose or incidentally.
+We know they cloak programs and multiple code names to hide their extent and capabilities.
+You'll see really the same program with different code names.
+Anytime you ever hear something the NSA is saying, we don't do this under this program
+or under this authority, the odds are 100% they're doing it on some other program under
+authority.
+Another thing that's not coming out, I think it's also real important, is the data sharing.
+There's a lot of sharing between different organizations.
+The NSA, CIA, FBI, DEA.
+We know some of this.
+We knew from, there was a Reuter story that actually had a slide from an NSA document
+that talked about the NSA sharing data with DEA and instructed them to lie about where
+it came from in court.
+Really illegal.
+I think there's a lot more sharing going on between the NSA and FBI, not just of data
+but of technologies.
+We know quite a lot about the FBI's technologies for e-dropping on cell phone calls, Stingray
+and some of those fake cell phone tower technologies.
+We saw the same things in the NSA TAO toolkit.
+It's improbable to me that these are being developed independently, that one agent develops
+them and they get shared.
+I think also legal cover is shared.
+There are companies that will say, we don't cooperate with the NSA.
+I think largely they're correct.
+They cooperate with the FBI, who's the front for the NSA for whatever program is being
+run.
+I think there's a lot more moving around between agencies.
+NSA's mission, we know what it is.
+We can see it in the documents.
+Glenn Greenwald gave a talk at CCC and he talked about the slogans, collect it all,
+know it all, exploit it all.
+These things permeate documents.
+You can see it in the NSA's almost methodical moving through every communications technology,
+trying to capture data including chat rooms and virtual worlds, which sounds ridiculous.
+If you're thinking in terms of we have to collect everything, it makes perfect sense.
+Why would you leave that channel uneasily dropped on?
+To understand this mission, you really have to understand the NSA's history.
+The NSA is born out of the Cold War when we were singularly interested in everything happening
+in the Soviet Union.
+It was almost a voyeuristic interest.
+We had to know everything.
+That collected all mentality was focused on the Soviet Union, on the Warsaw Pact, on China,
+on the countries that we were eavesdropping on.
+We collected enormous amount of data.
+There's a lot less data then.
+Collected all, it made some sense.
+You had certain trunk lines, you needed to listen on them.
+You get a lot of data.
+Some of it's useful, some of it's not.
+Social data is much easier to deal with than strategic data.
+You have a much easier time figuring out the capabilities of the new Soviet tank than you
+do protecting the fall of communism.
+Social trends are hard.
+That sort of ubiquitous surveillance, that mentality really should have died with the
+Cold War, but it got a new lease on life with the terrorist attacks on September 11th.
+Because the intelligence community was handed an impossible mission.
+Never again.
+Those were their orders.
+Never again is ridiculous.
+You can't actually do it.
+But if you think about it, if you get that kind of cruxotic goal of making sure something
+never happens, the only way you could possibly achieve that is to know everything that does
+happen.
+Never again forces you into know everything.
+And that mission was aided really by the natural trends of information technology.
+And I think this is another important thread we really have to understand.
+Fundamentally data is a byproduct of the information society.
+Everything we do on computers creates a transaction record.
+Data is a byproduct of our information society's socialization.
+Every time we interact with people using computers, it creates a transaction record.
+Usually of the actual conversation.
+Voice is the exception.
+But a lot more of our conversations happen not in recordable form, but in recorded form.
+The act of having a conversation in a text session means it is recorded.
+All this data is being increasingly stored, increasingly searched, increasingly used.
+And this is just Moore's law.
+Data storage drops to free, data processing drops to free.
+It is way easier to save everything than it is to figure out what to save.
+You all know this is true.
+That's how you deal with your email.
+I remember, because I'm old enough to remember, the moment I used to sort my email.
+You would throw away what you didn't need, put it in different folders, depending on
+who you were talking to, depending on topic, how you sorted.
+But there's a year I stopped doing that.
+I put everything in one folder.
+And that was the year that search became cheaper than sort.
+And it made no sense.
+That's the world we're in.
+And the effects is that we're all leaving digital footprints throughout our lives.
+Cloud computing just exacerbates this, because our data starts moving away from our control.
+And lots of things become possible now.
+The notion of wholesale surveillance.
+It's sort of fascinating that the NSA is putting everyone on the planet under surveillance,
+but they're doing that because we're all carrying cell phones.
+The cell phone system, by definition, puts us all under surveillance.
+Just like email does.
+Just like ATM machines do.
+All those things produce data records.
+So wholesale surveillance, surveillance backwards in time, the death of ephemeral conversation,
+we're not really there yet.
+It's almost true for politicians.
+We're now living in a world, at least in the U.S., where pretty much every politician has
+someone from the opposing party following them constantly with a video camera and looking
+for a gaffe.
+That kind of surveillance will become the norm everywhere within a few years.
+Maybe it's Google Glass, maybe it's something else.
+But ephemeral is going to disappear, because there won't be the ability to have those conversations.
+Or systems that never forget.
+I think this is probably the biggest change that we're not ready for.
+I think a lot of our societal lubricants in the fact that we have lousy memories.
+When I can go home and replay an argument with my wife from two years ago to prove I'm
+right, I'm not convinced I'm better off.
+But that's going to be possible.
+The result here is a public-private surveillance partnership.
+There's a basic alliance of government and corporate interests.
+NSA surveillance largely piggybacks on corporate capabilities.
+I already mentioned cell phones.
+I've mentioned Internet cookies.
+All of those things happen everywhere.
+There's an NSA program called Happyfoot that tries to geolocate cell phones through apps
+that transmit location.
+It's separate from the NSA program that tries to geolocate cell phones through the cell
+towers.
+There's overt and covert collection.
+I mentioned Google in level three.
+And overt collection has a variety of forms.
+We see cooperation, ask nicely.
+We see bribery.
+We see threats.
+We see legal compulsion.
+Fundamentally, surveillance is the business model of the Internet.
+We build systems that spy on people in exchange for services.
+That's the way a lot of the network works.
+And the NSA is happy to piggyback on a lot of those capabilities.
+The result is the golden age of surveillance.
+This is the golden age of surveillance.
+Even if there wasn't malice because of the way our systems naturally work.
+But yesterday again President Obama talked about don't worry, it's only metadata.
+I don't know if you saw the speech.
+He said we're not listening to your phone calls.
+I'm really getting tired of that.
+Metadata equals surveillance.
+And an easy thought experiment bears us out.
+Imagine you've hired a detective to spy on somebody.
+And that detective would plant a bug in his office, his home, his car.
+You'd get a report of the conversations he had.
+That's what the president says he's not doing.
+If you asked that same detective to put that person under surveillance, you'd get a different
+report.
+Where he went, who he spoke to, what he read, what he purchased, what he looked at.
+That's all metadata.
+Metadata equals surveillance.
+And when you have all this metadata, I think the metadata is actually a lot more valuable
+than the eavesdropping data.
+Because it tells you a lot more about what's going on.
+And the NSA has some very sophisticated analysis tools to deal with all of this metadata.
+We saw some of them in the Washington Post article on cell phone location data.
+We saw some hints at the tools the NSA is using in this database.
+And some of them are pretty cool.
+They have a program that looks for phones moving towards each other that turn themselves
+off and then turn themselves on again about an hour later moving away from each other.
+Or they look for secret meetings.
+That's kind of neat.
+They have the cell phone data of U.S. agents, which they track.
+And then they look for cell phones that are, or a series of cell phones that are basically
+paralleling their location.
+They're looking for tails.
+They have a system, and I'm not even sure how it works, but they try to chain together
+burner phones.
+Burner phones are disposable phones.
+If you watch the wire, you know what a burner phone is.
+So they're used for a certain amount of time.
+But if you're a person who uses a burner phone, if you think about it, you use one, then another,
+then another.
+And if I have a database of those short-lived anonymous phones, and I know the location,
+and I know the numbers they're calling, I can probably do a pretty good job chaining
+them and figure out who the person is, even though they're using burner phones.
+I mean, that's just three examples from one database.
+I mean, think about the text message database.
+Think about the email metadata database.
+Put some of them together.
+You can get a lot of information.
+The thing that I think our community knows, but I often have to say this, especially politically,
+that this is really not just about the NSA.
+It's actually not even just about the United States.
+The United States spends more on intelligence than the rest of the world combined, but this
+is what any nation state would do.
+We're better at it.
+We have a very privileged position on the internet, both in terms of the companies that
+build and operate the internet, and the connectivity tends to flow through the US.
+But these techniques are all general.
+We know this quantum packet injection is how China runs the great firewall of China.
+We know other countries do these same things too.
+What's happened is the Snowden documents have given us this extraordinary window into the
+NSA's activities.
+It's just too interesting not to really look at it.
+Other countries do this, and technology spreads.
+There's nothing special about these techniques that make them not usable by others.
+Today's secret NSA programs become tomorrow's PhD theses and the next day's hacker tools.
+In a lot of ways, the stuff we're seeing out of the NSA today is a three to five year window
+on what the criminals will do.
+A lot of those TAU tools were embedded pieces of hardware used to subvert systems.
+We're already seeing those in point of sale terminals to steal credit card numbers.
+This is fundamentally the harm.
+When you think about the harm, here's where it is.
+We have built an internet that is secure for everyone.
+We have enabled the panopticon.
+We have enabled this ubiquitous surveillance.
+We now have a complete loss of trust in the technologies, loss of trust in the protocols.
+That NSA Be Safe toolkit is an interesting example.
+Here's an area we know that the NSA has influenced a random number generator in a popular crypto
+toolkit made as a default and spent $10 million to do that.
+This is an interesting program.
+I think it's largely a failure.
+That one seems to largely have failed.
+We're not hearing much about products that have used that.
+A lot of people looked at it and said, this is a dumb random number generator.
+We're not going to use that.
+We'll use another one in the standard.
+But that's certainly not the only one.
+The program didn't stop with that particular subversion.
+The problem is we don't know any others, which is an enormous loss of trust.
+Who do you trust?
+We have no idea.
+I wrote an essay where I talked about some of the metrics you might use to figure out
+who to trust.
+Big US companies, bad.
+Small open source, good.
+But we're just really making it up.
+We're just trying.
+We don't know.
+And also there's loss of trust in the institutions.
+The internet governance model is kind of broke right now because it really, until now, it's
+been largely a benign US dictatorship.
+Under the general belief that the US is actoring in vaguely the world's best interests and
+we can just let it be that way.
+And that turns out not to be true.
+And we have nothing to replace it.
+So we're just sort of flopping along right now.
+I mean there's a lot of details we don't know and I think we'll never know.
+There's nothing about cryptography in the documents.
+I looked.
+These are really all on the SIGIN side.
+There's not a lot of company names.
+That prism slide was a ginormous exception.
+Generally all company names are hidden behind code names and code names are never defined.
+There's something called ECI, extremely compartmented information.
+Basically it's not written down.
+So we will forever only know companies by code names.
+We have some in the telco.
+Remedy is BT.
+There's another one.
+And we know some of those, but a lot we're just never going to know.
+And there'll be a lot of programs we don't know.
+I mean the documents really are just shadows of what's going on.
+So it's still going to be a lot hidden.
+But we have to deal with this.
+I mean this is what we have to work with.
+We have to work with all of this ignorance into what exactly has been subverted.
+What exactly has been turned.
+And we have a choice to make.
+As people who design the internet, who use the internet.
+And it's not a choice from does the NSA spy or not.
+It's a choice between an internet that is vulnerable to all attackers or an internet
+that is secure for all users.
+That's our actual choice.
+The problem is we have made surveillance too cheap.
+And the solution is to make it expensive again.
+There's good news, bad news about encryption.
+Edward Snowden in his first interview after his name became public talked about this.
+And he said, I'm going to read his quote.
+He said, encryption works.
+Properly implemented strong crypto systems are one of the few things you can rely on.
+We know this is true.
+This is the lesson of Tor.
+The NSA can't break Tor and it pisses them off.
+This is the NSA, this is the moral of the NSA program to collect buddy lists from the
+browser to web server connection.
+They had numbers of the amount of data collected.
+And they collected about 10 times the amount of data from Yahoo as from Google.
+Which kind of makes no sense because Google might have 10 times the number of users as
+Yahoo does.
+But once you realize that Google is using SSL by default and Yahoo isn't, that does
+make sense.
+The unencrypted connections are more fruitful.
+This is also the lesson of Muscular.
+There's a great handwritten back of the napkin slide where the engineers are describing how
+they get the data from Google's backbone.
+They point to the space where SSL is removed.
+And in some ways that's surprising.
+But it's true.
+Unfortunately Snowden said this in the sentence right after the one I just read.
+He said, unfortunately, endpoint security is so terrifically weak that the NSA can frequently
+find ways around it.
+This isn't news to us either.
+The way to break crypto is to get around it.
+We do know there is some piece of cryptanalysis the NSA has.
+Some secret thing.
+There's the basic anecdotal evidence.
+NSA makes this huge investment in mathematics that's unparalleled anywhere else in the world.
+They hire about the top 10% of mathematicians every year out of US universities.
+And more interestingly there's a sentence.
+The black budget, the intelligence budget was leaked.
+It was a Snowden document I think in August.
+I think it was August.
+And it was a few pages of the budget and an entire introduction by James Clapper, the
+director of national intelligence.
+And there's a sentence in his introduction.
+It's kind of out of context but it's really worth listening to for the exact words.
+He's saying we are investing in groundbreaking cryptanalytic capabilities to defeat adversarial
+cryptography and exploit Internet traffic.
+Now that doesn't sound like we've hired a bunch of really smart mathematicians and we're
+putting them in a room and giving them a lot of computers to hope we get lucky.
+That sounds a lot more like we have a piece of, we have something that's at the edge of
+usability and we're building the massive computer or doing the massive precomputation or designing
+the massive hardware.
+We're doing the engineering thing to make it work.
+That's how I read that.
+That they have something but they're sort of an engineering issue.
+I had three guesses of what it is.
+I was given a fourth a couple of days ago.
+And so I'll give them all.
+And so no real order.
+The first one is elliptic curves.
+There's a lot of math in elliptic curves and it's easy to imagine that there is a lot of
+math we don't know about elliptic curves.
+And either some general advance or some advance in certain classes of elliptic curves.
+That if you could force curves into that class you could have a leg up on breaking them.
+We do know that the NSA has affected curve selection.
+So that's a decent guess.
+Second guess is some kind of general factoring technique.
+You think about factoring in the academic world.
+It gets better every year.
+Factor two here, factor 10 here, factor 100 there.
+And you can plot how factoring has improved over the years, over the decades.
+You give the NSA five to ten years advantage.
+Or however you might want to characterize it.
+You can sort of think of where they are.
+The third guess is RC4.
+RC4 commonly used on the internet.
+Still secure but kind of just barely.
+Lots of things we have.
+We don't really know how to exploit.
+As you can imagine, another five years of cryptanalytic advance, someone could figure
+it out.
+The one I got last week, I'll be sorry, earlier this week was from John Kelsey who suggested
+random number generators.
+That a lot of random number generators have really lousy entropy.
+And that is kind of a candidate for a massive pre-computation attack.
+That if you sort of know exactly in what way certain RNGs are bad, you can use that to
+extraordinarily pare down your brute force searching.
+That's an interesting example.
+But even with all this, we know that most current cryptography frustrates the NSA.
+At least at scale.
+Individually no, but at scale yes.
+We know that the most of the way NSA breaks cryptos by getting around it.
+And when Clapper says that crypto doesn't give them much trouble, that's what he's talking
+about.
+Talking about getting around it.
+Bad implementations, default and weak keys, sabotaging standards, deliberately subverting
+products and services, and what the NSA calls exfiltrating keys.
+That's code for stealing.
+Stealing in and stealing keys.
+It's effective.
+And mostly the NSA relies on unencrypted streams of data.
+A lot of it, this stuff is not encrypted.
+Internet data, cloud data, cell phone data, other third party data.
+It's out there in the clear.
+As Target just learned I guess.
+So here's the problem.
+We've made bulk data collection too easy.
+It's easier for the NSA to collect everything than to target.
+Now solutions are going to be complicated.
+It's a complicated problem.
+There's no easy solution.
+It includes government self-correction, technical measures, legal measures, international cooperation,
+and I think a major shift in how we think about security and privacy.
+I want to run through I think some of the ways I think this will get fixed.
+The first one are the self-corrections.
+Inside the NSA things have changed.
+They have to have.
+As amazingly it is to all of us, the NSA had no contingency plans for all their secrets
+being leaked.
+If you remember the NSA's responses the first month, they had no clue what to say.
+It took them like seven, eight, nine weeks to get a PR from them with the proper security
+clearance so they could get a good message.
+I mean now they're good.
+They have to do press releases.
+They have a blog.
+I mean they're really good about being on message, but it took them a long time to get
+there.
+That's over.
+The cost benefit analysis has changed.
+The NSA I think is going to have to incorporate the risk of exposure in anything they do.
+And political blowback has been kind of enormous here from our allies.
+And that's it.
+The Snowden document said the NSA was spying on North Korea and the Taliban.
+Nobody would care.
+The NSA spied on Belgium.
+Or worse, the GCHQ spied on Belgium, which I guess is like Nebraska spying on Connecticut.
+But you have to assume that the nature of secrecy is changing.
+That it used to be in intelligence, you'd come in out of college, you'd go into the
+club, you'd get a job for life.
+You'd be part of the inner circle.
+And that's the way secrecy worked.
+You tell anybody under 30, job for life, and they laugh at you.
+I mean, Chelsea Manning was on a four-year tour.
+Edward Snowden was a contractor.
+They knew they had no job security.
+So it's different.
+And I have to believe that the NSA now has to look at their programs and say, this is
+going to be public in three to five years.
+Is it okay?
+And that changes the risk analysis.
+I think as a self-correction inside government, President Obama talked a bit about that yesterday.
+That maybe we shouldn't do things just because we can do things.
+And the collect everything metaphor, which was General Alexander and General Haydn before
+him, that maybe that isn't the right thing to do.
+There are limitations to intelligence.
+There are all these studies that are showing this is not effective.
+And I think this is going to change how we view intelligence.
+The voyeurism just isn't worth it because the cost is too great.
+There are corrections inside corporations.
+Before Snowden, it cost you nothing to cooperate with the NSA.
+And if you were a company, and the telcos did this since the 40s, throughout the Cold
+War, cooperating with the NSA is what you did.
+The internet companies were a little more taken aback.
+There's a little more fighting back.
+But still, everyone believed this would never become public, and you could do it with impunity.
+And now corporations know that's just not true.
+There's enormous reputational loss when it comes out that you cooperated.
+And there's enormous reputational value in fighting.
+We see Apple and Microsoft and Yahoo and Google.
+They're all Twitter, Facebook to some extent, LinkedIn.
+They're all fighting publicly.
+The hardware companies less, the telcos almost not at all.
+But even that's changing.
+There's a push against AT&T to devolve what you're doing, to fight back.
+And that's just going to change the calculus because you just can't rely on this cooperation
+anymore.
+That's self-corrections.
+There's a lot of things technically that we have to do.
+And a lot of this relies on this notion of bulk collection.
+The NSA might have a larger budget than everyone else combined, but they are not made of magic.
+They are constrained by the laws of economics, the laws of physics, the laws of math.
+And our goal has to be to make bulk eavesdropping more expensive.
+I don't think we'll ever eliminate targeted collection.
+That NSA toolkit that we just saw at the end of last month was from 2008.
+I'm sure it's a lot better now.
+I'm sure it's very, very good.
+If the NSA wants into somebody's computer, they will get in, period.
+But that's targeted.
+I think that's okay.
+It's the bulk stuff that we want to deal with.
+There's a lot of things we can do here that involve redesigning protocols, redesigning
+defaults.
+Ian talked about some of this yesterday.
+But the more we can encrypt the backbone, the better we'll do.
+Encrypting the backbone makes quantum go away.
+Provides real security against bulk attacks.
+More importantly, provides cover traffic for those who really need it to stay alive.
+More encryption in the cloud, more perfect forward secrecy, which is more things that
+raise the cost of doing it in bulk.
+Anything we can do to redesign products and services.
+And we know, user level application encryption is hard.
+Remember the 20 year lesson of PGP is that one click email encryption is one click too
+much.
+On the other hand, OTR is a really good lesson in how to do this successfully.
+Or hard drive encryption.
+I think, might be our biggest success story in encryption.
+That it is so easy and so transparent and so invisible, there is no reason at all for
+everybody not to encrypt their hard drives.
+You never even notice you're doing it.
+It comes default in the operating systems.
+We don't trust those.
+There are various third party packages.
+More endpoint security.
+The NSA documents talk about PSPs, personal security products.
+And they give them trouble.
+They don't like them.
+So the more we use them, the better we are.
+More open standards, more open source, things that are harder to subvert.
+Another big thing I think we need to go back to is target dispersal.
+We were way more secure when there were 100,000 ISPs than when there were 100.
+And having these massive targets is very dangerous.
+Not just technically, but legally.
+A single Google, a single Facebook, everybody on Gmail.
+You actually don't want this.
+And the last thing is assurance.
+This is the hardest, but this is I think the most important.
+We really need to figure assurance out.
+We need to be able to prove, demonstrate somehow that the software we use does what we want
+it to do and doesn't do anything else.
+I don't think that's nowhere near near term for anything reasonably resembling modern
+software.
+But it's extraordinarily important.
+Because a lot of this surveillance relies on these hidden capabilities.
+But so largely, despite all this, this is a political problem.
+And it's a difficult political problem.
+In the US, we are long past the point where simple legal interventions can help.
+Yesterday, Obama talked a lot about one particular database, the cell phone call record database
+collected under one particular legal authority, 702.
+I think the odds are zero that that is the only way the NSA gets that data.
+And if they don't get it, the Brits get it and give it to us.
+I largely think that 702 is a crumple zone.
+And the real capabilities are behind that.
+We know in general what the solution looks like, transparency, oversight, accountability.
+But how exactly that works is going to be really hard.
+And our problem is that laws lag technology.
+Technology is always ahead of the legal regime to restrict it.
+So the NSA is always going into these new technologies with everything because there's
+nothing stopping them.
+There's a quote General Hyden, the previous NSA director, said, I think it was on a TV
+interview, and he's talking about his limitations.
+And he says, give me the box you will allow me to operate in.
+I'm going to play the very edges of that box.
+That makes sense until you realize that technology expands his box constantly.
+So if he's pushing the edges, by the time law gets around to noticing the box is bigger,
+it's too late.
+You reduce the capabilities.
+And of course, even if we do succeed, reining in the NSA only affects the United States.
+It's not going to really affect non-U.S. persons, despite what Obama said yesterday.
+It's not going to affect the actions of other countries.
+And when I talk about this in other environments, I very often get this sort of response.
+You can't stop the NSA because if you do, then China will do it.
+That's fundamentally an arms race argument.
+There's a zero-sum game here, us versus China, whoever your enemy is.
+And if we don't do it, they will and they win.
+And that's a really bad position to be in.
+And I think it's a wrong way to frame this.
+What we have to do is get the world to realize that a secure Internet is in everyone's best
+interest.
+That is not us versus them.
+It's security versus insecurity.
+Once you do that, you turn a zero-sum game into a positive-sum game.
+You have laws and treaties to support it.
+You have technology to support the laws.
+You set up other laws, other technologies to deal with non-compliant actors, the state
+and non-state.
+It doesn't make it easy, but it makes it like any other one of the hard international problems.
+Money laundering, nuclear land proliferation, human trafficking, small arms trafficking,
+land mines.
+It's very hard to make those work internationally for all the reasons you know, but at least
+we all know vaguely the direction we're moving towards.
+We all sort of know the goal.
+And the goal is security versus surveillance.
+And if you think about that, that's the NSA's dual mission.
+Securing our stuff, eavesdropping on their stuff.
+Work great when our stuff was NATO and their stuff was Warsaw Pact.
+Works less well when our stuff and their stuff are the same.
+Works really badly when the administration tells you to eavesdrop on everybody, because
+the terrorists could be everywhere and they're striking at any time or constantly help where
+scared.
+So the two missions go out of balance.
+And what we need to do is rebalance them.
+And even more so rebalance them weighting security more than surveillance.
+Right?
+The surveillance here is robust, again politically, legally, technically.
+And we need to solve this, not just for the NSA, but for everybody.
+For other governments, cyber criminals, rogue actors.
+I think a secure internet is vital to society.
+And I think we need to move forward to get there.
+I mean, near term, I actually don't think for a minute we'll win the stop doing this
+argument.
+We might win the tell us what you're doing argument.
+And I think that would be worth it.
+For us, we need to fight futility.
+A lot of times when I talk to political activists, especially from third world countries, there's
+a lot of futility out there.
+There's nothing I can do, therefore I should do nothing.
+That's wrong, that's bad.
+Everything we do makes it harder, makes it better.
+And fighting the sense of futility is real important.
+We need to do that.
+We need to fight the balkanization of the internet.
+I think that's the worst blowback from the NSA surveillance.
+The idea that some countries will make their own internet somehow, even if that's possible.
+There's enormous value in a single global internet.
+And we need to figure out who we can trust.
+We need to figure out the new governance models.
+What organizations, not the ITU please, but something.
+And I think we eventually will win the protecting is more than eavesdropping argument.
+I mean, it might not be for another 10 years, but I do believe that is where we are headed.
+And then when someone says, well if you don't do it, China will, you can say, well just
+because China builds Imagine.O line doesn't mean we have to.
+That would be dumb.
+Because fundamentally that's what's true.
+And really, I'm going to end with this.
+This problem is much bigger than the NSA.
+In general, this is about data, it's about data sharing, it's about surveillance as a
+model of business, and it's about the societal benefits of big data versus the individual
+risks of personal data.
+What do we do with data that benefits society as a group versus that same data that is personal
+to individuals?
+Think of it as behavioral data for advertising, think of it as medical data, as education
+data.
+Actually medical data might be the easy way to explain it.
+We put all of our health records in a massive database that would be enormously valuable
+for research.
+Yet incredibly personal.
+How do we deal with that?
+How do we extract the group benefits of data while still protecting individuals?
+That's really what this NSA debate's about.
+And that's just one of many debates.
+I think this is the fundamental issue of the information society.
+I think solving it will take decades, and solving it is what the historians of this
+era are going to write about, because that's what's important.
+So thanks, and I'm happy for a few questions.
+So there's a microphone in the middle standing there, and that's going to be the question,
+Mike.
+Who would have to run over there quickly?
+Yes.
+Am I literally the only one?
+Actually you're figuratively the only one.
+Figuratively.
+Literally.
+Yeah.
+I work with a PhD physicist who's admittedly a pretty paranoid guy, but he's utterly convinced
+that the NSA has a functional, working, classical quantum computer that is capable of decrypting
+SSL in real time at line rate on 10 gigabits.
+Okay.
+So let's have a show of hands.
+Who thinks that physicist is paranoid and dreaming?
+So that's what I thought, but I wanted to know what you think.
+Okay.
+Who thinks he's right?
+Okay.
+I vote for paranoid and dreaming.
+By a lot.
+We can factor like 15, I think.
+Quantum computers are nowhere near...
+I mean, yes, of course they have a program to do research, I mean, why wouldn't they?
+It would be embarrassing if they didn't.
+No, this is really science fiction.
+The world would be very different otherwise.
+I don't think that's even remotely possible right now.
+It'd be cool if I was wrong, wouldn't it?
+But I just don't think so.
+I mean, this is the problem with a lot of this stuff, right?
+On the one hand, it's really, really cool that the United States kills people with flying
+robots.
+On the other hand, oh my God, we kill people with flying robots.
+Right?
+Right?
+This is fun.
+Makes it really hard.
+Yes?
+Hi, Bruce.
+One of the publicly stated purposes of the Utah facility is AES-256.
+You know, God, if I had the Utah facility, I wouldn't waste time on that.
+The Utah facility, I believe, is for data storage.
+It is storage data processing of all of this metadata.
+That they have these massive data mining algorithms, like some of the things I talked about for
+cell phone location data, and they just need all the data to be in RAM somewhere, on disks.
+I mean, it needs to be close.
+It can't be on tape.
+So they need facilities that can move this data around in and out of processing and do
+parallel work with it really efficiently.
+That's what I think that is about.
+I mean, AES-256 is a lot more data than would be there, and I think it would be a waste
+of their time.
+I mean, the real hard thing here is analysis, not getting more data.
+By breaking the message between A to B that was encrypted, they know the message is there,
+they know how long it is.
+That's good enough.
+Let's figure out what's really going on.
+So they're not just mining Bitcoin?
+Sorry?
+They're not?
+I didn't hear that.
+I said, so they're not just mining Bitcoin?
+They wanted to mine Bitcoins, they'd use your computer.
+Hi, can you say anything about your meeting with Congress earlier in the week?
+Not more than I said on my blog.
+I mean, the meeting happened.
+It was kind of weird, but I mean, the meeting was, we said it would be off the record, and
+it was a candid, interesting conversation with people who are reform-minded, and I'd
+like to give them as much leeway and ability to do what they want to do as possible.
+So I'm not going to say anything.
+I'm not used to that kind of good guys on all sides of the aisle, so it was really kind
+of neat.
+How does the alignment of public companies and what their interests are playing to this,
+because you still have private companies who do have different interests, and so they're
+developing potentially models that do undermine some of the privatization or the privacy kind
+of interests that you're talking about.
+So if you have public or corporations that are doing one thing and then you kind of have
+against the interests of what you're talking about, how does all that tie in together into
+a solution?
+I'm worried a lot about private corporation surveillance.
+I'm worried a lot about surveillance as a business model of the Internet.
+I'm worried about, I mean, I read this recently.
+Someone said, well, you should worry less about the NSA, because they're just trying
+to protect against terrorism, as opposed to Facebook and Google, who are trying to psychologically
+manipulate you to buy things.
+So on the one hand, that makes sense.
+On the other hand, the false alarm problem is really different.
+If Facebook gets it wrong, they're sure you're going to add it for a Chevy you don't want.
+If the NSA gets it wrong, they're going to drop a drone on your head.
+So there's differences there.
+I think both are a worry.
+I think the interplay is a big problem.
+That's why I think this is a bigger question than the NSA.
+The NSA is just one aspect of this.
+I'm having watches waved at me from all directions, so the rest of you in line, I'm really sorry.
+I'll be out there.
+Thank you very much.
+Thanks everyone.

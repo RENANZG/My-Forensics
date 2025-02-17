@@ -1,0 +1,86 @@
+"Version","Date","Modifications"
+"0.99.1","2017-12-06 00:00:00","Add a version tab"
+"0.99.2","13/06/17","Update Type 1 by bringing back the fileds from the official ANSI/NIST MRT table. The modifications are highlighted in yellow"
+"0.99.3","16/6/2017","Enrich examples of Type 1 so they appear in the doc"
+"0.99.4","29/6/2017","Many changes on type 2. In particular:
+keep only the fields that have been defined previously (Kurt’s doc / Chris , see tab “Type2 mapping”)
+remove all the other
+put all the missing info to generate the doc (xpath, tags, mandatoriness..)"
+"0.99.5","17/7/2017","- put the examples in line with the script
+- PersonFather and PersonMother are PersonNameType , not full PersonType
+- make it clear that in 2.063/INF, the tel number is a single field (FullID) and that Suffix can’t be used. Remove suffix from niem xsd
+- fix depends fields
+- add expiration date"
+"0.99.6","26/7/2017","- 1/DAI and 1/ORI : put back the OrganizationIdentifier element, make it optional
+- 1/ANM/DAN and 1/ANM/OAN: make these fields mandatory
+- 1/ANM/DAC and 1/ANM/OAC : these fields are now the country code of ORI/DAI (mandatory)
+- 1/XRCC and 2/XRCC : update summary with Patrick’s wording
+- 1/XRCC and 2/XRCC: add an invalid example w/ leading 0
+- 1/VER_1/ANM: update summary w/ Patrick’s wording
+- 1/CNT:X: update summary w/ Patrick’s wording
+- 1/TCN: add an exception on the TCN explaining we diverge from the standard
+- 1/NSR and 1/NTR : add value range of {00.00}
+- 1/GMT: make it mandatory
+- 1/GNS: add it to the MRT, explicit that it should not be used
+- 1/PRY: update with (edited) Patrick’s wording
+- 1/DCS: only allow UTF-8"
+"0.99.7","2017-03-08 00:00:00","- 1/DCS: UTF-8 is the default and does not need to be specify. Add a note.
+- 2/CNO: rename it to Case Reference
+- 2/CNO/CN1: rename it to Case Reference Country
+- 2/CNO/CN2: rename it to Case Reference Identifier, restrict the special chars to /.-
+- 2/SQN : rename it from Sequence Number to Evidence Number. Make it AN/32 chars. Adapt the note 
+- 2/MID : make it 32 char / AN, remove the reference to a sequence
+- 2/LID: add a latent unique identifier (128c chars, ANS)
+- 2/DAR and 2/DLU : add RecordCreationDate and RecordLastUpdateDate
+- 2/UDF : Add the root elements (record activity, record offense, …)
+- 1/PRY: change comment with Patrick’s 
+- 2/UDF:X2 : add a place holder where implementer can put custom fields he want
+- 2/RDM:X: add a result determination mode
+"
+"0.99.8","18/08/17","- 1/DCS: clarify that only UTF-8 is supported
+- 1/VER vs 1/DOM: clarify and make DOM mandatory"
+"0.99.9","23/08/17","- type 9 to 20"
+"0.99.10","2017-08-09 00:00:00","- 2/DAR, 2/DLU, 2/DPR: update description"
+"0.99.11","17/10/17","- rename Offense to Offence
+- Create RecordCivil
+- Transaction Metadata is not mandatory for SRE…"
+"0.99.12","30/10/17","binary types cleanup"
+"0.99.13","2017-10-11 00:00:00","cleanup"
+"0.99.14","20/11/17","- 20.021: only 1 is allowed
+- remove 13.014: EJI
+- remove 13.015:  EJI
+-13.012 : value is always 8
+-13.013: limits to 0..10 and 20..28
+-9.006: change depend rule: mandatory if 9.004 is true or 1
+-9.302-B and 9.302-C: remove, as EJI"
+"0.99.15","27/11/17","-9.134/FGP: allow palms
+-10.020: Allow F,L,R,A, not only F
+-10.021: bring it back
+-13.011/CGA: allow lossy formats, remove value range. Add a recommendation for lossless
+-14.031/FAP: add a recommendation of FAP=>45
+- add a PAP code type
+- 15.031/PAP: add PAP field
+- IMP: merge 2015 table
+- 13.003: change range to “4” (new IMP table)
+- 14.003:change range (new IMP table)
+- 15.003:change range (new IMP table)
+- add FCT table
+- add 13.901, 14.901, 15.901
+- clean xpaths not to show the deprecated paths"
+"0.99.16","30/01/18","- various comments from Patrick"
+"0.99.17","18/04/18","- prepare release (change tab names...)
+- IMP code 0 and 8 are also for palm. 15.003 possible values are changed"
+"06.00.00b","2019-01-02 00:00:00","- 2.010 and 2.011: add NPS to TOT list (issue #3)
+- 2.011: change from Optional to Dependent (issue #10)
+- 2.011: adjusted the description (issue #2)
+- 9.331:X : increase limit from 999 to 9999
+- 1.015-A and 1.015-B: switch the order of the 2 fields
+- 2.011 to 2.016 (MN1 to MN5): change simple field to a structure
+- fix missing min and max occur in various Set_X fields
+- 14.021 and 14.025: bring them back
+- add 15.021
+- 13.014-A: allow code 0, as per NIST pdf. No impact on the doc, as the field is not used for INTERPOL
+- 1.009 and 1.010: fix the examples"
+"06.00.00","2019-04-09 00:00:00","-1.009 and 1.010: change regexp
+-1.013: fix example
+-2.023:X3-A to 2.023:X3-G: update description to reflect place of fingerprinting rather than place of birth"
