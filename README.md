@@ -2256,45 +2256,69 @@ $ sudo grgsm_livemon     # Live radio scanning.
 <details>
 <summary><b>YouTube Conferences</b></summary>
 
-<h4>Digital Forensics and Incident Response:</h4>
-<ul>
-    <li><a href="https://youtube.com/@DFRWS">DFRWS</a></li>
-    <li><a href="https://youtube.com/@SANSForensics">SANSForensics</a></li>
-    <li><a href="https://youtube.com/@SANSOffensiveOperations">SANSOffensiveOperations</a></li>
-</ul>
+  <h4>YouTube Links</h4>
 
-<h4>Security Conferences:</h4>
-<ul>
-    <li><a href="https://youtube.com/@BlackHatOfficialYT">BlackHat Official YT</a></li>
-    <li><a href="https://youtube.com/@DEFCONConference">DEFCON Conference</a></li>
-    <li><a href="https://youtube.com/@EkopartyConference">Ekoparty Conference</a></li>
-    <li><a href="https://youtube.com/@reconmtl">reconmtl</a></li>
-    <li><a href="https://youtube.com/@TROOPERScon">TROOPERScon</a></li>
-    <li><a href="https://youtube.com/@OffensiveCon">OffensiveCon</a></li>
-    <li><a href="https://youtube.com/@hitbsecconf">hitbsecconf</a></li>
-</ul>
+  <h4>Digital Forensics and Incident Response:</h4>
+  <ul>
+      <li><a href="https://youtube.com/@DFRWS">DFRWS</a></li>
+      <li><a href="https://youtube.com/@SANSForensics">SANS Forensics</a></li>
+      <li><a href="https://youtube.com/@SANSOffensiveOperations">SANS Offensive Operations</a></li>
+  </ul>
 
-<h4>General Tech Conferences:</h4>
-<ul>
-    <li><a href="https://youtube.com/@RSAConference">RSA Conference</a></li>
-    <li><a href="https://youtube.com/@UsenixOrg">UsenixOrg</a></li>
-    <li><a href="https://youtube.com/@USENIXEnigmaConference">USENIX Enigma Conference</a></li>
-    <li><a href="https://youtube.com/@MCH2022NL">MCH2022NL</a></li>
-</ul>
+  <h4>Security Conferences:</h4>
+  <ul>
+      <li><a href="https://youtube.com/@mediacccde">Media CCC (Chaos Computer Club)</a></li>
+      <li><a href="https://youtube.com/@BlackHatOfficialYT">BlackHat Official YT</a></li>
+      <li><a href="https://youtube.com/@DEFCONConference">DEFCON Conference</a></li>
+      <li><a href="https://youtube.com/@EkopartyConference">Ekoparty Conference</a></li>
+      <li><a href="https://youtube.com/@reconmtl">reconmtl</a></li>
+      <li><a href="https://youtube.com/@TROOPERScon">TROOPERScon</a></li>
+      <li><a href="https://youtube.com/@OffensiveCon">OffensiveCon</a></li>
+      <li><a href="https://youtube.com/@hitbsecconf">Hack In The Box Security Conference</a></li>
+      <li><a href="https://youtube.com/@secwestnet">SecWest</a></li>
+      <li><a href="https://youtube.com/@44contv">44con TV</a></li>
+  </ul>
 
-<h4>Miscellaneous Tech and Cybersecurity:</h4>
-<ul>
-    <li><a href="https://youtube.com/@mediacccde">mediacccde</a></li>
-    <li><a href="https://youtube.com/@secwestnet">secwestnet</a></li>
-    <li><a href="https://youtube.com/@DebConfVideos">DebConf Videos</a></li>
-    <li><a href="https://youtube.com/@44contv">44contv</a></li>
-    <li><a href="https://youtube.com/@mentalOutlaw">mentalOutlaw</a></li>
-    <li><a href="https://youtube.com/@Seytonic">Seytonic</a></li>
-    <li><a href="https://youtube.com/@Sam_Bent">@Sam_Bent</a></li>
-    <li><a href="https://youtube.com/@Hak5">Hak5</a></li>
-    <li><a href="https://youtube.com/@The8BitGuy">The 8-Bit Guy</a></li>
-    <li><a href="https://youtube.com/@Computerphile">Computerphile</a></li>
-</ul>
+  <h4>Cybersecurity and Computing:</h4>
+  <ul>
+      <li><a href="https://youtube.com/@mentalOutlaw">mentalOutlaw</a></li>
+      <li><a href="https://youtube.com/@Seytonic">Seytonic</a></li>
+      <li><a href="https://youtube.com/@Sam_Bent">Sam Bent</a></li>
+      <li><a href="https://youtube.com/@spyhunt">James M. Atkinson</a></li>
+      <li><a href="https://youtube.com/@NullByteWHT">Null Byte</a></li>
+      <li><a href="https://youtube.com/c/LinusTechTips">Linus Tech Tips</a></li>
+      <li><a href="https://youtube.com/@The8BitGuy">The 8-Bit Guy</a></li>
+      <li><a href="https://youtube.com/@Computerphile">Computerphile</a></li>
+      <li><a href="https://youtube.com/c/LukeSmithxyz">Luke Smith</a></li>
+      <li><a href="https://youtube.com/c/ThioJoe">ThioJoe</a></li>
+      <li><a href="https://youtube.com/@Hak5">Hak5</a></li>
+      <li><a href="https://youtube.com/c/JohnHammond010">John Hammond</a></li>
+      <li><a href="https://youtube.com/c/DavidBombal">David Bombal</a></li>
+      <li><a href="https://youtube.com/c/SecurityFWD">SecurityFWD</a></li>
+      <li><a href="https://youtube.com/c/SirSudo">Sir Sudo</a></li>
+  </ul>
+
+  <h4>Privacy and Digital Rights:</h4>
+  <ul>
+      <li><a href="https://youtube.com/c/Techlore">Techlore</a></li>
+      <li><a href="https://youtube.com/c/SurveillanceReport">Surveillance Report</a></li>
+      <li><a href="https://youtube.com/c/BraxMe">Rob Braxman Tech</a></li>
+      <li><a href="https://youtube.com/c/TheHatedOne">The Hated One</a></li>
+      <li><a href="https://youtube.com/@NaomiBrockwellTV">Naomi Brockwell: NBTV</a></li>
+      <li><a href="https://youtube.com/@EuropeanDigitalRights">European Digital Rights</a></li>
+  </ul>
+
+  <h4>Miscellaneous Tech:</h4>
+  <ul>
+      <li><a href="https://youtube.com/@DebConfVideos">DebConf Videos</a></li>
+      <li><a href="https://youtube.com/@spyhunt">James M. Atkinson</a></li>
+      <li><a href="https://www.youtube.com/@AwesomeOpenSource">Awesome Open Source</a></li>
+      <li><a href="https://youtube.com/@RSAConference">RSA Conference</a></li>
+      <li><a href="https://youtube.com/@UsenixOrg">USENIX Organization</a></li>
+      <li><a href="https://youtube.com/@USENIXEnigmaConference">USENIX Enigma Conference</a></li>
+      <li><a href="https://youtube.com/c/spacehuhn">spacehuhn</a></li>
+      <li><a href="https://youtube.com/c/ThioJoe">ThioJoe</a></li>
+  </ul>
 
 <br>
 </details>
